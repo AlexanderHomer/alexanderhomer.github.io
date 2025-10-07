@@ -267,124 +267,112 @@ Innervation:
 
   - Asymmetry, Borders are irregular. Color is not uniform. Diameter
      6 mm.
+  - Occiput and cheek most common sites of H&N
 
-  - Workup:
+- Workup:
 
-    - Ideally: excisional biopsy w/ 1-2mm narrow margins. If too large,
-      can do punch biopsy however this is subject to sampling error so if
-      negative, strongly consider repeating. This will give you information to
-      perform the wide local excision later.
+    - Ideally: excisional biopsy w/ 1-2mm narrow margins. If too large, can do punch biopsy however this is subject to sampling error so if negative, strongly consider repeating. This will give you information to perform the wide local excision later.
 
-    - Patients with:
+- Patients with:
 
-    - Stage IB or higher: should get a CXR (r/o lung mets) LDH (eval
-      for liver mets)
+    - **Stage IB or higher:** should get a CXR (r/o lung mets) LDH (eval for liver mets)
 
-    - Palpable LNs or imaging findings for enlarged LNs: get U/S guided
-      FNA to eval for metastatic LN disease
+    - **Palpable LNs or imaging findings for enlarged LNs:** get U/S guided FNA to eval for metastatic LN disease
 
-    - Stage III disease: some advocate for CT C/A/P to look for distant
-      mets (CT chest is most important)
+    - **Stage III disease:** some advocate for CT C/A/P to look for distant mets (CT chest is most important)
 
-    - Stage IV disease: PET-CT C/A/P, MRI head, refer for clinical
-      trials
+    - **Stage IV disease:** PET-CT C/A/P, MRI head, refer for clinical trials
 
-    - Prognosis depends on variant: worse with ↑Breslow Depth,
-      ulceration, MF, and Head/Neck location
+- Prognosis depends on variant: worse with ↑Breslow Depth,ulceration, MF, and Head/Neck location
+    - Clark levels: only useful for prognosis in T1 lesions.
+    
+        - **epidermis** only = stage I.
+    
+        - **Into papillary** dermis = II.
+    
+        - **All of papillary** dermis =III.
+    
+        - Invades **reticular** dermis = IV.
+    
+        - Into **subcutaneous** tissue: V
+    
+    - Melanoma TNM Staging
 
-      - Occiput and cheek most common sites of H&N
+    |     | N0  |
+    |-----|-----|
+    | T1a | IA  |
+    | T1b | IB  |
 
-      - Markers
+    Survival: T1 95%, T2 80-95%, T3:40-85%. T4:10-30%
 
-        - HMB-45 (specific). S-100 sensitive. Melan A. MART-1
 
-        - Variants include
+  - **Markers**
 
-          - Superficial spreading---most common subtype; dominant early radial
-            growth results in good prognosis.
+    - HMB-45 (specific). S-100 sensitive. Melan A. MART-1
 
-          - Lentigo maligna melanoma (LMM)---lentiginous proliferation (radial
-            growth); best prognosis. Associated with sun-exposed skin and the
-            elderly
+- Variants include
 
-          - Nodular---blue/blackish, looks like hemangiomaearly vertical
-            growth; poor prognosis
+  - Superficial spreading---most common subtype; dominant early radial
+    growth results in good prognosis.
 
-          - Acral lentiginous---arises on the palms or soles, often in
-            dark-skinned individuals; not related to UV light exposure
+  - Lentigo maligna melanoma (LMM)---lentiginous proliferation (radial
+    growth); best prognosis. Associated with sun-exposed skin and the
+    elderly
 
-          - Desmoplastic-Neurotropic Melanoma (DM): often are amelanotic.
-            High rate of recurrence
+  - Nodular---blue/blackish, looks like hemangiomaearly vertical
+    growth; poor prognosis
 
-          - Clark levels: only useful for prognosis in T1 lesions.
+  - Acral lentiginous---arises on the palms or soles, often in
+    dark-skinned individuals; not related to UV light exposure
 
-            - **epidermis** only = stage I.
+  - Desmoplastic-Neurotropic Melanoma (DM): often are amelanotic.
+    High rate of recurrence
 
-            - **Into papillary** dermis = II.
+ 
 
-            - **All of papillary** dermis =III.
+    - Treatment
 
-            - Invades **reticular** dermis = IV.
+        - Surgical margins
+            - Tis = 0.5mm margin
+            - T1 (1mm) = 1cm margin.
+            - T2 (1-2mm): do 1-2cm margin
+            - T3+ (2mm): do 2cm
 
-            - Into **subcutaneous** tissue: V
+        -  T2/T3/T4
+            -  Adjuvant: may consider interferon alpha 2b (Stage III+)
 
-            - Melanoma TNM Staging
+              - N0 neck: consider sentinel LN biopsy (SLNB). Especially if
 
-            |     | N0  |
-            |-----|-----|
-            | T1a | IA  |
-            | T1b | IB  |
+                - 60 yo especially for tumors w/o ulceration, Ulceration, High
+              mitotic rate, Angiolymphatic invasion, Clark level IV
 
-            Survival: T1 95%, T2 80-95%, T3:40-85%. T4:10-30%
+         - N1-N3: Neck dissection
 
-            - Treatment
+              - Superficial parotidectomy + MRND if primary location is:
+                anterior/lateral scalp, temple, lateral forehead, lateral cheek , ear
+                (basically anything anterior to the plane of the EACs)
 
-              - Surgical margins
+              - Level II-V neck dissection: If primary is scalp/occiput posterior
+                to the coronal plane of the EACs.
 
-              > Tis = 0.5mm margin
-              >
-              > T1 (1mm) = 1cm margin.
-              >
-              > T2 (1-2mm): do 1-2cm margin
-              >
-              > T3+ (2mm): do 2cm
+              - Special considerations:
 
-              2.  T2/T3/T4
+                - Lentigo maligna melanoma (LMM) --- tends to have subclinical spread
+                  (often has positive margins). After resection, take a circumferential
+                  "square" margin (Anderson et al. Johnson et al.)
 
-                  - Adjuvant: may consider interferon alpha 2b (Stage III+)
+                - Chemo:
 
-                  - N0 neck: consider sentinel LN biopsy (SLNB). Especially if
+                  - **Interferon alpha-2b** --- use for stage III, consider for T2+
+                    lesions. Can cause hepatic and cardiac toxicity.
 
-                    - 60 yo especially for tumors w/o ulceration, Ulceration, High
-                      mitotic rate, Angiolymphatic invasion, Clark level IV
+                  - **Dacarbazine (DTIC)** --- stage IV
 
-                    - N1-N3: Neck dissection
+                  - **Sentinel LN biopsy (SLNB) w/ pre-operative lymphoscintigraphy**
 
-                      - Superficial parotidectomy + MRND if primary location is:
-                        anterior/lateral scalp, temple, lateral forehead, lateral cheek , ear
-                        (basically anything anterior to the plane of the EACs)
+                    - 2-4 hours preop, patients get radioactive colloid into melanoma.
+                      Inject methylene blue into melanoma (dermis). Dissect out the hottest
+                      radiactive node and all other nodes that are above 10% of the cpm value
+                      of the hottest node.
 
-                      - Level II-V neck dissection: If primary is scalp/occiput posterior
-                        to the coronal plane of the EACs.
-
-                      - Special considerations:
-
-                        - Lentigo maligna melanoma (LMM) --- tends to have subclinical spread
-                          (often has positive margins). After resection, take a circumferential
-                          "square" margin (Anderson et al. Johnson et al.)
-
-                        - Chemo:
-
-                          - Interferon alpha-2b --- use for stage III, consider for T2+
-                            lesions. Can cause hepatic and cardiac toxicity.
-
-                          - Dacarbazine (DTIC) --- stage IV
-
-                          - Sentinel LN biopsy (SLNB) w/ pre-operative lymphoscintigraphy
-
-                            - 2-4 hours preop, patients get radioactive colloid into melanoma.
-                              Inject methylene blue into melanoma (dermis). Dissect out the hottest
-                              radiactive node and all other nodes that are above 10% of the cpm value
-                              of the hottest node.
-
-                            [Back to homepage](../../../index.html)
+    [Back to homepage](../../../index.html)
