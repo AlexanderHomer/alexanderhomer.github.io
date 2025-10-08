@@ -83,6 +83,8 @@
 
 ## Resources
 
+[Extensions](resources/extensions.html)
+
 [Perioperative Aspirin/Anticoagulation Guide](resources/perioperative-aspirin-anticoagulation-guide.html)
 
 [Rotations](resources/rotations.html)
