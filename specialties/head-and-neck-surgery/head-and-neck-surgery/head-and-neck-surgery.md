@@ -482,45 +482,49 @@ T3-T4: typically treated with radiation
 
 Prep:
 
-Shave arm
+1. Shave arm
 
-Prep arm, shoulder, chest with Chloraprep while someone holds the arm, and prep the head and neck in the usual fashion
+2. Prep arm, shoulder, chest with Chloraprep while someone holds the arm, and prep the head and neck in the usual fashion
 
-Tuck half sheet covered with towels under the flank. Arm needs to rest on arm board, place sterile drape on arm board.
+3. Tuck half sheet covered with towels under the flank. Arm needs to rest on arm board, place sterile drape on arm board.
 
-Place a towel around the armpit and use Edna to clip it. Then, wrap a sponge around the thumb to supinate the forearm and clip the sponge to the arm board with an Edna.
+4. Place a towel around the armpit and use Edna to clip it. Then, wrap a sponge around the thumb to supinate the forearm and clip the sponge to the arm board with an Edna.
 
-Then cover the arm with towel to keep sterile.
+5. Then cover the arm with towel to keep sterile.
 
-Dr. Tracy will then wrap the arm with an elastic wrap to drain it off its venous supply. Then the tourniquet will be applied as a setting of 250 and a timer for 1 hour starts.
+6. Dr. Tracy will then wrap the arm with an elastic wrap to drain it off its venous supply. Then the tourniquet will be applied as a setting of 250 and a timer for 1 hour starts.
 
-Begin by incising the lateral aspect of the skin paddle to find the Cephalic vein which is preserved and follow it all the way up to the antecubital fossa. Next use forceps to find the vascular pedicle then you can raise the flap on the contralateral side and isolate and tie off the vascular pedicle and start lifting the flap
+7. Begin by incising the lateral aspect of the skin paddle to find the Cephalic vein which is preserved and follow it all the way up to the antecubital fossa. Next use forceps to find the vascular pedicle then you can raise the flap on the contralateral side and isolate and tie off the vascular pedicle and start lifting the flap
 
 ### Dr. O’Leary’s Thyroidectomy
 
 Prep:
 
-Laryngeal nerve monitoring tube is needed and the Medtronic NIM monitor. No paralytics, and needs antibiotics. Watch anesthesia’s glidescope to ensure that the blue stripe is adjacent to the vocal cords. Place the gel ax roll as the shoulder roll and recheck the tube placement with the glidescope. Attach the nerve monitor consul at the head of the bed and tape it in place. Ensure that the nerve monitor is working appropriately by tapping in the neck. Mark the neck along a nerve crease if possible 2-3 cm above the sternal notch. Inject with 1% lidocaine with epi. Prep with betadine.
+1. Laryngeal nerve monitoring tube is needed and the Medtronic NIM monitor.
+2. No paralytics, and needs antibiotics.
+3. Watch anesthesia’s glidescope to ensure that the blue stripe is adjacent to the vocal cords.
+4. Place the gel ax roll as the shoulder roll and recheck the tube placement with the glidescope.
+5. Attach the nerve monitor consul at the head of the bed and tape it in place.
+6. Ensure that the nerve monitor is working appropriately by tapping in the neck.
+7. Mark the neck along a nerve crease if possible 2-3 cm above the sternal notch.
+8. Inject with 1% lidocaine with epi. Prep with betadine.
 
 ### Dr. Dhingra’s Thyroidectomy
 
-Inject incision in preop.
+1. Inject incision in preop.
 
-Make generous incision 2 inches above the sternum then make the incision down past the platysma on both sides and use the Bovie to develop yourself sub-platysmal flaps. Use your finger as a come hither motion to get them going and work a free edge. Go down to the sternum on the inferior flap. Go up to the cricoid/thyroid notch superiorly.
+2. Make generous incision 2 inches above the sternum then make the incision down past the platysma on both sides and use the Bovie to develop yourself sub-platysmal flaps.
+3. Use your finger as a come hither motion to get them going and work a free edge.
+4. Go down to the sternum on the inferior flap. Go up to the cricoid/thyroid notch superiorly.
+5. Then travel down midline kind of like you would do with a trach. Use kelly’s to present the midline fascia for someone to divide with the bovie.
+6. Keep going making sure you’re a midline until you come down to the thyroid. Be careful inferiorly because there is a plexus of vessels and become very vascular. Here use the ligasure to make sure you don’t make anything bleed.
+7. Once you found the thyroid then you want to work the sternothyroid off the thyroid to develop the lateral edge of the thyroid.
+8. To do this, get two peanuts: one using to retract the thyroid towards you and the other to push on the undersurface of the sternothyroid to elevate it off.
+9. Once you have enough of an edge, ask for the lady finger for someone to retract. Once you’ve developed the lateral edge, keep doing it up towards the superior pole. Here there are a lot of vessels so be sure to use the Ligasure.
+10. This is the part to pay attention to: developing the superior pole is the one of three or four critical steps. You should not look for the superior laryngeal nerve necessarily but you should be cognizant of the cricothyroid muscle.
+11. Once you have freed the superior pole you can develop the middle a little bit more but don’t get too deep/posterior. This is when you have to check to see where your current laryngeal nerve is remember the different landmarks.
 
-Then travel down midline kind of like you would do with a trach. Use kelly’s to present the midline fascia for someone to divide with the bovie.
-
-Keep going making sure you’re a midline until you come down to the thyroid. Be careful inferiorly because there is a plexus of vessels and become very vascular. Here use the ligasure to make sure you don’t make anything bleed.
-
-Once you found the thyroid then you want to work the sternothyroid off the thyroid to develop the lateral edge of the thyroid. To do this, get two peanuts: one using to retract the thyroid towards you and the other to push on the undersurface of the sternothyroid to elevate it off. Once you have enough of an edge, ask for the lady finger for someone to retract. Once you’ve developed the lateral edge, keep doing it up towards the superior pole. Here there are a lot of vessels so be sure to use the Ligasure.
-
-This is the part to pay attention to: developing the superior pole is the one of three or four critical steps. You should not look for the superior laryngeal nerve necessarily but you should be cognizant of the cricothyroid muscle.
-
-Once you have freed the superior pole you can develop the middle a little bit more but don’t get too deep/posterior. This is when you have to check to see where your current laryngeal nerve is remember the different landmarks.
-
-
-
-
+#### Landmarks
 1. Located in simon's triangle: trachea, carotid, and inferior lobe.
 2. RLN is deep to berry's ligament
 3. Tubercle of Zuckerkandl: RLN is medial to it. Superior thyroid is superior to it
