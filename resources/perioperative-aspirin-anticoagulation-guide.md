@@ -2,8 +2,7 @@
 layout: default
 title: PERIOPERATIVE GUIDE
 ---
-## 
-ANTI PLATELET
+## ANTI PLATELET
 
 
 
@@ -31,8 +30,7 @@ ANTI PLATELET
 - Should continue patients with bare-metal stents in last 6 weeks or drug eluting stents in last 12 months
 
 
-#### P2Y12 receptor
-blockers
+#### P2Y12 receptor blockers
 
 
 * Clopidogrel (Plavix) -- stop 5 days preop. Best to consult
@@ -134,7 +132,7 @@ procedure, get bladder scan. If \>400cc, straight cath, if \400cc or spontaneous
 patient still retaining 6 hours after 1^st^ straight cath,
 place foley and start Flomax
 
-**Nutrition****
+**Nutrition**
 If you can't get nutrition here is an easy starting TF regiment:
 
 Goal is 25ml/kg/day of standard 1kcal/mL feeds: Jevity 1.0, osmolite
