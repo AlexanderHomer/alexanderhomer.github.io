@@ -32,13 +32,6 @@
 * Fall -> ragweed
 * Nighttime/perrinial -> dust mites, mold, animal dander, cockroach
 
-# Treatment
-
-### Avoidance
-* Not associated with clinical improvement
-* Still talk about it
-  * Wash with hot water, hypoallergenic products, HEPA filters, washing/grooming pets
-* but usually need another therapy
 
 # Overview of Allergy Testing in Otolaryngology
 
@@ -112,3 +105,97 @@ These are the most commonly used in otolaryngology due to their high sensitivity
 - Testing should guide **avoidance strategies**, **pharmacotherapy**, and consideration for **allergen immunotherapy**.
 - Allergen-specific immunotherapy (SCIT or SLIT) is most effective for patients with documented IgE-mediated disease.
 
+
+
+# Treatment
+
+## Avoidance
+* Not associated with clinical improvement
+* Still talk about it
+  * Wash with hot water, hypoallergenic products, HEPA filters, washing/grooming pets
+* but usually need another therapy
+
+## Medications (NB: Systemic treatments work better on systemic sxs)
+* Nasal Saline
+* Nasal Antihistamines
+* Nasal Decongestans
+* Oral Decongestants
+* Nasal Corticosteroids **(Single Most Effective Therapy)**
+* Systemic Antihistamines (1st, 2nd, 3rd gen)
+ * 2nd/3rd gen less sedating
+ * Not clinical data to say that 3rd vs 2nd gen is better
+ * 3rd gen supposed to have better side effect profile
+* Less Frequently Used
+ * Nasal Mast Cell Stabilizers (Cromolyn)
+ * Anti-leukotrienes (Black Box Warning - Suicidal Ideation)
+* **NB:** Nasal anticholinergics are NOT for allergy, but good for vasomotor rhinitis
+
+## Subcutaneous vs Sublingual Immunotherapy (SCIT vs SLIT)
+
+*Source: Pasha R., Golub J. _Otolaryngology–Head and Neck Surgery Clinical Reference Guide_, 2nd ed., Plural Publishing, 2017. Chapter: Allergy Testing, pp. 17–18*
+
+### 1. Overview
+
+Both SCIT and SLIT are forms of **allergen-specific immunotherapy**, aimed at **modifying the immune response** to allergens rather than just masking symptoms.
+
+### 2. Subcutaneous Immunotherapy (SCIT)
+
+- **Route:** Subcutaneous injection.
+- **Frequency:**
+  - *Build-up phase:* Weekly injections for 3–6 months.
+  - *Maintenance phase:* Injections every 3–4 weeks for 3–5 years.
+- **Setting:** Must be administered in a **clinical setting** due to risk of systemic reactions.
+- **Efficacy:** Well-documented, especially for pollen, dust mite, mold, and animal dander.
+- **Advantages:**
+  - Strong evidence base.
+  - Effective in children and adults.
+  - Long-lasting symptom reduction.
+- **Risks:**
+  - Potential for systemic reactions, including **anaphylaxis**.
+  - Requires time commitment and regular visits.
+- **Contraindications:**
+  - Severe or uncontrolled asthma.
+  - Beta-blocker therapy.
+  - Pregnancy (initiation phase).
+
+### 3. Sublingual Immunotherapy (SLIT)
+
+- **Route:** Allergen tablets or drops administered **under the tongue**.
+- **Frequency:** Daily.
+- **Setting:** First dose is typically supervised; thereafter, treatment is done **at home**.
+- **Efficacy:**
+  - Good evidence for specific allergens (e.g., grass, ragweed, dust mite).
+  - May be less potent than SCIT for polysensitized patients.
+- **Advantages:**
+  - **Convenient**, needle-free.
+  - Lower risk of systemic reactions.
+  - Suitable for home use after initial dose.
+- **Risks:**
+  - Most common side effects are **local reactions** (oral itching, throat irritation).
+  - Rarely causes systemic symptoms.
+- **Contraindications:**
+  - Severe uncontrolled asthma.
+  - History of eosinophilic esophagitis.
+
+### 4. SCIT vs SLIT: Comparison Table
+
+| Feature                | SCIT                             | SLIT                             |
+|------------------------|----------------------------------|----------------------------------|
+| Route                 | Subcutaneous injection           | Sublingual (tablet or drops)     |
+| Setting               | Clinic only                      | Home (after initial dose)        |
+| Frequency             | Weekly (build-up), monthly (maintenance) | Daily                        |
+| Risk of Anaphylaxis   | Moderate                         | Very low                         |
+| Systemic Reactions    | Yes                              | Rare                             |
+| Local Reactions       | Mild (injection site)            | Oral itching, throat irritation  |
+| Convenience           | Low                              | High                             |
+| FDA Approved in US    | Yes                              | Yes (for select allergens)       |
+
+
+### 5. Clinical Considerations
+
+- **Patient preference, adherence, allergy profile**, and **comorbid conditions** should guide choice.
+- **SLIT** may be preferred for children, needle-averse patients, or those unable to attend frequent clinic visits.
+- **SCIT** remains first-line for polysensitized patients or those with strong perennial symptoms.
+
+> **Citation:**  
+> Pasha R., Golub J. _Otolaryngology–Head and Neck Surgery Clinical Reference Guide_, 2nd ed., Plural Publishing, 2017. Chapter: *Allergy Testing*, pp. 17–18
