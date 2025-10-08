@@ -1,3 +1,94 @@
+<style>
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.quick-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1.1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #d0d7de;
+  background-color: #f6f8fa;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+}
+
+.quick-link img {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}
+
+.quick-link span {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.quick-link:hover,
+.quick-link:focus {
+  background-color: #e7f1ff;
+  border-color: #84aef1;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(51, 102, 204, 0.15);
+}
+
+@media (prefers-color-scheme: dark) {
+  .quick-link {
+    border-color: #3a485d;
+    background-color: #1f2937;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.45);
+  }
+
+  .quick-link span {
+    color: #f1f5f9;
+  }
+
+  .quick-link:hover,
+  .quick-link:focus {
+    background-color: #2b3a51;
+    border-color: #60a5fa;
+    box-shadow: 0 6px 14px rgba(37, 99, 235, 0.35);
+  }
+}
+</style>
+
+<div class="quick-links">
+  <a class="quick-link" href="http://access.well-net.org" target="_blank" rel="noopener noreferrer">
+    <img src="https://www.google.com/s2/favicons?sz=128&domain_url=access.well-net.org" alt="WellNet logo">
+    <span>WellNet Access</span>
+  </a>
+  <a class="quick-link" href="https://login.tigerconnect.com/app/messenger/" target="_blank" rel="noopener noreferrer">
+    <img src="https://www.google.com/s2/favicons?sz=128&domain_url=tigerconnect.com" alt="TigerConnect logo">
+    <span>TigerConnect</span>
+  </a>
+  <a class="quick-link" href="https://outlook.office365.com/mail/" target="_blank" rel="noopener noreferrer">
+    <img src="https://www.google.com/s2/favicons?sz=128&domain_url=office365.com" alt="Outlook logo">
+    <span>Outlook Mail</span>
+  </a>
+  <a class="quick-link" href="https://chatgpt.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://www.google.com/s2/favicons?sz=128&domain_url=chatgpt.com" alt="ChatGPT logo">
+    <span>ChatGPT</span>
+  </a>
+  <a class="quick-link" href="https://next.amboss.com/us/login" target="_blank" rel="noopener noreferrer">
+    <img src="https://www.google.com/s2/favicons?sz=128&domain_url=amboss.com" alt="AMBOSS logo">
+    <span>AMBOSS</span>
+  </a>
+  <a class="quick-link" href="https://www.mdcalc.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://www.google.com/s2/favicons?sz=128&domain_url=mdcalc.com" alt="MDCalc logo">
+    <span>MDCalc</span>
+  </a>
+  <a class="quick-link" href="https://www.openevidence.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://www.google.com/s2/favicons?sz=128&domain_url=openevidence.com" alt="OpenEvidence logo">
+    <span>OpenEvidence</span>
+  </a>
+</div>
+
 # Tufts Oto-HNS Guide
 
 ## [Orientation](orientation/index.html)
