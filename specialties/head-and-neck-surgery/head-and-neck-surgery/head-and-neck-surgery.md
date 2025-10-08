@@ -5,8 +5,6 @@
 ### Dr. O’Leary’s Clinic
 
 
-
-
 1. Correct the chief compliant. Put type/site of cancer TNM stage and treatment (with date) at the beginning of every note (T2N1M0 HPV+ left base of tongue SCCa s/p concomitant chemoradiation with weekly cisplatin completed on 10/13/2018.)
 2. Use Dr O’Leary’s New patient or Follow up visit templates
 3. ALWAYS CC op-note to primary care physician, other care providers (rad onc, med onc) and referring physician’
@@ -56,12 +54,14 @@ Oral B12 melts (made by same company as Xylimelts)
 
 
 
+
 1. Check diagnosis of sleep apnea: AHI, (must be btw 15-65 w/ <25% central apneas) date of sleep study (should be in last 3 years). Ask previous nasal, palate, tonsil surgeries. Still having daytime fatigue. Check social hx: work history/driving problems. Ask about heart failure/afib
 2. Patients must be >21yo. BMI<32
 3. Check CPAP usage: <4 hours/<5days tolerated and reasons for poor tolerance (claustrophobia etc).
 4. Contraindications: Pts w/ neuromuscular disorders or those who can’t operate the remote at night. Pregnant pts. Pts w/ complete concentric collapse of the soft palate of sleep endoscopy
 
 ### Thyroid Nodules
+
 
 
 
@@ -108,6 +108,7 @@ Oral B12 melts (made by same company as Xylimelts)
 
 
 
+
 1. Go to Surgery
 2. Indeterminate cytology - Two types
 
@@ -134,6 +135,7 @@ Oral B12 melts (made by same company as Xylimelts)
 
 
 5\. Follow Up
+
 
 
 
@@ -264,6 +266,7 @@ Survival: T1 95%, T2 80-95%, T3:40-85%. T4:10-30%
 
 
 
+
 1. Adjuvant: may consider interferon alpha 2b (Stage III+)
 2. N0 neck: consider sentinel LN biopsy (SLNB). Especially if
    * <60 yo especially for tumors w/o ulceration, Ulceration, High mitotic rate, Angiolymphatic invasion, Clark level IV
@@ -372,6 +375,7 @@ T3-T4: typically treated with radiation
 
 
 
+
 1. Hyperplasia/Hyperkeratosis - <u>not a risk for malignancy</u>
 2. Dysplasia
 
@@ -384,6 +388,7 @@ T3-T4: typically treated with radiation
    1. Microflap excision: Dissects superficial lamina propria and <u>spares vocal ligament</u>
 
 #### Hypopharyngeal CA
+
 
 
 
@@ -415,6 +420,7 @@ T3-T4: typically treated with radiation
    4. For these, need reconstruction with tension-free closure.
 
 #### LARYNGEAL
+
 
 
 
@@ -482,23 +488,19 @@ T3-T4: typically treated with radiation
 
 Prep:
 
+
 1. Shave arm
-
 2. Prep arm, shoulder, chest with Chloraprep while someone holds the arm, and prep the head and neck in the usual fashion
-
 3. Tuck half sheet covered with towels under the flank. Arm needs to rest on arm board, place sterile drape on arm board.
-
 4. Place a towel around the armpit and use Edna to clip it. Then, wrap a sponge around the thumb to supinate the forearm and clip the sponge to the arm board with an Edna.
-
 5. Then cover the arm with towel to keep sterile.
-
 6. Dr. Tracy will then wrap the arm with an elastic wrap to drain it off its venous supply. Then the tourniquet will be applied as a setting of 250 and a timer for 1 hour starts.
-
 7. Begin by incising the lateral aspect of the skin paddle to find the Cephalic vein which is preserved and follow it all the way up to the antecubital fossa. Next use forceps to find the vascular pedicle then you can raise the flap on the contralateral side and isolate and tie off the vascular pedicle and start lifting the flap
 
 ### Dr. O’Leary’s Thyroidectomy
 
 Prep:
+
 
 1. Laryngeal nerve monitoring tube is needed and the Medtronic NIM monitor.
 2. No paralytics, and needs antibiotics.
@@ -511,20 +513,22 @@ Prep:
 
 ### Dr. Dhingra’s Thyroidectomy
 
-1. Inject incision in preop.
 
-2. Make generous incision 2 inches above the sternum then make the incision down past the platysma on both sides and use the Bovie to develop yourself sub-platysmal flaps.
-3. Use your finger as a come hither motion to get them going and work a free edge.
-4. Go down to the sternum on the inferior flap. Go up to the cricoid/thyroid notch superiorly.
-5. Then travel down midline kind of like you would do with a trach. Use kelly’s to present the midline fascia for someone to divide with the bovie.
-6. Keep going making sure you’re a midline until you come down to the thyroid. Be careful inferiorly because there is a plexus of vessels and become very vascular. Here use the ligasure to make sure you don’t make anything bleed.
-7. Once you found the thyroid then you want to work the sternothyroid off the thyroid to develop the lateral edge of the thyroid.
-8. To do this, get two peanuts: one using to retract the thyroid towards you and the other to push on the undersurface of the sternothyroid to elevate it off.
-9. Once you have enough of an edge, ask for the lady finger for someone to retract. Once you’ve developed the lateral edge, keep doing it up towards the superior pole. Here there are a lot of vessels so be sure to use the Ligasure.
+ 1. Inject incision in preop.
+ 2. Make generous incision 2 inches above the sternum then make the incision down past the platysma on both sides and use the Bovie to develop yourself sub-platysmal flaps.
+ 3. Use your finger as a come hither motion to get them going and work a free edge.
+ 4. Go down to the sternum on the inferior flap. Go up to the cricoid/thyroid notch superiorly.
+ 5. Then travel down midline kind of like you would do with a trach. Use kelly’s to present the midline fascia for someone to divide with the bovie.
+ 6. Keep going making sure you’re a midline until you come down to the thyroid. Be careful inferiorly because there is a plexus of vessels and become very vascular. Here use the ligasure to make sure you don’t make anything bleed.
+ 7. Once you found the thyroid then you want to work the sternothyroid off the thyroid to develop the lateral edge of the thyroid.
+ 8. To do this, get two peanuts: one using to retract the thyroid towards you and the other to push on the undersurface of the sternothyroid to elevate it off.
+ 9. Once you have enough of an edge, ask for the lady finger for someone to retract. Once you’ve developed the lateral edge, keep doing it up towards the superior pole. Here there are a lot of vessels so be sure to use the Ligasure.
 10. This is the part to pay attention to: developing the superior pole is the one of three or four critical steps. You should not look for the superior laryngeal nerve necessarily but you should be cognizant of the cricothyroid muscle.
 11. Once you have freed the superior pole you can develop the middle a little bit more but don’t get too deep/posterior. This is when you have to check to see where your current laryngeal nerve is remember the different landmarks.
 
 #### Landmarks
+
+
 1. Located in simon's triangle: trachea, carotid, and inferior lobe.
 2. RLN is deep to berry's ligament
 3. Tubercle of Zuckerkandl: RLN is medial to it. Superior thyroid is superior to it
@@ -760,6 +764,7 @@ High output >500cc/day: typically need to go to OR.
 
 
 
+
 1. AJCC 8th Edition Staging
 2. GENERAL THEMES: For Oral Cavity, Oropharynx, Hypopharynx, Salivary Gland, Thyroid CA (in general)
 
@@ -876,6 +881,7 @@ HPV Negative
 
 
 
+
 1. Suprahyoid epiglottis
 2. Infrahyoid epiglottis
 3. Aryepiglottic folds (laryngeal aspect)
@@ -919,6 +925,7 @@ Glottic Stage and VF movement
 
 
 4\. Hypopharynx subsites
+
 
 
 
