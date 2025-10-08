@@ -37,9 +37,9 @@
 
 *Source: Pasha R., Golub J. _Otolaryngology–Head and Neck Surgery Clinical Reference Guide_, 2nd ed. Plural Publishing, 2017. Chapter: **Allergy Testing**, pp. 16–17*
 
-### 1. Types of Allergy Testing
+## 1. Types of Allergy Testing
 
-#### A. Skin Testing
+### A. Skin Testing
 
 These are the most commonly used in otolaryngology due to their high sensitivity and immediate results.
 
@@ -56,14 +56,14 @@ These are the most commonly used in otolaryngology due to their high sensitivity
   - **Higher risk of false positives** and systemic reactions.
   - **Indicated** when SPT is negative but strong clinical suspicion exists.
 
-#### B. Serologic (In Vitro) Testing
+### B. Serologic (In Vitro) Testing
 
 - **RAST (RadioAllergoSorbent Test)** and **ImmunoCAP (a type of fluoroenzyme immunoassay)**
   - Detect allergen-specific **IgE antibodies** in serum.
   - Useful when skin testing is contraindicated (e.g., widespread eczema, recent antihistamine use, beta-blocker therapy, anaphylaxis risk).
   - Less sensitive and more expensive than skin testing.
 
-### 2. Indications for Allergy Testing
+## 2. Indications for Allergy Testing
 
 - Chronic or recurrent allergic rhinitis.
 - Asthma evaluation.
@@ -71,36 +71,36 @@ These are the most commonly used in otolaryngology due to their high sensitivity
 - Recurrent otitis media or eustachian tube dysfunction in children (selectively).
 - Pre-immunotherapy assessment.
 
-### 3. Contraindications
+## 3. Contraindications
 
-#### Absolute (for skin testing):
+### Absolute (for skin testing):
 - History of **anaphylaxis** to suspected allergens.
 - **Severe dermatographism** or **extensive eczema**.
 - Pregnancy
 
-#### Relative:
+### Relative:
 - Beta-blocker use (increases risk of severe reaction and limits epinephrine efficacy).
 - Inability to stop antihistamines or tricyclic antidepressants.
 
-### 4. Choosing the Appropriate Test
+## 4. Choosing the Appropriate Test
 
 - **Skin testing** is preferred when feasible due to sensitivity and immediacy.
 - **Serologic testing** is useful as a complement or when skin testing is contraindicated.
 
-### 5. Pre-Test Considerations
+## 5. Pre-Test Considerations
 
 - **Medications to stop before testing** (to prevent false negatives):
   - **Antihistamines:** 3–7 days prior.
   - **Tricyclic antidepressants (e.g., amitriptyline):** May take longer to wash out.
 - Medical supervision should be present due to risk of systemic allergic reactions.
 
-### 6. Interpreting Results
+## 6. Interpreting Results
 
 - Results should be interpreted **in the context of the patient’s clinical history**.
 - A positive test without clinical symptoms does **not confirm allergy**; it reflects sensitization.
 - Correlating findings with symptoms is critical before initiating immunotherapy.
 
-### 7. Clinical Integration
+## 7. Clinical Integration
 
 - Testing should guide **avoidance strategies**, **pharmacotherapy**, and consideration for **allergen immunotherapy**.
 - Allergen-specific immunotherapy (SCIT or SLIT) is most effective for patients with documented IgE-mediated disease.
