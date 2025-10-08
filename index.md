@@ -1,3 +1,5 @@
+# Tufts Oto-HNS Guide
+
 <style>
 .quick-links {
   display: flex;
@@ -88,8 +90,6 @@
     <span>OpenEvidence</span>
   </a>
 </div>
-
-# Tufts Oto-HNS Guide
 
 ## [Orientation](orientation/index.html)
 
