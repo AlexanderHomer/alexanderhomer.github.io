@@ -37,6 +37,25 @@
   transform: translateY(-1px);
   box-shadow: 0 4px 10px rgba(51, 102, 204, 0.15);
 }
+
+@media (prefers-color-scheme: dark) {
+  .quick-link {
+    border-color: #30363d;
+    background-color: #161b22;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  }
+
+  .quick-link span {
+    color: #f0f6fc;
+  }
+
+  .quick-link:hover,
+  .quick-link:focus {
+    background-color: #1f6feb33;
+    border-color: #58a6ff;
+    box-shadow: 0 4px 14px rgba(56, 139, 253, 0.4);
+  }
+}
 </style>
 
 <div class="quick-links">
