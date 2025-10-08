@@ -5,3 +5,4 @@ Stay up to date with key otolaryngology topics through our curated lecture notes
 ## Available Notes
 
 - [CSF Leak](csf_leak.html)
+- [Allergy & Immunology](allergyimmuno.html)
