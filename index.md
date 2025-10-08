@@ -125,6 +125,10 @@
 
 [Facial Trauma Guide](on-call/facial-trauma-guide.html)
 
+## Lecture Notes
+
+Stay sharp on foundational concepts with our concise lecture summaries. Browse the full collection in the [Lecture Notes hub](lecture_notes/index.html).
+
 ## Specialties
 
 [Otology](specialties/otology/index.html)
