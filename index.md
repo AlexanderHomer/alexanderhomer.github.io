@@ -198,6 +198,8 @@ Stay sharp on foundational concepts with our concise lecture summaries. Browse t
 
 [Cranial Nerves](resources/cranial-nerves.html)
 
+[Kajal's OR Pearls](resources/kajals-or-pearls.html)
+
 [Review of Systems](resources/review-of-systems.html)
 
 [Map of Tufts Medical Center](resources/map-of-tufts-medical-center.html)
