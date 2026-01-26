@@ -2,8 +2,7 @@
 layout: default
 title: Post-H+N Cancer Follow-up Guide
 ---
-## 
-Post- H&N Cancer
+## Post- H&N Cancer
 Treatment Follow-up Guide:
 
 - Interval H&P w/ fiberoptic or mirror exam:
