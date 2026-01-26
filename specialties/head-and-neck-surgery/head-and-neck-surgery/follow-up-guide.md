@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Post-H&amp;N Cancer Follow-up Guide
+title: Post-H+N Cancer Follow-up Guide
 ---
 ## 
 Post- H&N Cancer
 Treatment Follow-up Guide:
-
-
 
 - Interval H&P w/ fiberoptic or mirror exam:
   - Year 1: q1-3months.
