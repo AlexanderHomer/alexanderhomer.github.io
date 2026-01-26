@@ -125,6 +125,10 @@
 
 [Facial Trauma Guide](on-call/facial-trauma-guide.html)
 
+## OR Notes
+
+[Kajal's OR Pearls](resources/kajals-or-pearls.html)
+
 ## Lecture Notes
 
 Stay sharp on foundational concepts with our concise lecture summaries. Browse the full collection in the [Lecture Notes hub](lecture_notes/index.html).
@@ -197,8 +201,6 @@ Stay sharp on foundational concepts with our concise lecture summaries. Browse t
 [OR Instruments](resources/or-instruments.html)
 
 [Cranial Nerves](resources/cranial-nerves.html)
-
-[Kajal's OR Pearls](resources/kajals-or-pearls.html)
 
 [Review of Systems](resources/review-of-systems.html)
 
