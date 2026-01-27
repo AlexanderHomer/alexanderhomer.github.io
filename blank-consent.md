@@ -214,24 +214,6 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   </section>
 
   <section>
-    <h2>Procedures</h2>
-    <div class="consent-grid three">
-      <div>
-        <label for="procedures-line-1">Procedures Line 1</label>
-        <input type="text" id="procedures-line-1" name="procedures-line-1" />
-      </div>
-      <div>
-        <label for="procedures-line-2">Procedures Line 2</label>
-        <input type="text" id="procedures-line-2" name="procedures-line-2" />
-      </div>
-      <div>
-        <label for="procedures-line-3">Procedures Line 3</label>
-        <input type="text" id="procedures-line-3" name="procedures-line-3" />
-      </div>
-    </div>
-  </section>
-
-  <section>
     <h2>Risks & Alternatives</h2>
     <div class="consent-grid three">
       <div>
@@ -284,9 +266,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     { id: 'conditions-line-1', name: 'Conditions Line 1' },
     { id: 'conditions-line-2', name: 'Conditions Line 2' },
     { id: 'conditions-line-3', name: 'Conditions Line 3' },
-    { id: 'procedures-line-1', name: 'Procedures Line 1' },
-    { id: 'procedures-line-2', name: 'Procedures Line 2' },
-    { id: 'procedures-line-3', name: 'Procedures Line 3' },
+    { id: 'pprocedure', name: 'Procedures Line 1' },
     { id: 'risks-line-1', name: 'Risks Line 1' },
     { id: 'risks-line-2', name: 'Risks Line 2' },
     { id: 'risks-line-3', name: 'Risks Line 3' },
