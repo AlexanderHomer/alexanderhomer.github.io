@@ -442,7 +442,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
           <input
             type="search"
             id="template-search"
-            placeholder="Search by label or procedure"
+            placeholder="Search by label, procedure, or tag"
             autocomplete="off"
           />
         </label>
@@ -547,11 +547,15 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     const searchTerm = templateSearchInput.value.trim().toLowerCase();
     const filtered = templatesData.filter((template) => {
       const matchesSpecialty =
-        activeSpecialty === 'All' || template.specialty === activeSpecialty;
+        activeSpecialty === 'All' || template.specialties.includes(activeSpecialty);
       const label = (template.label ?? '').toLowerCase();
       const procedure = (template.fields?.procedure ?? '').toLowerCase();
+      const tags = (template.tags ?? []).map((tag) => tag.toLowerCase());
       const matchesSearch =
-        !searchTerm || label.includes(searchTerm) || procedure.includes(searchTerm);
+        !searchTerm ||
+        label.includes(searchTerm) ||
+        procedure.includes(searchTerm) ||
+        tags.some((tag) => tag.includes(searchTerm));
       return matchesSpecialty && matchesSearch;
     });
 
@@ -640,14 +644,23 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     }
 
     templatesData = templates
-      .map((template) => ({
-        ...template,
-        specialty: template.specialty || 'General'
-      }))
+      .map((template) => {
+        const specialty = template.specialty || 'General';
+        const specialties = Array.isArray(template.specialties) && template.specialties.length
+          ? template.specialties
+          : [specialty];
+        const tags = Array.isArray(template.tags) ? template.tags : [];
+        return {
+          ...template,
+          specialty,
+          specialties,
+          tags
+        };
+      })
       .sort((a, b) => (a.label || '').localeCompare(b.label || ''));
 
     const specialties = Array.from(
-      new Set(templatesData.map((template) => template.specialty)),
+      new Set(templatesData.flatMap((template) => template.specialties)),
     );
     const orderedSpecialties = specialtyOrder.filter(
       (specialty) => specialty === 'All' || specialties.includes(specialty),
