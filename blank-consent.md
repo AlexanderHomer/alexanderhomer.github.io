@@ -179,6 +179,15 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
         <input type="text" id="authorized-doctor" name="authorized-doctor" />
       </div>
       <div>
+        <label for="physician-extenders">Physician / Physician Extenders</label>
+        <input
+          type="text"
+          id="physician-extenders"
+          name="physician-extenders"
+          value="Drs. Hanna, Danis, Spagnuolo, Dalal, Heiser, Chen, Fan, Smith, O'Brien, Doyel, and Homer"
+        />
+      </div>
+      <div>
         <label for="attending">Attending Physician / Primary Operator</label>
         <input type="text" id="attending" name="attending" />
       </div>
@@ -289,6 +298,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     { id: 'primary-doctor', name: 'Primary Doctor' },
     { id: 'secondary-doctor', name: 'Secondary Doctor' },
     { id: 'authorized-doctor', name: 'Autherized Doctor' },
+    { id: 'physician-extenders', name: 'Physician/Physician Extenders' },
     { id: 'attending', name: 'Attending Physician/Primary Operator' },
     { id: 'conditions-line-1', name: 'Conditions Line 1' },
     { id: 'conditions-line-2', name: 'Conditions Line 2' },
