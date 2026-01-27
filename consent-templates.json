@@ -16,7 +16,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -41,7 +40,6 @@
       "additional-risks": "",
       "alternatives": "Observation"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -71,7 +69,6 @@
       "additional-risks": "Pain, dehydration, voice change",
       "alternatives": "Observation, medical management"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -98,7 +95,6 @@
       "physician-extenders": "Drs. Hanna, Danis, Spagnuolo, Dalal",
       "physician-extenders-2": "Heiser, Chen, Fan, Smith, O'Brien, Doyel, and Homer"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -124,7 +120,6 @@
       "additional-risks": "",
       "alternatives": "observation"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -150,7 +145,6 @@
       "additional-risks": "",
       "alternatives": "observation, no treatment"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -173,7 +167,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -200,7 +193,6 @@
       "additional-risks": "",
       "alternatives": "Observation"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -224,7 +216,6 @@
       "additional-risks": "",
       "alternatives": "No surgery, medical therapy"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -275,7 +266,6 @@
       "additional-risks": "",
       "alternatives": "No surgical intervention, continue weaning attempts, intubation"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -310,7 +300,6 @@
       "additional-risks": "",
       "alternatives": "Medical  therapy"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -336,7 +325,6 @@
       "additional-risks": "",
       "alternatives": "no treatment, observation"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -359,7 +347,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -386,7 +373,6 @@
       "additional-risks": "",
       "alternatives": "No treatment"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -410,7 +396,6 @@
       "additional-risks": "1. Failure to achieve hearing improvement\r2. Development of hearing loss (including total deafness) in the operated ear\r3. Development of varying degrees of disequilibrium (immediate or delayed)\r4. Development of facial palsy\r5. Post-operative perforation of tympanic membrane\r6. Tinnitus (or noises in the head)\r7. Interference with sensation of taste\r8. Post-operative middle ear effusion\r9. Recurrence of hearing loss due to malfunction of prosthesis or recurring disease\r10. Delayed occurrence of a perilymph fistula causing vertigo and hearing loss",
       "alternatives": "Observation, No surgery"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -432,7 +417,6 @@
       "additional-risks": "",
       "alternatives": "observation"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -462,7 +446,6 @@
       "additional-risks": "",
       "alternatives": "Observation"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -488,7 +471,6 @@
       "additional-risks": "",
       "alternatives": "Chemotherapy and radiation therapy, no treatment"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -531,7 +513,6 @@
       "additional-risks": "",
       "alternatives": "No treatment"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -557,7 +538,6 @@
       "additional-risks": "",
       "alternatives": "No treatment"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -584,7 +564,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -608,7 +587,6 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -640,7 +618,6 @@
       "additional-risks": "",
       "alternatives": "Observation, no treatment"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -674,7 +651,6 @@
       "additional-risks": "",
       "alternatives": "Conservative measures (packing, hemostatic agents), no treatment"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -702,7 +678,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -725,7 +700,6 @@
       "additional-risks": "1. Failure to achieve hearing improvement\r2. Development of hearing loss (including total deafness) in the operated ear\r3. Development of varying degrees of disequilibrium (immediate or delayed)\r4. Development of facial palsy\r5. Post-operative perforation of tympanic membrane\r6. Tinnitus (or noises in the head)\r7. Interference with sensation of taste\r8. Post-operative middle ear effusion\r9. Recurrence of hearing loss due to malfunction of prosthesis or recurring disease\r10. Delayed occurrence of a perilymph fistula causing vertigo and hearing loss",
       "alternatives": "Observation, No surgery"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -748,7 +722,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -775,7 +748,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -798,7 +770,6 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -824,7 +795,6 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -848,7 +818,6 @@
       "additional-risks": "",
       "alternatives": "Observation"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -872,7 +841,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -894,7 +862,6 @@
       "additional-risks": "",
       "alternatives": "no treatment"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -919,7 +886,6 @@
       "additional-risks": "1. Failure to achieve objective of surgery, i.e., failure to achieve \rhearing improvement and/or failure to eradicate the disease process completely\r2. Post-operative perforation of the eardrum\r3. Development of facial palsy \r4. Development of post-operative stenosis of the ear canal \r5. Development of hearing loss, including total deafness in the operated ear\r6. Creation of varying degrees of disequilibrium (immediate or delayed) \r7. Tinnitus (or noises in the head)\r8. Interference with sensation of taste\r9. Development of post-operative hematoma or wound infection",
       "alternatives": "observation"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -955,7 +921,6 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -977,7 +942,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -1004,7 +968,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -1031,7 +994,6 @@
       "additional-risks": "",
       "alternatives": "observation, tracheostomy"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -1073,7 +1035,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -1099,7 +1060,6 @@
       "additional-risks": "",
       "alternatives": "no treatment, observation, open reduction"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -1126,7 +1086,6 @@
       "additional-risks": "",
       "alternatives": "no treatment"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -1153,7 +1112,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -1177,7 +1135,6 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -1200,7 +1157,6 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -1224,7 +1180,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -1248,7 +1203,6 @@
       "additional-risks": "",
       "alternatives": ""
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -1270,7 +1224,6 @@
       "additional-risks": "",
       "alternatives": "CPAP, no treatment"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -1295,7 +1248,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -1327,7 +1279,6 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -1358,7 +1309,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -1385,7 +1335,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -1412,7 +1361,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -1435,7 +1383,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -1468,7 +1415,6 @@
       "additional-risks": "Speech and swallowing issues. Breathing difficulties. Failure to resect cancer. Recurrence of cancer.\rArm and leg weakness/numbness/pain, Hematoma, poor wound healing, accidental decannulation, chyle leak \rtracheocutaneous fistula, injury to surrounding nerves, muscles, vessles. Need for further procedure",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -1513,7 +1459,6 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -1541,7 +1486,6 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -1581,7 +1525,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -1605,7 +1548,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -1625,7 +1567,6 @@
       "additional-risks": "",
       "alternatives": "no treatment"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -1658,7 +1599,6 @@
       "additional-risks": "",
       "alternatives": "no surgery, sialogogues"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -1682,7 +1622,6 @@
       "additional-risks": "1. Failure to achieve objective of tympanoplasty surgery, i.e., failure to achieve \rhearing improvement and/or failure to eradicate the disease process completely\r2. Post-operative perforation of the eardrum\r3. Development of facial palsy \r4. Development of post-operative stenosis of the ear canal \r5. Development of hearing loss, including total deafness in the operated ear\r6. Creation of varying degrees of disequilibrium (immediate or delayed) \r7. Tinnitus (or noises in the head)\r8. Interference with sensation of taste\r9. Development of post-operative hematoma or wound infection\r\rIf ossicular chain reconstruction is performed. Additional risks are:\r1. migration or extrusion of the implant",
       "alternatives": "no surgery"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -1707,7 +1646,6 @@
       "additional-risks": "1. Failure to achieve objective of tympanoplasty surgery, i.e., failure to achieve \rhearing improvement and/or failure to eradicate the disease process completely\r2. Post-operative perforation of the eardrum\r3. Development of facial palsy \r4. Development of post-operative stenosis of the ear canal \r5. Development of hearing loss, including total deafness in the operated ear\r6. Creation of varying degrees of disequilibrium (immediate or delayed) \r7. Tinnitus (or noises in the head)\r8. Interference with sensation of taste\r9. Development of post-operative hematoma or wound infection\r\rIf ossicular chain reconstruction is performed. Additional risks are:\r1. migration or extrusion of the implant",
       "alternatives": "No treatment"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -1729,7 +1667,6 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -1756,7 +1693,6 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -1781,7 +1717,6 @@
       "additional-risks": "1. Failure to achieve hearing improvement\r2. Development of hearing loss (including total deafness) in the operated ear \r3. Development of varying degrees of disequilibrium (immediate or delayed) \r4. Development of facial palsy \r5. Post-operative perforation of tympanic membrane \r6. Tinnitus (or noises in the head)\r7. Interference with sensation of taste\r8. Post-operative middle ear infection \r9. Recurrence of hearing loss due to malfunction of prosthesis or recurring disease\r10. Delayed occurrence of a perilymph fistula causing vertigo and hearing loss",
       "alternatives": ""
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -1804,7 +1739,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Facial Plastics",
     "specialties": [
       "Facial Plastics"
     ],
@@ -1841,7 +1775,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -1867,7 +1800,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -1891,7 +1823,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -1915,7 +1846,6 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -1939,7 +1869,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -1972,7 +1901,6 @@
       "additional-risks": "",
       "alternatives": "observation, no treatment"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -1997,7 +1925,6 @@
       "additional-risks": "",
       "alternatives": ""
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -2018,7 +1945,6 @@
       "additional-risks": "",
       "alternatives": "Esophageal speech, electrolarynx"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -2047,7 +1973,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -2071,7 +1996,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2094,7 +2018,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2119,7 +2042,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -2140,7 +2062,6 @@
       "additional-risks": "",
       "alternatives": "No treatment"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -2164,7 +2085,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -2195,7 +2115,6 @@
       "additional-risks": "",
       "alternatives": "no treatment, intubation"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -2218,7 +2137,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -2254,7 +2172,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2290,7 +2207,6 @@
       "additional-risks": "",
       "alternatives": "no treatment, observation"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -2318,7 +2234,6 @@
       "additional-risks": "1. Failure to achieve hearing improvement\r2. Development of hearing loss (including total deafness) in the operated ear\r3. Development of varying degrees of disequilibrium (immediate or delayed)\r4. Development of facial palsy\r5. Post-operative perforation of tympanic membrane\r6. Tinnitus (or noises in the head)\r7. Interference with sensation of taste\r8. Post-operative middle ear effusion\r9. Recurrence of hearing loss due to malfunction of prosthesis or recurring disease\r10. Delayed occurrence of a perilymph fistula causing vertigo and hearing loss",
       "alternatives": "Observation, No surgery"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -2342,7 +2257,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2374,7 +2288,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2403,7 +2316,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2441,7 +2353,6 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -2466,7 +2377,6 @@
       "additional-risks": "",
       "alternatives": "CPAP, no treatment"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -2491,7 +2401,6 @@
       "additional-risks": "",
       "alternatives": "no treatment"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -2513,7 +2422,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -2539,7 +2447,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -2564,7 +2471,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -2591,7 +2497,6 @@
       "additional-risks": "",
       "alternatives": "no procedure"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -2614,7 +2519,6 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology",
     "specialties": [
       "Rhinology"
     ],
@@ -2652,7 +2556,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -2674,7 +2577,6 @@
       "additional-risks": "",
       "alternatives": "medical therapy"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2701,7 +2603,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Facial Plastics",
     "specialties": [
       "Facial Plastics"
     ],
@@ -2739,7 +2640,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2765,7 +2665,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -2799,7 +2698,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2834,7 +2732,6 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -2855,7 +2752,6 @@
       "additional-risks": "",
       "alternatives": "medical therapy"
     },
-    "specialty": "Facial Plastics",
     "specialties": [
       "Facial Plastics"
     ],
@@ -2883,7 +2779,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -2914,7 +2809,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2949,7 +2843,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -2978,7 +2871,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -3012,7 +2904,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -3052,7 +2943,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology",
     "specialties": [
       "Laryngology"
     ],
@@ -3086,7 +2976,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -3118,7 +3007,6 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -3142,7 +3030,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Facial Plastics",
     "specialties": [
       "Facial Plastics"
     ],
@@ -3169,7 +3056,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],
@@ -3193,7 +3079,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Pediatrics",
     "specialties": [
       "Pediatrics"
     ],
@@ -3223,7 +3108,6 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "General",
     "specialties": [
       "General"
     ],
@@ -3253,7 +3137,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -3286,7 +3169,6 @@
       "additional-risks": "1. Failure to achieve hearing improvement\r2. Development of hearing loss (including total deafness) in the operated ear\r3. Development of varying degrees of disequilibrium (immediate or delayed)\r4. Development of facial palsy\r5. Post-operative perforation of tympanic membrane\r6. Tinnitus (or noises in the head)\r7. Interference with sensation of taste\r8. Post-operative middle ear effusion\r9. Recurrence of hearing loss due to malfunction of prosthesis or recurring disease\r10. Delayed occurrence of a perilymph fistula causing vertigo and hearing loss",
       "alternatives": "Observation, No surgery"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -3308,7 +3190,6 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Otology",
     "specialties": [
       "Otology"
     ],
@@ -3359,7 +3240,6 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck",
     "specialties": [
       "Head & Neck"
     ],

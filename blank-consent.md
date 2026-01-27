@@ -645,14 +645,16 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
 
     templatesData = templates
       .map((template) => {
-        const specialty = template.specialty || 'General';
         const specialties = Array.isArray(template.specialties) && template.specialties.length
           ? template.specialties
-          : [specialty];
+          : Array.isArray(template.specialty)
+            ? template.specialty
+            : template.specialty
+              ? [template.specialty]
+              : ['General'];
         const tags = Array.isArray(template.tags) ? template.tags : [];
         return {
           ...template,
-          specialty,
           specialties,
           tags
         };
