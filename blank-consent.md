@@ -351,26 +351,33 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
         patientField.setText(patientName);
       } else {
         const font = await pdfDoc.embedFont(PDFLib.StandardFonts.Helvetica);
-        const page = pdfDoc.getPages()[2];
-        page.drawText(patientName, {
-          x: 215,
-          y: 157,
-          size: 10,
-          font,
-          color: PDFLib.rgb(0, 0, 0)
-        });
+        const pages = pdfDoc.getPages();
+        const page = pages[2] ?? pages[pages.length - 1];
+        if (page) {
+          page.drawText(patientName, {
+            x: 215,
+            y: 157,
+            size: 10,
+            font,
+            color: PDFLib.rgb(0, 0, 0)
+          });
+        }
       }
     }
 
     Object.values(checkboxFields).forEach((fieldName) => {
+      if (!formFieldNames.has(fieldName)) return;
       const checkbox = form.getCheckBox(fieldName);
       checkbox.uncheck();
     });
 
     const selectedSide = formEl.querySelector('input[name="side"]:checked');
     if (selectedSide) {
-      const checkbox = form.getCheckBox(checkboxFields[selectedSide.value]);
-      checkbox.check();
+      const fieldName = checkboxFields[selectedSide.value];
+      if (formFieldNames.has(fieldName)) {
+        const checkbox = form.getCheckBox(fieldName);
+        checkbox.check();
+      }
     }
 
     form.flatten();
