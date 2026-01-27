@@ -156,17 +156,6 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   }
 </style>
 
-<form class="consent-form" id="consent-form">
-  <section>
-    <h2>Patient Details</h2>
-    <div class="consent-grid two">
-      <div class="field">
-        <label for="patient-name">Patient Name (Optional)</label>
-        <input type="text" id="patient-name" name="patient-name" />
-      </div>
-    </div>
-  </section>
-
   <section>
     <h2>Procedure Details</h2>
     <div class="consent-grid two">
