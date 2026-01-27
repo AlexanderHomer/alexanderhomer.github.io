@@ -21,7 +21,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   }
 
   .consent-form section {
-    padding: 1.25rem 1.5rem;
+    padding: 1rem 1.25rem;
     border-radius: 0.75rem;
     border: 1px solid rgba(148, 163, 184, 0.35);
     background: rgba(255, 255, 255, 0.75);
@@ -37,19 +37,19 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   .consent-form label {
     display: block;
     font-weight: 600;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.25rem;
   }
 
   .field {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.2rem;
   }
 
   .consent-form input[type="text"],
   .consent-form textarea {
     width: 100%;
-    padding: 0.55rem 0.75rem;
+    padding: 0.5rem 0.7rem;
     border-radius: 0.5rem;
     border: 1px solid rgba(148, 163, 184, 0.7);
     font-size: 1rem;
@@ -71,7 +71,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
 
   .consent-grid {
     display: grid;
-    gap: 1rem;
+    gap: 0.75rem;
   }
 
   .consent-grid.two {
@@ -86,7 +86,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-    padding: 0.25rem 0;
+    padding: 0.15rem 0;
   }
 
   .radio-group label {
@@ -133,9 +133,9 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   }
 
   .textarea-stack {
-    margin-top: 1rem;
+    margin-top: 0.75rem;
     display: grid;
-    gap: 1rem;
+    gap: 0.75rem;
   }
 
   .template-panel {
@@ -144,7 +144,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   }
 
   .template-card {
-    padding: 1.25rem 1.5rem;
+    padding: 1rem 1.25rem;
     border-radius: 0.75rem;
     border: 1px solid rgba(148, 163, 184, 0.35);
     background: rgba(255, 255, 255, 0.85);
