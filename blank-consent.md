@@ -175,7 +175,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
         <input type="text" id="secondary-doctor" name="secondary-doctor" />
       </div>
       <div>
-        <label for="physician-extenders">Physician / Physician Extenders</label>
+        <label for="physician-extenders">Residents Line 2</label>
         <input
           type="text"
           id="physician-extenders"
@@ -184,7 +184,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
         />
       </div>
       <div>
-        <label for="physician-extenders-2">Physician / Physician Extenders</label>
+        <label for="physician-extenders-2">Residents Line 2</label>
         <input
           type="text"
           id="physician-extenders-2"
@@ -280,7 +280,6 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     { id: 'primary-doctor', name: 'Primary Doctor' },
     { id: 'secondary-doctor', name: 'Secondary Doctor' },
     { id: 'primary-doctor', name: 'Autherized Doctor' },
-    { id: 'physician-extenders', name: 'Physician/Physician Extenders' },
     { id: 'primary-doctor', name: 'Attending Physician/Primary Operator' },
     { id: 'conditions-line-1', name: 'Conditions Line 1' },
     { id: 'conditions-line-2', name: 'Conditions Line 2' },
