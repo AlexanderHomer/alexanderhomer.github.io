@@ -15,20 +15,29 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   }
 
   .consent-form section {
-    padding: 1rem 1.25rem;
+    padding: 1.25rem 1.5rem;
     border-radius: 0.75rem;
     border: 1px solid rgba(148, 163, 184, 0.35);
     background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
   }
 
   .consent-form h2 {
     margin-top: 0;
+    font-size: 1.25rem;
+    letter-spacing: 0.01em;
   }
 
   .consent-form label {
     display: block;
     font-weight: 600;
     margin-bottom: 0.35rem;
+  }
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
   }
 
   .consent-form input[type="text"],
@@ -39,6 +48,14 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     border: 1px solid rgba(148, 163, 184, 0.7);
     font-size: 1rem;
     font-family: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .consent-form input[type="text"]:focus,
+  .consent-form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
   }
 
   .consent-form textarea {
@@ -63,6 +80,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    padding: 0.25rem 0;
   }
 
   .radio-group label {
@@ -83,6 +101,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     flex-wrap: wrap;
     gap: 0.75rem;
     align-items: center;
+    justify-content: space-between;
   }
 
   .actions button {
@@ -107,10 +126,17 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     color: #0f172a;
   }
 
+  .textarea-stack {
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+  }
+
   @media (prefers-color-scheme: dark) {
     .consent-form section {
       background: rgba(15, 23, 42, 0.85);
       border-color: rgba(148, 163, 184, 0.2);
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.4);
     }
 
     .consent-form input[type="text"],
@@ -134,7 +160,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   <section>
     <h2>Patient Details</h2>
     <div class="consent-grid two">
-      <div>
+      <div class="field">
         <label for="patient-name">Patient Name (Optional)</label>
         <input type="text" id="patient-name" name="patient-name" />
       </div>
@@ -144,15 +170,15 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   <section>
     <h2>Procedure Details</h2>
     <div class="consent-grid two">
-      <div>
+      <div class="field">
         <label for="procedure">Procedure</label>
         <input type="text" id="procedure" name="procedure" />
       </div>
-      <div>
+      <div class="field">
         <label for="site">Site</label>
         <input type="text" id="site" name="site" />
       </div>
-      <div>
+      <div class="field">
         <label>Side</label>
         <div class="radio-group">
           <label><input type="radio" name="side" value="Left" /> Left</label>
@@ -166,16 +192,16 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   <section>
     <h2>Providers</h2>
     <div class="consent-grid two">
-      <div>
+      <div class="field">
         <label for="primary-doctor">Attending Physician</label>
         <input type="text" id="primary-doctor" name="primary-doctor" />
       </div>
-      <div>
+      <div class="field">
         <label for="secondary-doctor">Secondary Doctor</label>
         <input type="text" id="secondary-doctor" name="secondary-doctor" />
       </div>
-      <div>
-        <label for="physician-extenders">Residents Line 2</label>
+      <div class="field">
+        <label for="physician-extenders">Residents Line 1</label>
         <input
           type="text"
           id="physician-extenders"
@@ -183,7 +209,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
           value="Drs. Hanna, Danis, Spagnuolo, Dalal"
         />
       </div>
-      <div>
+      <div class="field">
         <label for="physician-extenders-2">Residents Line 2</label>
         <input
           type="text"
@@ -198,15 +224,15 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   <section>
     <h2>Conditions</h2>
     <div class="consent-grid three">
-      <div>
+      <div class="field">
         <label for="conditions-line-1">Conditions Line 1</label>
         <input type="text" id="conditions-line-1" name="conditions-line-1" />
       </div>
-      <div>
+      <div class="field">
         <label for="conditions-line-2">Conditions Line 2</label>
         <input type="text" id="conditions-line-2" name="conditions-line-2" />
       </div>
-      <div>
+      <div class="field">
         <label for="conditions-line-3">Conditions Line 3</label>
         <input type="text" id="conditions-line-3" name="conditions-line-3" />
       </div>
@@ -216,26 +242,28 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   <section>
     <h2>Risks & Alternatives</h2>
     <div class="consent-grid three">
-      <div>
+      <div class="field">
         <label for="risks-line-1">Risks Line 1</label>
         <input type="text" id="risks-line-1" name="risks-line-1" />
       </div>
-      <div>
+      <div class="field">
         <label for="risks-line-2">Risks Line 2</label>
         <input type="text" id="risks-line-2" name="risks-line-2" />
       </div>
-      <div>
+      <div class="field">
         <label for="risks-line-3">Risks Line 3</label>
         <input type="text" id="risks-line-3" name="risks-line-3" />
       </div>
     </div>
-    <div style="margin-top: 1rem;">
-      <label for="additional-risks">Additional Risks</label>
-      <textarea id="additional-risks" name="additional-risks"></textarea>
-    </div>
-    <div style="margin-top: 1rem;">
-      <label for="alternatives">Alternatives</label>
-      <textarea id="alternatives" name="alternatives">No Procedure</textarea>
+    <div class="textarea-stack">
+      <div class="field">
+        <label for="additional-risks">Additional Risks</label>
+        <textarea id="additional-risks" name="additional-risks"></textarea>
+      </div>
+      <div class="field">
+        <label for="alternatives">Alternatives</label>
+        <textarea id="alternatives" name="alternatives">No Procedure</textarea>
+      </div>
     </div>
   </section>
 
