@@ -198,6 +198,8 @@ Stay sharp on foundational concepts with our concise lecture summaries. Browse t
 
 [Radiology - Levels of the Neck](resources/radiology-levels-of-the-neck.html)
 
+[Blank Consent PDF Filler](blank-consent.html)
+
 [OR Instruments](resources/or-instruments.html)
 
 [Cranial Nerves](resources/cranial-nerves.html)
