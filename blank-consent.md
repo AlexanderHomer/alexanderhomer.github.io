@@ -312,8 +312,9 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     Bilateral: 'Bilateral'
   };
 
-  function setStatus(message) {
+  function setStatus(message, isError = false) {
     statusEl.textContent = message;
+    statusEl.style.color = isError ? '#b91c1c' : '';
   }
 
   function setButtonState(isDisabled) {
@@ -330,7 +331,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     }
 
     const existingPdfBytes = await response.arrayBuffer();
-    const pdfDoc = await PDFLib.PDFDocument.load(existingPdfBytes);
+    const pdfDoc = await PDFLib.PDFDocument.load(existingPdfBytes, { ignoreEncryption: true });
     const form = pdfDoc.getForm();
     const formFieldNames = new Set(form.getFields().map((field) => field.getName()));
 
@@ -400,7 +401,8 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
       URL.revokeObjectURL(url);
       setStatus('PDF generated! Your download should begin automatically.');
     } catch (error) {
-      setStatus('There was a problem generating the PDF.');
+      const message = error instanceof Error ? error.message : 'Unknown error';
+      setStatus(`There was a problem generating the PDF: ${message}`, true);
       console.error(error);
     } finally {
       setButtonState(false);
