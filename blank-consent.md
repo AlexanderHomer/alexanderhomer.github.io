@@ -243,7 +243,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     </div>
     <div style="margin-top: 1rem;">
       <label for="alternatives">Alternatives</label>
-      <textarea id="alternatives" name="alternatives"></textarea>
+      <textarea id="alternatives" name="alternatives">No Procedure</textarea>
     </div>
   </section>
 
