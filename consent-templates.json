@@ -1,5 +1,41 @@
 [
   {
+    "label": "Blank",
+    "fields": {
+      "procedure": "",
+      "site": "",
+      "side": "Bilateral",
+      "primary-doctor": "",
+      "secondary-doctor": "",
+      "conditions-line-1": "",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "",
+      "risks-line-2": "",
+      "risks-line-3": "",
+      "additional-risks": "",
+      "alternatives": "No procedure",
+    }
+  },
+  {
+    "label": "Adenoidectomy + BMT",
+    "fields": {
+      "procedure": "Adenoidectomy and Ear Tube Placement",
+      "site": "Mouth, throat, ears",
+      "side": "Bilateral",
+      "primary-doctor": "",
+      "secondary-doctor": "",
+      "conditions-line-1": "Adenoidectomy and Ear Tube Placement",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "bleeding, dehydration, pain, halitosis, ear ache, voice change, retained ear tube,failure to improve symptoms,",
+      "risks-line-2": "early extrusion or occlusion of tubes, hearing loss, persistent hole in ear drum, need for further procedure ",
+      "risks-line-3": "",
+      "additional-risks": "",
+      "alternatives": "Observation",
+    }
+  },
+  {
     "label": "Tonsillectomy",
     "fields": {
       "procedure": "Tonsillectomy",
@@ -15,8 +51,6 @@
       "risks-line-3": "Dental or lip injury",
       "additional-risks": "Pain, dehydration, voice change",
       "alternatives": "Observation, medical management",
-      "physician-extenders": "Drs. Hanna, Danis, Spagnuolo, Dalal",
-      "physician-extenders-2": "Heiser, Chen, Fan, Smith, O'Brien, Doyel, and Homer"
     }
   },
   {
