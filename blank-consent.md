@@ -337,7 +337,18 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     }
 
     const existingPdfBytes = await response.arrayBuffer();
-    const pdfDoc = await PDFLib.PDFDocument.load(existingPdfBytes, { ignoreEncryption: true });
+    let pdfDoc;
+    try {
+      pdfDoc = await PDFLib.PDFDocument.load(existingPdfBytes, {
+        ignoreEncryption: true,
+        throwOnInvalidObject: true
+      });
+    } catch (error) {
+      pdfDoc = await PDFLib.PDFDocument.load(existingPdfBytes, {
+        ignoreEncryption: true,
+        throwOnInvalidObject: false
+      });
+    }
     const form = pdfDoc.getForm();
     const formFieldNames = new Set(form.getFields().map((field) => field.getName()));
 
