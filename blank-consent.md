@@ -326,16 +326,16 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     <div class="consent-grid two">
       <div class="field">
         <label for="procedure">Procedure</label>
-        <input type="text" id="procedure" name="procedure" />
+        <input type="text" id="procedure" name="procedure" required />
       </div>
       <div class="field">
         <label for="site">Site</label>
-        <input type="text" id="site" name="site" />
+        <input type="text" id="site" name="site" required />
       </div>
       <div class="field">
         <label>Side</label>
         <div class="radio-group">
-          <label><input type="radio" name="side" value="Left" /> Left</label>
+          <label><input type="radio" name="side" value="Left" required /> Left</label>
           <label><input type="radio" name="side" value="Right" /> Right</label>
           <label><input type="radio" name="side" value="Bilateral" /> Bilateral</label>
         </div>
@@ -348,7 +348,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     <div class="consent-grid two">
       <div class="field">
         <label for="primary-doctor">Attending Physician</label>
-        <input type="text" id="primary-doctor" name="primary-doctor" />
+        <input type="text" id="primary-doctor" name="primary-doctor" required />
       </div>
       <div class="field">
         <label for="secondary-doctor">Secondary Doctor</label>
@@ -380,7 +380,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     <div class="consent-grid three">
       <div class="field">
         <label for="conditions-line-1">Conditions Line 1</label>
-        <input type="text" id="conditions-line-1" name="conditions-line-1" />
+        <input type="text" id="conditions-line-1" name="conditions-line-1" required />
       </div>
       <div class="field">
         <label for="conditions-line-2">Conditions Line 2</label>
@@ -398,7 +398,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     <div class="consent-grid three">
       <div class="field">
         <label for="risks-line-1">Risks Line 1</label>
-        <input type="text" id="risks-line-1" name="risks-line-1" />
+        <input type="text" id="risks-line-1" name="risks-line-1" required />
       </div>
       <div class="field">
         <label for="risks-line-2">Risks Line 2</label>
@@ -416,7 +416,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
       </div>
       <div class="field">
         <label for="alternatives">Alternatives</label>
-        <textarea id="alternatives" name="alternatives">No Procedure</textarea>
+        <textarea id="alternatives" name="alternatives" required>No Procedure</textarea>
       </div>
     </div>
   </section>
