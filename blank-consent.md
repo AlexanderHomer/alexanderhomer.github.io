@@ -309,15 +309,6 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     downloadButton.disabled = isDisabled;
   }
 
-  function getFieldMap(form) {
-    const fields = form.getFields();
-    const map = new Map();
-    fields.forEach((field) => {
-      map.set(field.getName(), field);
-    });
-    return map;
-  }
-
   async function buildPdf() {
     setButtonState(true);
     setStatus('Loading PDF...');
@@ -330,39 +321,25 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     const existingPdfBytes = await response.arrayBuffer();
     const pdfDoc = await PDFLib.PDFDocument.load(existingPdfBytes);
     const form = pdfDoc.getForm();
-    const pdfFields = getFieldMap(form);
 
     fieldMap.forEach((field) => {
       const input = document.getElementById(field.id);
       if (!input) return;
       const value = input.value.trim();
       if (!value) return;
-      const pdfField = pdfFields.get(field.name);
-      if (!pdfField || !(pdfField instanceof PDFLib.PDFTextField)) {
-        console.warn(`Missing or non-text field: ${field.name}`);
-        return;
-      }
-      pdfField.setText(value);
+      const textField = form.getTextField(field.name);
+      textField.setText(value);
     });
 
     Object.values(checkboxFields).forEach((fieldName) => {
-      const pdfField = pdfFields.get(fieldName);
-      if (!pdfField || !(pdfField instanceof PDFLib.PDFCheckBox)) {
-        console.warn(`Missing or non-checkbox field: ${fieldName}`);
-        return;
-      }
-      pdfField.uncheck();
+      const checkbox = form.getCheckBox(fieldName);
+      checkbox.uncheck();
     });
 
     const selectedSide = formEl.querySelector('input[name="side"]:checked');
     if (selectedSide) {
-      const fieldName = checkboxFields[selectedSide.value];
-      const pdfField = pdfFields.get(fieldName);
-      if (pdfField && pdfField instanceof PDFLib.PDFCheckBox) {
-        pdfField.check();
-      } else {
-        console.warn(`Missing checkbox field: ${fieldName}`);
-      }
+      const checkbox = form.getCheckBox(checkboxFields[selectedSide.value]);
+      checkbox.check();
     }
 
     form.flatten();
@@ -385,9 +362,8 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
       URL.revokeObjectURL(url);
       setStatus('PDF generated! Your download should begin automatically.');
     } catch (error) {
-      const message = error instanceof Error ? error.message : 'Unknown error';
-      setStatus(`There was a problem generating the PDF: ${message}`);
-      console.error('PDF generation error:', error);
+      setStatus('There was a problem generating the PDF.');
+      console.error(error);
     } finally {
       setButtonState(false);
     }
