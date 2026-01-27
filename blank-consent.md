@@ -523,70 +523,6 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     templateStatusEl.style.color = isError ? '#b91c1c' : '';
   }
 
-  function inferSpecialty(template) {
-    const label = (template.label ?? '').toLowerCase();
-    const procedure = (template.fields?.procedure ?? '').toLowerCase();
-    const content = `${label} ${procedure}`;
-    const matches = [
-      {
-        specialty: 'Pediatrics',
-        patterns: [/pediatric/, /tonsil/, /adenoid/, /t&a/, /sleep apnea/, /cleft/]
-      },
-      {
-        specialty: 'Otology',
-        patterns: [
-          /ear/,
-          /otitis/,
-          /tympan/,
-          /mastoid/,
-          /stap(e|ed)/,
-          /ossicul/,
-          /cochlea/,
-          /labyrinth/,
-          /bmt/,
-          /myring/,
-          /cholesteatoma/
-        ]
-      },
-      {
-        specialty: 'Rhinology',
-        patterns: [/sinus/, /sept(o|um)/, /turbinate/, /nasal/, /rhin/]
-      },
-      {
-        specialty: 'Laryngology',
-        patterns: [/laryng/, /vocal/, /cord/, /trach/, /glott/, /airway/]
-      },
-      {
-        specialty: 'Head & Neck',
-        patterns: [
-          /neck/,
-          /parotid/,
-          /thyroid/,
-          /mandible/,
-          /maxill/,
-          /tongue/,
-          /scc/,
-          /cancer/,
-          /lesion/,
-          /lymph/,
-          /submandib/,
-          /dissection/
-        ]
-      },
-      {
-        specialty: 'Facial Plastics',
-        patterns: [/facial/, /rhinoplasty/, /bleph/, /brow/, /flap/, /scar/, /otoplasty/]
-      }
-    ];
-
-    for (const group of matches) {
-      if (group.patterns.some((pattern) => pattern.test(content))) {
-        return group.specialty;
-      }
-    }
-    return 'General';
-  }
-
   function renderTabs(specialties) {
     templateTabsEl.innerHTML = '';
     const fragment = document.createDocumentFragment();
@@ -706,7 +642,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     templatesData = templates
       .map((template) => ({
         ...template,
-        specialty: template.specialty || inferSpecialty(template)
+        specialty: template.specialty || 'General'
       }))
       .sort((a, b) => (a.label || '').localeCompare(b.label || ''));
 
