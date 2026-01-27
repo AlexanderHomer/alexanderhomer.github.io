@@ -16,7 +16,12 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "blank"
+    ]
   },
   {
     "label": "Adenoidectomy + BMT",
@@ -35,7 +40,17 @@
       "additional-risks": "",
       "alternatives": "Observation"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "adenoidectomy",
+      "bmt",
+      "and",
+      "ear",
+      "tube",
+      "placement"
+    ]
   },
   {
     "label": "Tonsillectomy",
@@ -54,7 +69,12 @@
       "additional-risks": "Pain, dehydration, voice change",
       "alternatives": "Observation, medical management"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "tonsillectomy"
+    ]
   },
   {
     "label": "Ear Tube Placement",
@@ -75,7 +95,18 @@
       "physician-extenders": "Drs. Hanna, Danis, Spagnuolo, Dalal",
       "physician-extenders-2": "Heiser, Chen, Fan, Smith, O'Brien, Doyel, and Homer"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "ear",
+      "tube",
+      "placement",
+      "bilateral",
+      "myringotomy",
+      "with",
+      "tubes"
+    ]
   },
   {
     "label": "Adenoidectomy And BMT",
@@ -89,7 +120,18 @@
       "additional-risks": "",
       "alternatives": "observation"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "adenoidectomy",
+      "and",
+      "bmt",
+      "myringotomy",
+      "tympanostomy",
+      "tube",
+      "placement"
+    ]
   },
   {
     "label": "Adenoidectomy",
@@ -103,7 +145,15 @@
       "additional-risks": "",
       "alternatives": "observation, no treatment"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "adenoidectomy",
+      "removal",
+      "of",
+      "adenoids"
+    ]
   },
   {
     "label": "Application Of Split Thickness Skin Graft To Scalp",
@@ -117,7 +167,19 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "application",
+      "of",
+      "split",
+      "thickness",
+      "skin",
+      "graft",
+      "to",
+      "scalp"
+    ]
   },
   {
     "label": "BMT",
@@ -131,7 +193,16 @@
       "additional-risks": "",
       "alternatives": "Observation"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "bmt",
+      "bilateral",
+      "tympanostomy",
+      "tube",
+      "placement"
+    ]
   },
   {
     "label": "BOT With Alt Free Flap, Trach and Bilat ND",
@@ -145,7 +216,43 @@
       "additional-risks": "",
       "alternatives": "No surgery, medical therapy"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "bot",
+      "with",
+      "alt",
+      "free",
+      "flap",
+      "trach",
+      "and",
+      "bilat",
+      "nd",
+      "tracheostomy",
+      "open",
+      "hemiglossectomy",
+      "oropharyngectomy",
+      "bilateral",
+      "neck",
+      "dissection",
+      "reconstruction",
+      "anterior",
+      "lateral",
+      "thigh",
+      "possible",
+      "radial",
+      "forearm",
+      "pectoralis",
+      "submental",
+      "island",
+      "other",
+      "local",
+      "or",
+      "regional",
+      "skin",
+      "graft"
+    ]
   },
   {
     "label": "DLB with laryngeal slectromyography, balloon dilation, suture lateralization",
@@ -159,7 +266,27 @@
       "additional-risks": "",
       "alternatives": "No surgical intervention, continue weaning attempts, intubation"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "dlb",
+      "with",
+      "laryngeal",
+      "slectromyography",
+      "balloon",
+      "dilation",
+      "suture",
+      "lateralization",
+      "direct",
+      "laryngoscopy",
+      "bronchoscopy",
+      "electromyography",
+      "possible",
+      "of",
+      "vocal",
+      "fold"
+    ]
   },
   {
     "label": "Botox To Salivary Glands",
@@ -173,7 +300,18 @@
       "additional-risks": "",
       "alternatives": "Medical  therapy"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "botox",
+      "to",
+      "salivary",
+      "glands",
+      "chemodenervation",
+      "injection",
+      "of"
+    ]
   },
   {
     "label": "Cartilage Backed T Tube",
@@ -187,7 +325,15 @@
       "additional-risks": "",
       "alternatives": "no treatment, observation"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "cartilage",
+      "backed",
+      "tube",
+      "placement"
+    ]
   },
   {
     "label": "Basosquamous Cancer Resection and Cervicofacial Advancement Flap",
@@ -201,7 +347,19 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "basosquamous",
+      "cancer",
+      "resection",
+      "and",
+      "cervicofacial",
+      "advancement",
+      "flap",
+      "of"
+    ]
   },
   {
     "label": "Closed Nasal Bone Reduction",
@@ -215,7 +373,16 @@
       "additional-risks": "",
       "alternatives": "No treatment"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "closed",
+      "nasal",
+      "bone",
+      "reduction",
+      "fracture"
+    ]
   },
   {
     "label": "Cochlear Implant",
@@ -229,7 +396,14 @@
       "additional-risks": "1. Failure to achieve hearing improvement\r2. Development of hearing loss (including total deafness) in the operated ear\r3. Development of varying degrees of disequilibrium (immediate or delayed)\r4. Development of facial palsy\r5. Post-operative perforation of tympanic membrane\r6. Tinnitus (or noises in the head)\r7. Interference with sensation of taste\r8. Post-operative middle ear effusion\r9. Recurrence of hearing loss due to malfunction of prosthesis or recurring disease\r10. Delayed occurrence of a perilymph fistula causing vertigo and hearing loss",
       "alternatives": "Observation, No surgery"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "cochlear",
+      "implant",
+      "placement"
+    ]
   },
   {
     "label": "Consent BMT And ABR",
@@ -243,7 +417,22 @@
       "additional-risks": "",
       "alternatives": "observation"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "consent",
+      "bmt",
+      "and",
+      "abr",
+      "bilateral",
+      "ear",
+      "tube",
+      "placement",
+      "auditory",
+      "brainstem",
+      "response"
+    ]
   },
   {
     "label": "Consent T&A And BMT",
@@ -257,7 +446,18 @@
       "additional-risks": "",
       "alternatives": "Observation"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "consent",
+      "and",
+      "bmt",
+      "adenotonsillectomy",
+      "ear",
+      "tube",
+      "placement"
+    ]
   },
   {
     "label": "R Mandible resection, R ND, Trach, Pec Flap, Inf Alv Nerve Graft",
@@ -271,7 +471,35 @@
       "additional-risks": "",
       "alternatives": "Chemotherapy and radiation therapy, no treatment"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "mandible",
+      "resection",
+      "nd",
+      "trach",
+      "pec",
+      "flap",
+      "inf",
+      "alv",
+      "nerve",
+      "graft",
+      "composite",
+      "of",
+      "right",
+      "tongue",
+      "neck",
+      "mass",
+      "modified",
+      "radical",
+      "dissection",
+      "tracheostomy",
+      "pectoralis",
+      "myocutaneous",
+      "inferior",
+      "alveolar"
+    ]
   },
   {
     "label": "DLB and Neck Dissection",
@@ -285,7 +513,18 @@
       "additional-risks": "",
       "alternatives": "No treatment"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "dlb",
+      "and",
+      "neck",
+      "dissection",
+      "direct",
+      "laryngoscopy",
+      "biopsy"
+    ]
   },
   {
     "label": "DLB And Flex Bronch",
@@ -299,7 +538,19 @@
       "additional-risks": "",
       "alternatives": "No treatment"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "dlb",
+      "and",
+      "flex",
+      "bronch",
+      "direct",
+      "laryngoscopy",
+      "bronchoscopy",
+      "flexible"
+    ]
   },
   {
     "label": "Direct Laryngoscopy and Biopsy",
@@ -313,7 +564,16 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "direct",
+      "laryngoscopy",
+      "and",
+      "biopsy",
+      "with"
+    ]
   },
   {
     "label": "ESS With Medial Maxillectomy Soneru",
@@ -327,7 +587,24 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "ess",
+      "with",
+      "medial",
+      "maxillectomy",
+      "soneru",
+      "endoscopic",
+      "sinus",
+      "surgery",
+      "biopsy",
+      "possible",
+      "resection",
+      "of",
+      "mass"
+    ]
   },
   {
     "label": "Ear Tube Removal And Paper Patch Myringoplasty Vecchiotti",
@@ -341,7 +618,26 @@
       "additional-risks": "",
       "alternatives": "Observation, no treatment"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "ear",
+      "tube",
+      "removal",
+      "and",
+      "paper",
+      "patch",
+      "myringoplasty",
+      "vecchiotti",
+      "of",
+      "right",
+      "repair",
+      "hole",
+      "in",
+      "drum",
+      "with"
+    ]
   },
   {
     "label": "Epistaxiscontrol with possible SPA ligation",
@@ -355,7 +651,20 @@
       "additional-risks": "",
       "alternatives": "Conservative measures (packing, hemostatic agents), no treatment"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "epistaxiscontrol",
+      "with",
+      "possible",
+      "spa",
+      "ligation",
+      "endoscopic",
+      "control",
+      "of",
+      "epistaxis"
+    ]
   },
   {
     "label": "Esophageal Dilation",
@@ -369,7 +678,15 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "esophageal",
+      "dilation",
+      "esophagoscopy",
+      "with"
+    ]
   },
   {
     "label": "Eustachian Tube Plugging",
@@ -383,7 +700,15 @@
       "additional-risks": "1. Failure to achieve hearing improvement\r2. Development of hearing loss (including total deafness) in the operated ear\r3. Development of varying degrees of disequilibrium (immediate or delayed)\r4. Development of facial palsy\r5. Post-operative perforation of tympanic membrane\r6. Tinnitus (or noises in the head)\r7. Interference with sensation of taste\r8. Post-operative middle ear effusion\r9. Recurrence of hearing loss due to malfunction of prosthesis or recurring disease\r10. Delayed occurrence of a perilymph fistula causing vertigo and hearing loss",
       "alternatives": "Observation, No surgery"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "eustachian",
+      "tube",
+      "plugging",
+      "tympanoplasty"
+    ]
   },
   {
     "label": "Excision Of Vocal Cord Lesion",
@@ -397,7 +722,19 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "excision",
+      "of",
+      "vocal",
+      "cord",
+      "lesion",
+      "microdirect",
+      "laryngoscopy",
+      "with"
+    ]
   },
   {
     "label": "Excisional Lymph Node Biopsy",
@@ -411,7 +748,15 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "excisional",
+      "lymph",
+      "node",
+      "biopsy"
+    ]
   },
   {
     "label": "FESS",
@@ -425,7 +770,18 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "fess",
+      "functional",
+      "endoscopic",
+      "sinus",
+      "surgery",
+      "possible",
+      "septoplasty"
+    ]
   },
   {
     "label": "Frenectomy",
@@ -439,7 +795,16 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "frenectomy",
+      "release",
+      "of",
+      "tongue",
+      "tie"
+    ]
   },
   {
     "label": "Incision And Drainage of Abscess",
@@ -453,7 +818,16 @@
       "additional-risks": "",
       "alternatives": "Observation"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "incision",
+      "and",
+      "drainage",
+      "of",
+      "abscess"
+    ]
   },
   {
     "label": "Inferior Turbinate Reduction",
@@ -467,7 +841,14 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "inferior",
+      "turbinate",
+      "reduction"
+    ]
   },
   {
     "label": "Marston septoplasty, inerior turbinate reduction",
@@ -481,7 +862,17 @@
       "additional-risks": "",
       "alternatives": "no treatment"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "marston",
+      "septoplasty",
+      "inerior",
+      "turbinate",
+      "reduction",
+      "inferior"
+    ]
   },
   {
     "label": "Mastoidectomy for cholesteatoma",
@@ -495,7 +886,28 @@
       "additional-risks": "1. Failure to achieve objective of surgery, i.e., failure to achieve \rhearing improvement and/or failure to eradicate the disease process completely\r2. Post-operative perforation of the eardrum\r3. Development of facial palsy \r4. Development of post-operative stenosis of the ear canal \r5. Development of hearing loss, including total deafness in the operated ear\r6. Creation of varying degrees of disequilibrium (immediate or delayed) \r7. Tinnitus (or noises in the head)\r8. Interference with sensation of taste\r9. Development of post-operative hematoma or wound infection",
       "alternatives": "observation"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "mastoidectomy",
+      "for",
+      "cholesteatoma",
+      "removal",
+      "of",
+      "drilling",
+      "bone",
+      "behind",
+      "ear",
+      "and",
+      "in",
+      "canal",
+      "reconstruction",
+      "eardrum",
+      "monitoring",
+      "facial",
+      "nerve"
+    ]
   },
   {
     "label": "Maxillary Distraction Osteogenesis",
@@ -509,7 +921,14 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "maxillary",
+      "distraction",
+      "osteogenesis"
+    ]
   },
   {
     "label": "Maxillectomy",
@@ -523,7 +942,19 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "maxillectomy",
+      "possible",
+      "open",
+      "approach",
+      "split",
+      "thickness",
+      "skin",
+      "graft"
+    ]
   },
   {
     "label": "Medial Maxillectomy Jawad",
@@ -537,7 +968,19 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "medial",
+      "maxillectomy",
+      "jawad",
+      "endoscopic",
+      "sinus",
+      "surgery",
+      "with",
+      "biopsies"
+    ]
   },
   {
     "label": "Microsuspension Laryngoscopy O'Connell",
@@ -551,7 +994,34 @@
       "additional-risks": "",
       "alternatives": "observation, tracheostomy"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "microsuspension",
+      "laryngoscopy",
+      "o'connell",
+      "suspension",
+      "microdirect",
+      "bronchoscopy",
+      "exicsion",
+      "of",
+      "scar",
+      "possible",
+      "co2",
+      "laser",
+      "excision",
+      "balloon",
+      "dilation",
+      "kenalog",
+      "injection",
+      "jet",
+      "ventilation",
+      "all",
+      "other",
+      "indicated",
+      "procedures"
+    ]
   },
   {
     "label": "Nasal Biopsy",
@@ -565,7 +1035,18 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "nasal",
+      "biopsy",
+      "endoscopy",
+      "with",
+      "removal",
+      "of",
+      "mass"
+    ]
   },
   {
     "label": "Nasal Bone Fx Marston",
@@ -579,7 +1060,19 @@
       "additional-risks": "",
       "alternatives": "no treatment, observation, open reduction"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "nasal",
+      "bone",
+      "fx",
+      "marston",
+      "closed",
+      "reduction",
+      "of",
+      "fracture"
+    ]
   },
   {
     "label": "Nasal Endoscopy With Nasal Suctioning",
@@ -593,7 +1086,19 @@
       "additional-risks": "",
       "alternatives": "no treatment"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "nasal",
+      "endoscopy",
+      "with",
+      "suctioning",
+      "evaluation",
+      "of",
+      "nose",
+      "camera"
+    ]
   },
   {
     "label": "Nasal Mass Excision",
@@ -607,7 +1112,16 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "nasal",
+      "mass",
+      "excision",
+      "of",
+      "right"
+    ]
   },
   {
     "label": "Neck Dissection Wein",
@@ -621,7 +1135,15 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "neck",
+      "dissection",
+      "wein",
+      "right"
+    ]
   },
   {
     "label": "Neck Dissection",
@@ -635,7 +1157,16 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "neck",
+      "dissection",
+      "bilateral",
+      "mass",
+      "excision"
+    ]
   },
   {
     "label": "Neck Mass Excision",
@@ -649,7 +1180,16 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "neck",
+      "mass",
+      "excision",
+      "excisional",
+      "of"
+    ]
   },
   {
     "label": "New Consents 2015",
@@ -663,7 +1203,14 @@
       "additional-risks": "",
       "alternatives": ""
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "new",
+      "consents",
+      "2015"
+    ]
   },
   {
     "label": "O'Leary   Inspire",
@@ -677,7 +1224,17 @@
       "additional-risks": "",
       "alternatives": "CPAP, no treatment"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "o'leary",
+      "inspire",
+      "hypoglossal",
+      "nerve",
+      "stimulator",
+      "implantation"
+    ]
   },
   {
     "label": "O'Leary Basal Cell Excision",
@@ -691,7 +1248,24 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "o'leary",
+      "basal",
+      "cell",
+      "excision",
+      "of",
+      "carcinoma",
+      "left",
+      "upper",
+      "lip",
+      "and",
+      "local",
+      "flap",
+      "reconstruction"
+    ]
   },
   {
     "label": "Orif Orbital Floor",
@@ -705,7 +1279,23 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "orif",
+      "orbital",
+      "floor",
+      "open",
+      "reduction",
+      "internal",
+      "fixation",
+      "of",
+      "fracture",
+      "and",
+      "midface",
+      "fractures"
+    ]
   },
   {
     "label": "Oleary Tracy   Thyroidectomy",
@@ -719,7 +1309,19 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "oleary",
+      "tracy",
+      "thyroidectomy",
+      "total",
+      "possible",
+      "central",
+      "neck",
+      "dissection"
+    ]
   },
   {
     "label": "Panendoscopy With Biopsy",
@@ -733,7 +1335,19 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "panendoscopy",
+      "with",
+      "biopsy",
+      "tongue",
+      "direct",
+      "laryngoscopy",
+      "esophagoscopy",
+      "panednoscopy"
+    ]
   },
   {
     "label": "Parathyroidectomy",
@@ -747,7 +1361,15 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "parathyroidectomy",
+      "parathyroid",
+      "gland",
+      "exploration"
+    ]
   },
   {
     "label": "Partial Glossectomy No Free Flap",
@@ -761,7 +1383,25 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "partial",
+      "glossectomy",
+      "no",
+      "free",
+      "flap",
+      "radical",
+      "neck",
+      "dissection",
+      "split",
+      "thickness",
+      "skin",
+      "graft",
+      "from",
+      "thigh"
+    ]
   },
   {
     "label": "Partial Glossectomy",
@@ -775,7 +1415,37 @@
       "additional-risks": "Speech and swallowing issues. Breathing difficulties. Failure to resect cancer. Recurrence of cancer.\rArm and leg weakness/numbness/pain, Hematoma, poor wound healing, accidental decannulation, chyle leak \rtracheocutaneous fistula, injury to surrounding nerves, muscles, vessles. Need for further procedure",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "partial",
+      "glossectomy",
+      "or",
+      "total",
+      "neck",
+      "dissection",
+      "bilateral",
+      "tracheostomy",
+      "free",
+      "flap",
+      "reconstruction",
+      "with",
+      "radial",
+      "forearm",
+      "possible",
+      "anteriolateral",
+      "thigh",
+      "locoregional",
+      "pectoralis",
+      "muscle",
+      "other",
+      "indicated",
+      "local",
+      "skin",
+      "graft",
+      "from"
+    ]
   },
   {
     "label": "Rb",
@@ -789,7 +1459,20 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "rb",
+      "lymphadenectomy",
+      "left",
+      "neck",
+      "dissection",
+      "functional",
+      "endoscopic",
+      "sinus",
+      "surgery"
+    ]
   },
   {
     "label": "Radial Forearm Free Flap",
@@ -803,7 +1486,32 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "radial",
+      "forearm",
+      "free",
+      "flap",
+      "glossectomy",
+      "composite",
+      "floor",
+      "of",
+      "mouth",
+      "resection",
+      "bilateral",
+      "neck",
+      "dissection",
+      "tracheostomy",
+      "microvascular",
+      "reconstruction",
+      "with",
+      "skin",
+      "graft",
+      "possible",
+      "other"
+    ]
   },
   {
     "label": "Removal Of Mmf",
@@ -817,7 +1525,16 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "removal",
+      "of",
+      "mmf",
+      "maxillomandibular",
+      "fixation"
+    ]
   },
   {
     "label": "Rhytidectomy",
@@ -831,7 +1548,12 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "rhytidectomy"
+    ]
   },
   {
     "label": "Sml Balloon Dilation",
@@ -845,7 +1567,25 @@
       "additional-risks": "",
       "alternatives": "no treatment"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "sml",
+      "balloon",
+      "dilation",
+      "suspension",
+      "microdirect",
+      "laryngoscopy",
+      "bronchoscopy",
+      "with",
+      "co2",
+      "laser",
+      "excision",
+      "and",
+      "kenlog",
+      "injection"
+    ]
   },
   {
     "label": "Sialendoscopy And Sialodochoplasty",
@@ -859,7 +1599,16 @@
       "additional-risks": "",
       "alternatives": "no surgery, sialogogues"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "sialendoscopy",
+      "and",
+      "sialodochoplasty",
+      "sialodochotomy",
+      "possible"
+    ]
   },
   {
     "label": "Sillman Noonan   Tympanomastoidectomy Consent W Resident Names",
@@ -873,7 +1622,17 @@
       "additional-risks": "1. Failure to achieve objective of tympanoplasty surgery, i.e., failure to achieve \rhearing improvement and/or failure to eradicate the disease process completely\r2. Post-operative perforation of the eardrum\r3. Development of facial palsy \r4. Development of post-operative stenosis of the ear canal \r5. Development of hearing loss, including total deafness in the operated ear\r6. Creation of varying degrees of disequilibrium (immediate or delayed) \r7. Tinnitus (or noises in the head)\r8. Interference with sensation of taste\r9. Development of post-operative hematoma or wound infection\r\rIf ossicular chain reconstruction is performed. Additional risks are:\r1. migration or extrusion of the implant",
       "alternatives": "no surgery"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "sillman",
+      "noonan",
+      "tympanomastoidectomy",
+      "consent",
+      "resident",
+      "names"
+    ]
   },
   {
     "label": "Sillman Noonan   Tympanoplasty",
@@ -887,7 +1646,14 @@
       "additional-risks": "1. Failure to achieve objective of tympanoplasty surgery, i.e., failure to achieve \rhearing improvement and/or failure to eradicate the disease process completely\r2. Post-operative perforation of the eardrum\r3. Development of facial palsy \r4. Development of post-operative stenosis of the ear canal \r5. Development of hearing loss, including total deafness in the operated ear\r6. Creation of varying degrees of disequilibrium (immediate or delayed) \r7. Tinnitus (or noises in the head)\r8. Interference with sensation of taste\r9. Development of post-operative hematoma or wound infection\r\rIf ossicular chain reconstruction is performed. Additional risks are:\r1. migration or extrusion of the implant",
       "alternatives": "No treatment"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "sillman",
+      "noonan",
+      "tympanoplasty"
+    ]
   },
   {
     "label": "Soneru Fess",
@@ -901,7 +1667,19 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "soneru",
+      "fess",
+      "functional",
+      "endoscopic",
+      "sinus",
+      "surgery",
+      "possible",
+      "septoplasty"
+    ]
   },
   {
     "label": "Soneru Septoplasty",
@@ -915,7 +1693,17 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "soneru",
+      "septoplasty",
+      "bilateral",
+      "inferior",
+      "turbinate",
+      "reduction"
+    ]
   },
   {
     "label": "Stapedectomy Consent W Resident Names",
@@ -929,7 +1717,15 @@
       "additional-risks": "1. Failure to achieve hearing improvement\r2. Development of hearing loss (including total deafness) in the operated ear \r3. Development of varying degrees of disequilibrium (immediate or delayed) \r4. Development of facial palsy \r5. Post-operative perforation of tympanic membrane \r6. Tinnitus (or noises in the head)\r7. Interference with sensation of taste\r8. Post-operative middle ear infection \r9. Recurrence of hearing loss due to malfunction of prosthesis or recurring disease\r10. Delayed occurrence of a perilymph fistula causing vertigo and hearing loss",
       "alternatives": ""
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "stapedectomy",
+      "consent",
+      "resident",
+      "names"
+    ]
   },
   {
     "label": "Static Suspension For Facial Paralysis",
@@ -943,7 +1739,29 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Facial Plastics"
+    "specialties": [
+      "Facial Plastics"
+    ],
+    "tags": [
+      "static",
+      "suspension",
+      "for",
+      "facial",
+      "paralysis",
+      "right",
+      "using",
+      "fascia",
+      "lata",
+      "graft",
+      "advancement",
+      "flap",
+      "repair",
+      "of",
+      "ptosis",
+      "with",
+      "brow",
+      "lift"
+    ]
   },
   {
     "label": "Subandibular Excision",
@@ -957,7 +1775,18 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "subandibular",
+      "excision",
+      "resection",
+      "of",
+      "left",
+      "submandibular",
+      "gland"
+    ]
   },
   {
     "label": "Sublingual Gland Excision Tracy",
@@ -971,7 +1800,16 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "sublingual",
+      "gland",
+      "excision",
+      "tracy",
+      "left"
+    ]
   },
   {
     "label": "Submandibular Excision",
@@ -985,7 +1823,16 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "submandibular",
+      "excision",
+      "of",
+      "right",
+      "gland"
+    ]
   },
   {
     "label": "Superficial Parotidectomy With Resident Names",
@@ -999,7 +1846,16 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "superficial",
+      "parotidectomy",
+      "with",
+      "resident",
+      "names"
+    ]
   },
   {
     "label": "Supraglottic Laryngectomy With Neck Dissection",
@@ -1013,7 +1869,25 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "supraglottic",
+      "laryngectomy",
+      "with",
+      "neck",
+      "dissection",
+      "possible",
+      "awake",
+      "tracheostomy",
+      "total",
+      "reconstruction",
+      "pectoralis",
+      "myofasical",
+      "flap",
+      "local"
+    ]
   },
   {
     "label": "T&A Vecchiotti",
@@ -1027,7 +1901,17 @@
       "additional-risks": "",
       "alternatives": "observation, no treatment"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "vecchiotti",
+      "removal",
+      "of",
+      "tonsils",
+      "and",
+      "adenoids"
+    ]
   },
   {
     "label": "Template Historyandphysical",
@@ -1041,7 +1925,13 @@
       "additional-risks": "",
       "alternatives": ""
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "template",
+      "historyandphysical"
+    ]
   },
   {
     "label": "Tep New Consent Form",
@@ -1055,7 +1945,21 @@
       "additional-risks": "",
       "alternatives": "Esophageal speech, electrolarynx"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "tep",
+      "new",
+      "consent",
+      "form",
+      "tracheoesophageal",
+      "puncture",
+      "with",
+      "rigid",
+      "cervical",
+      "esophagoscopy"
+    ]
   },
   {
     "label": "Tep Placement",
@@ -1069,7 +1973,16 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "tep",
+      "placement",
+      "esophagoscopy",
+      "tracheoesophageal",
+      "puncture"
+    ]
   },
   {
     "label": "Thyroid Lobectomy",
@@ -1083,7 +1996,15 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "thyroid",
+      "lobectomy",
+      "left",
+      "thryoid"
+    ]
   },
   {
     "label": "Tongue Lesion Excision",
@@ -1097,7 +2018,17 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "tongue",
+      "lesion",
+      "excision",
+      "wide",
+      "local",
+      "of"
+    ]
   },
   {
     "label": "Tonsillectomy Wein",
@@ -1111,7 +2042,13 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "tonsillectomy",
+      "wein"
+    ]
   },
   {
     "label": "Tonsillectomy Consent New",
@@ -1125,7 +2062,16 @@
       "additional-risks": "",
       "alternatives": "No treatment"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "tonsillectomy",
+      "consent",
+      "new",
+      "and",
+      "adenoidectomy"
+    ]
   },
   {
     "label": "Tracheoesophageal Fistula Repair",
@@ -1139,7 +2085,23 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "tracheoesophageal",
+      "fistula",
+      "repair",
+      "of",
+      "pharyngocutaenous",
+      "radial",
+      "forearm",
+      "free",
+      "flap",
+      "possible",
+      "pectoralis",
+      "major"
+    ]
   },
   {
     "label": "Tracheostomy Consent W Resident Names",
@@ -1153,7 +2115,15 @@
       "additional-risks": "",
       "alternatives": "no treatment, intubation"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "tracheostomy",
+      "consent",
+      "resident",
+      "names"
+    ]
   },
   {
     "label": "Tracy Partial Glossectomy No Free Flap",
@@ -1167,7 +2137,28 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "tracy",
+      "partial",
+      "glossectomy",
+      "no",
+      "free",
+      "flap",
+      "possible",
+      "neck",
+      "dissection",
+      "local",
+      "split",
+      "thickness",
+      "skin",
+      "graft",
+      "direct",
+      "laryngoscopy",
+      "tracheostomy"
+    ]
   },
   {
     "label": "Treacher Collins Consent Scott",
@@ -1181,7 +2172,28 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "treacher",
+      "collins",
+      "consent",
+      "scott",
+      "left",
+      "neck",
+      "keloid",
+      "revision",
+      "right",
+      "joint",
+      "exploration",
+      "interposition",
+      "graft",
+      "placement",
+      "for",
+      "freys",
+      "syndrom"
+    ]
   },
   {
     "label": "Tympanoplasty Vecchiotti",
@@ -1195,7 +2207,20 @@
       "additional-risks": "",
       "alternatives": "no treatment, observation"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "tympanoplasty",
+      "vecchiotti",
+      "repair",
+      "of",
+      "hole",
+      "in",
+      "left",
+      "ear",
+      "drum"
+    ]
   },
   {
     "label": "Tympanoplasty Sillman",
@@ -1209,7 +2234,16 @@
       "additional-risks": "1. Failure to achieve hearing improvement\r2. Development of hearing loss (including total deafness) in the operated ear\r3. Development of varying degrees of disequilibrium (immediate or delayed)\r4. Development of facial palsy\r5. Post-operative perforation of tympanic membrane\r6. Tinnitus (or noises in the head)\r7. Interference with sensation of taste\r8. Post-operative middle ear effusion\r9. Recurrence of hearing loss due to malfunction of prosthesis or recurring disease\r10. Delayed occurrence of a perilymph fistula causing vertigo and hearing loss",
       "alternatives": "Observation, No surgery"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "tympanoplasty",
+      "sillman",
+      "possible",
+      "cartilage",
+      "graft"
+    ]
   },
   {
     "label": "Wle Wein",
@@ -1223,7 +2257,24 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "wle",
+      "wein",
+      "wide",
+      "local",
+      "excision",
+      "of",
+      "oral",
+      "lesion",
+      "possible",
+      "advancement",
+      "flap",
+      "surgimend",
+      "reconstruction"
+    ]
   },
   {
     "label": "Wle Cutaneous Lesion",
@@ -1237,7 +2288,21 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "wle",
+      "cutaneous",
+      "lesion",
+      "wide",
+      "local",
+      "excision",
+      "of",
+      "forehead",
+      "and",
+      "reconstruction"
+    ]
   },
   {
     "label": "Wle Scalp With Skin Graft And Slnb",
@@ -1251,7 +2316,30 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "wle",
+      "scalp",
+      "with",
+      "skin",
+      "graft",
+      "and",
+      "slnb",
+      "wide",
+      "local",
+      "excision",
+      "of",
+      "melanoma",
+      "sentinel",
+      "lymph",
+      "node",
+      "biopsy",
+      "possible",
+      "flap",
+      "reconstruction"
+    ]
   },
   {
     "label": "Wein   Dise",
@@ -1265,7 +2353,17 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "wein",
+      "dise",
+      "drug",
+      "induced",
+      "sleep",
+      "endoscopy"
+    ]
   },
   {
     "label": "Wein   Inspire",
@@ -1279,7 +2377,17 @@
       "additional-risks": "",
       "alternatives": "CPAP, no treatment"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "wein",
+      "inspire",
+      "hypoglossal",
+      "nerve",
+      "stimulator",
+      "implantation"
+    ]
   },
   {
     "label": "Wein Oleary   Thyroidectomy",
@@ -1293,7 +2401,14 @@
       "additional-risks": "",
       "alternatives": "no treatment"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "wein",
+      "oleary",
+      "thyroidectomy"
+    ]
   },
   {
     "label": "Zygomatic Arch Fracture",
@@ -1307,7 +2422,18 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "zygomatic",
+      "arch",
+      "fracture",
+      "open",
+      "reduction",
+      "of",
+      "left"
+    ]
   },
   {
     "label": "Branchial Cleft Anomaly",
@@ -1321,7 +2447,17 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "branchial",
+      "cleft",
+      "anomaly",
+      "excision",
+      "of",
+      "fistula"
+    ]
   },
   {
     "label": "Cleft Lip Repair",
@@ -1335,7 +2471,19 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "cleft",
+      "lip",
+      "repair",
+      "of",
+      "and",
+      "rhinoplasty",
+      "nose",
+      "surgery"
+    ]
   },
   {
     "label": "Closure Of Tracheocutaneous Fistula",
@@ -1349,7 +2497,15 @@
       "additional-risks": "",
       "alternatives": "no procedure"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "closure",
+      "of",
+      "tracheocutaneous",
+      "fistula"
+    ]
   },
   {
     "label": "Csf Leak Repair",
@@ -1363,7 +2519,30 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation, medical therapy"
     },
-    "specialty": "Rhinology"
+    "specialties": [
+      "Rhinology"
+    ],
+    "tags": [
+      "csf",
+      "leak",
+      "repair",
+      "endonasal",
+      "approach",
+      "to",
+      "of",
+      "encephalocele",
+      "and",
+      "cerebrospinal",
+      "fluid",
+      "abdominal",
+      "fat",
+      "graft",
+      "lumbar",
+      "drain",
+      "insertion",
+      "possible",
+      "septoplasty"
+    ]
   },
   {
     "label": "Esophagoscopy With Biopsy",
@@ -1377,7 +2556,14 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "esophagoscopy",
+      "with",
+      "biopsy"
+    ]
   },
   {
     "label": "Excision Of Lower Lip Lesion",
@@ -1391,7 +2577,19 @@
       "additional-risks": "",
       "alternatives": "medical therapy"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "excision",
+      "of",
+      "lower",
+      "lip",
+      "lesion",
+      "removal",
+      "with",
+      "closure"
+    ]
   },
   {
     "label": "Facial Defect Repair",
@@ -1405,7 +2603,30 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Facial Plastics"
+    "specialties": [
+      "Facial Plastics"
+    ],
+    "tags": [
+      "facial",
+      "defect",
+      "repair",
+      "application",
+      "of",
+      "split",
+      "thickness",
+      "skin",
+      "graft",
+      "possible",
+      "free",
+      "tissue",
+      "transfer",
+      "with",
+      "myocutaneous",
+      "flap",
+      "decompression",
+      "the",
+      "orbit"
+    ]
   },
   {
     "label": "Hardware Removal",
@@ -1419,7 +2640,18 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "hardware",
+      "removal",
+      "of",
+      "mandibular",
+      "and",
+      "maxillary",
+      "implant"
+    ]
   },
   {
     "label": "Infrastructure Maxillectomy, Neck Dissection   Jawad",
@@ -1433,7 +2665,26 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "infrastructure",
+      "maxillectomy",
+      "neck",
+      "dissection",
+      "jawad",
+      "left",
+      "locoregional",
+      "flap",
+      "reconstruction",
+      "possible",
+      "free",
+      "skin",
+      "graft",
+      "synthetic",
+      "tracheostomy"
+    ]
   },
   {
     "label": "Infrastructure Maxillectomy, Neck Dissection",
@@ -1447,7 +2698,27 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "infrastructure",
+      "maxillectomy",
+      "neck",
+      "dissection",
+      "right",
+      "radical",
+      "left",
+      "scapula",
+      "tip",
+      "free",
+      "flap",
+      "possible",
+      "local",
+      "and",
+      "regional",
+      "reconstruction"
+    ]
   },
   {
     "label": "Injection Pharyngoplasty",
@@ -1461,7 +2732,13 @@
       "additional-risks": "",
       "alternatives": "No surgery"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "injection",
+      "pharyngoplasty"
+    ]
   },
   {
     "label": "Keloid Excision",
@@ -1475,7 +2752,20 @@
       "additional-risks": "",
       "alternatives": "medical therapy"
     },
-    "specialty": "Facial Plastics"
+    "specialties": [
+      "Facial Plastics"
+    ],
+    "tags": [
+      "keloid",
+      "excision",
+      "of",
+      "with",
+      "reconstruction",
+      "local",
+      "flap",
+      "possible",
+      "graft"
+    ]
   },
   {
     "label": "Madginal Mandibulectomy",
@@ -1489,7 +2779,23 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "madginal",
+      "mandibulectomy",
+      "marginal",
+      "and",
+      "surgery",
+      "mend",
+      "reconstruction",
+      "removal",
+      "or",
+      "oral",
+      "cavity",
+      "hardware"
+    ]
   },
   {
     "label": "Mandible Fracture Consent Tracy",
@@ -1503,7 +2809,27 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "mandible",
+      "fracture",
+      "consent",
+      "tracy",
+      "maxillomandibular",
+      "fixation",
+      "open",
+      "reduction",
+      "internal",
+      "of",
+      "fractures",
+      "possible",
+      "zygomatic",
+      "arch",
+      "and",
+      "maxillary"
+    ]
   },
   {
     "label": "Mandible Fracture Consent",
@@ -1517,7 +2843,21 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "mandible",
+      "fracture",
+      "consent",
+      "maxillomandibular",
+      "fixation",
+      "open",
+      "reduction",
+      "internal",
+      "of",
+      "fractures"
+    ]
   },
   {
     "label": "Mandibulectomy Segmental Fibula",
@@ -1531,7 +2871,26 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "mandibulectomy",
+      "segmental",
+      "fibula",
+      "right",
+      "neck",
+      "dissection",
+      "free",
+      "flap",
+      "reconstruction",
+      "possible",
+      "tracheostomy",
+      "skin",
+      "graft",
+      "bilateral",
+      "locoregional"
+    ]
   },
   {
     "label": "Mandibulectomy, Scap Tip Free Flap",
@@ -1545,7 +2904,32 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "mandibulectomy",
+      "scap",
+      "tip",
+      "free",
+      "flap",
+      "dental",
+      "extractions",
+      "segmental",
+      "mandibuectomy",
+      "tracheostomy",
+      "bilateral",
+      "neck",
+      "dissection",
+      "scapula",
+      "reconstruction",
+      "possible",
+      "local",
+      "or",
+      "regional",
+      "skin",
+      "graft"
+    ]
   },
   {
     "label": "Mandibulectomy",
@@ -1559,7 +2943,26 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Laryngology"
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "mandibulectomy",
+      "segmental",
+      "right",
+      "neck",
+      "dissection",
+      "tracheostomy",
+      "fibula",
+      "free",
+      "flap",
+      "reconstruction",
+      "left",
+      "possible",
+      "skin",
+      "graft",
+      "locoregional"
+    ]
   },
   {
     "label": "O'Leary Melanoma Excision",
@@ -1573,7 +2976,24 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "o'leary",
+      "melanoma",
+      "excision",
+      "of",
+      "right",
+      "cheek",
+      "sentinel",
+      "lymph",
+      "node",
+      "biopsu",
+      "local",
+      "flap",
+      "reconstruction"
+    ]
   },
   {
     "label": "Parotidectomy",
@@ -1587,7 +3007,16 @@
       "additional-risks": "",
       "alternatives": "No treatment, observation"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "parotidectomy",
+      "with",
+      "facial",
+      "nerve",
+      "monitoring"
+    ]
   },
   {
     "label": "Pedicle Flap Division",
@@ -1601,7 +3030,19 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Facial Plastics"
+    "specialties": [
+      "Facial Plastics"
+    ],
+    "tags": [
+      "pedicle",
+      "flap",
+      "division",
+      "of",
+      "vascular",
+      "creation",
+      "with",
+      "closure"
+    ]
   },
   {
     "label": "Posterior Neck Mass Excision",
@@ -1615,7 +3056,16 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "posterior",
+      "neck",
+      "mass",
+      "excision",
+      "of"
+    ]
   },
   {
     "label": "Robotic Tonsillectomy",
@@ -1629,7 +3079,22 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Pediatrics"
+    "specialties": [
+      "Pediatrics"
+    ],
+    "tags": [
+      "robotic",
+      "tonsillectomy",
+      "right",
+      "adenoidectomy",
+      "glossectomy",
+      "tonbue",
+      "base",
+      "resection",
+      "radical",
+      "neck",
+      "dissection"
+    ]
   },
   {
     "label": "Septal Perforation Repair Marston",
@@ -1643,7 +3108,22 @@
       "additional-risks": "",
       "alternatives": "no surgery"
     },
-    "specialty": "General"
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "septal",
+      "perforation",
+      "repair",
+      "marston",
+      "of",
+      "temporalis",
+      "fascia",
+      "harvest",
+      "possible",
+      "auricular",
+      "cartilage"
+    ]
   },
   {
     "label": "Sillman Mastoid",
@@ -1657,7 +3137,25 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "sillman",
+      "mastoid",
+      "middle",
+      "ear",
+      "exploration",
+      "possible",
+      "jugular",
+      "bulb",
+      "resurfacing",
+      "and",
+      "occlusion",
+      "of",
+      "emissary",
+      "vein"
+    ]
   },
   {
     "label": "Tympmastoid",
@@ -1671,7 +3169,14 @@
       "additional-risks": "1. Failure to achieve hearing improvement\r2. Development of hearing loss (including total deafness) in the operated ear\r3. Development of varying degrees of disequilibrium (immediate or delayed)\r4. Development of facial palsy\r5. Post-operative perforation of tympanic membrane\r6. Tinnitus (or noises in the head)\r7. Interference with sensation of taste\r8. Post-operative middle ear effusion\r9. Recurrence of hearing loss due to malfunction of prosthesis or recurring disease\r10. Delayed occurrence of a perilymph fistula causing vertigo and hearing loss",
       "alternatives": "Observation, No surgery"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "tympmastoid",
+      "tympanoplasty",
+      "mastoidectomy"
+    ]
   },
   {
     "label": "Upper Lip Scc  Resection With Free Flap",
@@ -1685,7 +3190,43 @@
       "additional-risks": "",
       "alternatives": "Medical therapy"
     },
-    "specialty": "Otology"
+    "specialties": [
+      "Otology"
+    ],
+    "tags": [
+      "upper",
+      "lip",
+      "scc",
+      "resection",
+      "with",
+      "free",
+      "flap",
+      "left",
+      "and",
+      "cheek",
+      "wide",
+      "local",
+      "exicion",
+      "of",
+      "carcinoma",
+      "rhinectomy",
+      "neck",
+      "dissection",
+      "radial",
+      "forearm",
+      "or",
+      "anterolateral",
+      "thigh",
+      "microvascular",
+      "anastomosis",
+      "split",
+      "thickness",
+      "skin",
+      "graft",
+      "possible",
+      "regional",
+      "reconstruction"
+    ]
   },
   {
     "label": "Zmc Repair",
@@ -1699,6 +3240,22 @@
       "additional-risks": "",
       "alternatives": "No procedure"
     },
-    "specialty": "Head & Neck"
+    "specialties": [
+      "Head & Neck"
+    ],
+    "tags": [
+      "zmc",
+      "repair",
+      "open",
+      "reduction",
+      "and",
+      "internal",
+      "fixation",
+      "of",
+      "left",
+      "zygomaticomaxillary",
+      "complex",
+      "fracture"
+    ]
   }
 ]
