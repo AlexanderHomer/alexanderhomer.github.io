@@ -8,6 +8,12 @@ title: Blank Consent PDF Filler
 Use this page to fill the Blank Consent PDF and download a completed copy. All fields are optional; leave anything blank to keep it empty (or keep the PDF default values where provided).
 
 <style>
+  .consent-layout {
+    display: grid;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
   .consent-form {
     display: grid;
     gap: 1.5rem;
@@ -132,6 +138,66 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     gap: 1rem;
   }
 
+  .template-panel {
+    position: sticky;
+    top: 1rem;
+  }
+
+  .template-card {
+    padding: 1.25rem 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+    display: grid;
+    gap: 1rem;
+  }
+
+  .template-card h2 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .template-buttons {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .template-buttons button {
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    border-radius: 0.75rem;
+    padding: 0.6rem 0.9rem;
+    text-align: left;
+    background: #f8fafc;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+
+  .template-buttons button:hover {
+    background: #e2e8f0;
+  }
+
+  .template-meta {
+    font-size: 0.9rem;
+    color: #475569;
+  }
+
+  .template-clear {
+    border: none;
+    border-radius: 999px;
+    padding: 0.5rem 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: #0f172a;
+    color: #fff;
+  }
+
+  .template-status {
+    font-size: 0.9rem;
+    color: #0f172a;
+  }
+
   @media (prefers-color-scheme: dark) {
     .consent-form section {
       background: rgba(15, 23, 42, 0.85);
@@ -153,9 +219,47 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     .status {
       color: #e2e8f0;
     }
+
+    .template-card {
+      background: rgba(15, 23, 42, 0.85);
+      border-color: rgba(148, 163, 184, 0.2);
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.4);
+    }
+
+    .template-buttons button {
+      background: #0f172a;
+      border-color: #334155;
+      color: #e2e8f0;
+    }
+
+    .template-buttons button:hover {
+      background: #1e293b;
+    }
+
+    .template-meta {
+      color: #94a3b8;
+    }
+
+    .template-status {
+      color: #e2e8f0;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .consent-layout {
+      grid-template-columns: minmax(0, 1fr) 260px;
+    }
+  }
+
+  @media (max-width: 899px) {
+    .template-panel {
+      position: static;
+    }
   }
 </style>
 
+<div class="consent-layout">
+  <form id="consent-form" class="consent-form">
   <section>
     <h2>Procedure Details</h2>
     <div class="consent-grid two">
@@ -265,13 +369,32 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   </section>
 </form>
 
+  <aside class="template-panel">
+    <div class="template-card">
+      <h2>Templates</h2>
+      <p class="template-meta">
+        Load a template to auto-fill the consent form. Update the JSON file to add your own.
+      </p>
+      <div class="template-buttons" id="template-buttons"></div>
+      <button type="button" class="template-clear" id="clear-form">Clear form</button>
+      <div class="template-status" id="template-status">Templates ready.</div>
+    </div>
+  </aside>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
 <script>
   const pdfUrl = "{{ '/blank-consent.pdf' | relative_url }}";
+  const templatesUrl = "{{ '/consent-templates.json' | relative_url }}";
   const formEl = document.getElementById('consent-form');
   const statusEl = document.getElementById('status');
   const downloadButton = document.getElementById('download-button');
   const patientNameInput = document.getElementById('patient-name');
+  const templateButtonsEl = document.getElementById('template-buttons');
+  const templateStatusEl = document.getElementById('template-status');
+  const clearFormButton = document.getElementById('clear-form');
+
+  const inputSelectors = 'input[type="text"], textarea';
 
   const fieldMap = [
     { id: 'procedure', name: 'Procedure' },
@@ -307,6 +430,94 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   function setButtonState(isDisabled) {
     downloadButton.disabled = isDisabled;
   }
+
+  function setTemplateStatus(message, isError = false) {
+    templateStatusEl.textContent = message;
+    templateStatusEl.style.color = isError ? '#b91c1c' : '';
+  }
+
+  function setRadioValue(name, value) {
+    if (!value) return;
+    const radio = formEl.querySelector(`input[name="${name}"][value="${value}"]`);
+    if (radio) {
+      radio.checked = true;
+    }
+  }
+
+  function applyTemplate(template) {
+    if (!template || !template.fields) return;
+    Object.entries(template.fields).forEach(([fieldId, fieldValue]) => {
+      if (fieldId === 'side') {
+        setRadioValue('side', fieldValue);
+        return;
+      }
+      const input = document.getElementById(fieldId);
+      if (!input) return;
+      input.value = fieldValue ?? '';
+    });
+  }
+
+  function clearForm() {
+    formEl.querySelectorAll(inputSelectors).forEach((input) => {
+      if (input.type === 'text' || input.tagName.toLowerCase() === 'textarea') {
+        input.value = '';
+      }
+    });
+    formEl.querySelectorAll('input[name="side"]').forEach((radio) => {
+      radio.checked = false;
+    });
+  }
+
+  async function loadTemplates() {
+    templateButtonsEl.innerHTML = '';
+    setTemplateStatus('Loading templates...');
+
+    let response;
+    try {
+      response = await fetch(templatesUrl);
+    } catch (error) {
+      setTemplateStatus('Unable to load templates.', true);
+      return;
+    }
+
+    if (!response.ok) {
+      setTemplateStatus(`Unable to load templates (HTTP ${response.status}).`, true);
+      return;
+    }
+
+    let templates;
+    try {
+      templates = await response.json();
+    } catch (error) {
+      setTemplateStatus('Templates file is not valid JSON.', true);
+      return;
+    }
+
+    if (!Array.isArray(templates) || templates.length === 0) {
+      setTemplateStatus('No templates found. Add some to the JSON file.', true);
+      return;
+    }
+
+    templates.forEach((template, index) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = template.label || `Template ${index + 1}`;
+      button.addEventListener('click', () => {
+        applyTemplate(template);
+        setTemplateStatus(`Loaded: ${button.textContent}`);
+      });
+      templateButtonsEl.appendChild(button);
+    });
+
+    setTemplateStatus('Templates ready.');
+  }
+
+  clearFormButton.addEventListener('click', () => {
+    clearForm();
+    setTemplateStatus('Form cleared.');
+  });
+
+  loadTemplates();
 
   async function buildPdf() {
     setButtonState(true);
@@ -349,7 +560,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
       textField.setText(value);
     });
 
-    const patientName = patientNameInput.value.trim();
+    const patientName = patientNameInput ? patientNameInput.value.trim() : '';
     if (patientName) {
       if (formFieldNames.has('Patient Name')) {
         const patientField = form.getTextField('Patient Name');
