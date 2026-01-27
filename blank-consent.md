@@ -164,6 +164,48 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     gap: 0.75rem;
   }
 
+  .template-controls {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .template-search {
+    display: grid;
+    gap: 0.35rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .template-search input {
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.6rem;
+    border: 1px solid rgba(148, 163, 184, 0.7);
+    font-size: 0.95rem;
+    font-family: inherit;
+  }
+
+  .template-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .template-tab {
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    border-radius: 999px;
+    padding: 0.4rem 0.9rem;
+    background: #f1f5f9;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+
+  .template-tab[aria-selected="true"] {
+    background: #2563eb;
+    color: #fff;
+    border-color: #2563eb;
+  }
+
   .template-buttons button {
     border: 1px solid rgba(148, 163, 184, 0.4);
     border-radius: 0.75rem;
@@ -235,6 +277,24 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
 
     .template-buttons button:hover {
       background: #1e293b;
+    }
+
+    .template-search input {
+      background: #0f172a;
+      border-color: #334155;
+      color: #e2e8f0;
+    }
+
+    .template-tab {
+      background: #0f172a;
+      border-color: #334155;
+      color: #e2e8f0;
+    }
+
+    .template-tab[aria-selected="true"] {
+      background: #2563eb;
+      color: #fff;
+      border-color: #2563eb;
     }
 
     .template-meta {
@@ -376,6 +436,18 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
       <p class="template-meta">
         Load a template to auto-fill the consent form. Update the JSON file to add your own.
       </p>
+      <div class="template-controls">
+        <label class="template-search">
+          Search templates
+          <input
+            type="search"
+            id="template-search"
+            placeholder="Search by label or procedure"
+            autocomplete="off"
+          />
+        </label>
+        <div class="template-tabs" id="template-tabs" role="tablist" aria-label="Template specialties"></div>
+      </div>
       <div class="template-buttons" id="template-buttons"></div>
       <button type="button" class="template-clear" id="clear-form">Clear form</button>
       <div class="template-status" id="template-status">Templates ready.</div>
@@ -394,8 +466,22 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   const templateButtonsEl = document.getElementById('template-buttons');
   const templateStatusEl = document.getElementById('template-status');
   const clearFormButton = document.getElementById('clear-form');
+  const templateSearchInput = document.getElementById('template-search');
+  const templateTabsEl = document.getElementById('template-tabs');
 
   const inputSelectors = 'input[type="text"], textarea';
+  const specialtyOrder = [
+    'All',
+    'Pediatrics',
+    'Otology',
+    'Rhinology',
+    'Laryngology',
+    'Head & Neck',
+    'Facial Plastics',
+    'General'
+  ];
+  let templatesData = [];
+  let activeSpecialty = 'All';
 
   const fieldMap = [
     { id: 'procedure', name: 'Procedure' },
@@ -435,6 +521,124 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   function setTemplateStatus(message, isError = false) {
     templateStatusEl.textContent = message;
     templateStatusEl.style.color = isError ? '#b91c1c' : '';
+  }
+
+  function inferSpecialty(template) {
+    const label = (template.label ?? '').toLowerCase();
+    const procedure = (template.fields?.procedure ?? '').toLowerCase();
+    const content = `${label} ${procedure}`;
+    const matches = [
+      {
+        specialty: 'Pediatrics',
+        patterns: [/pediatric/, /tonsil/, /adenoid/, /t&a/, /sleep apnea/, /cleft/]
+      },
+      {
+        specialty: 'Otology',
+        patterns: [
+          /ear/,
+          /otitis/,
+          /tympan/,
+          /mastoid/,
+          /stap(e|ed)/,
+          /ossicul/,
+          /cochlea/,
+          /labyrinth/,
+          /bmt/,
+          /myring/,
+          /cholesteatoma/
+        ]
+      },
+      {
+        specialty: 'Rhinology',
+        patterns: [/sinus/, /sept(o|um)/, /turbinate/, /nasal/, /rhin/]
+      },
+      {
+        specialty: 'Laryngology',
+        patterns: [/laryng/, /vocal/, /cord/, /trach/, /glott/, /airway/]
+      },
+      {
+        specialty: 'Head & Neck',
+        patterns: [
+          /neck/,
+          /parotid/,
+          /thyroid/,
+          /mandible/,
+          /maxill/,
+          /tongue/,
+          /scc/,
+          /cancer/,
+          /lesion/,
+          /lymph/,
+          /submandib/,
+          /dissection/
+        ]
+      },
+      {
+        specialty: 'Facial Plastics',
+        patterns: [/facial/, /rhinoplasty/, /bleph/, /brow/, /flap/, /scar/, /otoplasty/]
+      }
+    ];
+
+    for (const group of matches) {
+      if (group.patterns.some((pattern) => pattern.test(content))) {
+        return group.specialty;
+      }
+    }
+    return 'General';
+  }
+
+  function renderTabs(specialties) {
+    templateTabsEl.innerHTML = '';
+    const fragment = document.createDocumentFragment();
+    specialties.forEach((specialty) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'template-tab';
+      button.textContent = specialty;
+      button.setAttribute('role', 'tab');
+      button.setAttribute('aria-selected', specialty === activeSpecialty ? 'true' : 'false');
+      button.addEventListener('click', () => {
+        activeSpecialty = specialty;
+        renderTabs(specialties);
+        renderTemplates();
+      });
+      fragment.appendChild(button);
+    });
+    templateTabsEl.appendChild(fragment);
+  }
+
+  function renderTemplates() {
+    const searchTerm = templateSearchInput.value.trim().toLowerCase();
+    const filtered = templatesData.filter((template) => {
+      const matchesSpecialty =
+        activeSpecialty === 'All' || template.specialty === activeSpecialty;
+      const label = (template.label ?? '').toLowerCase();
+      const procedure = (template.fields?.procedure ?? '').toLowerCase();
+      const matchesSearch =
+        !searchTerm || label.includes(searchTerm) || procedure.includes(searchTerm);
+      return matchesSpecialty && matchesSearch;
+    });
+
+    templateButtonsEl.innerHTML = '';
+    if (filtered.length === 0) {
+      templateButtonsEl.innerHTML = '<p class="template-meta">No templates match this filter.</p>';
+      setTemplateStatus('No templates to show.', true);
+      return;
+    }
+
+    const fragment = document.createDocumentFragment();
+    filtered.forEach((template, index) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = template.label || `Template ${index + 1}`;
+      button.addEventListener('click', () => {
+        applyTemplate(template);
+        setTemplateStatus(`Loaded: ${button.textContent}`);
+      });
+      fragment.appendChild(button);
+    });
+    templateButtonsEl.appendChild(fragment);
+    setTemplateStatus(`Showing ${filtered.length} template${filtered.length === 1 ? '' : 's'}.`);
   }
 
   function setRadioValue(name, value) {
@@ -499,23 +703,31 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
       return;
     }
 
-    templates.forEach((template, index) => {
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.textContent = template.label || `Template ${index + 1}`;
-      button.addEventListener('click', () => {
-        applyTemplate(template);
-        setTemplateStatus(`Loaded: ${button.textContent}`);
-      });
-      templateButtonsEl.appendChild(button);
-    });
+    templatesData = templates
+      .map((template) => ({
+        ...template,
+        specialty: template.specialty || inferSpecialty(template)
+      }))
+      .sort((a, b) => (a.label || '').localeCompare(b.label || ''));
 
-    setTemplateStatus('Templates ready.');
+    const specialties = Array.from(
+      new Set(templatesData.map((template) => template.specialty)),
+    );
+    const orderedSpecialties = specialtyOrder.filter(
+      (specialty) => specialty === 'All' || specialties.includes(specialty),
+    );
+    activeSpecialty = 'All';
+    renderTabs(orderedSpecialties);
+    renderTemplates();
   }
 
   clearFormButton.addEventListener('click', () => {
     clearForm();
     setTemplateStatus('Form cleared.');
+  });
+
+  templateSearchInput.addEventListener('input', () => {
+    renderTemplates();
   });
 
   loadTemplates();
