@@ -50,6 +50,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   .consent-form textarea {
     width: 100%;
     padding: 0.5rem 0.7rem;
+    box-sizing: border-box;
     border-radius: 0.5rem;
     border: 1px solid rgba(148, 163, 184, 0.7);
     font-size: 1rem;
