@@ -167,16 +167,12 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     <h2>Providers</h2>
     <div class="consent-grid two">
       <div>
-        <label for="primary-doctor">Primary Doctor</label>
+        <label for="primary-doctor">Attending Physician</label>
         <input type="text" id="primary-doctor" name="primary-doctor" />
       </div>
       <div>
         <label for="secondary-doctor">Secondary Doctor</label>
         <input type="text" id="secondary-doctor" name="secondary-doctor" />
-      </div>
-      <div>
-        <label for="authorized-doctor">Authorized Doctor</label>
-        <input type="text" id="authorized-doctor" name="authorized-doctor" />
       </div>
       <div>
         <label for="physician-extenders">Physician / Physician Extenders</label>
@@ -186,10 +182,6 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
           name="physician-extenders"
           value="Drs. Hanna, Danis, Spagnuolo, Dalal, Heiser, Chen, Fan, Smith, O'Brien, Doyel, and Homer"
         />
-      </div>
-      <div>
-        <label for="attending">Attending Physician / Primary Operator</label>
-        <input type="text" id="attending" name="attending" />
       </div>
     </div>
   </section>
