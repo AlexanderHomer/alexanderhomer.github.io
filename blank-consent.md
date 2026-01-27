@@ -167,8 +167,8 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     <h2>Providers</h2>
     <div class="consent-grid two">
       <div>
-        <label for="primary-doctor">Primary Doctor</label>
-        <input type="text" id="primary-doctor" name="primary-doctor" />
+        <label for="attending">Attending Physician/Primary Operator</label>
+        <input type="text" id="attending" name="attending" />
       </div>
       <div>
         <label for="secondary-doctor">Secondary Doctor</label>
@@ -177,10 +177,6 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
       <div>
         <label for="authorized-doctor">Authorized Doctor</label>
         <input type="text" id="authorized-doctor" name="authorized-doctor" />
-      </div>
-      <div>
-        <label for="attending">Attending Physician / Primary Operator</label>
-        <input type="text" id="attending" name="attending" />
       </div>
     </div>
   </section>
@@ -286,7 +282,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   const fieldMap = [
     { id: 'procedure', name: 'Procedure' },
     { id: 'site', name: 'Site' },
-    { id: 'primary-doctor', name: 'Primary Doctor' },
+    { id: 'attending', name: 'Primary Doctor' },
     { id: 'secondary-doctor', name: 'Secondary Doctor' },
     { id: 'authorized-doctor', name: 'Autherized Doctor' },
     { id: 'attending', name: 'Attending Physician/Primary Operator' },
