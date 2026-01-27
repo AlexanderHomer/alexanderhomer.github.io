@@ -180,7 +180,16 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
           type="text"
           id="physician-extenders"
           name="physician-extenders"
-          value="Drs. Hanna, Danis, Spagnuolo, Dalal, Heiser, Chen, Fan, Smith, O'Brien, Doyel, and Homer"
+          value="Drs. Hanna, Danis, Spagnuolo, Dalal"
+        />
+      </div>
+      <div>
+        <label for="physician-extenders-2">Physician / Physician Extenders</label>
+        <input
+          type="text"
+          id="physician-extenders-2"
+          name="physician-extenders-2"
+          value="Heiser, Chen, Fan, Smith, O'Brien, Doyel, and Homer"
         />
       </div>
     </div>
@@ -249,25 +258,6 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   </section>
 
   <section>
-    <h2>Documentation Lines</h2>
-    <p class="helper-text">Leave blank to keep the default list on the PDF.</p>
-    <div class="consent-grid three">
-      <div>
-        <label for="documentation-line-1">Documentation Line 1</label>
-        <input type="text" id="documentation-line-1" name="documentation-line-1" />
-      </div>
-      <div>
-        <label for="documentation-line-2">Documentation Line 2</label>
-        <input type="text" id="documentation-line-2" name="documentation-line-2" />
-      </div>
-      <div>
-        <label for="documentation-line-3">Documentation Line 3</label>
-        <input type="text" id="documentation-line-3" name="documentation-line-3" />
-      </div>
-    </div>
-  </section>
-
-  <section>
     <h2>Generate PDF</h2>
     <div class="actions">
       <button type="submit" id="download-button">Download Filled PDF</button>
@@ -302,9 +292,8 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     { id: 'risks-line-2', name: 'Risks Line 2' },
     { id: 'risks-line-3', name: 'Risks Line 3' },
     { id: 'alternatives', name: 'Alternatives' },
-    { id: 'documentation-line-1', name: 'Documentation Line 1' },
-    { id: 'documentation-line-2', name: 'Documentation Line 2' },
-    { id: 'documentation-line-3', name: 'Documentation Line 3' },
+    { id: 'physician-extenders', name: 'Documentation Line 1' },
+    { id: 'physician-extenders-2', name: 'Documentation Line 2' },
     { id: 'additional-risks', name: 'Additional Risks' }
   ];
 
