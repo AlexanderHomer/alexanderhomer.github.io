@@ -132,6 +132,16 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
 
 <form class="consent-form" id="consent-form">
   <section>
+    <h2>Patient Details</h2>
+    <div class="consent-grid two">
+      <div>
+        <label for="patient-name">Patient Name (Optional)</label>
+        <input type="text" id="patient-name" name="patient-name" />
+      </div>
+    </div>
+  </section>
+
+  <section>
     <h2>Procedure Details</h2>
     <div class="consent-grid two">
       <div>
@@ -271,6 +281,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   const formEl = document.getElementById('consent-form');
   const statusEl = document.getElementById('status');
   const downloadButton = document.getElementById('download-button');
+  const patientNameInput = document.getElementById('patient-name');
 
   const fieldMap = [
     { id: 'procedure', name: 'Procedure' },
@@ -321,15 +332,35 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
     const existingPdfBytes = await response.arrayBuffer();
     const pdfDoc = await PDFLib.PDFDocument.load(existingPdfBytes);
     const form = pdfDoc.getForm();
+    const formFieldNames = new Set(form.getFields().map((field) => field.getName()));
 
     fieldMap.forEach((field) => {
       const input = document.getElementById(field.id);
       if (!input) return;
       const value = input.value.trim();
       if (!value) return;
+      if (!formFieldNames.has(field.name)) return;
       const textField = form.getTextField(field.name);
       textField.setText(value);
     });
+
+    const patientName = patientNameInput.value.trim();
+    if (patientName) {
+      if (formFieldNames.has('Patient Name')) {
+        const patientField = form.getTextField('Patient Name');
+        patientField.setText(patientName);
+      } else {
+        const font = await pdfDoc.embedFont(PDFLib.StandardFonts.Helvetica);
+        const page = pdfDoc.getPages()[2];
+        page.drawText(patientName, {
+          x: 215,
+          y: 157,
+          size: 10,
+          font,
+          color: PDFLib.rgb(0, 0, 0)
+        });
+      }
+    }
 
     Object.values(checkboxFields).forEach((fieldName) => {
       const checkbox = form.getCheckBox(fieldName);
