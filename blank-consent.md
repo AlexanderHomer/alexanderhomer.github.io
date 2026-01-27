@@ -17,7 +17,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   .consent-form {
     display: grid;
     gap: 1.5rem;
-    max-width: 860px;
+    width: min(100%, 1100px);
   }
 
   .consent-form section {
@@ -75,11 +75,11 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   }
 
   .consent-grid.two {
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: 1fr;
   }
 
   .consent-grid.three {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: 1fr;
   }
 
   .radio-group {
