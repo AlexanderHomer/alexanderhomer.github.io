@@ -387,8 +387,15 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
       }
     }
 
-    form.flatten();
-    return await pdfDoc.save();
+    let updateFieldAppearances = true;
+    try {
+      form.flatten();
+    } catch (error) {
+      updateFieldAppearances = false;
+      console.warn('Unable to flatten the PDF form fields.', error);
+    }
+
+    return await pdfDoc.save({ updateFieldAppearances });
   }
 
   formEl.addEventListener('submit', async (event) => {
