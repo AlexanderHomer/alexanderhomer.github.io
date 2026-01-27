@@ -277,7 +277,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
 
 <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
 <script>
-  const pdfUrl = "{{ '/Blank Consent.pdf' | relative_url }}";
+  const pdfUrl = "{{ '/blank-consent.pdf' | relative_url }}";
   const formEl = document.getElementById('consent-form');
   const statusEl = document.getElementById('status');
   const downloadButton = document.getElementById('download-button');
