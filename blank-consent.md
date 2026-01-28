@@ -5,7 +5,7 @@ title: Blank Consent PDF Filler
 
 # Blank Consent PDF Filler
 
-Use this page to fill the Blank Consent PDF and download a completed copy. All fields are optional; leave anything blank to keep it empty (or keep the PDF default values where provided).
+Use this page to fill a surgical consent and download a completed copy. Select from templates on the right side of the screen (or at the bottom on mobile). Make sure to check over all templates to ensure accuracy.
 
 <style>
   .consent-layout {
