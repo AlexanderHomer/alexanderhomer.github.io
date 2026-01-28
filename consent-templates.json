@@ -70,7 +70,8 @@
       "alternatives": "Observation, medical management"
     },
     "specialties": [
-      "Pediatrics"
+      "Pediatrics",
+      "Head and Neck"
     ],
     "tags": [
       "tonsillectomy"
@@ -96,7 +97,8 @@
       "physician-extenders-2": "Heiser, Chen, Fan, Smith, O'Brien, Doyel, and Homer"
     },
     "specialties": [
-      "Otology"
+      "Otology",
+      "Pediatrics"
     ],
     "tags": [
       "ear",
@@ -168,7 +170,9 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "General"
+      "General",
+      "Facial Plastics"
+      
     ],
     "tags": [
       "application",
@@ -194,7 +198,8 @@
       "alternatives": "Observation"
     },
     "specialties": [
-      "Otology"
+      "Otology",
+      "Pediatrics"
     ],
     "tags": [
       "bmt",
@@ -217,7 +222,7 @@
       "alternatives": "No surgery, medical therapy"
     },
     "specialties": [
-      "Otology"
+      "Head and Neck"
     ],
     "tags": [
       "bot",
@@ -301,7 +306,8 @@
       "alternatives": "Medical  therapy"
     },
     "specialties": [
-      "General"
+      "General",
+      "Head and Neck"
     ],
     "tags": [
       "botox",
@@ -326,7 +332,8 @@
       "alternatives": "no treatment, observation"
     },
     "specialties": [
-      "General"
+      "Otology",
+      "Pediatrics"
     ],
     "tags": [
       "cartilage",
@@ -348,7 +355,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "Facial Plastics"
     ],
     "tags": [
       "basosquamous",
@@ -374,7 +382,8 @@
       "alternatives": "No treatment"
     },
     "specialties": [
-      "Rhinology"
+      "Rhinology",
+      "Facial Plastics"
     ],
     "tags": [
       "closed",
@@ -397,7 +406,8 @@
       "alternatives": "Observation, No surgery"
     },
     "specialties": [
-      "Otology"
+      "Otology",
+      "Pediatrics"
     ],
     "tags": [
       "cochlear",
@@ -406,7 +416,7 @@
     ]
   },
   {
-    "label": "Consent BMT And ABR",
+    "label": "BMT And ABR",
     "fields": {
       "procedure": "bilateral ear tube placement, auditory brainstem response",
       "site": "ears",
@@ -418,6 +428,7 @@
       "alternatives": "observation"
     },
     "specialties": [
+      "Pediatrics",
       "Otology"
     ],
     "tags": [
@@ -435,7 +446,7 @@
     ]
   },
   {
-    "label": "Consent T&A And BMT",
+    "label": "T&A And BMT",
     "fields": {
       "procedure": "Adenotonsillectomy, ear tube placement",
       "site": "mouth/throat/ears",
@@ -467,12 +478,12 @@
       "side": "",
       "risks-line-1": "infection, bleeding (intraop or postop), extrusion of hardware, injury to nerves that control nerves movement of",
       "risks-line-2": "the face, shoulders, tongue, control taste, control sensation to the lower lip.",
-      "risks-line-3": "Risks to ability to eat and drink, interfer with speech, pnemothorax",
-      "additional-risks": "",
+      "risks-line-3": "Risks to ability to eat and drink, interference with speech, pnemothorax",
+      "additional-risks": "injury to nerve that controls vocal cords",
       "alternatives": "Chemotherapy and radiation therapy, no treatment"
     },
     "specialties": [
-      "Laryngology"
+      "Head and Neck"
     ],
     "tags": [
       "mandible",
@@ -514,7 +525,8 @@
       "alternatives": "No treatment"
     },
     "specialties": [
-      "Laryngology"
+      "Laryngology",
+      "Head and Neck"
     ],
     "tags": [
       "dlb",
@@ -539,7 +551,8 @@
       "alternatives": "No treatment"
     },
     "specialties": [
-      "Laryngology"
+      "Laryngology",
+      "Head and Neck"
     ],
     "tags": [
       "dlb",
@@ -565,7 +578,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Laryngology"
+      "Laryngology",
+      "Head and Neck"
     ],
     "tags": [
       "direct",
@@ -619,7 +633,8 @@
       "alternatives": "Observation, no treatment"
     },
     "specialties": [
-      "Otology"
+      "Otology",
+      "Pediatrics"
     ],
     "tags": [
       "ear",
@@ -640,7 +655,7 @@
     ]
   },
   {
-    "label": "Epistaxiscontrol with possible SPA ligation",
+    "label": "Epistaxis control with possible SPA ligation",
     "fields": {
       "procedure": "Endoscopic control of epistaxis - possible SPA ligation",
       "site": "Nose",
@@ -652,7 +667,8 @@
       "alternatives": "Conservative measures (packing, hemostatic agents), no treatment"
     },
     "specialties": [
-      "General"
+      "General",
+      "Rhinology"
     ],
     "tags": [
       "epistaxiscontrol",
@@ -679,7 +695,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "General"
+      "General",
+      "Laryngology"
     ],
     "tags": [
       "esophageal",
@@ -749,7 +766,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "Facial Plastics"
     ],
     "tags": [
       "excisional",
@@ -771,7 +789,8 @@
       "alternatives": "No treatment, observation, medical therapy"
     },
     "specialties": [
-      "Rhinology"
+      "Rhinology",
+      "General"
     ],
     "tags": [
       "fess",
@@ -796,7 +815,7 @@
       "alternatives": "No surgery"
     },
     "specialties": [
-      "Head & Neck"
+      "Pediatrics"
     ],
     "tags": [
       "frenectomy",
@@ -819,7 +838,9 @@
       "alternatives": "Observation"
     },
     "specialties": [
-      "General"
+      "General",
+      "Head & neck",
+      "Pediatrics"
     ],
     "tags": [
       "incision",
@@ -842,7 +863,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Rhinology"
+      "Rhinology",
+      "General"
     ],
     "tags": [
       "inferior",
@@ -863,7 +885,8 @@
       "alternatives": "no treatment"
     },
     "specialties": [
-      "Rhinology"
+      "Rhinology",
+      "General"
     ],
     "tags": [
       "marston",
@@ -922,7 +945,7 @@
       "alternatives": "No surgery"
     },
     "specialties": [
-      "Head & Neck"
+      "Pediatrics"
     ],
     "tags": [
       "maxillary",
@@ -969,7 +992,7 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "Rhinology"
+      "Head & Neck"
     ],
     "tags": [
       "medial",
@@ -983,9 +1006,9 @@
     ]
   },
   {
-    "label": "Microsuspension Laryngoscopy O'Connell",
+    "label": "Microsuspension Laryngoscopy Jet Vent O'Connell",
     "fields": {
-      "procedure": "suspension microdirect laryngoscopy, bronchoscopy, exicsion of scar, possible CO2 laser excision, possible balloon dilation, possible kenalog injection, jet ventilation, all other indicated procedures",
+      "procedure": "Suspension microdirect laryngoscopy, bronchoscopy, exicision of scar, possible CO2 laser excision, possible balloon dilation, possible kenalog injection, jet ventilation, all other indicated procedures",
       "site": "mouth/throat",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, pain, scar, no improvement or change, swelling/obstruction in airway, pneumothorax",
@@ -1061,7 +1084,8 @@
       "alternatives": "no treatment, observation, open reduction"
     },
     "specialties": [
-      "Rhinology"
+      "Rhinology",
+      "Facial Plastics"
     ],
     "tags": [
       "nasal",
@@ -1087,7 +1111,8 @@
       "alternatives": "no treatment"
     },
     "specialties": [
-      "Rhinology"
+      "Rhinology",
+      "Head & Neck"
     ],
     "tags": [
       "nasal",
@@ -1113,7 +1138,8 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "Rhinology"
+      "Rhinology",
+      "Head & Neck"
     ],
     "tags": [
       "nasal",
@@ -1136,7 +1162,7 @@
       "alternatives": "No surgery"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
     ],
     "tags": [
       "neck",
@@ -1192,27 +1218,6 @@
     ]
   },
   {
-    "label": "New Consents 2015",
-    "fields": {
-      "procedure": "***",
-      "site": "",
-      "side": "",
-      "risks-line-1": "",
-      "risks-line-2": "",
-      "risks-line-3": "",
-      "additional-risks": "",
-      "alternatives": ""
-    },
-    "specialties": [
-      "General"
-    ],
-    "tags": [
-      "new",
-      "consents",
-      "2015"
-    ]
-  },
-  {
     "label": "O'Leary   Inspire",
     "fields": {
       "procedure": "Hypoglossal nerve stimulator implantation",
@@ -1225,7 +1230,8 @@
       "alternatives": "CPAP, no treatment"
     },
     "specialties": [
-      "Otology"
+      "Head & Neck",
+      "General"
     ],
     "tags": [
       "o'leary",
@@ -1239,8 +1245,8 @@
   {
     "label": "O'Leary Basal Cell Excision",
     "fields": {
-      "procedure": "Excision of basal cell carcinoma of left upper lip and local flap reconstruction",
-      "site": "Lip",
+      "procedure": "Excision of basal cell carcinoma and local flap reconstruction",
+      "site": "",
       "side": "",
       "risks-line-1": "pain, numbness, scarring, poor wound healing, dehiscence, failure to improve symptoms",
       "risks-line-2": "Injury to surrounding structures (nerves, vessels), need for further procedures",
@@ -1249,7 +1255,8 @@
       "alternatives": "Medical therapy"
     },
     "specialties": [
-      "Otology"
+      "Head & Neck",
+      "Facial Plastics"
     ],
     "tags": [
       "o'leary",
@@ -1280,7 +1287,8 @@
       "alternatives": "No surgery"
     },
     "specialties": [
-      "General"
+      "General",
+      "Facial Plastics"
     ],
     "tags": [
       "orif",
@@ -1298,7 +1306,7 @@
     ]
   },
   {
-    "label": "Oleary Tracy   Thyroidectomy",
+    "label": "Oleary Tracy Thyroidectomy",
     "fields": {
       "procedure": "Total thyroidectomy, possible central neck dissection",
       "site": "Neck",
@@ -1310,7 +1318,8 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "Otology"
+      "Head & Neck",
+      "General"
     ],
     "tags": [
       "oleary",
@@ -1336,7 +1345,7 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Laryngology"
+      "Head & Neck"
     ],
     "tags": [
       "panendoscopy",
@@ -1362,7 +1371,8 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "General"
     ],
     "tags": [
       "parathyroidectomy",
@@ -1404,7 +1414,7 @@
     ]
   },
   {
-    "label": "Partial Glossectomy",
+    "label": "Partial Glossectomy, Trach, RFF",
     "fields": {
       "procedure": "partial or total glossectomy, neck dissection (bilateral), tracheostomy free flap reconstruction with R radial forearm free flap, possible R anteriolateral thigh free flap possible locoregional reconstruction with pectoralis muscle flap or other indicated local flap, skin graft from thigh",
       "site": "oral cavity, neck, arm, thigh",
@@ -1448,11 +1458,11 @@
     ]
   },
   {
-    "label": "Rb",
+    "label": "FESS and Neck Dissection",
     "fields": {
-      "procedure": "Lymphadenectomy/left neck dissection, Functional Endoscopic Sinus Surgery",
-      "site": "Nose/ left neck",
-      "side": "Bilateral",
+      "procedure": "Lymphadenectomy/neck dissection, Functional Endoscopic Sinus Surgery",
+      "site": "Nose/neck",
+      "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding nerves and vessels cuasing muscle weakness, breathing difficulties,",
       "risks-line-2": "voice issues, swallowing issues, scarring of nasal tissue. Damage to eye, sense of smell. Leakage of spinal fluid",
       "risks-line-3": "meningitis, stroke, hematoma, chyle leak, oropharyngocutaneous fistula, need for further surgery or treatment",
@@ -1460,7 +1470,8 @@
       "alternatives": "No treatment, observation, medical therapy"
     },
     "specialties": [
-      "Rhinology"
+      "Rhinology",
+      "Head & Neck"
     ],
     "tags": [
       "rb",
@@ -1487,7 +1498,7 @@
       "alternatives": "No surgery"
     },
     "specialties": [
-      "Otology"
+      "Head & Neck"
     ],
     "tags": [
       "radial",
@@ -1514,7 +1525,7 @@
     ]
   },
   {
-    "label": "Removal Of Mmf",
+    "label": "Removal Of MMF",
     "fields": {
       "procedure": "Removal of maxillomandibular fixation",
       "site": "Oral cavity",
@@ -1526,7 +1537,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "Facial Plastics"
     ],
     "tags": [
       "removal",
@@ -1549,14 +1561,14 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "General"
+      "Facial Plastics"
     ],
     "tags": [
       "rhytidectomy"
     ]
   },
   {
-    "label": "Sml Balloon Dilation",
+    "label": "SMDL Balloon Dilation",
     "fields": {
       "procedure": "suspension microdirect laryngoscopy, bronchoscopy, with balloon dilation, CO2 laser excision, and kenlog injection",
       "site": "Oral cavity/throat/trachea",
@@ -1600,7 +1612,8 @@
       "alternatives": "no surgery, sialogogues"
     },
     "specialties": [
-      "General"
+      "General",
+      "Head and Neck"
     ],
     "tags": [
       "sialendoscopy",
@@ -1611,7 +1624,7 @@
     ]
   },
   {
-    "label": "Sillman Noonan   Tympanomastoidectomy Consent W Resident Names",
+    "label": "Sillman Noonan Tympanomastoidectomy Consent W Resident Names",
     "fields": {
       "procedure": "Tympanomastoidectomy",
       "site": "ear",
@@ -1635,7 +1648,7 @@
     ]
   },
   {
-    "label": "Sillman Noonan   Tympanoplasty",
+    "label": "Sillman Noonan Tympanoplasty",
     "fields": {
       "procedure": "Tympanoplasty",
       "site": "ear",
@@ -1656,7 +1669,7 @@
     ]
   },
   {
-    "label": "Soneru Fess",
+    "label": "Soneru FESS",
     "fields": {
       "procedure": "Functional Endoscopic Sinus Surgery, possible septoplasty",
       "site": "Nose",
@@ -1706,7 +1719,7 @@
     ]
   },
   {
-    "label": "Stapedectomy Consent W Resident Names",
+    "label": "Stapedectomy",
     "fields": {
       "procedure": "stapedectomy",
       "site": "",
@@ -1801,7 +1814,8 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "General"
+      "General",
+      "Head & Neck"
     ],
     "tags": [
       "sublingual",
@@ -1835,7 +1849,7 @@
     ]
   },
   {
-    "label": "Superficial Parotidectomy With Resident Names",
+    "label": "Superficial Parotidectomy",
     "fields": {
       "procedure": "superficial parotidectomy",
       "site": "Face",
@@ -1847,7 +1861,8 @@
       "alternatives": "No treatment, observation, medical therapy"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "General"
     ],
     "tags": [
       "superficial",
@@ -1870,7 +1885,7 @@
       "alternatives": "Medical therapy"
     },
     "specialties": [
-      "Laryngology"
+      "Head & Neck"
     ],
     "tags": [
       "supraglottic",
@@ -1914,33 +1929,13 @@
     ]
   },
   {
-    "label": "Template Historyandphysical",
-    "fields": {
-      "procedure": "***",
-      "site": "",
-      "side": "",
-      "risks-line-1": "",
-      "risks-line-2": "",
-      "risks-line-3": "",
-      "additional-risks": "",
-      "alternatives": ""
-    },
-    "specialties": [
-      "General"
-    ],
-    "tags": [
-      "template",
-      "historyandphysical"
-    ]
-  },
-  {
-    "label": "Tep New Consent Form",
+    "label": "TEP New",
     "fields": {
       "procedure": "Tracheoesophageal puncture with rigid cervical esophagoscopy",
       "site": "Mouth/Stoma",
       "side": "Bilateral",
-      "risks-line-1": "Bleeding, infection, pain, progressive enlargement of the puncture, need for additional procedures",
-      "risks-line-2": "",
+      "risks-line-1": "Bleeding, infection, failure to improve symptoms, recurrence of symptoms, esophageal perforation",
+      "risks-line-2": "injury to surrounding structures, need for further symptoms",
       "risks-line-3": "",
       "additional-risks": "",
       "alternatives": "Esophageal speech, electrolarynx"
@@ -1962,29 +1957,6 @@
     ]
   },
   {
-    "label": "Tep Placement",
-    "fields": {
-      "procedure": "Esophagoscopy, tracheoesophageal puncture placement",
-      "site": "Throat/esophagus",
-      "side": "",
-      "risks-line-1": "Bleeding, infection, failure to improve symptoms, recurrence of symptoms, esophageal perforation",
-      "risks-line-2": "injury to surrounding structures, need for further symptoms",
-      "risks-line-3": "",
-      "additional-risks": "",
-      "alternatives": "No procedure"
-    },
-    "specialties": [
-      "Laryngology"
-    ],
-    "tags": [
-      "tep",
-      "placement",
-      "esophagoscopy",
-      "tracheoesophageal",
-      "puncture"
-    ]
-  },
-  {
     "label": "Thyroid Lobectomy",
     "fields": {
       "procedure": "Left thryoid lobectomy",
@@ -1997,7 +1969,8 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "General"
     ],
     "tags": [
       "thyroid",
@@ -2007,9 +1980,9 @@
     ]
   },
   {
-    "label": "Tongue Lesion Excision",
+    "label": "Tongue Lesion Wide Lcoal Excision",
     "fields": {
-      "procedure": "wide local excision of tongue lesion",
+      "procedure": "Wide local excision of tongue lesion",
       "site": "Oral cavity",
       "side": "",
       "risks-line-1": "recurrence of lesion, failure to remove lesion, numbness, hematoma, pain, scarring, changes in speech",
@@ -2019,7 +1992,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "General
     ],
     "tags": [
       "tongue",
@@ -2043,34 +2017,11 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "Pediatrics"
+      "Head & Neck"
     ],
     "tags": [
       "tonsillectomy",
       "wein"
-    ]
-  },
-  {
-    "label": "Tonsillectomy Consent New",
-    "fields": {
-      "procedure": "Tonsillectomy and adenoidectomy",
-      "site": "Mouth",
-      "side": "Bilateral",
-      "risks-line-1": "bleeding up to 2 weeks, dehydration, halitosis, temporary voice change, need for further procedures",
-      "risks-line-2": "",
-      "risks-line-3": "",
-      "additional-risks": "",
-      "alternatives": "No treatment"
-    },
-    "specialties": [
-      "Pediatrics"
-    ],
-    "tags": [
-      "tonsillectomy",
-      "consent",
-      "new",
-      "and",
-      "adenoidectomy"
     ]
   },
   {
@@ -2086,7 +2037,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Otology"
+      "Head & Neck",
+      "Laryngology"
     ],
     "tags": [
       "tracheoesophageal",
@@ -2104,9 +2056,9 @@
     ]
   },
   {
-    "label": "Tracheostomy Consent W Resident Names",
+    "label": "Tracheostomy",
     "fields": {
-      "procedure": "Tracheostomy",
+      "procedure": "Creation of Tracheostomy",
       "site": "Neck",
       "side": "Bilateral",
       "risks-line-1": "Infection, bleeding, damage to airway, tracheoinnominate fistula, mucus plugging, pneumothorax,",
@@ -2116,7 +2068,8 @@
       "alternatives": "no treatment, intubation"
     },
     "specialties": [
-      "Laryngology"
+      "General",
+      "Head & Neck"
     ],
     "tags": [
       "tracheostomy",
@@ -2138,7 +2091,7 @@
       "alternatives": "Medical therapy"
     },
     "specialties": [
-      "Laryngology"
+      "Head & Neck"
     ],
     "tags": [
       "tracy",
@@ -2161,7 +2114,7 @@
     ]
   },
   {
-    "label": "Treacher Collins Consent Scott",
+    "label": "Treacher Collins Scott",
     "fields": {
       "procedure": "Left neck keloid revision, right joint exploration, interposition graft placement for Freys syndrom",
       "site": "Left neck, right joint/face",
@@ -2173,7 +2126,7 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "Head & Neck"
+      "Pediatrics"
     ],
     "tags": [
       "treacher",
@@ -2208,7 +2161,7 @@
       "alternatives": "no treatment, observation"
     },
     "specialties": [
-      "Otology"
+      "Pediatrics"
     ],
     "tags": [
       "tympanoplasty",
@@ -2246,7 +2199,7 @@
     ]
   },
   {
-    "label": "Wle Wein",
+    "label": "WLE Wein",
     "fields": {
       "procedure": "wide local excision of oral lesion, possible local advancement flap, possible surgimend reconstruction",
       "site": "mouth",
@@ -2277,10 +2230,10 @@
     ]
   },
   {
-    "label": "Wle Cutaneous Lesion",
+    "label": "WLE Cutaneous Lesion",
     "fields": {
-      "procedure": "Wide local excision of forehead lesion and reconstruction",
-      "site": "Face",
+      "procedure": "Wide local excision of lesion and reconstruction",
+      "site": "",
       "side": "",
       "risks-line-1": "infection, bleeding, poor wound healing, failure of repair, hematoma, pain, failure to remove lesion",
       "risks-line-2": "unfavorable scarring, injury to surrounding structures, need for further procedures or treatment",
@@ -2305,9 +2258,9 @@
     ]
   },
   {
-    "label": "Wle Scalp With Skin Graft And Slnb",
+    "label": "WLE Scalp With Skin Graft And SLNB",
     "fields": {
-      "procedure": "wide local excision of melanoma, sentinel lymph node biopsy, possible skin graft, possible local flap reconstruction",
+      "procedure": "wide local excision of lesion, sentinel lymph node biopsy, possible skin graft, possible local flap reconstruction",
       "site": "scalp/neck/thigh",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to the surrounding areas, dehiscence, poor wound healing, flap breakdown,",
@@ -2342,7 +2295,7 @@
     ]
   },
   {
-    "label": "Wein   Dise",
+    "label": "Wein DISE",
     "fields": {
       "procedure": "Drug induced sleep endoscopy",
       "site": "Airway",
@@ -2354,7 +2307,8 @@
       "alternatives": "No surgery"
     },
     "specialties": [
-      "General"
+      "General",
+      "Head & Neck"
     ],
     "tags": [
       "wein",
@@ -2366,7 +2320,7 @@
     ]
   },
   {
-    "label": "Wein   Inspire",
+    "label": "Wein Inspire",
     "fields": {
       "procedure": "Hypoglossal nerve stimulator implantation",
       "site": "chest (2 incisions), neck",
@@ -2378,7 +2332,8 @@
       "alternatives": "CPAP, no treatment"
     },
     "specialties": [
-      "General"
+      "General",
+      "Head & Neck"
     ],
     "tags": [
       "wein",
@@ -2390,7 +2345,7 @@
     ]
   },
   {
-    "label": "Wein Oleary   Thyroidectomy",
+    "label": "Wein Oleary Thyroidectomy",
     "fields": {
       "procedure": "***",
       "site": "neck",
@@ -2402,7 +2357,7 @@
       "alternatives": "no treatment"
     },
     "specialties": [
-      "Otology"
+      "Head & Neck"
     ],
     "tags": [
       "wein",
@@ -2411,7 +2366,7 @@
     ]
   },
   {
-    "label": "Zygomatic Arch Fracture",
+    "label": "Zygomatic Arch Fracture ORIF",
     "fields": {
       "procedure": "open reduction of left zygomatic arch fracture",
       "site": "Face/scalp",
@@ -2423,7 +2378,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "General"
+      "General",
+      "Facial Plastics"
     ],
     "tags": [
       "zygomatic",
@@ -2438,7 +2394,7 @@
   {
     "label": "Branchial Cleft Anomaly",
     "fields": {
-      "procedure": "excision of branchial cleft fistula",
+      "procedure": "Excision of branchial cleft fistula",
       "site": "face/ear",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, scarring, recurrence, failure to improve symptoms,",
@@ -2448,7 +2404,8 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "Pediatrics"
+      "Pediatrics",
+      "Head & Neck"
     ],
     "tags": [
       "branchial",
@@ -2498,7 +2455,8 @@
       "alternatives": "no procedure"
     },
     "specialties": [
-      "Laryngology"
+      "Laryngology",
+      "Head & Neck"
     ],
     "tags": [
       "closure",
@@ -2508,9 +2466,9 @@
     ]
   },
   {
-    "label": "Csf Leak Repair",
+    "label": "CSF Leak Repair",
     "fields": {
-      "procedure": "endonasal approach to repair of encephalocele and cerebrospinal fluid leak, abdominal fat graft lumbar drain insertion, possible septoplasty",
+      "procedure": "endonasal approach to repair of encephalocele and cerebrospinal fluid leak, abdominal fat graft, lumbar drain insertion, possible septoplasty",
       "site": "Nose, abdomen, back",
       "side": "Bilateral",
       "risks-line-1": "Infection, bleeding, septal perforation, failure to improve symptoms, recurrence of symptoms, injuty to skull base",
@@ -2557,7 +2515,9 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "General"
+      "General",
+      "Laryngology",
+      "Head & Neck"
     ],
     "tags": [
       "esophagoscopy",
@@ -2578,7 +2538,8 @@
       "alternatives": "medical therapy"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "Facial Plastics"
     ],
     "tags": [
       "excision",
@@ -2594,7 +2555,7 @@
   {
     "label": "Facial Defect Repair",
     "fields": {
-      "procedure": "Application of split thickness skin graft, possible free tissue transfer with myocutaneous free flap possible decompression of the orbit",
+      "procedure": "Application of split thickness skin graft, possible free tissue transfer with myocutaneous free flap, possible decompression of the orbit",
       "site": "face/thigh",
       "side": "",
       "risks-line-1": "infection, bleeding, poor wound healing, failure of repair, hematoma, pain,",
@@ -2629,7 +2590,7 @@
     ]
   },
   {
-    "label": "Hardware Removal",
+    "label": "Maxillary/Mandibular Hardware Removal",
     "fields": {
       "procedure": "Removal of mandibular and maxillary implant",
       "site": "Oral cavity",
@@ -2654,7 +2615,7 @@
     ]
   },
   {
-    "label": "Infrastructure Maxillectomy, Neck Dissection   Jawad",
+    "label": "Infrastructure Maxillectomy, Neck Dissection Jawad",
     "fields": {
       "procedure": "left infrastructure maxillectomy, locoregional flap reconstruction, possible free flap, possible neck dissection possible skin graft, possible synthetic graft, possible tracheostomy",
       "site": "Oral cavity/face/neck/thigh/forearm",
@@ -2666,7 +2627,7 @@
       "alternatives": "Medical therapy"
     },
     "specialties": [
-      "Laryngology"
+      "Head & Neck"
     ],
     "tags": [
       "infrastructure",
@@ -2733,7 +2694,9 @@
       "alternatives": "No surgery"
     },
     "specialties": [
-      "General"
+      "General",
+      "Laryngology",
+      "Pediatrics"
     ],
     "tags": [
       "injection",
@@ -2768,7 +2731,7 @@
     ]
   },
   {
-    "label": "Madginal Mandibulectomy",
+    "label": "Marginal Mandibulectomy",
     "fields": {
       "procedure": "marginal mandibulectomy and surgery mend reconstruction and removal or oral cavity hardware",
       "site": "oral cavity",
@@ -2780,7 +2743,7 @@
       "alternatives": "Medical therapy"
     },
     "specialties": [
-      "General"
+      "head & Neck"
     ],
     "tags": [
       "madginal",
@@ -2798,9 +2761,9 @@
     ]
   },
   {
-    "label": "Mandible Fracture Consent Tracy",
+    "label": "Mandible Fracture ORIF",
     "fields": {
-      "procedure": "Maxillomandibular fixation open reduction internal fixation of mandible fractures possible open reduction internal fixation of zygomatic arch and maxillary fractures",
+      "procedure": "Maxillomandibular fixation open reduction internal fixation of mandible fractures",
       "site": "oral cavity/face",
       "side": "Bilateral",
       "risks-line-1": "malunion of the mandible fractures, poor wound healing, difficulty eating and swallowing, difficulty breathing",
@@ -2810,7 +2773,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "Facial Plastics"
     ],
     "tags": [
       "mandible",
@@ -2832,9 +2796,9 @@
     ]
   },
   {
-    "label": "Mandible Fracture Consent",
+    "label": "MMF and Mandible Fracture ORIF",
     "fields": {
-      "procedure": "Maxillomandibular fixation open reduction internal fixation of mandible fractures",
+      "procedure": "Maxillomandibular fixation, open reduction internal fixation of mandible fractures",
       "site": "oral cavity",
       "side": "Bilateral",
       "risks-line-1": "malunion of the mandible fractures, poor wound healing, difficulty eating and swallowing, difficulty breathing",
@@ -2844,7 +2808,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "Facial Plastics"
     ],
     "tags": [
       "mandible",
@@ -2872,7 +2837,7 @@
       "alternatives": "Medical therapy"
     },
     "specialties": [
-      "Laryngology"
+      "Head & neck"
     ],
     "tags": [
       "mandibulectomy",
@@ -2905,7 +2870,7 @@
       "alternatives": "Medical therapy"
     },
     "specialties": [
-      "Laryngology"
+      "Head & Neck"
     ],
     "tags": [
       "mandibulectomy",
@@ -2932,11 +2897,11 @@
     ]
   },
   {
-    "label": "Mandibulectomy",
+    "label": "Mandibulectomy with FFF",
     "fields": {
-      "procedure": "segmental mandibulectomy (right), neck dissection (right), tracheostomy, fibula free flap reconstruction (left), possible skin graft, possible locoregional flap",
+      "procedure": "segmental mandibulectomy (side***), neck dissection (side***), tracheostomy, fibula free flap reconstruction (side***), possible skin graft, possible locoregional flap",
       "site": "oral cavity, neck, leg",
-      "side": "Bilateral",
+      "side": "",
       "risks-line-1": "inability to clear cancer, recurrence of cancer, fistula formation, poor wound healing, difficulty eating/breathing,",
       "risks-line-2": "difficulty swallowing/walking, speech difficulties, hematoma, salivary leak, leg numbness/weakness, need for",
       "risks-line-3": "prolonged tube feeds and tracheostomy, accidental decannulation, tracheo-cutaneous/inominate fistula, stenosis",
@@ -2944,7 +2909,7 @@
       "alternatives": "Medical therapy"
     },
     "specialties": [
-      "Laryngology"
+      "Head & Neck"
     ],
     "tags": [
       "mandibulectomy",
@@ -2965,9 +2930,9 @@
     ]
   },
   {
-    "label": "O'Leary Melanoma Excision",
+    "label": "O'Leary Melanoma Excision with Local Flap",
     "fields": {
-      "procedure": "Excision of right cheek melanoma, sentinel lymph node biopsu, local flap reconstruction",
+      "procedure": "Excision of ***side, sentinel lymph node biopsy, local flap reconstruction",
       "site": "Face/neck",
       "side": "",
       "risks-line-1": "pain, numbness, scarring, poor wound healing, dehiscence, recurrence of lesions, ectropion",
@@ -2977,7 +2942,7 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Otology"
+      "Head & Neck"
     ],
     "tags": [
       "o'leary",
@@ -2998,7 +2963,7 @@
   {
     "label": "Parotidectomy",
     "fields": {
-      "procedure": "parotidectomy with facial nerve monitoring",
+      "procedure": "Parotidectomy with facial nerve monitoring",
       "site": "Face/neck",
       "side": "",
       "risks-line-1": "Injury to facial nerve causing paralysis, gustatory sweating, pain upon opening jaw, hematoma, scarring,",
@@ -3031,7 +2996,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Facial Plastics"
+      "Facial Plastics",
+      "Head & Neck"
     ],
     "tags": [
       "pedicle",
@@ -3047,8 +3013,8 @@
   {
     "label": "Posterior Neck Mass Excision",
     "fields": {
-      "procedure": "excision of posterior neck mass",
-      "site": "neck",
+      "procedure": "Excision of posterior neck mass",
+      "site": "Neck",
       "side": "",
       "risks-line-1": "failure to remove mass, recurrence of mass, neck pain, injury to surrounding structures",
       "risks-line-2": "hematoma, need for further procedures",
@@ -3068,9 +3034,9 @@
     ]
   },
   {
-    "label": "Robotic Tonsillectomy",
+    "label": "Robotic Tonsillectomy with radical neck dissection",
     "fields": {
-      "procedure": "right robotic tonsillectomy, adenoidectomy, glossectomy/tonbue base resection, right radical neck dissection",
+      "procedure": "Robotic tonsillectomy, adenoidectomy, glossectomy/tonbue base resection, radical neck dissection",
       "site": "Oral cavity/face/neck",
       "side": "",
       "risks-line-1": "bleeding, infection, poor wound healing, failure to resect all cancer, recurrence of cancer, fistula formation,",
@@ -3080,7 +3046,7 @@
       "alternatives": "Medical therapy"
     },
     "specialties": [
-      "Pediatrics"
+      "Head & Neck"
     ],
     "tags": [
       "robotic",
@@ -3101,7 +3067,7 @@
     "fields": {
       "procedure": "repair of septal perforation, temporalis fascia harvest, possible auricular cartilage harvest",
       "site": "nose/scalp",
-      "side": "Bilateral",
+      "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for repeat surgery, numbness at harvest site,",
       "risks-line-2": "scarring, poor cosmetic outcome, failure to improve symptoms, recurrence of perforation,",
       "risks-line-3": "failure to completely close perforation, difficulty breathing through nose, change to external appearance",
@@ -3109,7 +3075,8 @@
       "alternatives": "no surgery"
     },
     "specialties": [
-      "General"
+      "General",
+      "Rhinology"
     ],
     "tags": [
       "septal",
@@ -3126,7 +3093,7 @@
     ]
   },
   {
-    "label": "Sillman Mastoid",
+    "label": "Sillman Middle ear exploration, jugular bulb resurfacing, occlusion of mastoid emissary vein",
     "fields": {
       "procedure": "Middle ear exploration, possible jugular bulb resurfacing and occlusion of mastoid emissary vein",
       "site": "Ear",
@@ -3160,7 +3127,7 @@
   {
     "label": "Tympmastoid",
     "fields": {
-      "procedure": "tympanoplasty, mastoidectomy",
+      "procedure": "Tympanoplasty, mastoidectomy",
       "site": "Ear",
       "side": "",
       "risks-line-1": "Bleeding, Infection, damage to surrounding structures, need for further procedures, failure to improve symptoms",
@@ -3179,9 +3146,9 @@
     ]
   },
   {
-    "label": "Upper Lip Scc  Resection With Free Flap",
+    "label": "Upper Lip SCC Resection With ND and Free Flap",
     "fields": {
-      "procedure": "left upper lip and cheek wide local exicion of carcinoma, rhinectomy, left neck dissection radial forearm or anterolateral thigh free flap with microvascular anastomosis split thickness skin graft,  possible local flap or regional flap reconstruction",
+      "procedure": "upper lip and cheek wide local exicion of carcinoma, rhinectomy, neck dissection radial forearm or anterolateral thigh free flap with microvascular anastomosis split thickness skin graft,  possible local flap or regional flap reconstruction",
       "site": "Oral cavity/face/neck/thigh/chest",
       "side": "",
       "risks-line-1": "bleeding, infection, poor wound healing, failure to resect all cancer, recurrence of cancer, fistula formation,",
@@ -3229,9 +3196,9 @@
     ]
   },
   {
-    "label": "Zmc Repair",
+    "label": "ZMC Repair ORIF",
     "fields": {
-      "procedure": "Open reduction and internal fixation of left zygomaticomaxillary complex fracture",
+      "procedure": "Open reduction and internal fixation of zygomaticomaxillary complex fracture",
       "site": "Face",
       "side": "",
       "risks-line-1": "numbness, bleeding, pain, failure to improve symptoms, poor wound healing, injury to surrounding structures",
@@ -3241,7 +3208,8 @@
       "alternatives": "No procedure"
     },
     "specialties": [
-      "Head & Neck"
+      "Head & Neck",
+      "Facial Plastics"
     ],
     "tags": [
       "zmc",
