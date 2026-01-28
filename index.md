@@ -61,6 +61,10 @@
 </style>
 
 <div class="quick-links">
+  <a class="quick-link" href="https://slack.com/signin" target="_blank" rel="noopener noreferrer">
+    <img src="https://www.google.com/s2/favicons?sz=128&domain_url=slack.com" alt="Slack logo">
+    <span>Slack</span>
+  </a>
   <a class="quick-link" href="http://access.well-net.org" target="_blank" rel="noopener noreferrer">
     <img src="https://www.google.com/s2/favicons?sz=128&domain_url=access.well-net.org" alt="WellNet logo">
     <span>WellNet Access</span>
