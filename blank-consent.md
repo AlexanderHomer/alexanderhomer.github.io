@@ -161,7 +161,8 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
 
   .template-buttons {
     display: grid;
-    gap: 0.75rem;
+    gap: 0.6rem;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   }
 
   .template-controls {
@@ -209,10 +210,11 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
   .template-buttons button {
     border: 1px solid rgba(148, 163, 184, 0.4);
     border-radius: 0.75rem;
-    padding: 0.6rem 0.9rem;
+    padding: 0.5rem 0.75rem;
     text-align: left;
     background: #f8fafc;
     font-weight: 600;
+    font-size: 0.9rem;
     cursor: pointer;
     transition: background 0.2s ease, border-color 0.2s ease;
   }
@@ -308,7 +310,7 @@ Use this page to fill the Blank Consent PDF and download a completed copy. All f
 
   @media (min-width: 900px) {
     .consent-layout {
-      grid-template-columns: minmax(0, 1fr) 260px;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, 380px);
     }
   }
 
