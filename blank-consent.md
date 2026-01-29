@@ -487,6 +487,7 @@ Use this page to fill a surgical consent and download a completed copy. Select f
 
   const fieldMap = [
     { id: 'procedure', name: 'Procedure' },
+    { id: 'procedure', name: 'Procedures Line 1' },
     { id: 'site', name: 'Site' },
     { id: 'primary-doctor', name: 'Primary Doctor' },
     { id: 'secondary-doctor', name: 'Secondary Doctor' },
@@ -495,7 +496,6 @@ Use this page to fill a surgical consent and download a completed copy. Select f
     { id: 'conditions-line-1', name: 'Conditions Line 1' },
     { id: 'conditions-line-2', name: 'Conditions Line 2' },
     { id: 'conditions-line-3', name: 'Conditions Line 3' },
-    { id: 'pprocedure', name: 'Procedures Line 1' },
     { id: 'risks-line-1', name: 'Risks Line 1' },
     { id: 'risks-line-2', name: 'Risks Line 2' },
     { id: 'risks-line-3', name: 'Risks Line 3' },
