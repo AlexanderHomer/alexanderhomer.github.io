@@ -28,6 +28,10 @@ Scheduled Meds:
   const copyButton = document.getElementById('copy-button');
   let conversionsMap = {};
   let conversionsLoaded = false;
+  let antimicrobialsLoaded = false;
+  const ANTIBIOTICS = new Set();
+  const ANTIFUNGALS = new Set();
+  const ANTIVIRALS = new Set();
 
   const EXCLUDED_PHRASES = [
     'insert peripheral iv',
@@ -55,42 +59,6 @@ Scheduled Meds:
     'nph',
   ];
   
-  const ANTIBIOTICS = new Set([
-    'amoxicillin',
-    'amoxicillin-clavulanate',
-    'ampicillin',
-    'azithromycin',
-    'cefazolin',
-    'cefepime',
-    'cefixime',
-    'cefotaxime',
-    'cefotetan',
-    'cefoxitin',
-    'cefpodoxime',
-    'ceftaroline',
-    'ceftazidime',
-    'ceftriaxone',
-    'cefuroxime',
-    'cephalexin',
-    'ciprofloxacin',
-    'clindamycin',
-    'daptomycin',
-    'doxycycline',
-    'ertapenem',
-    'gentamicin',
-    'levofloxacin',
-    'linezolid',
-    'meropenem',
-    'metronidazole',
-    'moxifloxacin',
-    'nafcillin',
-    'piperacillin-tazobactam',
-    'rifampin',
-    'trimethoprim-sulfamethoxazole',
-    'sulfamethoxazole-trimethoprim'
-    'vancomycin',
-  ]);
-
   const ANTICOAG_LABELS = {
     SQH: 'SQH',
     LVX: 'LVX',
@@ -121,6 +89,31 @@ Scheduled Meds:
     } catch (error) {
       conversionsMap = {};
       conversionsLoaded = true;
+    }
+  }
+
+  async function loadAntimicrobials() {
+    if (antimicrobialsLoaded) {
+      return;
+    }
+    try {
+      const response = await fetch('/resources/medication-handoff-antimicrobials.json');
+      if (!response.ok) {
+        antimicrobialsLoaded = true;
+        return;
+      }
+      const data = await response.json();
+      if (data && typeof data === 'object') {
+        const antibiotics = Array.isArray(data.antibiotics) ? data.antibiotics : [];
+        const antifungals = Array.isArray(data.antifungals) ? data.antifungals : [];
+        const antivirals = Array.isArray(data.antivirals) ? data.antivirals : [];
+        antibiotics.forEach((name) => ANTIBIOTICS.add(String(name).toLowerCase()));
+        antifungals.forEach((name) => ANTIFUNGALS.add(String(name).toLowerCase()));
+        antivirals.forEach((name) => ANTIVIRALS.add(String(name).toLowerCase()));
+      }
+      antimicrobialsLoaded = true;
+    } catch (error) {
+      antimicrobialsLoaded = true;
     }
   }
 
@@ -234,7 +227,7 @@ Scheduled Meds:
     if (IVF.has(name)) {
       return 'IVF';
     }
-    if (ANTIBIOTICS.has(name)) {
+    if (ANTIBIOTICS.has(name) || ANTIFUNGALS.has(name) || ANTIVIRALS.has(name)) {
       return 'ID';
     }
     return sectionHint;
@@ -377,6 +370,7 @@ Scheduled Meds:
 
   async function refreshOutput() {
     await loadConversions();
+    await loadAntimicrobials();
     const cleaned = cleanMedList(inputEl.value);
     renderOutput(cleaned);
   }
