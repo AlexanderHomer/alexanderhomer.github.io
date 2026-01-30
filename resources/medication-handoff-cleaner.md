@@ -53,6 +53,11 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
 
   const PRN_EXCLUDED = new Set(['sodium chloride', 'glucagon']);
 
+  const IVF = new Set([
+    'lactated ringer\'s',
+    'sodium chloride'
+  ])
+  
   const ANTIBIOTICS = new Set([
     'amoxicillin',
     'amoxicillin-clavulanate',
@@ -118,7 +123,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
   }
 
   function classifyMedication(name, sectionHint) {
-    if (name === 'lactated ringer\'s') {
+    if (IVF.has(name)) {
       return 'IVF';
     }
     if (ANTIBIOTICS.has(name)) {
