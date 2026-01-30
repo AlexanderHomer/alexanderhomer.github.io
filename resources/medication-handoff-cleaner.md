@@ -129,6 +129,7 @@ Scheduled Meds:
     return name
       .replace(/\*+/g, '')
       .replace(/\([^)]*\)/g, '')
+      .replace(/\b\d+(?:\.\d+)?\s*%/gi, '')
       .replace(/\b\d+(?:\.\d+)?\s*(?:%|mcg|mg|g|kg|ml|mL|units|unit)\b/gi, '')
       .replace(/\s+\d+(?:\.\d+)?$/g, '')
       .replace(/\s+/g, ' ')
