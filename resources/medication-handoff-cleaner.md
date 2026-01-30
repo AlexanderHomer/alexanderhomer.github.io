@@ -113,6 +113,10 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     return null;
   }
 
+  function parseHeldFlag(line) {
+    return /\[held by provider\]/i.test(line);
+  }
+
   function classifyMedication(name, sectionHint) {
     if (name === 'lactated ringer\'s') {
       return 'IVF';
@@ -123,7 +127,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     return sectionHint;
   }
 
-  function cleanLine(line, allowMultiple) {
+  function cleanLine(line, allowMultiple, held) {
     let working = line.replace(/\[[^\]]*\]/g, '').trim();
     if (!working) return [];
 
@@ -139,10 +143,10 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     if (segments.length === 0) return [];
 
     if (!allowMultiple && segments.length > 1) {
-      return [segments[0]];
+      return [{ name: segments[0], held }];
     }
 
-    return segments;
+    return segments.map((segment) => ({ name: segment, held }));
   }
 
   function cleanMedList(text) {
@@ -165,6 +169,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     text.split(/\r?\n/).forEach((rawLine) => {
       const sectionInfo = identifySection(rawLine);
       let lineToParse = rawLine;
+      const held = parseHeldFlag(rawLine);
       if (sectionInfo) {
         currentSection = sectionInfo.section;
         lineToParse = sectionInfo.remainder;
@@ -173,16 +178,18 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       if (!lineToParse.trim()) return;
 
       const allowMultiple = currentSection === 'PRN';
-      const names = cleanLine(lineToParse, allowMultiple);
-      names.forEach((name) => {
+      const entries = cleanLine(lineToParse, allowMultiple, held);
+      entries.forEach(({ name, held: isHeld }) => {
         const normalized = normalizeName(name.toLowerCase());
         if (!normalized) return;
         if (EXCLUDED_PHRASES.some((phrase) => normalized.includes(phrase))) return;
         const resolvedSection = classifyMedication(normalized, currentSection);
         if (resolvedSection === 'PRN' && PRN_EXCLUDED.has(normalized)) return;
-        if (!seen[resolvedSection].has(normalized)) {
-          seen[resolvedSection].add(normalized);
-          results[resolvedSection].push(normalized);
+        const displayName = isHeld ? `${normalized} (held)` : normalized;
+        const uniqueKey = `${normalized}|${isHeld ? 'held' : 'active'}`;
+        if (!seen[resolvedSection].has(uniqueKey)) {
+          seen[resolvedSection].add(uniqueKey);
+          results[resolvedSection].push(displayName);
         }
       });
     });
