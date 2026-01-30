@@ -217,7 +217,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
 
     if (isSlidingScale) {
       return {
-        section: 'ISS',
+        section: 'Scheduled',
         displayName: held ? 'ISS (held)' : 'ISS',
       };
     }
@@ -296,7 +296,6 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
 
   function cleanMedList(text) {
     const seen = {
-      ISS: new Set(),
       Scheduled: new Set(),
       Continuous: new Set(),
       IVF: new Set(),
@@ -305,7 +304,6 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       PRN: new Set(),
     };
     const results = {
-      ISS: [],
       Scheduled: [],
       Continuous: [],
       IVF: [],
@@ -377,17 +375,12 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
   }
 
   function renderOutput(listBySection) {
-    const sections = ['ISS', 'Scheduled', 'Continuous', 'IVF', 'ID', 'Anticoagulation', 'PRN'];
+    const sections = ['Scheduled', 'Continuous', 'IVF', 'ID', 'Anticoagulation', 'PRN'];
     const lines = [];
 
     sections.forEach((section) => {
       const meds = listBySection[section];
       if (!meds || meds.length === 0) return;
-
-      if (section === 'ISS') {
-        meds.forEach((entry) => lines.push(entry));
-        return;
-      }
 
       lines.push(`${section}: ${meds.join(', ')}`);
     });
