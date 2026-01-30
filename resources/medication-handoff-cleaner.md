@@ -45,10 +45,13 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
   const outputEl = document.getElementById('med-output');
   const cleanButton = document.getElementById('clean-button');
   const copyButton = document.getElementById('copy-button');
+  let conversionsMap = {};
+  let conversionsLoaded = false;
 
   const EXCLUDED_PHRASES = [
     'insert peripheral iv',
     'saline lock iv',
+    'heparin flush',
   ];
 
   const PRN_EXCLUDED = new Set(['sodium chloride', 'glucagon']);
@@ -106,6 +109,47 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     'vancomycin',
   ]);
 
+  const ANTICOAG_LABELS = {
+    SQH: 'SQH',
+    LVX: 'LVX',
+    HEPARIN_GTT: 'heparin gtt',
+    BIVAL: 'bival',
+  };
+
+  async function loadConversions() {
+    if (conversionsLoaded) {
+      return;
+    }
+    try {
+      const response = await fetch('/resources/medication-handoff-conversions.json');
+      if (!response.ok) {
+        conversionsLoaded = true;
+        return;
+      }
+      const data = await response.json();
+      if (data && typeof data === 'object') {
+        if (data.conversions && typeof data.conversions === 'object') {
+          conversionsMap = data.conversions;
+          conversionsLoaded = true;
+          return;
+        }
+        conversionsMap = data;
+      }
+      conversionsLoaded = true;
+    } catch (error) {
+      conversionsMap = {};
+      conversionsLoaded = true;
+    }
+  }
+
+  function applyConversion(name) {
+    const converted = conversionsMap[name];
+    if (!converted) {
+      return name;
+    }
+    return normalizeName(String(converted).toLowerCase());
+  }
+
   function normalizeName(name) {
     return name
       .replace(/\*+/g, '')
@@ -115,6 +159,38 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       .replace(/\s+/g, ' ')
       .replace(/\s+[,.;:]/g, '')
       .trim();
+  }
+
+  function extractAnticoagEntry(line, held) {
+    const lowered = line.toLowerCase();
+    if (lowered.includes('heparin') && lowered.includes('flush')) {
+      return null;
+    }
+    if (/(bivalirudin|\bbival\b)/i.test(lowered)) {
+      return {
+        section: 'Anticoagulation',
+        displayName: held ? `${ANTICOAG_LABELS.BIVAL} (held)` : ANTICOAG_LABELS.BIVAL,
+      };
+    }
+    if (/heparin/i.test(lowered) && /(gtt|drip|infusion|continuous)/i.test(lowered)) {
+      return {
+        section: 'Anticoagulation',
+        displayName: held ? `${ANTICOAG_LABELS.HEPARIN_GTT} (held)` : ANTICOAG_LABELS.HEPARIN_GTT,
+      };
+    }
+    if (/(enoxaparin|lovenox)/i.test(lowered)) {
+      return {
+        section: 'Anticoagulation',
+        displayName: held ? `${ANTICOAG_LABELS.LVX} (held)` : ANTICOAG_LABELS.LVX,
+      };
+    }
+    if (/heparin/i.test(lowered) && /(subcutaneous|\bsq\b|\bsc\b)/i.test(lowered)) {
+      return {
+        section: 'Anticoagulation',
+        displayName: held ? `${ANTICOAG_LABELS.SQH} (held)` : ANTICOAG_LABELS.SQH,
+      };
+    }
+    return null;
   }
 
   function identifySection(line) {
@@ -182,6 +258,11 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     return sectionHint;
   }
 
+  function pickFirstOrOption(segment) {
+    const parts = segment.split(/\s+or\s+/i).map((part) => part.trim()).filter(Boolean);
+    return parts.length > 0 ? parts[0] : segment;
+  }
+
   function cleanLine(line, allowMultiple, held) {
     let working = line.replace(/\[[^\]]*\]/g, '').trim();
     if (!working) return [];
@@ -194,7 +275,9 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       working = prnParts.slice(1).join(':').trim();
     }
 
-    const segments = working.split(',').map((segment) => segment.trim()).filter(Boolean);
+    const segments = working.split(',')
+      .map((segment) => pickFirstOrOption(segment.trim()))
+      .filter(Boolean);
     if (segments.length === 0) return [];
 
     if (!allowMultiple && segments.length > 1) {
@@ -218,6 +301,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       Continuous: new Set(),
       IVF: new Set(),
       ID: new Set(),
+      Anticoagulation: new Set(),
       PRN: new Set(),
     };
     const results = {
@@ -226,6 +310,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       Continuous: [],
       IVF: [],
       ID: [],
+      Anticoagulation: [],
       PRN: [],
     };
     let currentSection = 'Scheduled';
@@ -240,6 +325,20 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       }
 
       if (!lineToParse.trim()) return;
+
+      if (/heparin/i.test(lineToParse) && /flush/i.test(lineToParse)) {
+        return;
+      }
+
+      const anticoagEntry = extractAnticoagEntry(lineToParse, held);
+      if (anticoagEntry) {
+        const uniqueKey = anticoagEntry.displayName;
+        if (!seen[anticoagEntry.section].has(uniqueKey)) {
+          seen[anticoagEntry.section].add(uniqueKey);
+          results[anticoagEntry.section].push(anticoagEntry.displayName);
+        }
+        return;
+      }
 
       const insulinEntry = extractInsulinEntry(lineToParse, held);
       if (insulinEntry) {
@@ -258,14 +357,15 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
         const normalized = normalizeName(name.toLowerCase());
         if (!normalized) return;
         if (EXCLUDED_PHRASES.some((phrase) => normalized.includes(phrase))) return;
-        const resolvedSection = classifyMedication(normalized, currentSection);
+        const convertedName = applyConversion(normalized);
+        const resolvedSection = classifyMedication(convertedName, currentSection);
         if (resolvedSection === 'PRN' && PRN_EXCLUDED.has(normalized)) return;
         const rateSuffix = resolvedSection === 'IVF' && infusionRate ? ` ${infusionRate}` : '';
         const heldSuffix = isHeld ? ' (held)' : '';
-        const displayName = `${normalized}${rateSuffix}${heldSuffix}`;
+        const displayName = `${convertedName}${rateSuffix}${heldSuffix}`;
         const uniqueKey = resolvedSection === 'PRN'
-          ? normalized
-          : `${normalized}|${infusionRate || 'no-rate'}|${isHeld ? 'held' : 'active'}`;
+          ? convertedName
+          : `${convertedName}|${infusionRate || 'no-rate'}|${isHeld ? 'held' : 'active'}`;
         if (!seen[resolvedSection].has(uniqueKey)) {
           seen[resolvedSection].add(uniqueKey);
           results[resolvedSection].push(displayName);
@@ -277,7 +377,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
   }
 
   function renderOutput(listBySection) {
-    const sections = ['ISS', 'Scheduled', 'Continuous', 'IVF', 'ID', 'PRN'];
+    const sections = ['ISS', 'Scheduled', 'Continuous', 'IVF', 'ID', 'Anticoagulation', 'PRN'];
     const lines = [];
 
     sections.forEach((section) => {
@@ -300,9 +400,14 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     outputEl.textContent = lines.join('\n');
   }
 
-  cleanButton.addEventListener('click', () => {
+  async function refreshOutput() {
+    await loadConversions();
     const cleaned = cleanMedList(inputEl.value);
     renderOutput(cleaned);
+  }
+
+  cleanButton.addEventListener('click', async () => {
+    await refreshOutput();
   });
 
   copyButton.addEventListener('click', async () => {
@@ -322,5 +427,5 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     }
   });
 
-  renderOutput(cleanMedList(inputEl.value));
+  refreshOutput();
 </script>
