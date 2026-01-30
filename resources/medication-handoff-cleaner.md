@@ -51,6 +51,43 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     'saline lock iv',
   ];
 
+  const PRN_EXCLUDED = new Set(['sodium chloride', 'glucagon']);
+
+  const ANTIBIOTICS = new Set([
+    'amoxicillin',
+    'amoxicillin-clavulanate',
+    'ampicillin',
+    'azithromycin',
+    'cefazolin',
+    'cefepime',
+    'cefixime',
+    'cefotaxime',
+    'cefotetan',
+    'cefoxitin',
+    'cefpodoxime',
+    'ceftaroline',
+    'ceftazidime',
+    'ceftriaxone',
+    'cefuroxime',
+    'cephalexin',
+    'ciprofloxacin',
+    'clindamycin',
+    'daptomycin',
+    'doxycycline',
+    'ertapenem',
+    'gentamicin',
+    'levofloxacin',
+    'linezolid',
+    'meropenem',
+    'metronidazole',
+    'moxifloxacin',
+    'nafcillin',
+    'piperacillin-tazobactam',
+    'rifampin',
+    'trimethoprim-sulfamethoxazole',
+    'vancomycin',
+  ]);
+
   function normalizeName(name) {
     return name
       .replace(/\*+/g, '')
@@ -74,6 +111,16 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       return { section: 'PRN', remainder: trimmed.split(':').slice(1).join(':').trim() };
     }
     return null;
+  }
+
+  function classifyMedication(name, sectionHint) {
+    if (name === 'lactated ringer\'s') {
+      return 'IVF';
+    }
+    if (ANTIBIOTICS.has(name)) {
+      return 'ID';
+    }
+    return sectionHint;
   }
 
   function cleanLine(line, allowMultiple) {
@@ -102,11 +149,15 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     const seen = {
       Scheduled: new Set(),
       Continuous: new Set(),
+      IVF: new Set(),
+      ID: new Set(),
       PRN: new Set(),
     };
     const results = {
       Scheduled: [],
       Continuous: [],
+      IVF: [],
+      ID: [],
       PRN: [],
     };
     let currentSection = 'Scheduled';
@@ -127,9 +178,11 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
         const normalized = normalizeName(name.toLowerCase());
         if (!normalized) return;
         if (EXCLUDED_PHRASES.some((phrase) => normalized.includes(phrase))) return;
-        if (!seen[currentSection].has(normalized)) {
-          seen[currentSection].add(normalized);
-          results[currentSection].push(normalized);
+        const resolvedSection = classifyMedication(normalized, currentSection);
+        if (resolvedSection === 'PRN' && PRN_EXCLUDED.has(normalized)) return;
+        if (!seen[resolvedSection].has(normalized)) {
+          seen[resolvedSection].add(normalized);
+          results[resolvedSection].push(normalized);
         }
       });
     });
@@ -138,7 +191,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
   }
 
   function renderOutput(listBySection) {
-    const sections = ['Scheduled', 'Continuous', 'PRN'];
+    const sections = ['Scheduled', 'Continuous', 'IVF', 'ID', 'PRN'];
     const lines = sections
       .map((section) => {
         const meds = listBySection[section];
