@@ -47,8 +47,6 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
   const copyButton = document.getElementById('copy-button');
   let conversionsMap = {};
   let conversionsLoaded = false;
-  let ignoredBySection = {};
-  let ignoredLoaded = false;
 
   const EXCLUDED_PHRASES = [
     'insert peripheral iv',
@@ -144,39 +142,12 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     }
   }
 
-  async function loadIgnoredMeds() {
-    if (ignoredLoaded) {
-      return;
-    }
-    try {
-      const response = await fetch('/resources/medication-handoff-ignored.json');
-      if (!response.ok) {
-        ignoredLoaded = true;
-        return;
-      }
-      const data = await response.json();
-      if (data && typeof data === 'object') {
-        ignoredBySection = data;
-      }
-      ignoredLoaded = true;
-    } catch (error) {
-      ignoredBySection = {};
-      ignoredLoaded = true;
-    }
-  }
-
   function applyConversion(name) {
     const converted = conversionsMap[name];
     if (!converted) {
       return name;
     }
     return normalizeName(String(converted).toLowerCase());
-  }
-
-  function isIgnoredMedication(name, section) {
-    const allIgnored = Array.isArray(ignoredBySection.all) ? ignoredBySection.all : [];
-    const sectionIgnored = Array.isArray(ignoredBySection[section]) ? ignoredBySection[section] : [];
-    return allIgnored.includes(name) || sectionIgnored.includes(name);
   }
 
   function normalizeName(name) {
@@ -388,7 +359,6 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
         if (EXCLUDED_PHRASES.some((phrase) => normalized.includes(phrase))) return;
         const convertedName = applyConversion(normalized);
         const resolvedSection = classifyMedication(convertedName, currentSection);
-        if (isIgnoredMedication(convertedName, resolvedSection)) return;
         if (resolvedSection === 'PRN' && PRN_EXCLUDED.has(normalized)) return;
         const rateSuffix = resolvedSection === 'IVF' && infusionRate ? ` ${infusionRate}` : '';
         const heldSuffix = isHeld ? ' (held)' : '';
@@ -432,7 +402,6 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
 
   async function refreshOutput() {
     await loadConversions();
-    await loadIgnoredMeds();
     const cleaned = cleanMedList(inputEl.value);
     renderOutput(cleaned);
   }
