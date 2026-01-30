@@ -235,8 +235,9 @@ Scheduled Meds:
   }
 
   function pickFirstOrOption(segment) {
-    const parts = segment.split(/\s+or\s+/i).map((part) => part.trim()).filter(Boolean);
-    return parts.length > 0 ? parts[0] : segment;
+    const cleanedSegment = segment.replace(/\*+/g, '');
+    const parts = cleanedSegment.split(/\s+or\s+/i).map((part) => part.trim()).filter(Boolean);
+    return parts.length > 0 ? parts[0] : cleanedSegment;
   }
 
   function cleanLine(line, allowMultiple, held) {
