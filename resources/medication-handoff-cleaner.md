@@ -57,6 +57,19 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     'lactated ringer\'s',
     'sodium chloride'
   ])
+
+  const INSULIN_KEYWORDS = [
+    'insulin',
+    'humalog',
+    'lispro',
+    'aspart',
+    'novolog',
+    'glargine',
+    'lantus',
+    'detemir',
+    'levemir',
+    'nph',
+  ];
   
   const ANTIBIOTICS = new Set([
     'amoxicillin',
@@ -118,6 +131,43 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     return null;
   }
 
+  function extractInsulinEntry(line, held) {
+    const lowered = line.toLowerCase();
+    const isInsulin = INSULIN_KEYWORDS.some((keyword) => lowered.includes(keyword));
+    if (!isInsulin) return null;
+
+    const isSlidingScale = /sliding scale|\biss\b/i.test(line)
+      || /\b\d+(?:\.\d+)?\s*-\s*\d+(?:\.\d+)?\s*(?:units?|u)\b/i.test(line);
+
+    if (isSlidingScale) {
+      return {
+        section: 'ISS',
+        displayName: held ? 'ISS (held)' : 'ISS',
+      };
+    }
+
+    const doseMatch = line.match(/\b\d+(?:\.\d+)?\s*(?:units?|u)\b/i);
+    const timingMatch = line.match(/\b(?:q\d+h|q\d+hr|q\d+hrs|qhs|qam|qpm|bid|tid|qid|qod|daily|nightly|weekly)\b/i);
+    const dose = doseMatch ? doseMatch[0].toLowerCase().replace(/\s+/g, ' ') : null;
+    const timing = timingMatch ? timingMatch[0].toUpperCase() : null;
+
+    let displayName = 'scheduled insulin';
+    if (dose) {
+      displayName += ` ${dose}`;
+    }
+    if (timing) {
+      displayName += ` ${timing}`;
+    }
+    if (held) {
+      displayName += ' (held)';
+    }
+
+    return {
+      section: 'Scheduled',
+      displayName,
+    };
+  }
+
   function parseHeldFlag(line) {
     return /\[held by provider\]/i.test(line);
   }
@@ -163,6 +213,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
 
   function cleanMedList(text) {
     const seen = {
+      ISS: new Set(),
       Scheduled: new Set(),
       Continuous: new Set(),
       IVF: new Set(),
@@ -170,6 +221,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       PRN: new Set(),
     };
     const results = {
+      ISS: [],
       Scheduled: [],
       Continuous: [],
       IVF: [],
@@ -188,6 +240,16 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       }
 
       if (!lineToParse.trim()) return;
+
+      const insulinEntry = extractInsulinEntry(lineToParse, held);
+      if (insulinEntry) {
+        const uniqueKey = insulinEntry.displayName;
+        if (!seen[insulinEntry.section].has(uniqueKey)) {
+          seen[insulinEntry.section].add(uniqueKey);
+          results[insulinEntry.section].push(insulinEntry.displayName);
+        }
+        return;
+      }
 
       const allowMultiple = currentSection === 'PRN';
       const infusionRate = extractInfusionRate(rawLine);
@@ -215,14 +277,20 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
   }
 
   function renderOutput(listBySection) {
-    const sections = ['Scheduled', 'Continuous', 'IVF', 'ID', 'PRN'];
-    const lines = sections
-      .map((section) => {
-        const meds = listBySection[section];
-        if (!meds || meds.length === 0) return null;
-        return `${section}: ${meds.join(', ')}`;
-      })
-      .filter(Boolean);
+    const sections = ['ISS', 'Scheduled', 'Continuous', 'IVF', 'ID', 'PRN'];
+    const lines = [];
+
+    sections.forEach((section) => {
+      const meds = listBySection[section];
+      if (!meds || meds.length === 0) return;
+
+      if (section === 'ISS') {
+        meds.forEach((entry) => lines.push(entry));
+        return;
+      }
+
+      lines.push(`${section}: ${meds.join(', ')}`);
+    });
 
     if (lines.length === 0) {
       outputEl.textContent = 'No medications found.';
