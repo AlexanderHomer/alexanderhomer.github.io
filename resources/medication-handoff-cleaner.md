@@ -10,25 +10,6 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
 
 <textarea id="med-input" rows="14" style="width: 100%; max-width: 900px;">
 Scheduled Meds:
-dilTIAZem, 30 mg, g-tube, q6h SCH
-[Held by provider] doxazosin, 2 mg, nasogastric tube, Daily
-ezetimibe, 10 mg, g-tube, Nightly
-folic acid, 1 mg, g-tube, Daily
-metoprolol tartrate, 50 mg, g-tube, q6h
-multivitamin, 1 each, g-tube, Daily
-[Held by provider] OLANZapine, 2.5 mg, g-tube, Nightly
-ondansetron, 4 mg, intravenous, Once
-pantoprazole, 40 mg, intravenous, BID
-polyethylene glycol, 3,000 mL, g-tube, Once
-[Held by provider] propranolol, 10 mg, nasogastric tube, q8h SCH
-ramelteon, 8 mg, nasogastric tube, Nightly
-rosuvastatin, 40 mg, g-tube, Nightly
-sodium chloride 0.9 %, 10 mL, intra-catheter, q8h
-
-Continuous Infusions: lactated Ringer's, 100 mL/hr, Last Rate: 100 mL/hr (01/30/26 0906)
-norEPINEPHrine, 0-1 mcg/kg/min (Adjusted)
-
-PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, OLANZapine, OLANZapine, [COMPLETED] Insert peripheral IV **AND** [COMPLETED] Saline lock IV **AND** sodium chloride 0.9 %, sodium chloride 0.9 %, sodium chloride 0.9 %, traZODone
 </textarea>
 
 <div style="margin: 1rem 0; display: flex; gap: 0.75rem; flex-wrap: wrap;">
@@ -106,6 +87,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     'piperacillin-tazobactam',
     'rifampin',
     'trimethoprim-sulfamethoxazole',
+    'sulfamethoxazole-trimethoprim'
     'vancomycin',
   ]);
 
