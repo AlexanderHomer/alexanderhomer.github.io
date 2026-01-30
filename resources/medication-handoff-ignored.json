@@ -1,11 +1,10 @@
 {
   "all": [
-    "sodium chloride"
   ],
-  "Scheduled": [],
+  "Scheduled": ["sodium chloride"],
   "Continuous": [],
   "IVF": [],
   "ID": [],
   "Anticoagulation": [],
-  "PRN": []
+  "PRN": ["sodium chloride", "alteplase"]
 }
