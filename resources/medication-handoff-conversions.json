@@ -14,7 +14,8 @@
     "ondansetron": "Zofran",
     "oxycodone-acetaminophen": "Percocet",
     "rivaroxaban": "Xarelto",
-    "sildenafil": "Viagra"
+    "sildenafil": "Viagra",
+    "sodium chlor-hypochlorous acid": "Vashe"
   },
   "notes": "Add lowercase generic medication names as keys to override output. Example: \"acetaminophen\": \"Tylenol\"."
 }
