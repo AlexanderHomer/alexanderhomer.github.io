@@ -1,10 +1,21 @@
 {
   "all": [
   ],
-  "Scheduled": ["sodium chloride"],
+  "Scheduled": ["sodium chloride  0.9 "],
   "Continuous": [],
   "IVF": [],
   "ID": [],
   "Anticoagulation": [],
-  "PRN": ["sodium chloride 0.9%", "alteplase"]
+  "PRN": [
+    "sodium chloride 0.9 %", 
+    "alteplase", 
+    "calcium gluconate", 
+    "dextrose", 
+    "dextrose 50%", 
+    "heparin",
+    "magnesium sulfate", 
+    "potassium chloride", 
+    "propofol", 
+    "sodium phosphate"
+  ]
 }
