@@ -62,32 +62,36 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       .trim();
   }
 
-  function cleanLine(line) {
+  function identifySection(line) {
+    const trimmed = line.trim();
+    if (/^scheduled meds/i.test(trimmed)) {
+      return { section: 'Scheduled', remainder: trimmed.split(':').slice(1).join(':').trim() };
+    }
+    if (/^continuous infusions/i.test(trimmed)) {
+      return { section: 'Continuous', remainder: trimmed.split(':').slice(1).join(':').trim() };
+    }
+    if (/^prn meds/i.test(trimmed)) {
+      return { section: 'PRN', remainder: trimmed.split(':').slice(1).join(':').trim() };
+    }
+    return null;
+  }
+
+  function cleanLine(line, allowMultiple) {
     let working = line.replace(/\[[^\]]*\]/g, '').trim();
     if (!working) return [];
 
-    if (/^scheduled meds/i.test(working) || /^continuous infusions/i.test(working) || /^prn meds/i.test(working)) {
-      const parts = working.split(':');
-      if (parts.length > 1) {
-        working = parts.slice(1).join(':').trim();
-      }
-    }
-
-    if (!working) return [];
-
     const normalized = working.replace(/\*\*AND\*\*/gi, ',');
+    working = normalized;
 
-    if (/prn medications/i.test(normalized)) {
-      const prnParts = normalized.split(':');
+    if (/prn medications/i.test(working)) {
+      const prnParts = working.split(':');
       working = prnParts.slice(1).join(':').trim();
-    } else {
-      working = normalized;
     }
 
     const segments = working.split(',').map((segment) => segment.trim()).filter(Boolean);
     if (segments.length === 0) return [];
 
-    if (segments.length > 1 && !/prn medications/i.test(normalized)) {
+    if (!allowMultiple && segments.length > 1) {
       return [segments[0]];
     }
 
@@ -95,18 +99,37 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
   }
 
   function cleanMedList(text) {
-    const seen = new Set();
-    const results = [];
+    const seen = {
+      Scheduled: new Set(),
+      Continuous: new Set(),
+      PRN: new Set(),
+    };
+    const results = {
+      Scheduled: [],
+      Continuous: [],
+      PRN: [],
+    };
+    let currentSection = 'Scheduled';
 
     text.split(/\r?\n/).forEach((rawLine) => {
-      const names = cleanLine(rawLine);
+      const sectionInfo = identifySection(rawLine);
+      let lineToParse = rawLine;
+      if (sectionInfo) {
+        currentSection = sectionInfo.section;
+        lineToParse = sectionInfo.remainder;
+      }
+
+      if (!lineToParse.trim()) return;
+
+      const allowMultiple = currentSection === 'PRN';
+      const names = cleanLine(lineToParse, allowMultiple);
       names.forEach((name) => {
         const normalized = normalizeName(name.toLowerCase());
         if (!normalized) return;
         if (EXCLUDED_PHRASES.some((phrase) => normalized.includes(phrase))) return;
-        if (!seen.has(normalized)) {
-          seen.add(normalized);
-          results.push(normalized);
+        if (!seen[currentSection].has(normalized)) {
+          seen[currentSection].add(normalized);
+          results[currentSection].push(normalized);
         }
       });
     });
@@ -114,13 +137,22 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     return results;
   }
 
-  function renderOutput(list) {
-    if (list.length === 0) {
+  function renderOutput(listBySection) {
+    const sections = ['Scheduled', 'Continuous', 'PRN'];
+    const lines = sections
+      .map((section) => {
+        const meds = listBySection[section];
+        if (!meds || meds.length === 0) return null;
+        return `${section}: ${meds.join(', ')}`;
+      })
+      .filter(Boolean);
+
+    if (lines.length === 0) {
       outputEl.textContent = 'No medications found.';
       return;
     }
 
-    outputEl.textContent = list.map((name) => `- ${name}`).join('\n');
+    outputEl.textContent = lines.join('\n');
   }
 
   cleanButton.addEventListener('click', () => {
