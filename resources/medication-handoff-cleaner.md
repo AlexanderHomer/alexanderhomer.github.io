@@ -154,6 +154,13 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
     return segments.map((segment) => ({ name: segment, held }));
   }
 
+  function extractInfusionRate(line) {
+    const matches = [...line.matchAll(/(\d+(?:\.\d+)?)\s*(mL|ml|cc)\/hr/gi)];
+    if (matches.length === 0) return null;
+    const lastMatch = matches[matches.length - 1];
+    return `${lastMatch[1]} ${lastMatch[2]}/hr`;
+  }
+
   function cleanMedList(text) {
     const seen = {
       Scheduled: new Set(),
@@ -183,6 +190,7 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
       if (!lineToParse.trim()) return;
 
       const allowMultiple = currentSection === 'PRN';
+      const infusionRate = extractInfusionRate(rawLine);
       const entries = cleanLine(lineToParse, allowMultiple, held);
       entries.forEach(({ name, held: isHeld }) => {
         const normalized = normalizeName(name.toLowerCase());
@@ -190,8 +198,12 @@ PRN Meds: PRN medications: acetaminophen, alteplase, docusate sodium, glucagon, 
         if (EXCLUDED_PHRASES.some((phrase) => normalized.includes(phrase))) return;
         const resolvedSection = classifyMedication(normalized, currentSection);
         if (resolvedSection === 'PRN' && PRN_EXCLUDED.has(normalized)) return;
-        const displayName = isHeld ? `${normalized} (held)` : normalized;
-        const uniqueKey = `${normalized}|${isHeld ? 'held' : 'active'}`;
+        const rateSuffix = resolvedSection === 'IVF' && infusionRate ? ` ${infusionRate}` : '';
+        const heldSuffix = isHeld ? ' (held)' : '';
+        const displayName = `${normalized}${rateSuffix}${heldSuffix}`;
+        const uniqueKey = resolvedSection === 'PRN'
+          ? normalized
+          : `${normalized}|${infusionRate || 'no-rate'}|${isHeld ? 'held' : 'active'}`;
         if (!seen[resolvedSection].has(uniqueKey)) {
           seen[resolvedSection].add(uniqueKey);
           results[resolvedSection].push(displayName);
