@@ -196,6 +196,8 @@ Stay sharp on foundational concepts with our concise lecture summaries. Browse t
 
 [Medication Dosing](resources/medications.html)
 
+[Medication Handoff Cleaner](resources/medication-handoff-cleaner.html)
+
 [Local Rotational Flaps](resources/local-rotational-flaps.html)
 
 [Levels of the Neck](resources/levels-of-the-neck.html)
