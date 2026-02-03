@@ -714,6 +714,7 @@ Use this page to fill a surgical consent and download a completed copy. Select f
       });
     }
     const form = pdfDoc.getForm();
+    const font = await pdfDoc.embedFont(PDFLib.StandardFonts.Helvetica);
     const formFieldNames = new Set(form.getFields().map((field) => field.getName()));
 
     fieldMap.forEach((field) => {
@@ -732,7 +733,6 @@ Use this page to fill a surgical consent and download a completed copy. Select f
         const patientField = form.getTextField('Patient Name');
         patientField.setText(patientName);
       } else {
-        const font = await pdfDoc.embedFont(PDFLib.StandardFonts.Helvetica);
         const pages = pdfDoc.getPages();
         const page = pages[2] ?? pages[pages.length - 1];
         if (page) {
@@ -760,6 +760,12 @@ Use this page to fill a surgical consent and download a completed copy. Select f
         const checkbox = form.getCheckBox(fieldName);
         checkbox.check();
       }
+    }
+
+    try {
+      form.updateFieldAppearances(font);
+    } catch (error) {
+      console.warn('Unable to update PDF field appearances.', error);
     }
 
     let updateFieldAppearances = true;
