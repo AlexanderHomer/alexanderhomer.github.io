@@ -225,7 +225,7 @@ Scheduled Meds:
   }
 
   function classifyMedication(name, sectionHint) {
-    if (IVF.has(name)) {
+    if (IVF.has(name) && sectionHint === 'Continuous') {
       return 'IVF';
     }
     if (ANTIBIOTICS.has(name) || ANTIFUNGALS.has(name) || ANTIVIRALS.has(name)) {
