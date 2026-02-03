@@ -15,7 +15,9 @@
     "oxycodone-acetaminophen": "Percocet",
     "rivaroxaban": "Xarelto",
     "sildenafil": "Viagra",
-    "sodium chlor-hypochlorous acid": "Vashe"
+    "sodium chlor-hypochlorous acid": "Vashe",
+    "docusate sodium": "colace"
+    "polyethylene glycol": "miralax"
   },
   "notes": "Add lowercase generic medication names as keys to override output. Example: \"acetaminophen\": \"Tylenol\"."
 }
