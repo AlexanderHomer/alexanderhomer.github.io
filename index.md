@@ -95,6 +95,20 @@
   </a>
 </div>
 
+## Tools
+
+[Blank Consent PDF Filler](blank-consent.html)
+
+[Medication Handoff Cleaner](resources/medication-handoff-cleaner.html)
+
+[Extensions](resources/extensions.html)
+
+[Medication Dosing](resources/medications.html)
+
+[Antibiogram](resources/antibiogram.html)
+
+[OR Instruments](resources/or-instruments.html)
+
 ## [Orientation](orientation/index.html)
 
 [Rules of the Game](orientation/rules-of-the-game.html)
