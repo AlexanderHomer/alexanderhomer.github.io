@@ -583,9 +583,23 @@ Use this page to fill a surgical consent and download a completed copy. Select f
     setTemplateStatus(`Showing ${filtered.length} template${filtered.length === 1 ? '' : 's'}.`);
   }
 
+  function normalizeSideValue(value) {
+    if (!value) return null;
+    const normalized = value.trim().toLowerCase();
+    if (normalized === 'left' || normalized === 'l') return 'Left';
+    if (normalized === 'right' || normalized === 'r') return 'Right';
+    if (normalized === 'bilateral' || normalized === 'both' || normalized === 'b/l') {
+      return 'Bilateral';
+    }
+    return null;
+  }
+
   function setRadioValue(name, value) {
-    if (!value) return;
-    const radio = formEl.querySelector(`input[name="${name}"][value="${value}"]`);
+    const normalizedValue = normalizeSideValue(value) ?? value;
+    if (!normalizedValue) return;
+    const radio = formEl.querySelector(
+      `input[name="${name}"][value="${normalizedValue}"]`,
+    );
     if (radio) {
       radio.checked = true;
     }
@@ -594,7 +608,7 @@ Use this page to fill a surgical consent and download a completed copy. Select f
   function applyTemplate(template) {
     if (!template || !template.fields) return;
     Object.entries(template.fields).forEach(([fieldId, fieldValue]) => {
-      if (fieldId === 'side') {
+      if (fieldId === 'side' || fieldId === 'laterality') {
         setRadioValue('side', fieldValue);
         return;
       }
