@@ -241,7 +241,7 @@ Scheduled Meds:
   }
 
   function cleanLine(line, allowMultiple, held) {
-    let working = line.replace(/\[[^\]]*\]/g, '').trim();
+    let working = line.trim();
     if (!working) return [];
 
     const normalized = working.replace(/\*\*AND\*\*/gi, ',');
@@ -258,10 +258,19 @@ Scheduled Meds:
     if (segments.length === 0) return [];
 
     if (!allowMultiple && segments.length > 1) {
-      return [{ name: segments[0], held }];
+      const first = segments[0];
+      const isHeld = held || /\[held by provider\]/i.test(first);
+      const cleaned = first.replace(/\[[^\]]*\]/g, '').trim();
+      return cleaned ? [{ name: cleaned, held: isHeld }] : [];
     }
 
-    return segments.map((segment) => ({ name: segment, held }));
+    return segments
+      .map((segment) => {
+        const isHeld = held || /\[held by provider\]/i.test(segment);
+        const cleaned = segment.replace(/\[[^\]]*\]/g, '').trim();
+        return cleaned ? { name: cleaned, held: isHeld } : null;
+      })
+      .filter(Boolean);
   }
 
   function extractInfusionRate(line) {
@@ -327,7 +336,7 @@ Scheduled Meds:
 
       const allowMultiple = currentSection === 'PRN';
       const infusionRate = extractInfusionRate(rawLine);
-      const entries = cleanLine(lineToParse, allowMultiple, held);
+      const entries = cleanLine(lineToParse, allowMultiple, allowMultiple ? false : held);
       entries.forEach(({ name, held: isHeld }) => {
         const normalized = normalizeName(name.toLowerCase());
         if (!normalized) return;
@@ -339,7 +348,7 @@ Scheduled Meds:
         const heldSuffix = isHeld ? ' (held)' : '';
         const displayName = `${convertedName}${rateSuffix}${heldSuffix}`;
         const uniqueKey = resolvedSection === 'PRN'
-          ? convertedName
+          ? `${convertedName}|${isHeld ? 'held' : 'active'}`
           : `${convertedName}|${infusionRate || 'no-rate'}|${isHeld ? 'held' : 'active'}`;
         if (!seen[resolvedSection].has(uniqueKey)) {
           seen[resolvedSection].add(uniqueKey);
