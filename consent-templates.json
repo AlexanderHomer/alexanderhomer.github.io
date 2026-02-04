@@ -24,6 +24,34 @@
     ]
   },
   {
+    "label": "Examination of ears under anesthesia",
+    "fields": {
+      "procedure": "",
+      "site": "",
+      "side": "Bilateral",
+      "primary-doctor": "",
+      "secondary-doctor": "",
+      "conditions-line-1": "",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "bleeding, infection, tympanic membrane perforation, ear canal trauma, vertigo, and hearing changes/loss",
+      "risks-line-2": "failure to resolve symptoms, need for further procedures",
+      "risks-line-3": "",
+      "additional-risks": "",
+      "alternatives": "No procedure"
+    },
+    "specialties": [
+      "General"
+    ],
+    "tags": [
+      "EUA",
+      "examination",
+      "ears",
+      "anesthesia"
+    ]
+  },
+
+  {
     "label": "Adenoidectomy + BMT",
     "fields": {
       "procedure": "Adenoidectomy and Ear Tube Placement",
