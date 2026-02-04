@@ -16,8 +16,8 @@
     "rivaroxaban": "Xarelto",
     "sildenafil": "Viagra",
     "sodium chlor-hypochlorous acid": "Vashe",
-    "docusate sodium": "colace"
-    "polyethylene glycol": "miralax"
+    "docusate sodium": "Colace",
+    "polyethylene glycol": "MiraLAX"
   },
   "notes": "Add lowercase generic medication names as keys to override output. Example: \"acetaminophen\": \"Tylenol\"."
 }
