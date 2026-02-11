@@ -9,7 +9,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
 ## Input
 
 <textarea id="med-input" rows="14" style="width: 100%; max-width: 900px;">
-Scheduled Meds:
+
 </textarea>
 
 <div style="margin: 1rem 0; display: flex; gap: 0.75rem; flex-wrap: wrap;">
