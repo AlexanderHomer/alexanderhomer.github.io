@@ -234,6 +234,20 @@ Scheduled Meds:
     return sectionHint;
   }
 
+  function applyContextualAliases(name, sourceLine) {
+    const loweredLine = sourceLine.toLowerCase();
+
+    if (name === 'sodium chloride' && /(?:each\s+nostril|nostril|nasal)/i.test(loweredLine)) {
+      return 'nasal saline spray';
+    }
+
+    if (name === 'chlorhexidine' && /(?:mouth\/?throat|oral|swish)/i.test(loweredLine)) {
+      return 'peridex';
+    }
+
+    return name;
+  }
+
   function pickFirstOrOption(segment) {
     const cleanedSegment = segment.replace(/\*+/g, '');
     const parts = cleanedSegment.split(/\s+or\s+/i).map((part) => part.trim()).filter(Boolean);
@@ -342,14 +356,15 @@ Scheduled Meds:
         if (!normalized) return;
         if (EXCLUDED_PHRASES.some((phrase) => normalized.includes(phrase))) return;
         const convertedName = applyConversion(normalized);
-        const resolvedSection = classifyMedication(convertedName, currentSection);
+        const contextualName = applyContextualAliases(convertedName, lineToParse);
+        const resolvedSection = classifyMedication(contextualName, currentSection);
         if (resolvedSection === 'PRN' && PRN_EXCLUDED.has(normalized)) return;
         const rateSuffix = resolvedSection === 'IVF' && infusionRate ? ` ${infusionRate}` : '';
         const heldSuffix = isHeld ? ' (held)' : '';
-        const displayName = `${convertedName}${rateSuffix}${heldSuffix}`;
+        const displayName = `${contextualName}${rateSuffix}${heldSuffix}`;
         const uniqueKey = resolvedSection === 'PRN'
-          ? `${convertedName}|${isHeld ? 'held' : 'active'}`
-          : `${convertedName}|${infusionRate || 'no-rate'}|${isHeld ? 'held' : 'active'}`;
+          ? `${contextualName}|${isHeld ? 'held' : 'active'}`
+          : `${contextualName}|${infusionRate || 'no-rate'}|${isHeld ? 'held' : 'active'}`;
         if (!seen[resolvedSection].has(uniqueKey)) {
           seen[resolvedSection].add(uniqueKey);
           results[resolvedSection].push(displayName);
