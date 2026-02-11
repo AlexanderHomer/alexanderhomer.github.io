@@ -17,7 +17,13 @@
     "sildenafil": "Viagra",
     "sodium chlor-hypochlorous acid": "Vashe",
     "docusate sodium": "Colace",
-    "polyethylene glycol": "MiraLAX"
+    "polyethylene glycol": "MiraLAX",
+    "calcium gluconate": "lytes",
+    "magnesium sulfate": "lytes",
+    "sodium phosphate": "lytes",
+    "cholecalciferol": "D3",
+    "alum-mag hydroxide-simeth": "Maalox",
+    "prochlorperazine": "Compazine"
   },
   "notes": "Add lowercase generic medication names as keys to override output. Example: \"acetaminophen\": \"Tylenol\"."
 }
