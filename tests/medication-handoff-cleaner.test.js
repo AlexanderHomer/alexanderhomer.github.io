@@ -64,6 +64,7 @@ assert.strictEqual(typeof context.cleanMedList, 'function', 'cleanMedList should
 
 (async () => {
   await context.loadIgnoredMeds();
+  await context.loadAntimicrobials();
 
 const input = `Scheduled Meds: albumin human, 12.5 g, intravenous, q6h
 cefTRIAXone, 2 g, intravenous, q24h
@@ -95,6 +96,20 @@ const cleaned = context.cleanMedList(input);
 
 const andOptionsInput = `PRN Meds: acetaminophen and ibuprofen, ondansetron or prochlorperazine`;
 const andOptionsCleaned = context.cleanMedList(andOptionsInput);
+
+
+const escapedNewlinesInput = `Scheduled Meds: cefTRIAXone, 2 g, intravenous, q24h\nmetroNIDAZOLE, 500 mg, intravenous, q12h\nPRN Meds: fentaNYL, sodium chloride 0.9 %, HYDROmorphone`;
+const escapedNewlinesCleaned = context.cleanMedList(escapedNewlinesInput);
+
+assert.ok(
+  escapedNewlinesCleaned.ID.includes('ceftriaxone') && escapedNewlinesCleaned.ID.includes('metronidazole'),
+  'escaped newline input should still classify antimicrobials into ID section'
+);
+
+assert.ok(
+  escapedNewlinesCleaned.PRN.includes('hydromorphone') && !escapedNewlinesCleaned.PRN.includes('fentanyl'),
+  'escaped newline input should still apply PRN ignore rules'
+);
 
 assert.strictEqual(
   cleaned.Scheduled.filter((entry) => entry.startsWith('scheduled insulin')).length,

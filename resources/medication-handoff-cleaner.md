@@ -356,6 +356,11 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
   }
 
   function cleanMedList(text) {
+    const normalizedText = String(text || '')
+      .replace(/\\r\\n/g, '\n')
+      .replace(/\\n/g, '\n')
+      .replace(/\\t/g, '\t');
+
     const seen = {
       Scheduled: new Set(),
       Continuous: new Set(),
@@ -374,7 +379,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
     };
     let currentSection = 'Scheduled';
 
-    text.split(/\r?\n/).forEach((rawLine) => {
+    normalizedText.split(/\r?\n/).forEach((rawLine) => {
       const sectionInfo = identifySection(rawLine);
       let lineToParse = rawLine;
       const held = parseHeldFlag(rawLine);
