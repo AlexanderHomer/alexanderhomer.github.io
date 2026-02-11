@@ -183,7 +183,11 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
     return null;
   }
 
-  function extractInsulinEntry(line, held) {
+  function extractInsulinEntry(line, held, sectionHint) {
+    if (sectionHint !== 'Scheduled') {
+      return null;
+    }
+
     const lowered = line.toLowerCase();
     const isInsulin = INSULIN_KEYWORDS.some((keyword) => lowered.includes(keyword));
     if (!isInsulin) return null;
@@ -338,7 +342,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
         return;
       }
 
-      const insulinEntry = extractInsulinEntry(lineToParse, held);
+      const insulinEntry = extractInsulinEntry(lineToParse, held, currentSection);
       if (insulinEntry) {
         const uniqueKey = insulinEntry.displayName;
         if (!seen[insulinEntry.section].has(uniqueKey)) {
