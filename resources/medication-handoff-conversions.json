@@ -23,7 +23,10 @@
     "sodium phosphate": "lytes",
     "cholecalciferol": "D3",
     "alum-mag hydroxide-simeth": "Maalox",
-    "prochlorperazine": "Compazine"
+    "prochlorperazine": "Compazine",
+    "nicotine polacrilex" : "nicotine gum",
+    "buprenorphine-naloxone": "Suboxone",
+    
   },
   "notes": "Add lowercase generic medication names as keys to override output. Example: \"acetaminophen\": \"Tylenol\"."
 }
