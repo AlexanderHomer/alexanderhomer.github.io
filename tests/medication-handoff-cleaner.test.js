@@ -40,6 +40,20 @@ const context = {
         json: async () => ({ antibiotics: ['ceftriaxone', 'metronidazole'], antifungals: [], antivirals: [] }),
       };
     }
+    if (url.includes('ignored')) {
+      return {
+        ok: true,
+        json: async () => ({
+          all: [],
+          Scheduled: [],
+          Continuous: [],
+          IVF: [],
+          ID: [],
+          Anticoagulation: [],
+          PRN: ['fentanyl', 'sodium chloride 0.9 %'],
+        }),
+      };
+    }
     return { ok: false, json: async () => ({}) };
   },
 };
@@ -47,6 +61,9 @@ vm.createContext(context);
 vm.runInContext(scriptMatch[1], context);
 
 assert.strictEqual(typeof context.cleanMedList, 'function', 'cleanMedList should be defined');
+
+(async () => {
+  await context.loadIgnoredMeds();
 
 const input = `Scheduled Meds: albumin human, 12.5 g, intravenous, q6h
 cefTRIAXone, 2 g, intravenous, q24h
@@ -101,6 +118,11 @@ assert.ok(
 );
 
 assert.ok(
+  !cleaned.PRN.includes('fentanyl'),
+  'PRN fentanyl should be excluded when configured in ignored list'
+);
+
+assert.ok(
   andOptionsCleaned.PRN.includes('acetaminophen'),
   'PRN parser should keep first med in "and" option strings'
 );
@@ -116,3 +138,4 @@ assert.ok(
 );
 
 console.log('All medication handoff cleaner tests passed.');
+})();

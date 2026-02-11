@@ -29,6 +29,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
   let conversionsMap = {};
   let conversionsLoaded = false;
   let antimicrobialsLoaded = false;
+  let ignoredMedsLoaded = false;
   const ANTIBIOTICS = new Set();
   const ANTIFUNGALS = new Set();
   const ANTIVIRALS = new Set();
@@ -39,7 +40,15 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
     'heparin flush',
   ];
 
-  const PRN_EXCLUDED = new Set(['sodium chloride', 'glucagon']);
+  const ignoredMeds = {
+    all: new Set(),
+    Scheduled: new Set(),
+    Continuous: new Set(),
+    IVF: new Set(),
+    ID: new Set(),
+    Anticoagulation: new Set(),
+    PRN: new Set(['sodium chloride', 'glucagon']),
+  };
 
   const IVF = new Set([
     'lactated ringer\'s',
@@ -115,6 +124,40 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
     } catch (error) {
       antimicrobialsLoaded = true;
     }
+  }
+
+  async function loadIgnoredMeds() {
+    if (ignoredMedsLoaded) {
+      return;
+    }
+    try {
+      const response = await fetch('/resources/medication-handoff-ignored.json');
+      if (!response.ok) {
+        ignoredMedsLoaded = true;
+        return;
+      }
+      const data = await response.json();
+      if (!data || typeof data !== 'object') {
+        ignoredMedsLoaded = true;
+        return;
+      }
+
+      Object.entries(ignoredMeds).forEach(([section, set]) => {
+        const values = Array.isArray(data[section]) ? data[section] : [];
+        values
+          .map((value) => normalizeName(String(value).toLowerCase()))
+          .filter(Boolean)
+          .forEach((value) => set.add(value));
+      });
+      ignoredMedsLoaded = true;
+    } catch (error) {
+      ignoredMedsLoaded = true;
+    }
+  }
+
+  function isIgnoredMedication(name, section) {
+    if (!name) return false;
+    return ignoredMeds.all.has(name) || (ignoredMeds[section] && ignoredMeds[section].has(name));
   }
 
   function applyConversion(name) {
@@ -376,7 +419,8 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
         const convertedName = applyConversion(normalized);
         const contextualName = applyContextualAliases(convertedName, lineToParse);
         const resolvedSection = classifyMedication(contextualName, currentSection);
-        if (resolvedSection === 'PRN' && PRN_EXCLUDED.has(normalized)) return;
+        const normalizedContextualName = normalizeName(contextualName.toLowerCase());
+        if (isIgnoredMedication(normalizedContextualName, resolvedSection)) return;
         const rateSuffix = resolvedSection === 'IVF' && infusionRate ? ` ${infusionRate}` : '';
         const heldSuffix = isHeld ? ' (held)' : '';
         const displayName = `${contextualName}${rateSuffix}${heldSuffix}`;
@@ -415,6 +459,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
   async function refreshOutput() {
     await loadConversions();
     await loadAntimicrobials();
+    await loadIgnoredMeds();
     const cleaned = cleanMedList(inputEl.value);
     renderOutput(cleaned);
   }
