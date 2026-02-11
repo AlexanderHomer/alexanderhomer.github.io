@@ -252,10 +252,19 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
     return name;
   }
 
-  function pickFirstOrOption(segment) {
+  function parseSegmentOptions(segment) {
     const cleanedSegment = segment.replace(/\*+/g, '');
-    const parts = cleanedSegment.split(/\s+or\s+/i).map((part) => part.trim()).filter(Boolean);
-    return parts.length > 0 ? parts[0] : cleanedSegment;
+    const orParts = cleanedSegment.split(/\s+or\s+/i).map((part) => part.trim()).filter(Boolean);
+    if (orParts.length > 1) {
+      return [orParts[0]];
+    }
+
+    const andParts = cleanedSegment.split(/\s+and\s+/i).map((part) => part.trim()).filter(Boolean);
+    if (andParts.length > 1) {
+      return andParts;
+    }
+
+    return cleanedSegment ? [cleanedSegment] : [];
   }
 
   function cleanLine(line, allowMultiple, held) {
@@ -271,7 +280,8 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
     }
 
     const segments = working.split(',')
-      .map((segment) => pickFirstOrOption(segment.trim()))
+      .flatMap((segment) => parseSegmentOptions(segment.trim()))
+      .filter((segment) => segment.toLowerCase() !== 'and')
       .filter(Boolean);
     if (segments.length === 0) return [];
 
@@ -279,7 +289,11 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
       const first = segments[0];
       const isHeld = held || /\[held by provider\]/i.test(first);
       const cleaned = first.replace(/\[[^\]]*\]/g, '').trim();
-      return cleaned ? [{ name: cleaned, held: isHeld }] : [];
+      const expanded = parseSegmentOptions(cleaned)
+        .filter((option) => option.toLowerCase() !== 'and')
+        .map((option) => option.replace(/\[[^\]]*\]/g, '').trim())
+        .filter(Boolean);
+      return expanded.map((option) => ({ name: option, held: isHeld }));
     }
 
     return segments

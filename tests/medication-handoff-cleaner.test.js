@@ -76,6 +76,9 @@ PRN Meds: PRN medications: alteplase, calcium gluconate, calcium gluconate, dext
 
 const cleaned = context.cleanMedList(input);
 
+const andOptionsInput = `PRN Meds: acetaminophen and ibuprofen, ondansetron or prochlorperazine`;
+const andOptionsCleaned = context.cleanMedList(andOptionsInput);
+
 assert.strictEqual(
   cleaned.Scheduled.filter((entry) => entry.startsWith('scheduled insulin')).length,
   1,
@@ -95,6 +98,21 @@ assert.ok(
 assert.ok(
   !cleaned.PRN.includes('sodium chloride'),
   'PRN sodium chloride should still be excluded'
+);
+
+assert.ok(
+  andOptionsCleaned.PRN.includes('acetaminophen'),
+  'PRN parser should keep first med in "and" option strings'
+);
+
+assert.ok(
+  andOptionsCleaned.PRN.includes('ibuprofen'),
+  'PRN parser should keep second med in "and" option strings'
+);
+
+assert.ok(
+  andOptionsCleaned.PRN.includes('ondansetron') && !andOptionsCleaned.PRN.includes('prochlorperazine'),
+  'PRN parser should still pick the first med in "or" option strings'
 );
 
 console.log('All medication handoff cleaner tests passed.');
