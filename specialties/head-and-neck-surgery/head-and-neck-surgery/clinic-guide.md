@@ -21,6 +21,8 @@ title: Head & Neck Surgery - Clinic Guide
     to Dr. O'Leary so there is enough time for local anesthesia and
     decongestion
 
+5.  Case Booking: Make the case booking request from the preprocedure tab. Fill in the procedure using the CPT code. make   sure to note in the booking comments if there is a longer time needed or if there is an anesthesia preoperative appointment required/not required. Ask for surgery booking and make sure to note if there is/is not a preoperative assessment required.
+
 ### Dr. Wein's Clinic
 
 1.  if you can, dictate your notes and minimize the amount of templating
