@@ -25,7 +25,9 @@
     "alum-mag hydroxide-simeth": "Maalox",
     "prochlorperazine": "Compazine",
     "nicotine polacrilex" : "nicotine gum",
-    "buprenorphine-naloxone": "Suboxone"
+    "buprenorphine-naloxone": "Suboxone",
+    "fat emulsion fish oil/plant based": "TPN",
+    "clinimix-e in dextrose peripheral pn": "TPN"
   },
   "notes": "Add lowercase generic medication names as keys to override output. Example: \"acetaminophen\": \"Tylenol\"."
 }
