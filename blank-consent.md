@@ -505,10 +505,10 @@ Use this page to fill a surgical consent and download a completed copy. Select f
     { id: 'additional-risks', name: 'Additional Risks' }
   ];
 
-  const checkboxFields = {
-    Left: 'Left',
-    Right: 'Right',
-    Bilateral: 'Bilateral'
+  const checkboxFieldCandidates = {
+    Left: ['Left', 'Laterality Left', 'Side Left'],
+    Right: ['Right', 'Laterality Right', 'Side Right'],
+    Bilateral: ['Bilateral', 'Laterality Bilateral', 'Side Bilateral']
   };
 
   function setStatus(message, isError = false) {
@@ -603,6 +603,10 @@ Use this page to fill a surgical consent and download a completed copy. Select f
     if (radio) {
       radio.checked = true;
     }
+  }
+
+  function resolveFormFieldName(formFieldNames, candidates) {
+    return candidates.find((candidate) => formFieldNames.has(candidate)) || null;
   }
 
   function applyTemplate(template) {
@@ -761,16 +765,21 @@ Use this page to fill a surgical consent and download a completed copy. Select f
       }
     }
 
-    Object.values(checkboxFields).forEach((fieldName) => {
-      if (!formFieldNames.has(fieldName)) return;
+    const resolvedCheckboxFields = Object.fromEntries(
+      Object.entries(checkboxFieldCandidates)
+        .map(([side, candidates]) => [side, resolveFormFieldName(formFieldNames, candidates)])
+        .filter(([, fieldName]) => Boolean(fieldName)),
+    );
+
+    Object.values(resolvedCheckboxFields).forEach((fieldName) => {
       const checkbox = form.getCheckBox(fieldName);
       checkbox.uncheck();
     });
 
     const selectedSide = formEl.querySelector('input[name="side"]:checked');
     if (selectedSide) {
-      const fieldName = checkboxFields[selectedSide.value];
-      if (formFieldNames.has(fieldName)) {
+      const fieldName = resolvedCheckboxFields[selectedSide.value];
+      if (fieldName) {
         const checkbox = form.getCheckBox(fieldName);
         checkbox.check();
       }
