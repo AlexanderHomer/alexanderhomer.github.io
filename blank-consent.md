@@ -791,6 +791,15 @@ Use this page to fill a surgical consent and download a completed copy. Select f
       console.warn('Unable to update PDF field appearances.', error);
     }
 
+    try {
+      const acroForm = pdfDoc.catalog.lookup(PDFLib.PDFName.of('AcroForm'));
+      if (acroForm && typeof acroForm.set === 'function') {
+        acroForm.set(PDFLib.PDFName.of('NeedAppearances'), PDFLib.PDFBool.True);
+      }
+    } catch (error) {
+      console.warn('Unable to set AcroForm NeedAppearances flag.', error);
+    }
+
     let updateFieldAppearances = true;
     try {
       form.flatten();
@@ -799,7 +808,10 @@ Use this page to fill a surgical consent and download a completed copy. Select f
       console.warn('Unable to flatten the PDF form fields.', error);
     }
 
-    return await pdfDoc.save({ updateFieldAppearances });
+    return await pdfDoc.save({
+      updateFieldAppearances,
+      useObjectStreams: false
+    });
   }
 
   formEl.addEventListener('submit', async (event) => {
