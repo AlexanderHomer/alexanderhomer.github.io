@@ -109,6 +109,8 @@
 
 [OR Instruments](resources/or-instruments.html)
 
+[OR Prep](resources/or-prep.html)
+
 ## [Orientation](orientation/index.html)
 
 [Rules of the Game](orientation/rules-of-the-game.html)
