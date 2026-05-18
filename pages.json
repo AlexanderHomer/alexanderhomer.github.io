@@ -12,7 +12,7 @@
   {
     "url": "index.html",
     "title": "Tufts Oto-HNS Guide",
-    "content": "Tufts Oto-HNS Guide\n\n.quick-links {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 1rem;\n  margin: 1.5rem 0;\n}\n\n.quick-link {\n  display: inline-flex;\n  align-items: center;\n  gap: 0.75rem;\n  padding: 0.6rem 1.1rem;\n  border-radius: 0.75rem;\n  border: 1px solid #d0d7de;\n  background-color: #f6f8fa;\n  text-decoration: none;\n  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;\n  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);\n}\n\n.quick-link img {\n  width: 36px;\n  height: 36px;\n  border-radius: 8px;\n}\n\n.quick-link span {\n  font-weight: 600;\n  color: #0f172a;\n}\n\n.quick-link:hover,\n.quick-link:focus {\n  background-color: #e7f1ff;\n  border-color: #84aef1;\n  transform: translateY(-1px);\n  box-shadow: 0 4px 10px rgba(51, 102, 204, 0.15);\n}\n\n@media (prefers-color-scheme: dark) {\n  .quick-link {\n    background-color: #1f2937;\n    border-color: #334155;\n    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.5);\n  }\n\n  .quick-link span {\n    color: #e2e8f0;\n  }\n\n  .quick-link:hover,\n  .quick-link:focus {\n    background-color: #334155;\n    border-color: #60a5fa;\n    box-shadow: 0 4px 12px rgba(96, 165, 250, 0.35);\n  }\n}\n\n\n\n  \n    \n    Slack\n  \n  \n    \n    WellNet Access\n  \n  \n    \n    TigerConnect\n  \n  \n    \n    Outlook Mail\n  \n  \n    \n    ChatGPT\n  \n  \n    \n    AMBOSS\n  \n  \n    \n    MDCalc\n  \n  \n    \n    OpenEvidence\n  \n\n\nTools\nBlank Consent PDF Filler\nMedication Handoff Cleaner\nExtensions\nMedication Dosing\nAntibiogram\nOR Instruments\nOR Prep\nOrientation\nRules of the Game\nDaily Routine\nWeekly Routines\nMonthly Routines\nYearly Routines\nTips\nTemplates/Protocols\nOrders, Discharges, and Dictations\nCase &amp; Duty Hour Logs\nOtolaryngology National Conference Schedule\nVacation Requests\nCalls and Consults\nOn-Call\nCalls\nConsults\nFacial Trauma Guide\nOR Notes\nKajal's OR Pearls\nLecture Notes\nStay sharp on foundational concepts with our concise lecture summaries. Browse the full collection in the Lecture Notes hub.\nSpecialties\nOtology\n\nClinic Guide\nFacial Nerve\nNeuro-otology Imaging\nOtitis\nOR Guide\nOtosclerosis\nTemporal Bone Lab\nThe Cranial Nerves\nTinnitus\nVertigo\n\nFacial Plastics\n\nClinic Guide\nOR Guide\nLocal Rotational Flaps\nPost-op Guide\n\nPediatric Otolaryngology\n\nClinic Guide\nNeck Masses\nOR Guide\nCommon Conditions\nPediatric Syndromes\nPost-op Guide\n\nRhinology\n\nClinic Guide\nOR Guide\n\nLaryngology\nHead and Neck Surgery\n\nClinic Guide\nSquamous Cell Carcinoma\nPost-H&amp;N Cancer Follow-up Guide\nOR Guide\nPost-op Guide\nStaging - 8th Edition\n\nResources\nExtensions\nPerioperative Guide\nRotations\nAntibiogram\nMedication Dosing\nMedication Handoff Cleaner\nLocal Rotational Flaps\nLevels of the Neck\nRadiology - Levels of the Neck\nBlank Consent PDF Filler\nOR Instruments\nCranial Nerves\nReview of Systems\nMap of Tufts Medical Center\n\n\nEditors and Contributors\n\n\nJonathan C. Simmonds, M.D.\nJennifer L. Harb, M.D.\nErin Haser, M.D.\nAmeer Shah, M.D.\nSamih Nassif, M.D.\nAndrew R. Scott, M.D.\nMichelle White, M.D.\nAnju Patel, M.D.\nRamya Bharathi, M.D.\nEmily Gall, M.D.\n\n\nIf you add to the pocket guide, feel free to add your name to the list above\n\u2728 Enable sparkle \u2728\n\n\nTo edit this website - talk to me (Alex)\nTo edit the pocket guide \u2013 go to the g-drive folder \u201cENT Pocket guide\u201d\n"
+    "content": "Tufts Oto-HNS Guide\n\n.quick-links {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 1rem;\n  margin: 1.5rem 0;\n}\n\n.quick-link {\n  display: inline-flex;\n  align-items: center;\n  gap: 0.75rem;\n  padding: 0.6rem 1.1rem;\n  border-radius: 0.75rem;\n  border: 1px solid #d0d7de;\n  background-color: #f6f8fa;\n  text-decoration: none;\n  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;\n  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);\n}\n\n.quick-link img {\n  width: 36px;\n  height: 36px;\n  border-radius: 8px;\n}\n\n.quick-link span {\n  font-weight: 600;\n  color: #0f172a;\n}\n\n.quick-link:hover,\n.quick-link:focus {\n  background-color: #e7f1ff;\n  border-color: #84aef1;\n  transform: translateY(-1px);\n  box-shadow: 0 4px 10px rgba(51, 102, 204, 0.15);\n}\n\n@media (prefers-color-scheme: dark) {\n  .quick-link {\n    background-color: #1f2937;\n    border-color: #334155;\n    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.5);\n  }\n\n  .quick-link span {\n    color: #e2e8f0;\n  }\n\n  .quick-link:hover,\n  .quick-link:focus {\n    background-color: #334155;\n    border-color: #60a5fa;\n    box-shadow: 0 4px 12px rgba(96, 165, 250, 0.35);\n  }\n}\n\n\n\n  \n    \n    Slack\n  \n  \n    \n    WellNet Access\n  \n  \n    \n    TigerConnect\n  \n  \n    \n    Outlook Mail\n  \n  \n    \n    ChatGPT\n  \n  \n    \n    AMBOSS\n  \n  \n    \n    MDCalc\n  \n  \n    \n    OpenEvidence\n  \n\n\nTools\nBlank Consent PDF Filler\nMedication Handoff Cleaner\nExtensions\nMedication Dosing\nAntibiogram\nOR Instruments\nOR Prep\nOrientation\nRules of the Game\nDaily Routine\nWeekly Routines\nMonthly Routines\nYearly Routines\nTips\nTemplates/Protocols\nOrders, Discharges, and Dictations\nCase &amp; Duty Hour Logs\nOtolaryngology National Conference Schedule\nVacation Requests\nCalls and Consults\nOn-Call\nCalls\nConsults\nFacial Trauma Guide\nOR Notes\nKajal's OR Pearls\nLecture Notes\nStay sharp on foundational concepts with our concise lecture summaries. Browse the full collection in the Lecture Notes hub.\nSpecialties\nOtology\n\nClinic Guide\nFacial Nerve\nNeuro-otology Imaging\nOtitis\nOR Guide\nOtosclerosis\nTemporal Bone Lab\nThe Cranial Nerves\nTinnitus\nVertigo\n\nFacial Plastics\n\nClinic Guide\nOR Guide\nLocal Rotational Flaps\nPost-op Guide\n\nPediatric Otolaryngology\n\nClinic Guide\nNeck Masses\nOR Guide\nCommon Conditions\nPediatric Syndromes\nPost-op Guide\n\nRhinology\n\nClinic Guide\nOR Guide\n\nLaryngology\nHead and Neck Surgery\n\nClinic Guide\nSquamous Cell Carcinoma\nPost-H&amp;N Cancer Follow-up Guide\nOR Guide\nPost-op Guide\nStaging - 8th Edition\n\nRhode Island Hospital\nAbout\nCodes\nExtensions\nOR Guide\nClinic\nWomen and Infants\nResources\nExtensions\nPerioperative Guide\nRotations\nAntibiogram\nMedication Dosing\nMedication Handoff Cleaner\nLocal Rotational Flaps\nLevels of the Neck\nRadiology - Levels of the Neck\nBlank Consent PDF Filler\nOR Instruments\nCranial Nerves\nReview of Systems\nMap of Tufts Medical Center\n\n\nEditors and Contributors\n\n\nJonathan C. Simmonds, M.D.\nJennifer L. Harb, M.D.\nErin Haser, M.D.\nAmeer Shah, M.D.\nSamih Nassif, M.D.\nAndrew R. Scott, M.D.\nMichelle White, M.D.\nAnju Patel, M.D.\nRamya Bharathi, M.D.\nEmily Gall, M.D.\n\n\nIf you add to the pocket guide, feel free to add your name to the list above\n\u2728 Enable sparkle \u2728\n\n\nTo edit this website - talk to me (Alex)\nTo edit the pocket guide \u2013 go to the g-drive folder \u201cENT Pocket guide\u201d\n"
   },
   {
     "url": "lecture_notes/allergyimmuno.html",
@@ -188,6 +188,41 @@
     "url": "resources/rotations.html",
     "title": "Rotations",
     "content": "\n\n\nAntibiotic Coverage\n\nBack to homepage"
+  },
+  {
+    "url": "rhode-island-hospital/about.html",
+    "title": "Rhode Island Hospital - About",
+    "content": "Rhode Island Hospital - About"
+  },
+  {
+    "url": "rhode-island-hospital/clinic.html",
+    "title": "Rhode Island Hospital - Clinic",
+    "content": "Rhode Island Hospital - Clinic"
+  },
+  {
+    "url": "rhode-island-hospital/codes.html",
+    "title": "Rhode Island Hospital - Codes",
+    "content": "Rhode Island Hospital - Codes"
+  },
+  {
+    "url": "rhode-island-hospital/extensions.html",
+    "title": "Rhode Island Hospital - Extensions",
+    "content": "Rhode Island Hospital - Extensions"
+  },
+  {
+    "url": "rhode-island-hospital/index.html",
+    "title": "Rhode Island Hospital",
+    "content": "Rhode Island Hospital\nAbout\nCodes\nExtensions\nOR Guide\nClinic\nWomen and Infants"
+  },
+  {
+    "url": "rhode-island-hospital/or-guide.html",
+    "title": "Rhode Island Hospital - OR Guide",
+    "content": "Rhode Island Hospital - OR Guide"
+  },
+  {
+    "url": "rhode-island-hospital/women-and-infants.html",
+    "title": "Rhode Island Hospital - Women and Infants",
+    "content": "Rhode Island Hospital - Women and Infants"
   },
   {
     "url": "specialties/facial-plastics/facial-plastics-OR.html",

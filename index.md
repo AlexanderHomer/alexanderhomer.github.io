@@ -200,6 +200,20 @@ Stay sharp on foundational concepts with our concise lecture summaries. Browse t
 - [Post-op Guide](specialties/head-and-neck-surgery/head-and-neck-surgery/post-op-guide.html)
 - [Staging - 8th Edition](specialties/head-and-neck-surgery/head-and-neck-surgery/staging-8th-edition.html)
 
+## [Rhode Island Hospital](rhode-island-hospital/index.html)
+
+[About](rhode-island-hospital/about.html)
+
+[Codes](rhode-island-hospital/codes.html)
+
+[Extensions](rhode-island-hospital/extensions.html)
+
+[OR Guide](rhode-island-hospital/or-guide.html)
+
+[Clinic](rhode-island-hospital/clinic.html)
+
+[Women and Infants](rhode-island-hospital/women-and-infants.html)
+
 ## Resources
 
 [Extensions](resources/extensions.html)
