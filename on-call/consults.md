@@ -1,5 +1,48 @@
 # Consults
 
+## Tonsil Bleed
+#### Acute ED Management
+When you call the consult:
+* Make sure they have **IV access**
+* Make **NPO**
+* Get **T+S** and other labs
+* Get any of the below info
+
+When you get there:
+* **Which day** was the surgery
+* **Who** was it with
+* When was **first/last bleeding episode**
+* How much blood
+* **When** did they last eat
+* **What** did they last eat
+* Exam:
+  - Side
+  - Location (inferior pole most common)
+  - BCH will often have patients saline gargle
+  - Avoid suction
+  - Clot size (dime, nickle, quarter)
+
+ #### Plan
+ * **CALL** (don't text) the attending. No matter how minor.
+ * Small, stable clots can be admitted for overnight observation, keep NPO
+ * Larger clost or active bleeding go to OR
+
+ * **OR case request:**
+   - Inpatient
+   - Class IA - Life Threatening (they will get mad at you, but they dont understand how important this is)
+   - Control of hemorrhage, postoperative, following tonsillectomy
+   - Anesthesia type: General
+   - Make sure to pick today's date so it show up in the depot
+   - No special requests, but consider asking for a trach kit to ward off evil spirits
+   - No radiology needed
+   - No special considerations needed
+   - **Call the booking desk: 45657**
+ * Consent
+   - You can fill this out on the computer and then have the patient sign on Haiku
+ * H+P
+   - Can make your consult note the H+P
+    
+
 ## Epistaxis
 
 * Most bleeds stop with Afrin soaked cotton and pressure.
