@@ -25,14 +25,14 @@ When you get there:
  #### Plan
  * **CALL** (don't text) the attending. No matter how minor.
  * Small, stable clots can be admitted for overnight observation, keep NPO
- * Larger clost or active bleeding go to OR
+ * Larger clot or active bleeding goes to the OR
 
  * **OR case request:**
    - Inpatient
    - Class IA - Life Threatening (they will get mad at you, but they dont understand how important this is)
    - Control of hemorrhage, postoperative, following tonsillectomy
    - Anesthesia type: General
-   - Make sure to pick today's date so it show up in the depot
+   - Make sure to pick today's date so it shows up in the depot
    - No special requests, but consider asking for a trach kit to ward off evil spirits
    - No radiology needed
    - No special considerations needed
