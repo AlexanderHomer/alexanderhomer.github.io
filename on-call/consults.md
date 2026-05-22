@@ -175,17 +175,17 @@ When you get there:
   4. If stable, perform fiberoptic exam. If intubation needed, try and do in OR
 
 
-## Pediatric Stridor
+## Pediatric/Neonatal Stridor
 
 * Scope with nursing and bag mask equipment available. Always ask the NICU RN before you even touch a kid in the NICU
 * When you scope, scope around the nasal cannula, don’t remove it
 * No reflux medications in NICU babies unless the attending clears it (causes NEC)
 * DDX:
 
-  
   1. Laryngomalacia
-  2. VF immobility: see VF immobility workup in Pedi ENT section
-  3. Complete tracheal rings
+  2. GERD (Why is it always GERD?) => Famoidine 0.5 - 1 mg/kg once daily
+  3. VF immobility: see VF immobility workup in Pedi ENT section
+  4. Complete tracheal rings
      * Get echo, head u/s +/- MRI
      * MBS if VF immobility
      * Low threshold for DLB
