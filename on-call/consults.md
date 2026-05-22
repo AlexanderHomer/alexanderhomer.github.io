@@ -26,6 +26,7 @@ When you get there:
  * **CALL** (don't text) the attending. No matter how minor.
  * Small, stable clots can be admitted for overnight observation, keep NPO
  * Larger clot or active bleeding goes to the OR
+ * Consider TXA nebs
 
  * **OR case request:**
    - Inpatient
