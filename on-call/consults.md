@@ -10,7 +10,7 @@ When you call the consult:
 
 When you get there:
 * **Which day** was the surgery
-* **Who** was it with
+* **Who** was it with => ***This determines if you call UO or RI ENT***
 * When was **first/last bleeding episode**
 * How much blood
 * **When** did they last eat
@@ -21,7 +21,7 @@ When you get there:
   - BCH will often have patients saline gargle
   - Avoid suction
   - Clot size (dime, nickle, quarter)
-
+ 
  ### Plan
  * **CALL** (don't text) the attending. No matter how minor.
  * Small, stable clots can be admitted for overnight observation, keep NPO
