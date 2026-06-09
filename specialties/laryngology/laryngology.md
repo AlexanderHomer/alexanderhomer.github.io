@@ -4,18 +4,83 @@
 
 # Laryngology Clinic Guide
 
-## Structure of Clinic Note (Hron)
 
-* **Gen** - NAD. Voice frequent pitch fluctuations. no rhythmic tremor with sustained "a". Voice strained without pitch fluctuations during stroboscopy
-* **Head** - No facial swelling/edema.
-* **Eyes** - conjunctiva clear
-* **Ears** - EACs clear. TMs intact. MEs aerated
-* **Nose** - no purulence or masses
-* **OC/OP** - no oc/op masses.
-* **Neck** - no lad/masses
-* **Resp** - no wob/stridor
-* **Neuro** - Face symm. Symm tongue protusion. Symm palate elev.
-* **TRANSNASAL DISTAL CHIP STROBOSCOPY** - s/p lidocaine and phenylephrine applied topically to the nares. Distal chip endoscope introduced transnasally. BOT without masses. Piriforms without pooling of secretions or masses. Arytenoids fully mobile. Mild to moderate interarytenoid edema. Vocal folds without masses or mucosal abnormalities. Mucosal wave intact and symmetric. Moderate false vocal fold compression during phonation. Complete glottic closure. No tremor or voice changes during phonation
+## O'Connell Clinic — Patient Intake Form
+
+### Chief Complaint History
+
+| Field | Options / Notes |
+|---|---|
+| **Onset** | Sudden · Gradual |
+| **Preceding events** | |
+| **Progression** | Worsening · Stable · Fluctuating · Improving |
+| **What makes it better** | |
+| **What makes it worse** | |
+| **History of tx** | |
+| **Typical voice demands** | |
+| **Occupation** | |
+
+---
+
+### Associated Symptoms
+
+#### Dysphagia
+Solids · Liquids · Pills · "Stuck" sensation · Choking/Coughing · Weight loss · Recent pneumonia
+
+#### Dyspnea
+* Onset sudden vs. gradual
+* Throat vs. Chest
+* Inspiration vs. expiration
+* Stridor vs. Wheeze
+* Inhalers
+* **Triggers:** odors, dust, temperature changes, wind, exertion, laughing, talking
+
+#### Cough
+* Throat vs. chest · Wet vs. dry
+* Episode length · # Daily episodes
+* Associated with time of day/meals
+* Medications
+* **Triggers:**
+
+---
+
+### GERD / LPR History
+
+* **Symptoms:** Heartburn · Lump in throat · Stuck in throat · AM nausea · Throat clearing · Stomach pain
+* EGD or pH Monitoring:
+* Meds:
+* Appropriate timing for meds:
+
+---
+
+### Sinonasal History
+
+* **Symptoms:** Nasal congestion · Runny nose · Post-nasal drip · Itchy nose · Watery eyes
+* Sinus infections:
+* Nose bleeds: YES · NO · FREQ:
+* Previous nasal surgery:
+* **Seasonal allergies:** Spring · Summer · Fall · Winter
+* Meds:
+
+---
+
+### Chronic Medical Conditions
+
+* Pulmonary disorders:
+* Autoimmune disorders:
+* Neurological conditions:
+* Anything else majorly impacting health?
+
+---
+
+### Lifestyle / Social History
+
+| Water | Alcohol | Caffeine | Carbonated | Tobacco/Smoking Hx |
+|---|---|---|---|---|
+| | | | | |
+
+---
+
 
 ## Setting Up Videostrobolaryngoscopy (O'Connell Clinic)
 
@@ -94,82 +159,6 @@
 * For any long-standing reflux events have to send to GI for EGD for Barretts esophagus testing.
 * **Alginates** eg: Gaviscon advance liquid from UK (order on amazon) — 1 teaspoons after meals and qhs (It's the only non-surgical barrier to reflux that exists)
 * **If completely negative (no reflux events, no acid)** --> get allergy testing (for itchy nose, watery eyes, cat allergy). Then start amitriptyline for chronic throat clearing
-
-## O'Connell Clinic — Patient Intake Form
-
-### Chief Complaint History
-
-| Field | Options / Notes |
-|---|---|
-| **Onset** | Sudden · Gradual |
-| **Preceding events** | |
-| **Progression** | Worsening · Stable · Fluctuating · Improving |
-| **What makes it better** | |
-| **What makes it worse** | |
-| **History of tx** | |
-| **Typical voice demands** | |
-| **Occupation** | |
-
----
-
-### Associated Symptoms
-
-#### Dysphagia
-Solids · Liquids · Pills · "Stuck" sensation · Choking/Coughing · Weight loss · Recent pneumonia
-
-#### Dyspnea
-* Onset sudden vs. gradual
-* Throat vs. Chest
-* Inspiration vs. expiration
-* Stridor vs. Wheeze
-* Inhalers
-* **Triggers:** odors, dust, temperature changes, wind, exertion, laughing, talking
-
-#### Cough
-* Throat vs. chest · Wet vs. dry
-* Episode length · # Daily episodes
-* Associated with time of day/meals
-* Medications
-* **Triggers:**
-
----
-
-### GERD / LPR History
-
-* **Symptoms:** Heartburn · Lump in throat · Stuck in throat · AM nausea · Throat clearing · Stomach pain
-* EGD or pH Monitoring:
-* Meds:
-* Appropriate timing for meds:
-
----
-
-### Sinonasal History
-
-* **Symptoms:** Nasal congestion · Runny nose · Post-nasal drip · Itchy nose · Watery eyes
-* Sinus infections:
-* Nose bleeds: YES · NO · FREQ:
-* Previous nasal surgery:
-* **Seasonal allergies:** Spring · Summer · Fall · Winter
-* Meds:
-
----
-
-### Chronic Medical Conditions
-
-* Pulmonary disorders:
-* Autoimmune disorders:
-* Neurological conditions:
-* Anything else majorly impacting health?
-
----
-
-### Lifestyle / Social History
-
-| Water | Alcohol | Caffeine | Carbonated | Tobacco/Smoking Hx |
-|---|---|---|---|---|
-| | | | | |
-
----
 
 ## Hoarseness – Clinical Practice Guideline
 
