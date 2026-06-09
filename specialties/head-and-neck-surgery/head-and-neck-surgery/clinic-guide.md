@@ -303,4 +303,21 @@ risk) 
                   radiactive node and all other nodes that are above 10% of the cpm value
                   of the hottest node.
 
+---
+
+## Procedures
+
+### Lip Biopsy
+* Local anesthetic to inject
+* 15 blade
+* Suture instrument tray
+* 4-0 chromic to close
+* Specimen cup
+
+### Tongue Biopsy
+* Local anesthetic to inject
+* Basket forceps
+* Silver nitrate
+* Suture kit and chromic (just in case)
+
     [Back to homepage](../../../index.html)
