@@ -17,6 +17,26 @@
 * **Neuro** - Face symm. Symm tongue protusion. Symm palate elev.
 * **TRANSNASAL DISTAL CHIP STROBOSCOPY** - s/p lidocaine and phenylephrine applied topically to the nares. Distal chip endoscope introduced transnasally. BOT without masses. Piriforms without pooling of secretions or masses. Arytenoids fully mobile. Mild to moderate interarytenoid edema. Vocal folds without masses or mucosal abnormalities. Mucosal wave intact and symmetric. Moderate false vocal fold compression during phonation. Complete glottic closure. No tremor or voice changes during phonation
 
+## Setting Up Videostrobolaryngoscopy (O'Connell Clinic)
+
+### Before Dr. O'Connell Enters the Room
+1. Spray the patient using a 1cc syringe
+2. Enter the patient name and MRN into the computer (or look them up)
+3. Get a packet of lube and locate the defog
+
+### After She Enters the Room
+1. Once she starts the physical exam, open the scope and lube it up
+2. Plug the scope and light cord into the box with the big circular socket
+3. **Turn on the box with the big socket** — must be done **before** starting the exam on the computer
+4. Start the exam by saving the patient info or selecting an existing patient
+5. Select **Flex HD** on the bottom left
+6. Turn on the scope light (top left of the box with the big socket)
+7. Apply defog to gauze or the paper lining of the mayo tray and wipe the scope
+8. Position the patient
+9. Scope
+
+---
+
 ## How to perform stroboscopy
 
 * Sniff and ee
