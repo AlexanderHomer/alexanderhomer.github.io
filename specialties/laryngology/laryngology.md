@@ -75,6 +75,82 @@
 * **Alginates** eg: Gaviscon advance liquid from UK (order on amazon) — 1 teaspoons after meals and qhs (It's the only non-surgical barrier to reflux that exists)
 * **If completely negative (no reflux events, no acid)** --> get allergy testing (for itchy nose, watery eyes, cat allergy). Then start amitriptyline for chronic throat clearing
 
+## O'Connell Clinic — Patient Intake Form
+
+### Chief Complaint History
+
+| Field | Options / Notes |
+|---|---|
+| **Onset** | Sudden · Gradual |
+| **Preceding events** | |
+| **Progression** | Worsening · Stable · Fluctuating · Improving |
+| **What makes it better** | |
+| **What makes it worse** | |
+| **History of tx** | |
+| **Typical voice demands** | |
+| **Occupation** | |
+
+---
+
+### Associated Symptoms
+
+#### Dysphagia
+Solids · Liquids · Pills · "Stuck" sensation · Choking/Coughing · Weight loss · Recent pneumonia
+
+#### Dyspnea
+* Onset sudden vs. gradual
+* Throat vs. Chest
+* Inspiration vs. expiration
+* Stridor vs. Wheeze
+* Inhalers
+* **Triggers:** odors, dust, temperature changes, wind, exertion, laughing, talking
+
+#### Cough
+* Throat vs. chest · Wet vs. dry
+* Episode length · # Daily episodes
+* Associated with time of day/meals
+* Medications
+* **Triggers:**
+
+---
+
+### GERD / LPR History
+
+* **Symptoms:** Heartburn · Lump in throat · Stuck in throat · AM nausea · Throat clearing · Stomach pain
+* EGD or pH Monitoring:
+* Meds:
+* Appropriate timing for meds:
+
+---
+
+### Sinonasal History
+
+* **Symptoms:** Nasal congestion · Runny nose · Post-nasal drip · Itchy nose · Watery eyes
+* Sinus infections:
+* Nose bleeds: YES · NO · FREQ:
+* Previous nasal surgery:
+* **Seasonal allergies:** Spring · Summer · Fall · Winter
+* Meds:
+
+---
+
+### Chronic Medical Conditions
+
+* Pulmonary disorders:
+* Autoimmune disorders:
+* Neurological conditions:
+* Anything else majorly impacting health?
+
+---
+
+### Lifestyle / Social History
+
+| Water | Alcohol | Caffeine | Carbonated | Tobacco/Smoking Hx |
+|---|---|---|---|---|
+| | | | | |
+
+---
+
 ## Hoarseness – Clinical Practice Guideline
 
 * **Don’t prescribe reflux for symptoms alone**, must have FOE showing reflux related changes. 
