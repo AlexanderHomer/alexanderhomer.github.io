@@ -38,6 +38,21 @@ title: Head & Neck Surgery - Clinic Guide
 
 1.  Similar to Dr. O'Leary's clinic flow
 
+### Procedures
+
+#### Lip Biopsy
+* Local to inject
+* 15 blade
+* Suture instrument tray
+* 4-0 chromic to close
+* Specimen cup
+
+#### Tongue Biopsy
+* Local to inject
+* Basket forceps
+* Silver nitrate
+* Suture kit and chromic just in case
+
 ### Burning Mouth Consults
 
 *Dr. O'Leary's workup*
