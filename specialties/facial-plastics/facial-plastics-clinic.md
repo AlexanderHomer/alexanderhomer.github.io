@@ -1,6 +1,39 @@
 # Facial Plastics – Clinic Guide
 
-## Injectables: Botox
+## Lee Septorhinoplasty — 1-Week Postop Visit
+
+### Pre-Procedure: History & Assessment
+
+Before beginning, ask the patient about:
+
+- Bleeding
+- Signs of infection
+- Antibiotic use
+- Ointment use
+
+### Procedure: Cast & Suture Removal
+
+1. **Position the patient** — Tilt the chair back for better exposure and to reduce vasovagal risk.
+
+2. **Apply Detachol** to the edges of the nasal cast.
+   > Use **Detachol**, not Mastisol.
+
+3. **Free the Steri-Strips** — Use an ear loop curette under the Steri-Strips to release them from the nose atraumatically.
+
+4. **Remove the nasal cast and Steri-Strips.**
+
+5. **Clean the external nose.**
+
+6. **Remove columellar sutures** — Use the ear microscope and a suture kit.
+   > ⚠️ Cut only **ONE limb** of each suture.  
+   > ⚠️ Remove **nylon sutures only** — gut sutures can stay in.  
+   > ✅ There should be **7 sutures** to remove.
+
+7. **Remove the septal splint suture** — There is only one knot, usually on the **right side**.
+
+8. **Remove the bilateral septal splints.**
+
+### Injectables: Botox
 
 * **Horizontal Rhytids**: Procerus (glabella) & Frontalis (raises brow)
 * **Vertical Rhytids**: Corrugator supercilii
@@ -15,7 +48,7 @@ Dilute to 1.25U per 0.1cc (8cc in a 100U vial):
  ![Botox Injection Points](../../media/image9.png)
 
 
-## Rhinoplasty – Clinical Practice Guideline
+### Rhinoplasty – Clinical Practice Guideline
 
 * Preop eval: sleep apnea, body dysmorphia, bleeding disorders, Rhinitis medicamentosa (e.g. Afrin abuse)
 * Exam - assess for nasal airway obstruction
