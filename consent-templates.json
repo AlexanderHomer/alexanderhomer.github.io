@@ -2,7 +2,9 @@
   {
     "label": "Blank",
     "fields": {
-      "procedure": "",
+      "procedure-line-1": "",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "",
       "side": "Bilateral",
       "primary-doctor": "",
@@ -26,7 +28,9 @@
   {
     "label": "Examination of ears under anesthesia",
     "fields": {
-      "procedure": "",
+      "procedure-line-1": "",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "",
       "side": "Bilateral",
       "primary-doctor": "",
@@ -53,7 +57,9 @@
   {
     "label": "Adenoidectomy + BMT",
     "fields": {
-      "procedure": "Adenoidectomy and Ear Tube Placement",
+      "procedure-line-1": "Adenoidectomy and Ear Tube Placement",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Mouth, throat, ears",
       "side": "Bilateral",
       "primary-doctor": "",
@@ -82,7 +88,9 @@
   {
     "label": "Tonsillectomy",
     "fields": {
-      "procedure": "Tonsillectomy",
+      "procedure-line-1": "Tonsillectomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Oropharynx",
       "side": "Bilateral",
       "primary-doctor": "",
@@ -107,7 +115,9 @@
   {
     "label": "Ear Tube Placement",
     "fields": {
-      "procedure": "Bilateral myringotomy with tubes",
+      "procedure-line-1": "Bilateral myringotomy with tubes",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Middle ear",
       "side": "Bilateral",
       "primary-doctor": "",
@@ -140,7 +150,9 @@
   {
     "label": "Adenoidectomy And BMT",
     "fields": {
-      "procedure": "Adenoidectomy, myringotomy and tympanostomy tube placement",
+      "procedure-line-1": "Adenoidectomy, myringotomy and tympanostomy tube placement",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "mouth/throat/ears",
       "side": "Bilateral",
       "risks-line-1": "bleeding, dehydration, pain, halitosis, ear ache, voice change, retained ear tube,failure to improve symptoms,",
@@ -165,7 +177,9 @@
   {
     "label": "Adenoidectomy",
     "fields": {
-      "procedure": "Removal of adenoids",
+      "procedure-line-1": "Removal of adenoids",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "mouth/throat/nose",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for repeat surgery, dehydration, voice changes,",
@@ -187,7 +201,9 @@
   {
     "label": "Application Of Split Thickness Skin Graft To Scalp",
     "fields": {
-      "procedure": "Application of split thickness skin graft to scalp",
+      "procedure-line-1": "Application of split thickness skin graft to scalp",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "scalp/thigh",
       "side": "",
       "risks-line-1": "Failure of graft, continued wound dehiscence, poor healing, recurrence of symptoms",
@@ -214,7 +230,9 @@
   {
     "label": "BMT",
     "fields": {
-      "procedure": "Bilateral tympanostomy tube placement",
+      "procedure-line-1": "Bilateral tympanostomy tube placement",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Ears",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for further surgery / procedures",
@@ -238,7 +256,9 @@
   {
     "label": "BOT With Alt Free Flap, Trach and Bilat ND",
     "fields": {
-      "procedure": "tracheostomy, open hemiglossectomy, open oropharyngectomy, bilateral neck dissection, free flap\nreconstruction with anterior lateral thigh, possible radial forearm, possible pectoralis flap,\npossible submental island flap, possible other local or regional flap reconstruction, possible skin\ngraft",
+      "procedure-line-1": "tracheostomy, open hemiglossectomy, open oropharyngectomy, bilateral neck dissection, free flap",
+      "procedure-line-2": "reconstruction with anterior lateral thigh, possible radial forearm, possible pectoralis flap,",
+      "procedure-line-3": "possible submental island flap, possible other local or regional flap reconstruction, possible skin ",
       "site": "oral cavity, neck, leg, chest, arm",
       "side": "Bilateral",
       "risks-line-1": "infection, bleeding, failure to improve symptom, fistula formation, poor wound healing, difficulty eating/breathing,",
@@ -288,7 +308,9 @@
   {
     "label": "DLB with laryngeal slectromyography, balloon dilation, suture lateralization",
     "fields": {
-      "procedure": "Direct laryngoscopy, bronchoscopy, laryngeal electromyography, possible balloon dilation, possible\nsuture lateralization of vocal fold",
+      "procedure-line-1": "Direct laryngoscopy, bronchoscopy, laryngeal electromyography, possible balloon dilation, possible",
+      "procedure-line-2": "suture lateralization of vocal fold",
+      "procedure-line-3": "",
       "site": "mouth/voicebox/neck",
       "side": "Bilateral",
       "risks-line-1": "pain, infection, bleeding, need for additional procedures, difficulty breathing, injury to lips, teeth, airway",
@@ -322,7 +344,9 @@
   {
     "label": "Botox To Salivary Glands",
     "fields": {
-      "procedure": "Chemodenervation (Botox injection) of salivary glands",
+      "procedure-line-1": "Chemodenervation (Botox injection) of salivary glands",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Face and neck",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, xerostomia, swallowing difficulties, muscle weakness, injury to surrounding structures",
@@ -348,7 +372,9 @@
   {
     "label": "Cartilage Backed T Tube",
     "fields": {
-      "procedure": "Cartilage backed T-tube placement",
+      "procedure-line-1": "Cartilage backed T-tube placement",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Ear",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for repeat surgery, hearing loss,",
@@ -371,7 +397,9 @@
   {
     "label": "Basosquamous Cancer Resection and Cervicofacial Advancement Flap",
     "fields": {
-      "procedure": "Resection of basosquamous cancer and cervicofacial advancement flap",
+      "procedure-line-1": "Resection of basosquamous cancer and cervicofacial advancement flap",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Face/neck",
       "side": "",
       "risks-line-1": "pain, numbness, scarring, poor wound healing, dehiscence, recurrence of lesions, ectropion",
@@ -398,7 +426,9 @@
   {
     "label": "Closed Nasal Bone Reduction",
     "fields": {
-      "procedure": "Closed nasal fracture reduction",
+      "procedure-line-1": "Closed nasal fracture reduction",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "nose",
       "side": "Bilateral",
       "risks-line-1": "infection, bleeding, persistent nasal deformity,",
@@ -422,7 +452,9 @@
   {
     "label": "Cochlear Implant",
     "fields": {
-      "procedure": "Cochlear implant placement",
+      "procedure-line-1": "Cochlear implant placement",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Ear/Head",
       "side": "",
       "risks-line-1": "Bleeding, Infection, Damage to surrounding structures, Need for further procedures, failure to improve symptoms",
@@ -444,7 +476,9 @@
   {
     "label": "BMT And ABR",
     "fields": {
-      "procedure": "bilateral ear tube placement, auditory brainstem response",
+      "procedure-line-1": "bilateral ear tube placement, auditory brainstem response",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "ears",
       "side": "Bilateral",
       "risks-line-1": "bleeding, ear ache, early extrusion or occlusion of tubes, hearing loss, persistent hole in ear drum,",
@@ -474,7 +508,9 @@
   {
     "label": "T&A And BMT",
     "fields": {
-      "procedure": "Adenotonsillectomy, ear tube placement",
+      "procedure-line-1": "Adenotonsillectomy, ear tube placement",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "mouth/throat/ears",
       "side": "Bilateral",
       "risks-line-1": "bleeding, dehydration, pain, halitosis, ear ache, voice change,",
@@ -499,7 +535,9 @@
   {
     "label": "R Mandible resection, R ND, Trach, Pec Flap, Inf Alv Nerve Graft",
     "fields": {
-      "procedure": "1) Composite resection of right mandible, tongue, neck mass  2) Right modified radical neck\ndissection 3) Tracheostomy  4) right pectoralis myocutaneous flap 5) right inferior alveolar nerve\ngraft",
+      "procedure-line-1": "1) Composite resection of right mandible, tongue, neck mass 2) Right modified radical neck",
+      "procedure-line-2": "dissection 3) Tracheostomy 4) right pectoralis myocutaneous flap 5) right inferior alveolar nerve",
+      "procedure-line-3": "graft",
       "site": "mouth/neck/chest",
       "side": "",
       "risks-line-1": "infection, bleeding (intraop or postop), extrusion of hardware, injury to nerves that control nerves movement of",
@@ -541,7 +579,9 @@
   {
     "label": "DLB and Neck Dissection",
     "fields": {
-      "procedure": "Direct laryngoscopy and biopsy; neck dissection",
+      "procedure-line-1": "Direct laryngoscopy and biopsy; neck dissection",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Mouth/neck",
       "side": "",
       "risks-line-1": "infection, bleeding (intraop or postop), injury to nerve that controls shoulder movement, nerve that controls voice,",
@@ -567,7 +607,9 @@
   {
     "label": "DLB And Flex Bronch",
     "fields": {
-      "procedure": "Direct laryngoscopy and bronchoscopy, Flexible bronchoscopy",
+      "procedure-line-1": "Direct laryngoscopy and bronchoscopy, Flexible bronchoscopy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "mouth/nose/larynx",
       "side": "Bilateral",
       "risks-line-1": "infection, bleeding, need for additional procedures, difficulty breathing, injury to lips, teeth, airway",
@@ -594,7 +636,9 @@
   {
     "label": "Direct Laryngoscopy and Biopsy",
     "fields": {
-      "procedure": "Direct laryngoscopy with biopsy",
+      "procedure-line-1": "Direct laryngoscopy with biopsy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Throat / airway",
       "side": "Bilateral",
       "risks-line-1": "Bleeding, infection, scarring, change in voice, difficulty breathing, recurrence of lesion, injury to",
@@ -618,7 +662,9 @@
   {
     "label": "ESS With Medial Maxillectomy Soneru",
     "fields": {
-      "procedure": "Endoscopic sinus surgery with biopsy, possible medial maxillectomy with resection of mass",
+      "procedure-line-1": "Endoscopic sinus surgery with biopsy, possible medial maxillectomy with resection of mass",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Nose",
       "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, need for further surgery, septal hematoma, epiphora",
@@ -649,7 +695,9 @@
   {
     "label": "Ear Tube Removal And Paper Patch Myringoplasty Vecchiotti",
     "fields": {
-      "procedure": "Removal of right ear tube, repair of hole in ear drum with paper patch",
+      "procedure-line-1": "Removal of right ear tube, repair of hole in ear drum with paper patch",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Ear",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for repeat surgery",
@@ -683,7 +731,9 @@
   {
     "label": "Epistaxis control with possible SPA ligation",
     "fields": {
-      "procedure": "Endoscopic control of epistaxis - possible SPA ligation",
+      "procedure-line-1": "Endoscopic control of epistaxis - possible SPA ligation",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Nose",
       "side": "Bilateral",
       "risks-line-1": "continued bleeding, need for transfusion, infection, injury to surrounding structures: eyes, skull base, septum",
@@ -711,7 +761,9 @@
   {
     "label": "Esophageal Dilation",
     "fields": {
-      "procedure": "Esophagoscopy with dilation",
+      "procedure-line-1": "Esophagoscopy with dilation",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Throat/esophagus",
       "side": "",
       "risks-line-1": "Bleeding, infection, failure to improve symptoms, recurrence of symptoms, esophageal perforation",
@@ -734,7 +786,9 @@
   {
     "label": "Eustachian Tube Plugging",
     "fields": {
-      "procedure": "Tympanoplasty, eustachian tube plugging",
+      "procedure-line-1": "Tympanoplasty, eustachian tube plugging",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Ear",
       "side": "",
       "risks-line-1": "Bleeding, Infection, Damage to surrounding structures, Need for further procedures, failure to improve symptoms",
@@ -756,7 +810,9 @@
   {
     "label": "Excision Of Vocal Cord Lesion",
     "fields": {
-      "procedure": "Microdirect laryngoscopy with excision of vocal cord lesion",
+      "procedure-line-1": "Microdirect laryngoscopy with excision of vocal cord lesion",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "throat / airway",
       "side": "",
       "risks-line-1": "bleeding, infection, scarring, change in voice, difficulty breathing, recurrence of lesion, injury to",
@@ -782,7 +838,9 @@
   {
     "label": "Excisional Lymph Node Biopsy",
     "fields": {
-      "procedure": "Excisional lymph node biopsy",
+      "procedure-line-1": "Excisional lymph node biopsy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "neck",
       "side": "",
       "risks-line-1": "neck pain, scarring, injury to surrounding structures including nerves and vessles causing muscle weakness",
@@ -805,7 +863,9 @@
   {
     "label": "FESS",
     "fields": {
-      "procedure": "Functional Endoscopic Sinus Surgery, possible septoplasty",
+      "procedure-line-1": "Functional Endoscopic Sinus Surgery, possible septoplasty",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Nose",
       "side": "Bilateral",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, decreased sense of smell, damage to the eye/vision",
@@ -831,7 +891,9 @@
   {
     "label": "Frenectomy",
     "fields": {
-      "procedure": "Frenectomy (release of tongue tie)",
+      "procedure-line-1": "Frenectomy (release of tongue tie)",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Mouth",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for repeat surgery, continued feeding difficulty",
@@ -854,7 +916,9 @@
   {
     "label": "Incision And Drainage of Abscess",
     "fields": {
-      "procedure": "Incision and drainage of abscess",
+      "procedure-line-1": "Incision and drainage of abscess",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "",
       "side": "",
       "risks-line-1": "bleeding, infection, pain, numbness, scarring, delayed or poor wound healing, hematoma,",
@@ -879,7 +943,9 @@
   {
     "label": "Inferior Turbinate Reduction",
     "fields": {
-      "procedure": "Inferior turbinate reduction",
+      "procedure-line-1": "Inferior turbinate reduction",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Nose",
       "side": "Bilateral",
       "risks-line-1": "Bleeding, infection, nasal scarring, failure to improve symptoms, recurrence of symptoms,",
@@ -901,7 +967,9 @@
   {
     "label": "Marston septoplasty, inerior turbinate reduction",
     "fields": {
-      "procedure": "Septoplasty, inferior turbinate reduction",
+      "procedure-line-1": "Septoplasty, inferior turbinate reduction",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "nose",
       "side": "Bilateral",
       "risks-line-1": "infection, bleeding, septal perforation, empty nose sensation, changes to sense of smell,",
@@ -926,7 +994,9 @@
   {
     "label": "Mastoidectomy for cholesteatoma",
     "fields": {
-      "procedure": "Removal of cholesteatoma, drilling bone behind ear and in ear canal, reconstruction of eardrum\nmonitoring facial nerve",
+      "procedure-line-1": "Removal of cholesteatoma, drilling bone behind ear and in ear canal, reconstruction of eardrum",
+      "procedure-line-2": "monitoring facial nerve",
+      "procedure-line-3": "",
       "site": "Ear/Head",
       "side": "",
       "risks-line-1": "Bleeding, infection, hearing loss, hole in ear drum, change in balance, damage to facial nerve",
@@ -961,7 +1031,9 @@
   {
     "label": "Maxillary Distraction Osteogenesis",
     "fields": {
-      "procedure": "maxillary distraction osteogenesis",
+      "procedure-line-1": "maxillary distraction osteogenesis",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Face",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, numbness of the face, weakness/paralysis of the face,",
@@ -982,7 +1054,9 @@
   {
     "label": "Maxillectomy",
     "fields": {
-      "procedure": "maxillectomy, possible open approach, possible split thickness skin graft",
+      "procedure-line-1": "maxillectomy, possible open approach, possible split thickness skin graft",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "nose/mouth/face/thigh",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, failure to improve symptoms, need for repeat surgery,",
@@ -1008,7 +1082,9 @@
   {
     "label": "Medial Maxillectomy Jawad",
     "fields": {
-      "procedure": "Endoscopic sinus surgery, medial maxillectomy with biopsies",
+      "procedure-line-1": "Endoscopic sinus surgery, medial maxillectomy with biopsies",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "nose",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, failure to improve symptoms, need for repeat surgery,",
@@ -1034,7 +1110,9 @@
   {
     "label": "Microsuspension Laryngoscopy Jet Vent O'Connell",
     "fields": {
-      "procedure": "Suspension microdirect laryngoscopy, bronchoscopy, exicision of scar, possible CO2 laser excision,\npossible balloon dilation, possible kenalog injection, jet ventilation, all other indicated\nprocedures",
+      "procedure-line-1": "Suspension microdirect laryngoscopy, bronchoscopy, exicision of scar, possible CO2 laser excision,",
+      "procedure-line-2": "possible balloon dilation, possible kenalog injection, jet ventilation, all other indicated",
+      "procedure-line-3": "procedures",
       "site": "mouth/throat",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, pain, scar, no improvement or change, swelling/obstruction in airway, pneumothorax",
@@ -1075,7 +1153,9 @@
   {
     "label": "Nasal Biopsy",
     "fields": {
-      "procedure": "nasal endoscopy with removal of nasal mass",
+      "procedure-line-1": "nasal endoscopy with removal of nasal mass",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "nose",
       "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, need for further surgery, damage to eye, CSF leak,",
@@ -1100,7 +1180,9 @@
   {
     "label": "Nasal Bone Fx Marston",
     "fields": {
-      "procedure": "closed reduction of nasal bone fracture",
+      "procedure-line-1": "closed reduction of nasal bone fracture",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "nose",
       "side": "Bilateral",
       "risks-line-1": "infection, bleeding, injury to skull base, unsatisfactory results, damage to surrounding tissues,",
@@ -1127,7 +1209,9 @@
   {
     "label": "Nasal Endoscopy With Nasal Suctioning",
     "fields": {
-      "procedure": "evaluation of nose with camera, nasal suctioning",
+      "procedure-line-1": "evaluation of nose with camera, nasal suctioning",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Nose",
       "side": "",
       "risks-line-1": "damage to surrounding structures, bleeding, need for repeat procedures, failure to improve condition",
@@ -1154,7 +1238,9 @@
   {
     "label": "Nasal Mass Excision",
     "fields": {
-      "procedure": "Excision of right nasal mass",
+      "procedure-line-1": "Excision of right nasal mass",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "nose",
       "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, need for further surgery,",
@@ -1178,7 +1264,9 @@
   {
     "label": "Neck Dissection Wein",
     "fields": {
-      "procedure": "Right neck dissection",
+      "procedure-line-1": "Right neck dissection",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "neck",
       "side": "",
       "risks-line-1": "Infection, bleeding, hematoma, injury to surrounding structures including nerves causing muscle weakness",
@@ -1200,7 +1288,9 @@
   {
     "label": "Neck Dissection",
     "fields": {
-      "procedure": "bilateral neck dissection, neck mass excision",
+      "procedure-line-1": "bilateral neck dissection, neck mass excision",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "neck",
       "side": "Bilateral",
       "risks-line-1": "Voice and swallowing issues. Breathing difficulties. Recurrence of cancer, infection,",
@@ -1223,7 +1313,9 @@
   {
     "label": "Neck Mass Excision",
     "fields": {
-      "procedure": "excisional  of neck mass",
+      "procedure-line-1": "excisional  of neck mass",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Neck",
       "side": "",
       "risks-line-1": "Scarring, failure to remove mass, recurrence of mass, injury to surrounding nerves and vessles, facial weakness",
@@ -1246,7 +1338,9 @@
   {
     "label": "O'Leary   Inspire",
     "fields": {
-      "procedure": "Hypoglossal nerve stimulator implantation",
+      "procedure-line-1": "Hypoglossal nerve stimulator implantation",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "chest, neck",
       "side": "",
       "risks-line-1": "pain, swelling, lip weakness, tongue weakness, dysarthria, infection, chest scarring,  sore throat,",
@@ -1271,7 +1365,9 @@
   {
     "label": "O'Leary Basal Cell Excision",
     "fields": {
-      "procedure": "Excision of basal cell carcinoma and local flap reconstruction",
+      "procedure-line-1": "Excision of basal cell carcinoma and local flap reconstruction",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "",
       "side": "",
       "risks-line-1": "pain, numbness, scarring, poor wound healing, dehiscence, failure to improve symptoms",
@@ -1303,7 +1399,9 @@
   {
     "label": "Orif Orbital Floor",
     "fields": {
-      "procedure": "open reduction internal fixation of orbital floor fracture and midface fractures",
+      "procedure-line-1": "open reduction internal fixation of orbital floor fracture and midface fractures",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "eye/face/mouth",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, vision changes, hematoma, excessive tearing, dry eyes,",
@@ -1334,7 +1432,9 @@
   {
     "label": "Oleary Tracy Thyroidectomy",
     "fields": {
-      "procedure": "Total thyroidectomy, possible central neck dissection",
+      "procedure-line-1": "Total thyroidectomy, possible central neck dissection",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Neck",
       "side": "Bilateral",
       "risks-line-1": "Bleeding, infection, hypocalcemia, postoperative hematoma, vocal cord paralysis, swallowing difficulties,",
@@ -1361,7 +1461,9 @@
   {
     "label": "Panendoscopy With Biopsy",
     "fields": {
-      "procedure": "tongue biopsy direct laryngoscopy with biopsy, esophagoscopy, panednoscopy",
+      "procedure-line-1": "tongue biopsy direct laryngoscopy with biopsy, esophagoscopy, panednoscopy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "oral cavity, throat",
       "side": "Bilateral",
       "risks-line-1": "Difficulty breathing or swallowing, change in voice, bleeding, infection, injury to surrounding structures",
@@ -1387,7 +1489,9 @@
   {
     "label": "Parathyroidectomy",
     "fields": {
-      "procedure": "Parathyroid gland exploration, parathyroidectomy",
+      "procedure-line-1": "Parathyroid gland exploration, parathyroidectomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Neck",
       "side": "",
       "risks-line-1": "Bleeding, infection, hypocalcemia, postoperative hematoma, vocal cord paralysis, swallowing difficulties,",
@@ -1410,7 +1514,9 @@
   {
     "label": "Partial Glossectomy No Free Flap",
     "fields": {
-      "procedure": "Partial glossectomy, radical neck dissection, split thickness skin graft from thigh",
+      "procedure-line-1": "Partial glossectomy, radical neck dissection, split thickness skin graft from thigh",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "ora lcavity, neck, thigh",
       "side": "",
       "risks-line-1": "Speech and swallowing issues. Breathing difficulties. Failure to resect cancer. Recurrence of cancer.",
@@ -1442,7 +1548,9 @@
   {
     "label": "Partial Glossectomy, Trach, RFF",
     "fields": {
-      "procedure": "partial or total glossectomy, neck dissection (bilateral), tracheostomy free flap reconstruction\nwith R radial forearm free flap, possible R anteriolateral thigh free flap possible locoregional\nreconstruction with pectoralis muscle flap or other indicated local flap, skin graft from thigh",
+      "procedure-line-1": "partial or total glossectomy, neck dissection (bilateral), tracheostomy free flap reconstruction",
+      "procedure-line-2": "with R radial forearm free flap, possible R anteriolateral thigh free flap possible locoregional",
+      "procedure-line-3": "reconstruction with pectoralis muscle flap or other indicated local flap, skin graft from thigh",
       "site": "oral cavity, neck, arm, thigh",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, swallowing and speaking difficulty, breathing difficulty,",
@@ -1486,7 +1594,9 @@
   {
     "label": "FESS and Neck Dissection",
     "fields": {
-      "procedure": "Lymphadenectomy/neck dissection, Functional Endoscopic Sinus Surgery",
+      "procedure-line-1": "Lymphadenectomy/neck dissection, Functional Endoscopic Sinus Surgery",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Nose/neck",
       "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding nerves and vessels cuasing muscle weakness, breathing difficulties,",
@@ -1514,7 +1624,9 @@
   {
     "label": "Radial Forearm Free Flap",
     "fields": {
-      "procedure": "glossectomy, composite floor of mouth resection, bilateral neck dissection, tracheostomy,\nmicrovascular reconstruction with radial forearm free flap, skin graft, possible other free flap",
+      "procedure-line-1": "glossectomy, composite floor of mouth resection, bilateral neck dissection, tracheostomy,",
+      "procedure-line-2": "microvascular reconstruction with radial forearm free flap, skin graft, possible other free flap",
+      "procedure-line-3": "",
       "site": "Mouth/Neck/Arm",
       "side": "Bilateral",
       "risks-line-1": "Bleeding, infection, numbness, weakness of the face, poor tongue mobility,weakness/numbness of the arm/hand",
@@ -1553,7 +1665,9 @@
   {
     "label": "Removal Of MMF",
     "fields": {
-      "procedure": "Removal of maxillomandibular fixation",
+      "procedure-line-1": "Removal of maxillomandibular fixation",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Oral cavity",
       "side": "Bilateral",
       "risks-line-1": "Bleeding, infection, scarring, pain, changes to bite, injury to surrounding structures",
@@ -1577,7 +1691,9 @@
   {
     "label": "Rhytidectomy",
     "fields": {
-      "procedure": "rhytidectomy",
+      "procedure-line-1": "rhytidectomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Face/neck",
       "side": "Bilateral",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, scarring, failure to achieve results of surgery,",
@@ -1596,7 +1712,9 @@
   {
     "label": "SMDL Balloon Dilation",
     "fields": {
-      "procedure": "suspension microdirect laryngoscopy, bronchoscopy, with balloon dilation, CO2 laser excision, and\nkenlog injection",
+      "procedure-line-1": "suspension microdirect laryngoscopy, bronchoscopy, with balloon dilation, CO2 laser excision, and",
+      "procedure-line-2": "kenlog injection",
+      "procedure-line-3": "",
       "site": "Oral cavity/throat/trachea",
       "side": "",
       "risks-line-1": "infection, bleeding, injury to surrounding structures (lips, teeth, tongue, throat), difficulty breathing,",
@@ -1628,7 +1746,9 @@
   {
     "label": "Sialendoscopy And Sialodochoplasty",
     "fields": {
-      "procedure": "Sialodochotomy, sialendoscopy, possible sialodochoplasty",
+      "procedure-line-1": "Sialodochotomy, sialendoscopy, possible sialodochoplasty",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "mouth",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, failure to improve symptoms, need for repeat surgery,",
@@ -1652,7 +1772,9 @@
   {
     "label": "Sillman Noonan Tympanomastoidectomy Consent W Resident Names",
     "fields": {
-      "procedure": "Tympanomastoidectomy",
+      "procedure-line-1": "Tympanomastoidectomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "ear",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, failure to achieve objective of surgery, facial palsy,",
@@ -1676,7 +1798,9 @@
   {
     "label": "Sillman Noonan Tympanoplasty",
     "fields": {
-      "procedure": "Tympanoplasty",
+      "procedure-line-1": "Tympanoplasty",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "ear",
       "side": "",
       "risks-line-1": "see attached",
@@ -1697,7 +1821,9 @@
   {
     "label": "Soneru FESS",
     "fields": {
-      "procedure": "Functional Endoscopic Sinus Surgery, possible septoplasty",
+      "procedure-line-1": "Functional Endoscopic Sinus Surgery, possible septoplasty",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Nose",
       "side": "Bilateral",
       "risks-line-1": "Infection, bleeding, septal perforation, failure to improve symptoms, recurrence of symptoms, injury to skull base",
@@ -1723,7 +1849,9 @@
   {
     "label": "Soneru Septoplasty",
     "fields": {
-      "procedure": "Septoplasty, bilateral inferior turbinate reduction",
+      "procedure-line-1": "Septoplasty, bilateral inferior turbinate reduction",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Nose",
       "side": "Bilateral",
       "risks-line-1": "Infection, bleeding, septal perforation, failure to improve symptoms, recurrence of symptoms,",
@@ -1747,7 +1875,9 @@
   {
     "label": "Stapedectomy",
     "fields": {
-      "procedure": "stapedectomy",
+      "procedure-line-1": "stapedectomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "",
       "side": "",
       "risks-line-1": "",
@@ -1769,7 +1899,9 @@
   {
     "label": "Static Suspension For Facial Paralysis",
     "fields": {
-      "procedure": "right static facial suspension using fascia lata graft, facial advancement flap, repair of ptosis\nwith brow lift",
+      "procedure-line-1": "right static facial suspension using fascia lata graft, facial advancement flap, repair of ptosis",
+      "procedure-line-2": "with brow lift",
+      "procedure-line-3": "",
       "site": "face, thigh",
       "side": "",
       "risks-line-1": "Bleeding, infection, continued facial paralysis, failure to improve symptoms, recurrence of symptoms, poor",
@@ -1805,7 +1937,9 @@
   {
     "label": "Subandibular Excision",
     "fields": {
-      "procedure": "Resection of left submandibular gland",
+      "procedure-line-1": "Resection of left submandibular gland",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Neck",
       "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, need for further surgery, facial numbness/weakness,",
@@ -1830,7 +1964,9 @@
   {
     "label": "Sublingual Gland Excision Tracy",
     "fields": {
-      "procedure": "left sublingual gland excision",
+      "procedure-line-1": "left sublingual gland excision",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Oral cavity",
       "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, tongue numbness/weakness, facial numbness/weakness,",
@@ -1854,7 +1990,9 @@
   {
     "label": "Submandibular Excision",
     "fields": {
-      "procedure": "Excision of right submandibular gland",
+      "procedure-line-1": "Excision of right submandibular gland",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Neck",
       "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, need for further surgery, facial numbness/weakness,",
@@ -1877,7 +2015,9 @@
   {
     "label": "Superficial Parotidectomy",
     "fields": {
-      "procedure": "superficial parotidectomy",
+      "procedure-line-1": "superficial parotidectomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Face",
       "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, need for further surgery",
@@ -1901,7 +2041,9 @@
   {
     "label": "Supraglottic Laryngectomy With Neck Dissection",
     "fields": {
-      "procedure": "possible awake tracheostomy, total laryngectomy, reconstruction with possible pectoralis myofasical\nflap possible local flap reconstruction",
+      "procedure-line-1": "possible awake tracheostomy, total laryngectomy, reconstruction with possible pectoralis myofasical",
+      "procedure-line-2": "flap possible local flap reconstruction",
+      "procedure-line-3": "",
       "site": "throat, neck",
       "side": "Bilateral",
       "risks-line-1": "Speech and swallowing issues. Breathing difficulties. Failure to resect cancer. Recurrence of cancer.",
@@ -1933,7 +2075,9 @@
   {
     "label": "T&A Vecchiotti",
     "fields": {
-      "procedure": "removal of tonsils and adenoids",
+      "procedure-line-1": "removal of tonsils and adenoids",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "mouth/throat/nose",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for repeat surgery, dehydration, voice changes,",
@@ -1957,7 +2101,9 @@
   {
     "label": "TEP New",
     "fields": {
-      "procedure": "Tracheoesophageal puncture with rigid cervical esophagoscopy",
+      "procedure-line-1": "Tracheoesophageal puncture with rigid cervical esophagoscopy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Mouth/Stoma",
       "side": "Bilateral",
       "risks-line-1": "Bleeding, infection, failure to improve symptoms, recurrence of symptoms, esophageal perforation",
@@ -1985,7 +2131,9 @@
   {
     "label": "Thyroid Lobectomy",
     "fields": {
-      "procedure": "Left thryoid lobectomy",
+      "procedure-line-1": "Left thryoid lobectomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "neck",
       "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, need for further surgery, hoarseness, difficulty breathing",
@@ -2008,7 +2156,9 @@
   {
     "label": "Tongue Lesion Wide Lcoal Excision",
     "fields": {
-      "procedure": "Wide local excision of tongue lesion",
+      "procedure-line-1": "Wide local excision of tongue lesion",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Oral cavity",
       "side": "",
       "risks-line-1": "recurrence of lesion, failure to remove lesion, numbness, hematoma, pain, scarring, changes in speech",
@@ -2033,7 +2183,9 @@
   {
     "label": "Tonsillectomy Wein",
     "fields": {
-      "procedure": "tonsillectomy",
+      "procedure-line-1": "tonsillectomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "mouth/throat",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, pain, damage to tongue/lips/teeth, tongue numbness,",
@@ -2053,7 +2205,9 @@
   {
     "label": "Tracheoesophageal Fistula Repair",
     "fields": {
-      "procedure": "Repair of tracheoesophageal/pharyngocutaenous fistula, radial forearm free flap, possible pectoralis\nmajor flap",
+      "procedure-line-1": "Repair of tracheoesophageal/pharyngocutaenous fistula, radial forearm free flap, possible pectoralis",
+      "procedure-line-2": "major flap",
+      "procedure-line-3": "",
       "site": "Neck, arm, chest",
       "side": "",
       "risks-line-1": "Bleeding, infection, hematoma, failure of repair, wound dehiscence, recurrence of fistula, difficulty swallowing,",
@@ -2084,7 +2238,9 @@
   {
     "label": "Tracheostomy",
     "fields": {
-      "procedure": "Creation of Tracheostomy",
+      "procedure-line-1": "Creation of Tracheostomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Neck",
       "side": "Bilateral",
       "risks-line-1": "Infection, bleeding, damage to airway, tracheoinnominate fistula, mucus plugging, pneumothorax,",
@@ -2107,7 +2263,9 @@
   {
     "label": "Tracy Partial Glossectomy No Free Flap",
     "fields": {
-      "procedure": "Partial glossectomy, possible neck dissection, possible local flap, possible split thickness skin\ngraft, possible direct laryngoscopy, possible tracheostomy",
+      "procedure-line-1": "Partial glossectomy, possible neck dissection, possible local flap, possible split thickness skin",
+      "procedure-line-2": "graft, possible direct laryngoscopy, possible tracheostomy",
+      "procedure-line-3": "",
       "site": "oral cavity, neck, thigh",
       "side": "",
       "risks-line-1": "Speech and swallowing issues. Breathing difficulties. Failure to resect cancer. Recurrence of cancer.",
@@ -2142,7 +2300,9 @@
   {
     "label": "Treacher Collins Scott",
     "fields": {
-      "procedure": "Left neck keloid revision, right joint exploration, interposition graft placement for Freys syndrom",
+      "procedure-line-1": "Left neck keloid revision, right joint exploration, interposition graft placement for Freys syndrom",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Left neck, right joint/face",
       "side": "",
       "risks-line-1": "Infection, bleeding, damage to surrounding structures, need for further surgery/procedures",
@@ -2177,7 +2337,9 @@
   {
     "label": "Tympanoplasty Vecchiotti",
     "fields": {
-      "procedure": "repair of hole in left ear drum",
+      "procedure-line-1": "repair of hole in left ear drum",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Ear",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for repeat surgery, hearing loss,",
@@ -2204,7 +2366,9 @@
   {
     "label": "Tympanoplasty Sillman",
     "fields": {
-      "procedure": "tympanoplasty, possible cartilage graft",
+      "procedure-line-1": "tympanoplasty, possible cartilage graft",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Ear",
       "side": "",
       "risks-line-1": "Bleeding, Infection, Damage to surrounding structures, Need for further procedures, failure to improve symptoms",
@@ -2227,7 +2391,9 @@
   {
     "label": "WLE Wein",
     "fields": {
-      "procedure": "wide local excision of oral lesion, possible local advancement flap, possible surgimend\nreconstruction",
+      "procedure-line-1": "wide local excision of oral lesion, possible local advancement flap, possible surgimend",
+      "procedure-line-2": "reconstruction",
+      "procedure-line-3": "",
       "site": "mouth",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for repeat surgery, scarring, recurrence",
@@ -2258,7 +2424,9 @@
   {
     "label": "WLE Cutaneous Lesion",
     "fields": {
-      "procedure": "Wide local excision of lesion and reconstruction",
+      "procedure-line-1": "Wide local excision of lesion and reconstruction",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "",
       "side": "",
       "risks-line-1": "infection, bleeding, poor wound healing, failure of repair, hematoma, pain, failure to remove lesion",
@@ -2286,7 +2454,9 @@
   {
     "label": "WLE Scalp With Skin Graft And SLNB",
     "fields": {
-      "procedure": "wide local excision of lesion, sentinel lymph node biopsy, possible skin graft, possible local flap\nreconstruction",
+      "procedure-line-1": "wide local excision of lesion, sentinel lymph node biopsy, possible skin graft, possible local flap",
+      "procedure-line-2": "reconstruction",
+      "procedure-line-3": "",
       "site": "scalp/neck/thigh",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to the surrounding areas, dehiscence, poor wound healing, flap breakdown,",
@@ -2323,7 +2493,9 @@
   {
     "label": "Wein DISE",
     "fields": {
-      "procedure": "Drug induced sleep endoscopy",
+      "procedure-line-1": "Drug induced sleep endoscopy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Airway",
       "side": "Bilateral",
       "risks-line-1": "Throat discomfort, bleeding, need for further procedures",
@@ -2348,7 +2520,9 @@
   {
     "label": "Wein Inspire",
     "fields": {
-      "procedure": "Hypoglossal nerve stimulator implantation",
+      "procedure-line-1": "Hypoglossal nerve stimulator implantation",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "chest (2 incisions), neck",
       "side": "",
       "risks-line-1": "pain, swelling, lip weakness, tongue weakness, dysarthria, infection, chest scarring,  sore throat,",
@@ -2373,7 +2547,9 @@
   {
     "label": "Wein Oleary Thyroidectomy",
     "fields": {
-      "procedure": "***",
+      "procedure-line-1": "***",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "neck",
       "side": "",
       "risks-line-1": "Bleeding, infection, hypocalcemia (possibly permanent), postoperative hematoma, vocal cord paralysis,",
@@ -2394,7 +2570,9 @@
   {
     "label": "Zygomatic Arch Fracture ORIF",
     "fields": {
-      "procedure": "open reduction of left zygomatic arch fracture",
+      "procedure-line-1": "open reduction of left zygomatic arch fracture",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Face/scalp",
       "side": "",
       "risks-line-1": "Bleeding, infection, continued trismus, difficulty with eating, pain, scarring, hematoma, failure to improve",
@@ -2420,7 +2598,9 @@
   {
     "label": "Branchial Cleft Anomaly",
     "fields": {
-      "procedure": "Excision of branchial cleft fistula",
+      "procedure-line-1": "Excision of branchial cleft fistula",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "face/ear",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, scarring, recurrence, failure to improve symptoms,",
@@ -2445,7 +2625,9 @@
   {
     "label": "Cleft Lip Repair",
     "fields": {
-      "procedure": "repair of cleft lip and rhinoplasty (nose surgery)",
+      "procedure-line-1": "repair of cleft lip and rhinoplasty (nose surgery)",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Lip/nose",
       "side": "",
       "risks-line-1": "wound dehiscence, numbness, hematoma, pain, scarring, nasal obstruction, injury to surrounding structures",
@@ -2471,7 +2653,9 @@
   {
     "label": "Closure Of Tracheocutaneous Fistula",
     "fields": {
-      "procedure": "Closure of tracheocutaneous fistula",
+      "procedure-line-1": "Closure of tracheocutaneous fistula",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Neck",
       "side": "",
       "risks-line-1": "infection, bleeding, hematoma, poor wound healing, recurrence of fistula or persistent fistula",
@@ -2494,7 +2678,9 @@
   {
     "label": "CSF Leak Repair",
     "fields": {
-      "procedure": "endonasal approach to repair of encephalocele and cerebrospinal fluid leak, abdominal fat graft,\nlumbar drain insertion, possible septoplasty",
+      "procedure-line-1": "endonasal approach to repair of encephalocele and cerebrospinal fluid leak, abdominal fat graft,",
+      "procedure-line-2": "lumbar drain insertion, possible septoplasty",
+      "procedure-line-3": "",
       "site": "Nose, abdomen, back",
       "side": "Bilateral",
       "risks-line-1": "Infection, bleeding, septal perforation, failure to improve symptoms, recurrence of symptoms, injuty to skull base",
@@ -2531,7 +2717,9 @@
   {
     "label": "Esophagoscopy With Biopsy",
     "fields": {
-      "procedure": "esophagoscopy with biopsy",
+      "procedure-line-1": "esophagoscopy with biopsy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "throat/esophagus",
       "side": "",
       "risks-line-1": "Bleeding, infection, injury to surrounding structures (teeth, gingiva, tongue, throat), need for more procedures",
@@ -2554,7 +2742,9 @@
   {
     "label": "Excision Of Lower Lip Lesion",
     "fields": {
-      "procedure": "removal of lower lip lesion with closure",
+      "procedure-line-1": "removal of lower lip lesion with closure",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "lip",
       "side": "",
       "risks-line-1": "recurrence of lesion, hematoma, pain, scarring, injury to surrounding structures",
@@ -2581,7 +2771,9 @@
   {
     "label": "Facial Defect Repair",
     "fields": {
-      "procedure": "Application of split thickness skin graft, possible free tissue transfer with myocutaneous free\nflap, possible decompression of the orbit",
+      "procedure-line-1": "Application of split thickness skin graft, possible free tissue transfer with myocutaneous free",
+      "procedure-line-2": "flap, possible decompression of the orbit",
+      "procedure-line-3": "",
       "site": "face/thigh",
       "side": "",
       "risks-line-1": "infection, bleeding, poor wound healing, failure of repair, hematoma, pain,",
@@ -2618,7 +2810,9 @@
   {
     "label": "Maxillary/Mandibular Hardware Removal",
     "fields": {
-      "procedure": "Removal of mandibular and maxillary implant",
+      "procedure-line-1": "Removal of mandibular and maxillary implant",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Oral cavity",
       "side": "Bilateral",
       "risks-line-1": "Bleeding, infection, injury to surrounding structures (teeth, gingiva, tongue), need for more procedures",
@@ -2643,7 +2837,9 @@
   {
     "label": "Infrastructure Maxillectomy, Neck Dissection Jawad",
     "fields": {
-      "procedure": "left infrastructure maxillectomy, locoregional flap reconstruction, possible free flap, possible\nneck dissection possible skin graft, possible synthetic graft, possible tracheostomy",
+      "procedure-line-1": "left infrastructure maxillectomy, locoregional flap reconstruction, possible free flap, possible",
+      "procedure-line-2": "neck dissection possible skin graft, possible synthetic graft, possible tracheostomy",
+      "procedure-line-3": "",
       "site": "Oral cavity/face/neck/thigh/forearm",
       "side": "",
       "risks-line-1": "bleeding, infection, poor wound healing, failure to resect all cancer, recurrence of cancer, fistula formation,",
@@ -2676,7 +2872,9 @@
   {
     "label": "Infrastructure Maxillectomy, Neck Dissection",
     "fields": {
-      "procedure": "right infrastructure maxillectomy, right radical neck dissection, left scapula tip free flap,\npossible local flap and regional flap reconstruction",
+      "procedure-line-1": "right infrastructure maxillectomy, right radical neck dissection, left scapula tip free flap,",
+      "procedure-line-2": "possible local flap and regional flap reconstruction",
+      "procedure-line-3": "",
       "site": "Oral cavity/face/neck/back/shoulder/chest",
       "side": "",
       "risks-line-1": "bleeding, infection, poor wound healing, failure to resect all cancer, recurrence of cancer, fistula formation,",
@@ -2710,7 +2908,9 @@
   {
     "label": "Injection Pharyngoplasty",
     "fields": {
-      "procedure": "Injection pharyngoplasty",
+      "procedure-line-1": "Injection pharyngoplasty",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "oral cavity",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, failure to improve symptoms, recurrence of symptoms, injury to surrounding structures (lips,",
@@ -2732,7 +2932,9 @@
   {
     "label": "Keloid Excision",
     "fields": {
-      "procedure": "Excision of keloid with reconstruction with local flap, possible graft",
+      "procedure-line-1": "Excision of keloid with reconstruction with local flap, possible graft",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "ear",
       "side": "",
       "risks-line-1": "recurrence of keloid, deformity of ear, numbness, hematoma, pain, scarring, injury to surrounding structures",
@@ -2759,7 +2961,9 @@
   {
     "label": "Marginal Mandibulectomy",
     "fields": {
-      "procedure": "marginal mandibulectomy and surgery mend reconstruction and removal or oral cavity hardware",
+      "procedure-line-1": "marginal mandibulectomy and surgery mend reconstruction and removal or oral cavity hardware",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "oral cavity",
       "side": "Bilateral",
       "risks-line-1": "inability to clear cancer, recurrence of cancer, fistula formation, poor wound healing, difficulty eating/breathing,",
@@ -2789,7 +2993,9 @@
   {
     "label": "Mandible Fracture ORIF",
     "fields": {
-      "procedure": "Maxillomandibular fixation open reduction internal fixation of mandible fractures",
+      "procedure-line-1": "Maxillomandibular fixation open reduction internal fixation of mandible fractures",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "oral cavity/face",
       "side": "Bilateral",
       "risks-line-1": "malunion of the mandible fractures, poor wound healing, difficulty eating and swallowing, difficulty breathing",
@@ -2824,7 +3030,9 @@
   {
     "label": "MMF and Mandible Fracture ORIF",
     "fields": {
-      "procedure": "Maxillomandibular fixation, open reduction internal fixation of mandible fractures",
+      "procedure-line-1": "Maxillomandibular fixation, open reduction internal fixation of mandible fractures",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "oral cavity",
       "side": "Bilateral",
       "risks-line-1": "malunion of the mandible fractures, poor wound healing, difficulty eating and swallowing, difficulty breathing",
@@ -2853,7 +3061,9 @@
   {
     "label": "Mandibulectomy Segmental Fibula",
     "fields": {
-      "procedure": "segmental mandibulectomy (right), neck dissection (right), fibula free flap reconstruction (right),\npossible tracheostomy, possible skin graft (bilateral), possible locoregional flap (bilateral)",
+      "procedure-line-1": "segmental mandibulectomy (right), neck dissection (right), fibula free flap reconstruction (right),",
+      "procedure-line-2": "possible tracheostomy, possible skin graft (bilateral), possible locoregional flap (bilateral)",
+      "procedure-line-3": "",
       "site": "oral cavity, neck, leg, possible chest",
       "side": "",
       "risks-line-1": "inability to clear cancer, recurrence of cancer, fistula formation, poor wound healing, difficulty eating/breathing,",
@@ -2886,7 +3096,9 @@
   {
     "label": "Mandibulectomy, Scap Tip Free Flap",
     "fields": {
-      "procedure": "dental extractions, segmental mandibuectomy, tracheostomy bilateral neck dissection, scapula free\nflap reconstruction, possible local or regional flap reconstruction possible skin graft",
+      "procedure-line-1": "dental extractions, segmental mandibuectomy, tracheostomy bilateral neck dissection, scapula free",
+      "procedure-line-2": "flap reconstruction, possible local or regional flap reconstruction possible skin graft",
+      "procedure-line-3": "",
       "site": "oral cavity, neck, leg",
       "side": "",
       "risks-line-1": "infection, bleeding, failure to improve symptom, fistula formation, poor wound healing, difficulty eating/breathing,",
@@ -2925,7 +3137,9 @@
   {
     "label": "Mandibulectomy with FFF",
     "fields": {
-      "procedure": "segmental mandibulectomy (side***), neck dissection (side***), tracheostomy, fibula free flap\nreconstruction (side***), possible skin graft, possible locoregional flap",
+      "procedure-line-1": "segmental mandibulectomy (side***), neck dissection (side***), tracheostomy, fibula free flap",
+      "procedure-line-2": "reconstruction (side***), possible skin graft, possible locoregional flap",
+      "procedure-line-3": "",
       "site": "oral cavity, neck, leg",
       "side": "",
       "risks-line-1": "inability to clear cancer, recurrence of cancer, fistula formation, poor wound healing, difficulty eating/breathing,",
@@ -2958,7 +3172,9 @@
   {
     "label": "O'Leary Melanoma Excision with Local Flap",
     "fields": {
-      "procedure": "Excision of ***side, sentinel lymph node biopsy, local flap reconstruction",
+      "procedure-line-1": "Excision of ***side, sentinel lymph node biopsy, local flap reconstruction",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Face/neck",
       "side": "",
       "risks-line-1": "pain, numbness, scarring, poor wound healing, dehiscence, recurrence of lesions, ectropion",
@@ -2989,7 +3205,9 @@
   {
     "label": "Parotidectomy",
     "fields": {
-      "procedure": "Parotidectomy with facial nerve monitoring",
+      "procedure-line-1": "Parotidectomy with facial nerve monitoring",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Face/neck",
       "side": "",
       "risks-line-1": "Injury to facial nerve causing paralysis, gustatory sweating, pain upon opening jaw, hematoma, scarring,",
@@ -3012,7 +3230,9 @@
   {
     "label": "Pedicle Flap Division",
     "fields": {
-      "procedure": "Division of vascular pedicle, creation of flap with closure",
+      "procedure-line-1": "Division of vascular pedicle, creation of flap with closure",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Face",
       "side": "",
       "risks-line-1": "poor wound healing, poor cosmetic outcomes, inury to surrounding structures, scarring, hematoma",
@@ -3039,7 +3259,9 @@
   {
     "label": "Posterior Neck Mass Excision",
     "fields": {
-      "procedure": "Excision of posterior neck mass",
+      "procedure-line-1": "Excision of posterior neck mass",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Neck",
       "side": "",
       "risks-line-1": "failure to remove mass, recurrence of mass, neck pain, injury to surrounding structures",
@@ -3062,7 +3284,9 @@
   {
     "label": "Robotic Tonsillectomy with radical neck dissection",
     "fields": {
-      "procedure": "Robotic tonsillectomy, adenoidectomy, glossectomy/tonbue base resection, radical neck dissection",
+      "procedure-line-1": "Robotic tonsillectomy, adenoidectomy, glossectomy/tonbue base resection, radical neck dissection",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Oral cavity/face/neck",
       "side": "",
       "risks-line-1": "bleeding, infection, poor wound healing, failure to resect all cancer, recurrence of cancer, fistula formation,",
@@ -3091,7 +3315,9 @@
   {
     "label": "Septal Perforation Repair Marston",
     "fields": {
-      "procedure": "repair of septal perforation, temporalis fascia harvest, possible auricular cartilage harvest",
+      "procedure-line-1": "repair of septal perforation, temporalis fascia harvest, possible auricular cartilage harvest",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "nose/scalp",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for repeat surgery, numbness at harvest site,",
@@ -3121,7 +3347,9 @@
   {
     "label": "Sillman Middle ear exploration, jugular bulb resurfacing, occlusion of mastoid emissary vein",
     "fields": {
-      "procedure": "Middle ear exploration, possible jugular bulb resurfacing and occlusion of mastoid emissary vein",
+      "procedure-line-1": "Middle ear exploration, possible jugular bulb resurfacing and occlusion of mastoid emissary vein",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Ear",
       "side": "",
       "risks-line-1": "Hematoma, failure to improve symptoms, bleeding, scarring, dizziness, faical nerve weakness, change in taste",
@@ -3153,7 +3381,9 @@
   {
     "label": "Tympmastoid",
     "fields": {
-      "procedure": "Tympanoplasty, mastoidectomy",
+      "procedure-line-1": "Tympanoplasty, mastoidectomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Ear",
       "side": "",
       "risks-line-1": "Bleeding, Infection, damage to surrounding structures, need for further procedures, failure to improve symptoms",
@@ -3174,7 +3404,9 @@
   {
     "label": "Upper Lip SCC Resection With ND and Free Flap",
     "fields": {
-      "procedure": "upper lip and cheek wide local exicion of carcinoma, rhinectomy, neck dissection radial forearm or\nanterolateral thigh free flap with microvascular anastomosis split thickness skin graft,  possible\nlocal flap or regional flap reconstruction",
+      "procedure-line-1": "upper lip and cheek wide local exicion of carcinoma, rhinectomy, neck dissection radial forearm or",
+      "procedure-line-2": "anterolateral thigh free flap with microvascular anastomosis split thickness skin graft, possible",
+      "procedure-line-3": "local flap or regional flap reconstruction",
       "site": "Oral cavity/face/neck/thigh/chest",
       "side": "",
       "risks-line-1": "bleeding, infection, poor wound healing, failure to resect all cancer, recurrence of cancer, fistula formation,",
@@ -3224,7 +3456,9 @@
   {
     "label": "ZMC Repair ORIF",
     "fields": {
-      "procedure": "Open reduction and internal fixation of zygomaticomaxillary complex fracture",
+      "procedure-line-1": "Open reduction and internal fixation of zygomaticomaxillary complex fracture",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Face",
       "side": "",
       "risks-line-1": "numbness, bleeding, pain, failure to improve symptoms, poor wound healing, injury to surrounding structures",
@@ -3255,7 +3489,9 @@
   {
     "label": "AOF VF Injection (General)",
     "fields": {
-      "procedure": "Microdirect laryngoscopy, vocal fold injection",
+      "procedure-line-1": "Microdirect laryngoscopy, vocal fold injection",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Throat/voice box",
       "side": "Bilateral",
       "conditions-line-1": "Immobile vocal fold",
@@ -3284,7 +3520,9 @@
   {
     "label": "AOF VF Injection (Local)",
     "fields": {
-      "procedure": "Transnasal flexible laryngoscopy, vocal fold injection, possible transcervical versus transoral\napproach",
+      "procedure-line-1": "Transnasal flexible laryngoscopy, vocal fold injection, possible transcervical versus transoral",
+      "procedure-line-2": "approach",
+      "procedure-line-3": "",
       "site": "Throat/voice box",
       "side": "Bilateral",
       "conditions-line-1": "Immobile vocal fold, vocal fold atrophy",
@@ -3313,7 +3551,9 @@
   {
     "label": "AOF Airway Evaluation/Dilation",
     "fields": {
-      "procedure": "Microdirect laryngoscopy, bronchoscopy, excision of scar, possible CO2 laser, possible balloon\ndilation, possible kenalog injection, exchange of tracheotomy tube, and all other indicated\nprocedures",
+      "procedure-line-1": "Microdirect laryngoscopy, bronchoscopy, excision of scar, possible CO2 laser, possible balloon",
+      "procedure-line-2": "dilation, possible kenalog injection, exchange of tracheotomy tube, and all other indicated",
+      "procedure-line-3": "procedures",
       "site": "Airway/trachea",
       "side": "Bilateral",
       "conditions-line-1": "Narrowing of airway",
@@ -3341,7 +3581,9 @@
   {
     "label": "AOF Excision VF Lesion",
     "fields": {
-      "procedure": "Microdirect laryngoscopy, microflap excision of vocal fold lesion, possible CO2/KTP laser",
+      "procedure-line-1": "Microdirect laryngoscopy, microflap excision of vocal fold lesion, possible CO2/KTP laser",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Throat/voice box",
       "side": "Bilateral",
       "conditions-line-1": "Lesion in voice box",
@@ -3369,7 +3611,9 @@
   {
     "label": "AOF Botox Laryngeal Injection",
     "fields": {
-      "procedure": "Injection of botulinum toxin into laryngeal muscles with electromyography guidance",
+      "procedure-line-1": "Injection of botulinum toxin into laryngeal muscles with electromyography guidance",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Throat/voice box",
       "side": "Bilateral",
       "conditions-line-1": "Spasm of vocal cords and/or vocal tremor",
@@ -3397,7 +3641,9 @@
   {
     "label": "AOF Laryngoplasty",
     "fields": {
-      "procedure": "Laryngoplasty, possible arytenoid adduction",
+      "procedure-line-1": "Laryngoplasty, possible arytenoid adduction",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Throat/voice box",
       "side": "Bilateral",
       "conditions-line-1": "Vocal fold immobility/atrophy, glottic insufficiency",
@@ -3426,7 +3672,9 @@
   {
     "label": "AOF Esophagoscopy With Dilation",
     "fields": {
-      "procedure": "Flexible esophagoscopy, dilation of esophagus with bougie dilators",
+      "procedure-line-1": "Flexible esophagoscopy, dilation of esophagus with bougie dilators",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Throat/esophagus",
       "side": "",
       "conditions-line-1": "Narrowing of esophagus",
@@ -3455,7 +3703,9 @@
   {
     "label": "AOF Tracheotomy",
     "fields": {
-      "procedure": "Tracheotomy",
+      "procedure-line-1": "Tracheotomy",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
       "site": "Neck/throat",
       "side": "",
       "conditions-line-1": "Airway obstruction",

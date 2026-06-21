@@ -325,11 +325,24 @@ Use this page to fill a surgical consent and download a completed copy. Select f
   <form id="consent-form" class="consent-form">
   <section>
     <h2>Procedure Details</h2>
-    <div class="consent-grid two">
+    <div class="consent-grid three">
       <div class="field">
-        <label for="procedure">Procedure</label>
-        <input type="text" id="procedure" name="procedure" required />
+        <label for="procedure-line-1">Procedure Line 1</label>
+        <input type="text" id="procedure-line-1" name="procedure-line-1" maxlength="100" required />
+        <div class="helper-text" id="proc1-count">0/100</div>
       </div>
+      <div class="field">
+        <label for="procedure-line-2">Procedure Line 2</label>
+        <input type="text" id="procedure-line-2" name="procedure-line-2" maxlength="100" />
+        <div class="helper-text" id="proc2-count">0/100</div>
+      </div>
+      <div class="field">
+        <label for="procedure-line-3">Procedure Line 3</label>
+        <input type="text" id="procedure-line-3" name="procedure-line-3" maxlength="100" />
+        <div class="helper-text" id="proc3-count">0/100</div>
+      </div>
+    </div>
+    <div class="consent-grid two">
       <div class="field">
         <label for="site">Site</label>
         <input type="text" id="site" name="site" required />
@@ -488,8 +501,10 @@ Use this page to fill a surgical consent and download a completed copy. Select f
   let activeSpecialty = 'All';
 
   const fieldMap = [
-    { id: 'procedure', name: 'Procedure' },
-    { id: 'procedure', name: 'Procedures Line 1' },
+    { id: 'procedure-line-1', name: 'Procedure' },
+    { id: 'procedure-line-1', name: 'Procedures Line 1' },
+    { id: 'procedure-line-2', name: 'Procedures Line 2' },
+    { id: 'procedure-line-3', name: 'Procedures Line 3' },
     { id: 'site', name: 'Site' },
     { id: 'primary-doctor', name: 'Primary Doctor' },
     { id: 'secondary-doctor', name: 'Secondary Doctor' },
@@ -701,6 +716,19 @@ Use this page to fill a surgical consent and download a completed copy. Select f
 
   templateSearchInput.addEventListener('input', () => {
     renderTemplates();
+  });
+
+  // Add character count tracking for procedure lines
+  ['procedure-line-1', 'procedure-line-2', 'procedure-line-3'].forEach((id, index) => {
+    const input = document.getElementById(id);
+    const countEl = document.getElementById(`proc${index + 1}-count`);
+    if (input && countEl) {
+      const updateCount = () => {
+        countEl.textContent = `${input.value.length}/100`;
+      };
+      input.addEventListener('input', updateCount);
+      updateCount();
+    }
   });
 
   loadTemplates();
