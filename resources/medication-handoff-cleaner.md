@@ -13,8 +13,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
 </textarea>
 
 <div style="margin: 1rem 0; display: flex; gap: 0.75rem; flex-wrap: wrap;">
-  <button id="clean-button" style="padding: 0.5rem 1rem;">Clean meds</button>
-  <button id="copy-button" style="padding: 0.5rem 1rem;">Copy output</button>
+  <button id="convert-copy-button" style="padding: 0.5rem 1rem;">Convert & copy</button>
 </div>
 
 ## Cleaned Output
@@ -24,8 +23,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
 <script>
   const inputEl = document.getElementById('med-input');
   const outputEl = document.getElementById('med-output');
-  const cleanButton = document.getElementById('clean-button');
-  const copyButton = document.getElementById('copy-button');
+  const convertCopyButton = document.getElementById('convert-copy-button');
   let conversionsMap = {};
   let conversionsLoaded = false;
   let antimicrobialsLoaded = false;
@@ -324,7 +322,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
 
     const segments = working.split(',')
       .flatMap((segment) => parseSegmentOptions(segment.trim()))
-      .filter((segment) => segment.toLowerCase() !== 'and')
+      .filter((segment) => segment.toLowerCase() !== 'and' && segment.toLowerCase() !== 'or')
       .filter(Boolean);
     if (segments.length === 0) return [];
 
@@ -469,23 +467,20 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
     renderOutput(cleaned);
   }
 
-  cleanButton.addEventListener('click', async () => {
+  convertCopyButton.addEventListener('click', async () => {
     await refreshOutput();
-  });
-
-  copyButton.addEventListener('click', async () => {
     const text = outputEl.textContent;
     if (!text.trim()) return;
     try {
       await navigator.clipboard.writeText(text);
-      copyButton.textContent = 'Copied!';
+      convertCopyButton.textContent = 'Copied!';
       setTimeout(() => {
-        copyButton.textContent = 'Copy output';
+        convertCopyButton.textContent = 'Convert & copy';
       }, 1500);
     } catch (err) {
-      copyButton.textContent = 'Copy failed';
+      convertCopyButton.textContent = 'Copy failed';
       setTimeout(() => {
-        copyButton.textContent = 'Copy output';
+        convertCopyButton.textContent = 'Convert & copy';
       }, 1500);
     }
   });
