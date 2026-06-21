@@ -427,6 +427,7 @@ Use this page to fill a surgical consent and download a completed copy. Select f
     <h2>Generate PDF</h2>
     <div class="actions">
       <button type="submit" id="download-button">Download Filled PDF</button>
+      <button type="button" id="download-first-two-pages-button">Download First 2 Pages</button>
       <span class="status" id="status">Ready to fill the PDF.</span>
     </div>
   </section>
@@ -470,6 +471,7 @@ Use this page to fill a surgical consent and download a completed copy. Select f
   const clearFormButton = document.getElementById('clear-form');
   const templateSearchInput = document.getElementById('template-search');
   const templateTabsEl = document.getElementById('template-tabs');
+  const downloadFirstTwoPagesButton = document.getElementById('download-first-two-pages-button');
 
   const inputSelectors = 'input[type="text"], textarea';
   const specialtyOrder = [
@@ -824,6 +826,47 @@ Use this page to fill a surgical consent and download a completed copy. Select f
       const link = document.createElement('a');
       link.href = url;
       link.download = 'Blank-Consent-Filled.pdf';
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+      setStatus('PDF generated! Your download should begin automatically.');
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Unknown error';
+      setStatus(`There was a problem generating the PDF: ${message}`, true);
+      console.error(error);
+    } finally {
+      setButtonState(false);
+    }
+  });
+
+  downloadFirstTwoPagesButton.addEventListener('click', async (event) => {
+    event.preventDefault();
+    setButtonState(true);
+    setStatus('Loading PDF...');
+
+    try {
+      const pdfBytes = await buildPdf();
+      const pdfDoc = await PDFLib.PDFDocument.load(pdfBytes, {
+        ignoreEncryption: true,
+        throwOnInvalidObject: false
+      });
+
+      // Remove all pages except the first two
+      const pages = pdfDoc.getPages();
+      for (let i = pages.length - 1; i >= 2; i--) {
+        pdfDoc.removePage(i);
+      }
+
+      const limitedPdfBytes = await pdfDoc.save({
+        useObjectStreams: false
+      });
+
+      const blob = new Blob([limitedPdfBytes], { type: 'application/pdf' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'Blank-Consent-Filled-Pages-1-2.pdf';
       document.body.appendChild(link);
       link.click();
       link.remove();
