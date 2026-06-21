@@ -50,7 +50,6 @@
       "anesthesia"
     ]
   },
-
   {
     "label": "Adenoidectomy + BMT",
     "fields": {
@@ -200,7 +199,6 @@
     "specialties": [
       "General",
       "Facial Plastics"
-      
     ],
     "tags": [
       "application",
@@ -240,7 +238,7 @@
   {
     "label": "BOT With Alt Free Flap, Trach and Bilat ND",
     "fields": {
-      "procedure": "tracheostomy, open hemiglossectomy, open oropharyngectomy, bilateral neck dissection, free flap reconstruction with anterior lateral thigh, possible radial forearm, possible pectoralis flap, possible submental island flap, possible other local or regional flap reconstruction, possible skin graft",
+      "procedure": "tracheostomy, open hemiglossectomy, open oropharyngectomy, bilateral neck dissection, free flap\nreconstruction with anterior lateral thigh, possible radial forearm, possible pectoralis flap,\npossible submental island flap, possible other local or regional flap reconstruction, possible skin\ngraft",
       "site": "oral cavity, neck, leg, chest, arm",
       "side": "Bilateral",
       "risks-line-1": "infection, bleeding, failure to improve symptom, fistula formation, poor wound healing, difficulty eating/breathing,",
@@ -290,7 +288,7 @@
   {
     "label": "DLB with laryngeal slectromyography, balloon dilation, suture lateralization",
     "fields": {
-      "procedure": "Direct laryngoscopy, bronchoscopy, laryngeal electromyography, possible balloon dilation, possible suture lateralization of vocal fold",
+      "procedure": "Direct laryngoscopy, bronchoscopy, laryngeal electromyography, possible balloon dilation, possible\nsuture lateralization of vocal fold",
       "site": "mouth/voicebox/neck",
       "side": "Bilateral",
       "risks-line-1": "pain, infection, bleeding, need for additional procedures, difficulty breathing, injury to lips, teeth, airway",
@@ -501,7 +499,7 @@
   {
     "label": "R Mandible resection, R ND, Trach, Pec Flap, Inf Alv Nerve Graft",
     "fields": {
-      "procedure": "1) Composite resection of right mandible, tongue, neck mass  2) Right modified radical neck dissection 3) Tracheostomy  4) right pectoralis myocutaneous flap 5) right inferior alveolar nerve graft",
+      "procedure": "1) Composite resection of right mandible, tongue, neck mass  2) Right modified radical neck\ndissection 3) Tracheostomy  4) right pectoralis myocutaneous flap 5) right inferior alveolar nerve\ngraft",
       "site": "mouth/neck/chest",
       "side": "",
       "risks-line-1": "infection, bleeding (intraop or postop), extrusion of hardware, injury to nerves that control nerves movement of",
@@ -928,7 +926,7 @@
   {
     "label": "Mastoidectomy for cholesteatoma",
     "fields": {
-      "procedure": "Removal of cholesteatoma, drilling bone behind ear and in ear canal, reconstruction of eardrum monitoring facial nerve",
+      "procedure": "Removal of cholesteatoma, drilling bone behind ear and in ear canal, reconstruction of eardrum\nmonitoring facial nerve",
       "site": "Ear/Head",
       "side": "",
       "risks-line-1": "Bleeding, infection, hearing loss, hole in ear drum, change in balance, damage to facial nerve",
@@ -1036,7 +1034,7 @@
   {
     "label": "Microsuspension Laryngoscopy Jet Vent O'Connell",
     "fields": {
-      "procedure": "Suspension microdirect laryngoscopy, bronchoscopy, exicision of scar, possible CO2 laser excision, possible balloon dilation, possible kenalog injection, jet ventilation, all other indicated procedures",
+      "procedure": "Suspension microdirect laryngoscopy, bronchoscopy, exicision of scar, possible CO2 laser excision,\npossible balloon dilation, possible kenalog injection, jet ventilation, all other indicated\nprocedures",
       "site": "mouth/throat",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, pain, scar, no improvement or change, swelling/obstruction in airway, pneumothorax",
@@ -1444,7 +1442,7 @@
   {
     "label": "Partial Glossectomy, Trach, RFF",
     "fields": {
-      "procedure": "partial or total glossectomy, neck dissection (bilateral), tracheostomy free flap reconstruction with R radial forearm free flap, possible R anteriolateral thigh free flap possible locoregional reconstruction with pectoralis muscle flap or other indicated local flap, skin graft from thigh",
+      "procedure": "partial or total glossectomy, neck dissection (bilateral), tracheostomy free flap reconstruction\nwith R radial forearm free flap, possible R anteriolateral thigh free flap possible locoregional\nreconstruction with pectoralis muscle flap or other indicated local flap, skin graft from thigh",
       "site": "oral cavity, neck, arm, thigh",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, swallowing and speaking difficulty, breathing difficulty,",
@@ -1516,7 +1514,7 @@
   {
     "label": "Radial Forearm Free Flap",
     "fields": {
-      "procedure": "glossectomy, composite floor of mouth resection, bilateral neck dissection, tracheostomy, microvascular reconstruction with radial forearm free flap, skin graft, possible other free flap",
+      "procedure": "glossectomy, composite floor of mouth resection, bilateral neck dissection, tracheostomy,\nmicrovascular reconstruction with radial forearm free flap, skin graft, possible other free flap",
       "site": "Mouth/Neck/Arm",
       "side": "Bilateral",
       "risks-line-1": "Bleeding, infection, numbness, weakness of the face, poor tongue mobility,weakness/numbness of the arm/hand",
@@ -1598,7 +1596,7 @@
   {
     "label": "SMDL Balloon Dilation",
     "fields": {
-      "procedure": "suspension microdirect laryngoscopy, bronchoscopy, with balloon dilation, CO2 laser excision, and kenlog injection",
+      "procedure": "suspension microdirect laryngoscopy, bronchoscopy, with balloon dilation, CO2 laser excision, and\nkenlog injection",
       "site": "Oral cavity/throat/trachea",
       "side": "",
       "risks-line-1": "infection, bleeding, injury to surrounding structures (lips, teeth, tongue, throat), difficulty breathing,",
@@ -1771,7 +1769,7 @@
   {
     "label": "Static Suspension For Facial Paralysis",
     "fields": {
-      "procedure": "right static facial suspension using fascia lata graft, facial advancement flap, repair of ptosis with brow lift",
+      "procedure": "right static facial suspension using fascia lata graft, facial advancement flap, repair of ptosis\nwith brow lift",
       "site": "face, thigh",
       "side": "",
       "risks-line-1": "Bleeding, infection, continued facial paralysis, failure to improve symptoms, recurrence of symptoms, poor",
@@ -1903,7 +1901,7 @@
   {
     "label": "Supraglottic Laryngectomy With Neck Dissection",
     "fields": {
-      "procedure": "possible awake tracheostomy, total laryngectomy, reconstruction with possible pectoralis myofasical flap possible local flap reconstruction",
+      "procedure": "possible awake tracheostomy, total laryngectomy, reconstruction with possible pectoralis myofasical\nflap possible local flap reconstruction",
       "site": "throat, neck",
       "side": "Bilateral",
       "risks-line-1": "Speech and swallowing issues. Breathing difficulties. Failure to resect cancer. Recurrence of cancer.",
@@ -2055,7 +2053,7 @@
   {
     "label": "Tracheoesophageal Fistula Repair",
     "fields": {
-      "procedure": "Repair of tracheoesophageal/pharyngocutaenous fistula, radial forearm free flap, possible pectoralis major flap",
+      "procedure": "Repair of tracheoesophageal/pharyngocutaenous fistula, radial forearm free flap, possible pectoralis\nmajor flap",
       "site": "Neck, arm, chest",
       "side": "",
       "risks-line-1": "Bleeding, infection, hematoma, failure of repair, wound dehiscence, recurrence of fistula, difficulty swallowing,",
@@ -2109,7 +2107,7 @@
   {
     "label": "Tracy Partial Glossectomy No Free Flap",
     "fields": {
-      "procedure": "Partial glossectomy, possible neck dissection, possible local flap, possible split thickness skin graft, possible direct laryngoscopy, possible tracheostomy",
+      "procedure": "Partial glossectomy, possible neck dissection, possible local flap, possible split thickness skin\ngraft, possible direct laryngoscopy, possible tracheostomy",
       "site": "oral cavity, neck, thigh",
       "side": "",
       "risks-line-1": "Speech and swallowing issues. Breathing difficulties. Failure to resect cancer. Recurrence of cancer.",
@@ -2229,7 +2227,7 @@
   {
     "label": "WLE Wein",
     "fields": {
-      "procedure": "wide local excision of oral lesion, possible local advancement flap, possible surgimend reconstruction",
+      "procedure": "wide local excision of oral lesion, possible local advancement flap, possible surgimend\nreconstruction",
       "site": "mouth",
       "side": "",
       "risks-line-1": "bleeding, infection, damage to surrounding structures, need for repeat surgery, scarring, recurrence",
@@ -2288,7 +2286,7 @@
   {
     "label": "WLE Scalp With Skin Graft And SLNB",
     "fields": {
-      "procedure": "wide local excision of lesion, sentinel lymph node biopsy, possible skin graft, possible local flap reconstruction",
+      "procedure": "wide local excision of lesion, sentinel lymph node biopsy, possible skin graft, possible local flap\nreconstruction",
       "site": "scalp/neck/thigh",
       "side": "Bilateral",
       "risks-line-1": "bleeding, infection, damage to the surrounding areas, dehiscence, poor wound healing, flap breakdown,",
@@ -2496,7 +2494,7 @@
   {
     "label": "CSF Leak Repair",
     "fields": {
-      "procedure": "endonasal approach to repair of encephalocele and cerebrospinal fluid leak, abdominal fat graft, lumbar drain insertion, possible septoplasty",
+      "procedure": "endonasal approach to repair of encephalocele and cerebrospinal fluid leak, abdominal fat graft,\nlumbar drain insertion, possible septoplasty",
       "site": "Nose, abdomen, back",
       "side": "Bilateral",
       "risks-line-1": "Infection, bleeding, septal perforation, failure to improve symptoms, recurrence of symptoms, injuty to skull base",
@@ -2583,7 +2581,7 @@
   {
     "label": "Facial Defect Repair",
     "fields": {
-      "procedure": "Application of split thickness skin graft, possible free tissue transfer with myocutaneous free flap, possible decompression of the orbit",
+      "procedure": "Application of split thickness skin graft, possible free tissue transfer with myocutaneous free\nflap, possible decompression of the orbit",
       "site": "face/thigh",
       "side": "",
       "risks-line-1": "infection, bleeding, poor wound healing, failure of repair, hematoma, pain,",
@@ -2645,7 +2643,7 @@
   {
     "label": "Infrastructure Maxillectomy, Neck Dissection Jawad",
     "fields": {
-      "procedure": "left infrastructure maxillectomy, locoregional flap reconstruction, possible free flap, possible neck dissection possible skin graft, possible synthetic graft, possible tracheostomy",
+      "procedure": "left infrastructure maxillectomy, locoregional flap reconstruction, possible free flap, possible\nneck dissection possible skin graft, possible synthetic graft, possible tracheostomy",
       "site": "Oral cavity/face/neck/thigh/forearm",
       "side": "",
       "risks-line-1": "bleeding, infection, poor wound healing, failure to resect all cancer, recurrence of cancer, fistula formation,",
@@ -2678,7 +2676,7 @@
   {
     "label": "Infrastructure Maxillectomy, Neck Dissection",
     "fields": {
-      "procedure": "right infrastructure maxillectomy, right radical neck dissection, left scapula tip free flap, possible local flap and regional flap reconstruction",
+      "procedure": "right infrastructure maxillectomy, right radical neck dissection, left scapula tip free flap,\npossible local flap and regional flap reconstruction",
       "site": "Oral cavity/face/neck/back/shoulder/chest",
       "side": "",
       "risks-line-1": "bleeding, infection, poor wound healing, failure to resect all cancer, recurrence of cancer, fistula formation,",
@@ -2855,7 +2853,7 @@
   {
     "label": "Mandibulectomy Segmental Fibula",
     "fields": {
-      "procedure": "segmental mandibulectomy (right), neck dissection (right), fibula free flap reconstruction (right), possible tracheostomy, possible skin graft (bilateral), possible locoregional flap (bilateral)",
+      "procedure": "segmental mandibulectomy (right), neck dissection (right), fibula free flap reconstruction (right),\npossible tracheostomy, possible skin graft (bilateral), possible locoregional flap (bilateral)",
       "site": "oral cavity, neck, leg, possible chest",
       "side": "",
       "risks-line-1": "inability to clear cancer, recurrence of cancer, fistula formation, poor wound healing, difficulty eating/breathing,",
@@ -2888,7 +2886,7 @@
   {
     "label": "Mandibulectomy, Scap Tip Free Flap",
     "fields": {
-      "procedure": "dental extractions, segmental mandibuectomy, tracheostomy bilateral neck dissection, scapula free flap reconstruction, possible local or regional flap reconstruction possible skin graft",
+      "procedure": "dental extractions, segmental mandibuectomy, tracheostomy bilateral neck dissection, scapula free\nflap reconstruction, possible local or regional flap reconstruction possible skin graft",
       "site": "oral cavity, neck, leg",
       "side": "",
       "risks-line-1": "infection, bleeding, failure to improve symptom, fistula formation, poor wound healing, difficulty eating/breathing,",
@@ -2927,7 +2925,7 @@
   {
     "label": "Mandibulectomy with FFF",
     "fields": {
-      "procedure": "segmental mandibulectomy (side***), neck dissection (side***), tracheostomy, fibula free flap reconstruction (side***), possible skin graft, possible locoregional flap",
+      "procedure": "segmental mandibulectomy (side***), neck dissection (side***), tracheostomy, fibula free flap\nreconstruction (side***), possible skin graft, possible locoregional flap",
       "site": "oral cavity, neck, leg",
       "side": "",
       "risks-line-1": "inability to clear cancer, recurrence of cancer, fistula formation, poor wound healing, difficulty eating/breathing,",
@@ -3176,7 +3174,7 @@
   {
     "label": "Upper Lip SCC Resection With ND and Free Flap",
     "fields": {
-      "procedure": "upper lip and cheek wide local exicion of carcinoma, rhinectomy, neck dissection radial forearm or anterolateral thigh free flap with microvascular anastomosis split thickness skin graft,  possible local flap or regional flap reconstruction",
+      "procedure": "upper lip and cheek wide local exicion of carcinoma, rhinectomy, neck dissection radial forearm or\nanterolateral thigh free flap with microvascular anastomosis split thickness skin graft,  possible\nlocal flap or regional flap reconstruction",
       "site": "Oral cavity/face/neck/thigh/chest",
       "side": "",
       "risks-line-1": "bleeding, infection, poor wound healing, failure to resect all cancer, recurrence of cancer, fistula formation,",
@@ -3286,7 +3284,7 @@
   {
     "label": "AOF VF Injection (Local)",
     "fields": {
-      "procedure": "Transnasal flexible laryngoscopy, vocal fold injection, possible transcervical versus transoral approach",
+      "procedure": "Transnasal flexible laryngoscopy, vocal fold injection, possible transcervical versus transoral\napproach",
       "site": "Throat/voice box",
       "side": "Bilateral",
       "conditions-line-1": "Immobile vocal fold, vocal fold atrophy",
@@ -3315,7 +3313,7 @@
   {
     "label": "AOF Airway Evaluation/Dilation",
     "fields": {
-      "procedure": "Microdirect laryngoscopy, bronchoscopy, excision of scar, possible CO2 laser, possible balloon dilation, possible kenalog injection, exchange of tracheotomy tube, and all other indicated procedures",
+      "procedure": "Microdirect laryngoscopy, bronchoscopy, excision of scar, possible CO2 laser, possible balloon\ndilation, possible kenalog injection, exchange of tracheotomy tube, and all other indicated\nprocedures",
       "site": "Airway/trachea",
       "side": "Bilateral",
       "conditions-line-1": "Narrowing of airway",
