@@ -3253,5 +3253,232 @@
       "complex",
       "fracture"
     ]
+  },
+  {
+    "label": "VF Injection (General)",
+    "fields": {
+      "procedure": "Microdirect laryngoscopy, vocal fold injection",
+      "site": "Throat/voice box",
+      "side": "Bilateral",
+      "conditions-line-1": "Immobile vocal fold",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "Bleeding, infection, pain, scar, change/no improvement in voice, swelling in airway/airway obstruction,",
+      "risks-line-2": "need for repeat procedures, damage to teeth/tongue/lips, tongue numbness, tongue weakness, change in taste,",
+      "risks-line-3": "need for ventilator assistance following surgery, need for placement of tracheotomy, loss of airway, risks of anesthesia, death",
+      "additional-risks": "",
+      "alternatives": "Observation, voice therapy"
+    },
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "vf",
+      "injection",
+      "general",
+      "vocal",
+      "fold",
+      "filler",
+      "microdirect",
+      "laryngoscopy"
+    ]
+  },
+  {
+    "label": "VF Injection (Local)",
+    "fields": {
+      "procedure": "Transnasal flexible laryngoscopy, vocal fold injection, possible transcervical versus transoral approach",
+      "site": "Throat/voice box",
+      "side": "Bilateral",
+      "conditions-line-1": "Immobile vocal fold, vocal fold atrophy",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "Bleeding, infection, pain, ear pain, scar, nose bleed, change/no improvement in voice,",
+      "risks-line-2": "swelling in airway/airway obstruction, need for repeat procedures, risks of local anesthesia",
+      "risks-line-3": "",
+      "additional-risks": "",
+      "alternatives": "Observation, voice therapy"
+    },
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "vf",
+      "injection",
+      "local",
+      "vocal",
+      "fold",
+      "transnasal",
+      "flexible",
+      "laryngoscopy"
+    ]
+  },
+  {
+    "label": "Airway Evaluation/Dilation",
+    "fields": {
+      "procedure": "Microdirect laryngoscopy, bronchoscopy, excision of scar, possible CO2 laser, possible balloon dilation, possible kenalog injection, exchange of tracheotomy tube, and all other indicated procedures",
+      "site": "Airway/trachea",
+      "side": "Bilateral",
+      "conditions-line-1": "Narrowing of airway",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "Bleeding, infection, pain, scar, change/no improvement in voice, swelling in airway/airway obstruction,",
+      "risks-line-2": "need for repeat procedures, damage to teeth/tongue/lips, tongue numbness, tongue weakness, change in taste, airway fire,",
+      "risks-line-3": "loss of airway, risks of anesthesia, death",
+      "additional-risks": "",
+      "alternatives": "Observation, continued use of tracheotomy"
+    },
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "airway",
+      "evaluation",
+      "dilation",
+      "laryngoscopy",
+      "bronchoscopy",
+      "scar",
+      "removal"
+    ]
+  },
+  {
+    "label": "Excision VF Lesion",
+    "fields": {
+      "procedure": "Microdirect laryngoscopy, microflap excision of vocal fold lesion, possible CO2/KTP laser",
+      "site": "Throat/voice box",
+      "side": "Bilateral",
+      "conditions-line-1": "Lesion in voice box",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "Bleeding, infection, pain, scar, change in voice, swelling in airway/airway obstruction, no diagnosis,",
+      "risks-line-2": "need for repeat procedures, damage to teeth/tongue/lips, tongue numbness, tongue weakness, change in taste,",
+      "risks-line-3": "need for ventilator assistance following surgery, airway fire, need for placement of tracheotomy, loss of airway, risks of anesthesia, death",
+      "additional-risks": "",
+      "alternatives": "Observation"
+    },
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "excision",
+      "vf",
+      "lesion",
+      "vocal",
+      "fold",
+      "microflap",
+      "laser"
+    ]
+  },
+  {
+    "label": "Botox Laryngeal Injection",
+    "fields": {
+      "procedure": "Injection of botulinum toxin into laryngeal muscles with electromyography guidance",
+      "site": "Throat/voice box",
+      "side": "Bilateral",
+      "conditions-line-1": "Spasm of vocal cords and/or vocal tremor",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "No improvement in voice, temporary worsening of voice quality (including breathy voice), need for repeated injections,",
+      "risks-line-2": "difficulty breathing, difficulty swallowing, aspiration pneumonia",
+      "risks-line-3": "",
+      "additional-risks": "",
+      "alternatives": "Observation, trial of voice therapy"
+    },
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "botox",
+      "laryngeal",
+      "injection",
+      "botulinum",
+      "toxin",
+      "electromyography",
+      "emg"
+    ]
+  },
+  {
+    "label": "Laryngoplasty",
+    "fields": {
+      "procedure": "Laryngoplasty, possible arytenoid adduction",
+      "site": "Throat/voice box",
+      "side": "Bilateral",
+      "conditions-line-1": "Vocal fold immobility/atrophy, glottic insufficiency",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "Bleeding, infection, pain, scar, undesired cosmetic results, hematoma, no change or worsening voice quality,",
+      "risks-line-2": "extrusion of implant, need for additional procedures, airway obstruction, need for temporary intubation and/or tracheotomy,",
+      "risks-line-3": "possible revision, risks of anesthesia, death",
+      "additional-risks": "",
+      "alternatives": "Observation, voice therapy"
+    },
+    "specialties": [
+      "Laryngology"
+    ],
+    "tags": [
+      "laryngoplasty",
+      "implant",
+      "vocal",
+      "fold",
+      "arytenoid",
+      "adduction",
+      "glottic",
+      "insufficiency"
+    ]
+  },
+  {
+    "label": "Esophagoscopy With Dilation (AOF)",
+    "fields": {
+      "procedure": "Flexible esophagoscopy, dilation of esophagus with bougie dilators",
+      "site": "Throat/esophagus",
+      "side": "",
+      "conditions-line-1": "Narrowing of esophagus",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "Bleeding, infection, pain, scar, no change in swallowing, need for repeat procedures, damage to esophagus, esophageal perforation,",
+      "risks-line-2": "pneumomediastinum, damage to teeth/tongue/lips, tongue numbness, change in taste, change in voice,",
+      "risks-line-3": "swelling in airway/airway obstruction, risks of anesthesia, death",
+      "additional-risks": "",
+      "alternatives": "Observation, modify diet, dysphagia therapy"
+    },
+    "specialties": [
+      "Laryngology",
+      "General"
+    ],
+    "tags": [
+      "esophagoscopy",
+      "dilation",
+      "esophagus",
+      "flexible",
+      "bougie",
+      "narrowing",
+      "swallowing"
+    ]
+  },
+  {
+    "label": "Tracheotomy (AOF)",
+    "fields": {
+      "procedure": "Tracheotomy",
+      "site": "Neck/throat",
+      "side": "",
+      "conditions-line-1": "Airway obstruction",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "Bleeding, infection, pain, scar, damage to adjacent structures, need for additional procedures,",
+      "risks-line-2": "airway obstruction, loss of airway, risks of anesthesia, death",
+      "risks-line-3": "",
+      "additional-risks": "",
+      "alternatives": "Observation"
+    },
+    "specialties": [
+      "Laryngology",
+      "General"
+    ],
+    "tags": [
+      "tracheotomy",
+      "airway",
+      "breathing",
+      "tube",
+      "obstruction"
+    ]
   }
 ]
