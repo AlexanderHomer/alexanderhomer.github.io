@@ -322,7 +322,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
 
     const segments = working.split(',')
       .flatMap((segment) => parseSegmentOptions(segment.trim()))
-      .filter((segment) => segment.toLowerCase() !== 'and')
+      .filter((segment) => segment.toLowerCase() !== 'and' && segment.toLowerCase() !== 'or')
       .filter(Boolean);
     if (segments.length === 0) return [];
 
