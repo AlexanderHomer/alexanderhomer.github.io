@@ -23,7 +23,9 @@ except ImportError as exc:  # pragma: no cover - runtime dependency
 
 
 TEMPLATE_KEYS = [
-    "procedure",
+    "procedure-line-1",
+    "procedure-line-2",
+    "procedure-line-3",
     "site",
     "side",
     "primary-doctor",
@@ -41,7 +43,9 @@ TEMPLATE_KEYS = [
 ]
 
 PDF_FIELD_MAP: Dict[str, List[str]] = {
-    "procedure": ["Procedure"],
+    "procedure-line-1": ["Procedure", "Procedures Line 1"],
+    "procedure-line-2": ["Procedures Line 2"],
+    "procedure-line-3": ["Procedures Line 3"],
     "site": ["Site"],
     "primary-doctor": [
         "Primary Doctor",
@@ -109,6 +113,43 @@ def _label_from_path(path: Path) -> str:
     return label.title() if label else path.stem
 
 
+def _split_procedure(procedure_text: str, max_chars: int = 100) -> tuple[str, str, str]:
+    """Split a procedure into up to 3 lines, each max_chars long."""
+    if not procedure_text:
+        return "", "", ""
+
+    procedure_text = procedure_text.strip()
+
+    # If it fits in one line, return it
+    if len(procedure_text) <= max_chars:
+        return procedure_text, "", ""
+
+    # Split into words
+    words = procedure_text.split()
+    lines = ["", "", ""]
+    line_idx = 0
+
+    for word in words:
+        if line_idx >= 3:
+            # Cap at 3 lines
+            break
+
+        test_line = (lines[line_idx] + " " + word).strip()
+
+        if len(test_line) <= max_chars:
+            lines[line_idx] = test_line
+        else:
+            # Move to next line
+            if line_idx < 2:
+                line_idx += 1
+                lines[line_idx] = word
+            else:
+                # Truncate if it doesn't fit in 3 lines
+                lines[line_idx] = (lines[line_idx] + " " + word).strip()[:max_chars]
+
+    return lines[0], lines[1], lines[2]
+
+
 def extract_template(pdf_path: Path) -> Dict:
     reader = PdfReader(str(pdf_path))
     fields = reader.get_fields() or {}
@@ -119,6 +160,13 @@ def extract_template(pdf_path: Path) -> Dict:
         template_fields[template_key] = _first_value(fields, pdf_names)
 
     template_fields["side"] = _extract_side(fields)
+
+    # Handle procedure field splitting if procedure-line-2 and procedure-line-3 are empty
+    if template_fields["procedure-line-1"] and not template_fields["procedure-line-2"]:
+        line1, line2, line3 = _split_procedure(template_fields["procedure-line-1"])
+        template_fields["procedure-line-1"] = line1
+        template_fields["procedure-line-2"] = line2
+        template_fields["procedure-line-3"] = line3
 
     return {
         "label": _label_from_path(pdf_path),
