@@ -3255,7 +3255,7 @@
     ]
   },
   {
-    "label": "VF Injection (General)",
+    "label": "AOF VF Injection (General)",
     "fields": {
       "procedure": "Microdirect laryngoscopy, vocal fold injection",
       "site": "Throat/voice box",
@@ -3284,7 +3284,7 @@
     ]
   },
   {
-    "label": "VF Injection (Local)",
+    "label": "AOF VF Injection (Local)",
     "fields": {
       "procedure": "Transnasal flexible laryngoscopy, vocal fold injection, possible transcervical versus transoral approach",
       "site": "Throat/voice box",
@@ -3313,7 +3313,7 @@
     ]
   },
   {
-    "label": "Airway Evaluation/Dilation",
+    "label": "AOF Airway Evaluation/Dilation",
     "fields": {
       "procedure": "Microdirect laryngoscopy, bronchoscopy, excision of scar, possible CO2 laser, possible balloon dilation, possible kenalog injection, exchange of tracheotomy tube, and all other indicated procedures",
       "site": "Airway/trachea",
@@ -3341,7 +3341,7 @@
     ]
   },
   {
-    "label": "Excision VF Lesion",
+    "label": "AOF Excision VF Lesion",
     "fields": {
       "procedure": "Microdirect laryngoscopy, microflap excision of vocal fold lesion, possible CO2/KTP laser",
       "site": "Throat/voice box",
@@ -3369,7 +3369,7 @@
     ]
   },
   {
-    "label": "Botox Laryngeal Injection",
+    "label": "AOF Botox Laryngeal Injection",
     "fields": {
       "procedure": "Injection of botulinum toxin into laryngeal muscles with electromyography guidance",
       "site": "Throat/voice box",
@@ -3397,7 +3397,7 @@
     ]
   },
   {
-    "label": "Laryngoplasty",
+    "label": "AOF Laryngoplasty",
     "fields": {
       "procedure": "Laryngoplasty, possible arytenoid adduction",
       "site": "Throat/voice box",
@@ -3426,7 +3426,7 @@
     ]
   },
   {
-    "label": "Esophagoscopy With Dilation (AOF)",
+    "label": "AOF Esophagoscopy With Dilation",
     "fields": {
       "procedure": "Flexible esophagoscopy, dilation of esophagus with bougie dilators",
       "site": "Throat/esophagus",
@@ -3455,7 +3455,7 @@
     ]
   },
   {
-    "label": "Tracheotomy (AOF)",
+    "label": "AOF Tracheotomy",
     "fields": {
       "procedure": "Tracheotomy",
       "site": "Neck/throat",
