@@ -135,6 +135,8 @@
 
 [Vacation Requests](orientation/vacation-requests.html)
 
+[OR Orientation](orientation/or-orientation.html)
+
 ## [Calls and Consults](on-call/index.html)
 
 [On-Call](on-call/index.html)
