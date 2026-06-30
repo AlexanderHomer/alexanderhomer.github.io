@@ -3728,5 +3728,43 @@
       "tube",
       "obstruction"
     ]
+  },
+  {
+    "label": "Open Septoplasty, Turbinate Reduction and Nasal Valve Repair",
+    "fields": {
+      "procedure-line-1": "Open septoplasty, turbinate reduction and nasal valve repair",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
+      "site": "Nose/face",
+      "side": "Bilateral",
+      "conditions-line-1": "Bilateral nasal obstruction secondary to septal deviation, turbinate hypertrophy and nasal valve stenosis",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "Pain, infection, bleeding, septal perforation, empty nose sensation, hematoma,",
+      "risks-line-2": "Failure to improve symptoms, recurrence of symptoms, nasal scarring, hyposmia",
+      "risks-line-3": "Damage to surrounding structures, need for further surgeries, poor cosmetic results",
+      "additional-risks": "",
+      "alternatives": "No procedure"
+    },
+    "specialties": [
+      "Rhinology",
+      "General"
+    ],
+    "tags": [
+      "septoplasty",
+      "open",
+      "turbinate",
+      "reduction",
+      "nasal",
+      "valve",
+      "repair",
+      "bilateral",
+      "nasal",
+      "obstruction",
+      "septal",
+      "deviation",
+      "hypertrophy",
+      "stenosis"
+    ]
   }
 ]
