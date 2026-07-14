@@ -56,6 +56,12 @@ Lidocaine 5% 1 patch TD 12h on, 12h off (only for skin and subcutaneous pain).
 
 - Zofran IV 0.1mg/kg/dose q8hrs (max dose 4mg).
 
+## NICU/Peds Airway Meds
+
+- Famotidine 0.5-1 mg/kg/day
+- Dexamethasone 1 gtt BID to nose for 2 weeks
+- Montelukast: 6 months - 4 years: 4mg once daily at night; 4-16 years 5mg once daily at night; >16 10mg once daily at night. Can do chewable tablets or granules for the younger age groups
+
 
 
 [Back to homepage](../index.html)
