@@ -8,4 +8,6 @@
 
 [Facial Trauma Guide](facial-trauma-guide.html)
 
+[Slack Monitor](slack-monitor.html)
+
 
