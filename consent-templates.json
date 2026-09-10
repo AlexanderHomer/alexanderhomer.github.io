@@ -3728,5 +3728,70 @@
       "tube",
       "obstruction"
     ]
+  },
+  {
+    "label": "Open Septorhinoplasty With Turbinate Reduction And Nasal Valve Repair Lee",
+    "fields": {
+      "procedure-line-1": "Open septorhinoplasty, turbinate reduction and nasal valve repair",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
+      "site": "Nose/face",
+      "side": "Bilateral",
+      "conditions-line-1": "nasal obstruction secondary to septal deviation, turbinate hypertrophy, nasal valve stenosis and prior nasal bone fracture",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "pain, infection, bleeding, septal perforation, empty nose sensation, hematoma,",
+      "risks-line-2": "failure to improve symptoms, recurrence of symptoms, nasal scarring, hyposmia",
+      "risks-line-3": "damage to surrounding structures, need for further surgeries, poor cosmetic results",
+      "additional-risks": "",
+      "alternatives": "No Procedure"
+    },
+    "specialties": [
+      "Rhinology",
+      "Facial Plastics"
+    ],
+    "tags": [
+      "open",
+      "septorhinoplasty",
+      "with",
+      "turbinate",
+      "reduction",
+      "and",
+      "nasal",
+      "valve",
+      "repair",
+      "lee"
+    ]
+  },
+  {
+    "label": "Bone Anchored Hearing Aid Insertion Vecchiotti",
+    "fields": {
+      "procedure-line-1": "Insertion of bone anchored hearing aid",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
+      "site": "ear/skull",
+      "side": "Right",
+      "conditions-line-1": "brachio-oto-renal syndrome with bilateral grade 2 microtia and left-sided aural atresia, conductive hearing loss",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "bleeding, hematoma, infection, CSF leak, poor wound healing, device discomfort,",
+      "risks-line-2": "device failure, dissatisfaction with device, need for further surgeries/procedures",
+      "risks-line-3": "",
+      "additional-risks": "",
+      "alternatives": "observation, no treatment, alternative hearing aid"
+    },
+    "specialties": [
+      "Otology",
+      "Pediatrics"
+    ],
+    "tags": [
+      "bone",
+      "anchored",
+      "hearing",
+      "aid",
+      "insertion",
+      "vecchiotti",
+      "baha"
+    ]
   }
 ]
