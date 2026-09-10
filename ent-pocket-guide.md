@@ -5305,7 +5305,7 @@ Pupils should still react when you use a paralytic (vec, succ etc)
 
 
 1. There are 4 clinic locations: Brockton, Norwood, Taunton, and Plainville.
-2. There are several office procedures that may be listed on the weekly schedule as well; these are usually thyroid ultrasounds with Dr. Dhingra or in-office balloon sinuplasties with Dr. Pradhan/O’Brien
+2. There are several office procedures that may be listed on the weekly schedule as well; these are usually thyroid ultrasounds with Dr. Dhingra or in-office balloon sinuplasties with Dr. Pradhan/Gorton
 3. Make every effort to attend these sessions, unless you are seeing urgent consults
 
 **Consult responsibilities**
@@ -5420,7 +5420,7 @@ Brockton: <https://citrix.signature-healthcare.org/Citrix/XenApp/>
 * Dr. S. Byahatti—(617) 680-2460
 * Dr. D. Snyder—(781) 910-2483
 * Dr. R. Shu—(617) 216-2388
-* Dr. D. O’Brien—(508) 641-3113
+* Dr. D. Gorton—(508) 641-3113
 * Dr. P. Pradhan—(617) 733-7923
 * Dr. T. Hron—(617) 970-9115
 * Dr. W. Dagher—(617) 943-6124
