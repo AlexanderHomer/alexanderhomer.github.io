@@ -384,7 +384,7 @@ Use this page to fill a surgical consent and download a completed copy. Select f
           type="text"
           id="physician-extenders-2"
           name="physician-extenders-2"
-          value="Fan, Smith, O'Brien, Doyel, Homer, Homer, and McIntosh"
+          value="Fan, Smith, Gorton, Doyel, Homer, Homer, and McIntosh"
         />
       </div>
     </div>
