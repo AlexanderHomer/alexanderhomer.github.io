@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Otology"
+---
+
 # Otology
 
 [Clinic Guide](clinic-guide.html)

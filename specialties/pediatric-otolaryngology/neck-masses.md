@@ -1,3 +1,8 @@
+---
+layout: default
+title: "PEDIATRIC NECK MASSES"
+---
+
 # PEDIATRIC NECK MASSES
 
 **History**:

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Tufts Oto-HNS Pocket Guide"
+---
+
 <img src="media/image1.png" style="width:4.75043in;height:6.96867in" />
 
 **<span class="smallcaps">Contributors</span>**

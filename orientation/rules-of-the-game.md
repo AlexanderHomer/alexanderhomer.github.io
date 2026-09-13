@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Rules of the Game"
+---
+
 ## Rules of the Game
 
 

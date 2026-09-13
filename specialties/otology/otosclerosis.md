@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Otosclerosis"
+---
+
 # Otosclerosis
 
 * **Ask**: Progressive **CHL** beginning in 20–40yo

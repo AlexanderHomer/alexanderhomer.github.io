@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Vacation Requests"
+---
+
 # Vacation Requests
 
 * If 2 residents at different locations want the same week, need permission from Dr. Noonan

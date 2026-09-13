@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Rhode Island Hospital - Extensions"
+---
+
 # Rhode Island Hospital - Extensions
 
 ### 🚨 Quick Reference

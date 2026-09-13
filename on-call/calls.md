@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Calls"
+---
+
 # Calls
 
 ## Post-tonsillectomy patients

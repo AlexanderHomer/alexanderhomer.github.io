@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Common Conditions"
+---
+
 # Common Conditions
 
 ## OME - Clinical Practice Guidelines

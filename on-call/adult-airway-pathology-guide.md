@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Adult Airway Pathology Guide"
+---
+
 
 # Adult Airway Pathology Guide
 

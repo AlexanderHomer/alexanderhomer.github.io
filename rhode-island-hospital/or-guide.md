@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Rhode Island Hospital - OR Guide"
+---
+
 # Rhode Island Hospital - OR Guide
 
 ## Overview

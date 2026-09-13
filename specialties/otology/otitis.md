@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Otitis"
+---
+
 # Otitis
 
 ## Acute Otitis Externa – *Clinical Practice Guideline*

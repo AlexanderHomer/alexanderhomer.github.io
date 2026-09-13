@@ -1,3 +1,8 @@
+---
+layout: default
+title: "TIPS"
+---
+
 # TIPS
 
 ## Links:

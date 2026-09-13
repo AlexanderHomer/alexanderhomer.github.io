@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Tinnitus – Clinical Practice Guideline"
+---
+
 # Tinnitus – *Clinical Practice Guideline*
 
 * **Audiogram** is essential if tinnitus is:

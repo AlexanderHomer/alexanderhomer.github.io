@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Weekly Routines"
+---
+
 # Weekly Routines
 
 ## **Monday**:

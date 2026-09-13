@@ -2,3 +2,18 @@ title: Tufts Oto-HNS Guide
 markdown: kramdown
 kramdown:
   input: GFM
+
+# These live in the repo for editing/tooling but should never be published
+# to the site (S3 bucket origin serves whatever lands in _site verbatim).
+exclude:
+  - "ENT POCKETGUIDE - July 9 2023 version.docx"
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - clean_html.py
+  - consent_pdf_to_json.py
+  - convert_to_pure_markdown.py
+  - generate_pages_json.py
+  - tests
+  - node_modules

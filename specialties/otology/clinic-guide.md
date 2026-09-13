@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Otology - Clinic Guide"
+---
+
 
 # Otology - Clinic Guide
 

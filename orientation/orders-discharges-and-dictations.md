@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Orders, Discharges, & Dictations"
+---
+
 ## Orders, Discharges, & Dictations
 
 ## **Day surgery**

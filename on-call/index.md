@@ -1,3 +1,8 @@
+---
+layout: default
+title: "On-Call Resources"
+---
+
 ## On-Call Resources
 
 [On-Call Guide](on-call-guide.html)

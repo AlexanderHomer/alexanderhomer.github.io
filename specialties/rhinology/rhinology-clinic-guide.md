@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Rhinology Clinic Guide"
+---
+
 # Rhinology Clinic Guide
 
 ## Allergy
