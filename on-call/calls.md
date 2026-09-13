@@ -9,14 +9,12 @@ title: "Calls"
 
 * **Bleeding:** Ask all tonsil bleeds to go to an ED — never have them wait it out at home or come to clinic. If it sounds like a large active bleed (frank blood, more than streaks/specks, won't stop, or patient swallowing repeatedly/vomiting blood), send to the **nearest** ED by ambulance if needed. If it's a small amount of blood-tinged saliva/spit that has stopped, they can come to us (see [Tonsil Bleed consult](consults.html#tonsil-bleed) for the in-person workup). Risk is highest POD#5-10 (eschar separation).
 * **White/yellow film in the tonsil fossa:** This is expected eschar/fibrin, not pus or infection — reassure. It's normal for it to look worse before it sloughs off (often POD#5-10), which is also when bleeding risk peaks.
-* **Fever:** Fever is expected for up to 2 weeks. If fever continues, can consider course of azithromycin (sometimes adenoid bed can become infected)
+* **Fever:** Fever is expected for up to 2 weeks.
 * **Neck Pain:** A small amount of neck pain is expected (typically from suspension or the adenoidectomy). If the patient cannot move their neck, send patient to ED for CT to r/o Grisel's syndrome (especially if patient has down syndrome)
-* **Pain:** check if patient has been able to receive pain meds (often parents can't get kids to drink the meds). Offer PR Tylenol to help catch up pain. Worsening pain after several days of improvement, or pain isolated to one side, can herald an impending bleed — have a lower threshold to bring them in.
+* **Pain:** check if patient has been able to receive pain meds (often parents can't get kids to drink the meds) and if using as directed. Can offer PR Tylenol to help catch up pain. If taking PO otherwise, no need to force the pain medication.
 * **Poor PO intake/dehydration:** Ask about wet diapers/urination frequency, lethargy, dry mouth/lips, and how much they've had to drink in the last 24 hours. Encourage cold, non-acidic, non-scratchy liquids/soft foods and ensure standing pain meds are being given (pain is the usual driver of poor intake). Signs of dehydration (no urination in >8-12 hours, lethargy, sunken eyes, inability to keep any fluids down) warrant ED evaluation for IV fluids.
-* **Snoring/breathing changes:** Loud snoring and mouth breathing are expected for the first 1-2 weeks as tissues heal/swell — reassure. Witnessed apnea, blue lips, retractions, or persistent low sats are not expected and need ED evaluation.
 * **When to send to ED vs. clinic vs. reassure:**
   * Reassure + routine follow-up: white/yellow eschar in fossa, mild pain controlled with meds, snoring/mouth breathing, fever <2 weeks
-  * Clinic follow-up: persistent fever beyond 2 weeks, ongoing poor PO intake without dehydration signs
   * ED: any active/frank bleeding or history of a bleed (however small), signs of dehydration, inability to move the neck, or breathing concerns (apnea, cyanosis, retractions)
 
 ## Post Septorhinoplasty Q&A
@@ -34,18 +32,12 @@ title: "Calls"
 
 ## Post-Ear Tube (Tympanostomy Tube) Calls
 
-* **Ear drainage/discharge:** Common in the first few days, especially bloody/serosanguinous drainage. Continue prescribed antibiotic ear drops (if given) for 5-7 days. If drainage is thick/purulent, persists >1 week, or child has fever, start/restart ototopical antibiotic drops (e.g. ofloxacin or ciprodex) and have them follow up in clinic. If drainage is profuse or foul-smelling, consider having them seen sooner.
-* **Bleeding:** A small amount of blood-tinged drainage on day of surgery is normal. Frank, persistent, or heavy bleeding from the ear canal is not expected — have them come in or go to ED if significant.
+* **Ear drainage/discharge:** Common in the first few days, especially bloody/serosanguinous drainage. Continue prescribed antibiotic ear drops (if given) for 5-7 days. If drainage is thick/purulent, persists >1 week, or child has fever, start/restart ototopical antibiotic drops (e.g. ofloxacin or ciprodex) and have them follow up in clinic. Make sure to rule out mastoiditis and make sure the EAC isn't so swollen that drops can't get in. The latter requires ear wick placement in the ED.
+* **Bleeding:** A small amount of blood-tinged drainage on day of surgery is normal. Bleeding with mature ear tubes in may represent granuloma, for which ciprodex is warranted
 * **Pain:** Mild ear discomfort for 1-2 days is normal (from the myringotomy itself, not the tubes). Tylenol/ibuprofen as needed. Severe or worsening pain, especially with fever, raises concern for infection — consider drops and clinic follow-up.
-* **Water precautions:** Most surgeons allow water exposure once initial drainage has resolved (typically after the first few days). Advise against submerging the head/diving or getting soapy/dirty water in the ear; plain tap water for bathing/showering is generally fine unless the surgeon has specified strict water precautions (custom earplugs for swimming/bathing) — check the operative note or surgeon preference.
-* **Tube falls out early/looks displaced:** If it falls out within the first few days to weeks and the ear looks fine (no significant drainage or pain), reassure and have them follow up at the routine post-op visit — extrusion timing varies and early extrusion doesn't always require intervention, but the surgeon should confirm the eardrum has healed.
-* **Hearing:** Hearing typically improves rapidly (within days) once middle ear fluid resolves and the tube is functioning. Persistent hearing loss or a tube that appears blocked/occluded with dried blood or debris should be evaluated in clinic — do not attempt to clean/remove debris over the phone.
-* **Fever:** Low-grade fever for a day or two can occur; higher or persistent fever, especially with increasing pain or drainage, suggests infection — start ear drops if not already on them and arrange to be seen.
-* **Flying/altitude:** Tubes equalize pressure automatically, so flying is generally safe and often more comfortable than before tubes — no restriction.
 * **When to send to ED vs. clinic vs. reassure:**
-  * Reassure + routine follow-up: expected serosanguinous drainage in first 1-2 days, mild pain, early asymptomatic tube extrusion
-  * Start drops + clinic follow-up: purulent/foul drainage, fever with drainage, persistent drainage >1 week, worsening pain
-  * ED: heavy/frank bleeding, signs of mastoiditis (postauricular swelling/erythema, protruding ear), or systemic illness/toxic-appearing child
+  * Reassure + routine follow-up: expected serosanguinous drainage in first 1-2 days, mild pain, bloody or purulent otorrhea without cellulitis or mastoiditis
+  * ED: heavy/frank bleeding, signs of mastoiditis (postauricular swelling/erythema, protruding ear), cellulitis precluding ear drop placement, or systemic illness/toxic-appearing child
 
 ## Post-Ear Surgery Restrictions
 
