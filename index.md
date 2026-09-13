@@ -147,6 +147,8 @@
 
 [Facial Trauma Guide](on-call/facial-trauma-guide.html)
 
+[Adult Airway Pathology Guide](on-call/adult-airway-pathology-guide.html)
+
 ## OR Notes
 
 [Kajal's OR Pearls](resources/kajals-or-pearls.html)

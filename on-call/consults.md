@@ -179,6 +179,8 @@ When you get there:
 
 ## Airway patients with stridor
 
+*For a deeper dive on the adult airway consult (history, differential, and workup), see the [Adult Airway Pathology Guide](adult-airway-pathology-guide.html).*
+
 * Ask: onset of stridor + speed of progression. Eval for infectious vs inflammatory vs foreign body vs neoplastic
 * Evaluate: O2 sat, respiratory rate, retractions, ability to lay supine. Stridor: insp: supraglottic/glottic. Biphasic: glottic/subglottic. Expiratory: trachea/bronchi. Perform fiberoptic exam and check airway
 * Management:

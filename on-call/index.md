@@ -8,4 +8,6 @@
 
 [Facial Trauma Guide](facial-trauma-guide.html)
 
+[Adult Airway Pathology Guide](adult-airway-pathology-guide.html)
+
 
