@@ -91,6 +91,28 @@ When you get there:
 * **Operative Steps:** Place shoulder roll. mark out midline, hyoid, thyroid cartilage, cricoid, sternal notch. Match a 3-4cm incision between cricoid and sternal notch. Inject w/ lido w/ epi. Prep & drape. Incision w/ 15 blade through platysma. Use bipolar to stop skin bleeders. Use sennas on superior and inferior aspects of incision and pull up. Everything that comes up is safe. Push down w/ curved mets midline open (in superior/inferior direction) a little. Don’t open to wide (you’ll get bleeding. Keep doing that until you see straps. Always look for bleeding vessels. Keep palpating for midline. Once you see straps. Use pickups on either side of midline raphe. Develop planes under straps then can retract laterally first with senns then with army navy. If trach dives deep, comes from above thyroid over cricoid. Can also use bovie to separate thyroid. Careful with FiO2 and bovie coming up to the trachea. Switch to bipolar if you have to use it. Push fascia off trachea w/ a peanut. Expose you window (2/3rd tracheal rings). Ask anesthesia to prepare circuit. Ask scrub tech to test cuff, put 10cc syringe on cuff of trach, put on obturator, get a 15 blade, ask anesthesia to lower cuff. Open trachea (careful not to cut cuff) by making two horizontal incisions over 2nd and 3rd tracheal rings. Widen with curved mets. Use a pickup to hold piece of trachea between cuts and use heavy mayos to cut the sides of the incision to remove window. Widen w/ trach spreaders. Ask anesthesia to withdraw circuit until it’s just above window then, if you have time, place a stay suture inferiorly and superiorly. Place trach, place inner cannula, inflate cuff, connect anesthesia circuit, wait for CO2 return, secure trach w/ 4-point sutures & Velcro trach tie.
 
 
+## TEP (Tracheoesophageal Puncture) Displacement
+
+* Occurs in laryngectomy patients with a voice prosthesis (Provox, Blom-Singer). The puncture tract connects the trachea and esophagus; the prosthesis is a one-way valve that keeps it open while preventing aspiration.
+* **First question: is the prosthesis out completely, or just dislodged/leaking?**
+  * Ask when it was placed/last changed, what size/length it is (check patient's supply card or call SLP/ENT clinic if unknown), and if they brought a spare.
+  * Ask about **coughing with PO intake or drinking** – this suggests the prosthesis has fallen into the trach or the tract is leaking around/through the device.
+* **Time is critical.** A tracheoesophageal puncture tract can start to close within a few hours, especially if it's a mature but narrow tract. Don't delay reinsertion trying to track down old records.
+* **Exam:**
+  * Look at the tracheostoma with a headlight – is the prosthesis visible, partially extruded, or gone?
+  * If gone, check the trach/stoma for the device (it can migrate distally and be aspirated) and consider a **CXR** to rule out an aspirated prosthesis if it isn't found.
+* **Management – if the tract is still open:**
+  * Attempt to **place a same-size (or one size smaller) replacement prosthesis or a red rubber catheter/dilator** into the tract to keep it patent while you arrange definitive replacement. Lubricate generously.
+  * If you don't have the correct prosthesis available, a **14-16F red rubber catheter** gently placed into the tract is a reasonable temporizing measure – tape it to keep it from falling out or migrating.
+  * Confirm placement is in the tract (not a false passage) – you should not meet significant resistance, and the patient shouldn't have increased work of breathing.
+* **If you can't easily pass anything into the tract (concern for false passage/closing tract):**
+  * Don't force it – you can create a false tract or lose the puncture entirely.
+  * Consider a **smaller dilator or guidewire technique**, or call the attending – they may want to do this themselves or take the patient to the OR for tract dilation/re-puncture.
+* **Aspiration risk:** keep the patient **NPO** until a prosthesis or catheter is confirmed in place and functioning, given risk of aspirating oral intake through the open tract.
+* **Call the attending** for any TEP that can't be quickly restented – prolonged loss of the tract may require a formal re-puncture in the OR.
+* Once a prosthesis/catheter is in place, arrange for **outpatient ENT/SLP follow-up** for definitive sizing and replacement if a temporary device was used.
+
+
 ## Angioedema
 
 * Look for watery edema of the uvula or lip edema.
