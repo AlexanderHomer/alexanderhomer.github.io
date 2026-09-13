@@ -7,6 +7,21 @@
 * **Neck Pain:** A small amount of neck pain is expected (typically from suspension or the adenoidectomy). If the patient cannot move their neck, send patient to ED for CT to r/o Grisel’s syndrome (especially if patient has down syndrome)
 * **Pain:** check if patient has been able to receive pain meds (often parents can’t get kids to drink the meds). Offer PR Tylenol to help catch up pain
 
+## Post-Tonsillectomy Q&A
+
+* **When does bleeding risk peak?** Highest risk is days 5-10 postop (when the eschar/scab sloughs), but bleeding can occur any time up to ~2 weeks. Any bleeding gets sent to an ED per above.
+* **White patches/scabs on tonsil bed — is that infection?** No, this is the normal healing eschar and is expected. It can look alarming (white/yellow-grey) but is not pus. Reassure unless accompanied by fever, worsening pain, or bleeding.
+* **Bad breath (halitosis):** Common while the eschar is present, usually resolves as healing completes over 1-2 weeks. Reassure.
+* **Ear pain:** Referred otalgia from the throat (via cranial nerves IX/X) is very common and does not mean an ear infection. Reassure and treat with the same pain regimen.
+* **Diet — when can they eat normally?** Push fluids and soft/cool foods (popsicles, ice cream, applesauce, mashed potatoes) for the first 1-2 weeks; avoid sharp/crunchy/acidic/spicy foods that can irritate the healing bed or dislodge the eschar. Encourage regular swallowing/eating even though it hurts — it helps prevent spasm and reduces bleeding risk by keeping the tonsil bed moving.
+* **Poor PO intake/dehydration:** Ask about wet diapers/urination frequency. Encourage small frequent sips, alternating pain meds (Tylenol/ibuprofen) to stay ahead of pain around meals. If signs of dehydration (dark urine, no urination >8-12 hrs, lethargy) or unable to keep any fluids down, have them come in for IV fluids.
+* **When can they return to school/work?** Typically 1-2 weeks, once pain is controlled off narcotics and eating/drinking adequately.
+* **When can they resume normal activity/exercise?** Light activity as tolerated; avoid strenuous activity/sports for ~2 weeks (bleeding risk).
+* **Snoring/noisy breathing after surgery:** Some snoring and mouth breathing is expected while swelling resolves, especially in the first week. Should improve over 1-2 weeks; persistent concerns can be addressed at follow-up.
+* **Vomiting:** Occasional vomiting (from swallowed blood, pain meds, or gagging) is common. If it's a single episode with old dark blood ("coffee ground") reassure; repeated vomiting, bright red blood, or inability to tolerate any fluids should be evaluated.
+* **Voice changes ("hot potato voice"):** Expected from swelling/edema, resolves as swelling goes down over 1-2 weeks.
+* **Constipation:** Common due to narcotics + reduced fluid/fiber intake. Recommend stool softeners and hydration.
+
 ## Post Septorhinoplasty Q&A
 
 * **Duration of swelling/bruising:** 7-10days. Ways to reduce: sit up, apply ice
