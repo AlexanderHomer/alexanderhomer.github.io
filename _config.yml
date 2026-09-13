@@ -17,3 +17,4 @@ exclude:
   - generate_pages_json.py
   - tests
   - node_modules
+  - clinic-dashboard

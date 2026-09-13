@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clinic Ops Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Clinic Ops</h1>
+    <div class="topbar-right">
+      <span id="slackStatus" class="badge badge-muted">Slack: checking…</span>
+      <button id="micToggle" class="mic-btn" aria-pressed="false">🎤 Voice off</button>
+    </div>
+  </header>
+
+  <div id="heard" class="heard-strip" hidden></div>
+  <div id="escalationLane" class="escalation-lane" hidden></div>
+
+  <main class="columns">
+    <section class="col" aria-label="Unified queue">
+      <h2>Queue</h2>
+      <div id="queueList" class="list"></div>
+    </section>
+
+    <section class="col" aria-label="Todo board">
+      <h2>Todos</h2>
+      <form id="todoForm" class="inline-form">
+        <input id="todoText" type="text" placeholder="Add a todo…" required />
+        <select id="todoColumn">
+          <option value="now">Now</option>
+          <option value="today" selected>Today</option>
+          <option value="followup">Follow-up</option>
+        </select>
+        <button type="submit">Add</button>
+      </form>
+      <div class="todo-board">
+        <div class="todo-col" data-column="now"><h3>Now</h3><div class="list" data-list="now"></div></div>
+        <div class="todo-col" data-column="today"><h3>Today</h3><div class="list" data-list="today"></div></div>
+        <div class="todo-col" data-column="followup"><h3>Follow-up</h3><div class="list" data-list="followup"></div></div>
+      </div>
+    </section>
+
+    <section class="col" aria-label="Quick log and app links">
+      <h2>Quick Log</h2>
+      <form id="logForm" class="log-form">
+        <select id="logSource">
+          <option value="whatsapp">WhatsApp</option>
+          <option value="tigertext">TigerText</option>
+          <option value="epic">Epic</option>
+          <option value="other">Other</option>
+        </select>
+        <input id="logText" type="text" placeholder="What came in…" required />
+        <input id="logPatientTag" type="text" placeholder="Room / patient tag (optional)" />
+        <label class="urgent-check"><input id="logUrgent" type="checkbox" /> Urgent</label>
+        <button type="submit">Log it</button>
+      </form>
+
+      <h2>Open App</h2>
+      <div id="appLinks" class="app-links"></div>
+
+      <details class="settings">
+        <summary>Deep-link settings</summary>
+        <label>WhatsApp link<input id="cfgWhatsapp" type="text" placeholder="https://wa.me/…" /></label>
+        <label>TigerText link<input id="cfgTigertext" type="text" placeholder="tigertext:// or https://…" /></label>
+        <label>Epic link<input id="cfgEpic" type="text" placeholder="your org's Hyperspace URL" /></label>
+        <button id="saveConfig" type="button">Save links</button>
+      </details>
+
+      <details class="voice-help">
+        <summary>Voice commands</summary>
+        <ul>
+          <li>"done" / "next" — resolve the top open queue item</li>
+          <li>"snooze" — snooze the top open item</li>
+          <li>"escalate" — flag the top open item urgent</li>
+          <li>"add todo …" — add a todo (goes to Today)</li>
+          <li>"log whatsapp / tigertext / epic …" — quick-log a message</li>
+          <li>"read queue" — hear what's outstanding</li>
+        </ul>
+      </details>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
