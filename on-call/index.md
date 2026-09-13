@@ -8,6 +8,6 @@
 
 [Facial Trauma Guide](facial-trauma-guide.html)
 
-[Stridor, Hypophonia & Vocal Fold Guide](stridor-hypophonia-vocal-fold-guide.html)
+[Adult Airway Pathology Guide](adult-airway-pathology-guide.html)
 
 
