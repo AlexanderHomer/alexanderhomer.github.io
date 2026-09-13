@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Facial Trauma Guide"
+---
+
 
 # Facial Trauma Guide
 

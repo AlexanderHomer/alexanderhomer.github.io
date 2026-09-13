@@ -1,2 +1,4 @@
 *.png
 _site/
+vendor/
+.bundle/

@@ -27,6 +27,8 @@ def parse_markdown(path):
             m = re.search(r"^title:\s*(.*)$", front, re.MULTILINE)
             if m:
                 title = m.group(1).strip()
+                if len(title) >= 2 and title[0] == title[-1] and title[0] in "\"'":
+                    title = title[1:-1].replace('\\"', '"').replace("\\'", "'")
 
     if title is None:
         m = re.search(r"^#\s*(.+)$", body, re.MULTILINE)
@@ -42,8 +44,12 @@ def parse_markdown(path):
 def collect_pages(root="."):
     pages = []
     for dirpath, dirnames, filenames in os.walk(root):
-        # Skip hidden and Jekyll-specific directories
-        dirnames[:] = [d for d in dirnames if not d.startswith((".", "_"))]
+        # Skip hidden, Jekyll-specific, and dependency directories
+        dirnames[:] = [
+            d
+            for d in dirnames
+            if not d.startswith((".", "_")) and d not in ("vendor", "node_modules")
+        ]
         for filename in filenames:
             if not filename.endswith(".md") or filename in SKIP_FILES:
                 continue

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Rhode Island Hospital"
+---
+
 # Rhode Island Hospital
 
 [About](about.html)

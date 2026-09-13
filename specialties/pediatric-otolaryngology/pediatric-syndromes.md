@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Pediatric Syndromes"
+---
+
 # Pediatric Syndromes
 
 

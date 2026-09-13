@@ -1,3 +1,8 @@
+---
+layout: default
+title: "TEMPORAL BONE LAB"
+---
+
 # TEMPORAL BONE LAB
 
 

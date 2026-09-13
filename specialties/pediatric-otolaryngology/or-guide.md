@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Pediatric Otolaryngology – OR guide"
+---
+
 # Pediatric Otolaryngology – OR guide
 
 ## Dr Scott’s OR Guide

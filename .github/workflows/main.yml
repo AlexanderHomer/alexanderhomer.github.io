@@ -15,16 +15,37 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Regenerate search index
+        run: |
+          pip install markdown
+          python3 generate_pages_json.py
+
+      - name: Build site with Jekyll
+        # S3/CloudFront serve static files as-is (unlike GitHub Pages, there is
+        # no server-side Jekyll processing), so the site must be pre-built here.
+        run: bundle exec jekyll build
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1.7.0
         with:
           role-to-assume: arn:aws:iam::000622214296:role/GitHubAction-AssumeRoleWithAction
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: us-east-2
-          
-      - name: Deploy site to S3
-        # Syncs your repo to S3, deletes removed files, and ignores Git folders
-        run: aws s3 sync ./ s3://${{ secrets.AWS_S3_BUCKET }} --delete --exclude ".git/*" --exclude ".github/*"
+
+      - name: Deploy built site to S3
+        # Syncs the built _site output (not the repo source) to the bucket.
+        run: aws s3 sync ./_site s3://${{ secrets.AWS_S3_BUCKET }} --delete
 
       - name: Invalidate CloudFront Cache
         # Forces CloudFront to fetch the newest files from S3

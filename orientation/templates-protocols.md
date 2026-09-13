@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Templates/Protocols"
+---
+
 # Templates/Protocols
 
 Click to access (electronic version):

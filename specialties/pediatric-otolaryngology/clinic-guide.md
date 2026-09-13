@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Pediatric Otolaryngology Clinic Guide"
+---
+
 # Pediatric Otolaryngology Clinic Guide
 
 ### New patient visit format

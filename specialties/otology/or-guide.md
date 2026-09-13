@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Otology – OR"
+---
+
 # Otology – OR
 
 ## Dr. Sillman’s Tympanomastoidectomy

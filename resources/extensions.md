@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Extensions"
+---
+
 ### 📞 Frequently Used Extensions & Pagers
 
 | **Service / Department** | **Extension** | **Pager / Notes** |

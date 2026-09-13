@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Pediatric Otolaryngology – Post Op Guide"
+---
+
 # Pediatric Otolaryngology – Post Op Guide
 
 * **Pediatric hospitalist consult is MANDATORY for all children under 2 year old**

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Case & Duty Hour Logs"
+---
+
 # Case & Duty Hour Logs
 
 ## Logging Duty hours

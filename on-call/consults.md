@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Consults"
+---
+
 # Consults
 
 ## Tonsil Bleed

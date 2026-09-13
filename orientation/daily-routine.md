@@ -1,3 +1,8 @@
+---
+layout: default
+title: "DAILY ROUTINE"
+---
+
 # DAILY ROUTINE
 
 ## Things to Do Before Rounds

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Yearly Routines"
+---
+
 # Yearly Routines
 
 These are the things that we need to make sure happen.

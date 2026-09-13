@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Tufts Oto-HNS Guide"
+---
+
 # Tufts Oto-HNS Guide
 
 <style>

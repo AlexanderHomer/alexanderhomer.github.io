@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Orientation"
+---
+
 # Orientation
 
 [Rules of the Game](rules-of-the-game.html)

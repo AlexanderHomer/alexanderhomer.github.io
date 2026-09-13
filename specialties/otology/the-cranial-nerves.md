@@ -1,3 +1,8 @@
+---
+layout: default
+title: "CRANIAL NERVES"
+---
+
 # CRANIAL NERVES
 
 ### **CNI**: *Olfactory*

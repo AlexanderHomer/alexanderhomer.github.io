@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Monthly Routines"
+---
+
 # Monthly Routines
 
 ## **Trauma Conference**:
