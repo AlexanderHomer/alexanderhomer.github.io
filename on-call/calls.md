@@ -2,10 +2,17 @@
 
 ## Post-tonsillectomy patients
 
-* **Bleeding:** Ask all tonsil bleeds to go to an ED. If sounds like a large active bleed, they go to the nearest ED, otherwise they come to us.
+* **Bleeding:** Ask all tonsil bleeds to go to an ED — never have them wait it out at home or come to clinic. If it sounds like a large active bleed (frank blood, more than streaks/specks, won't stop, or patient swallowing repeatedly/vomiting blood), send to the **nearest** ED by ambulance if needed. If it's a small amount of blood-tinged saliva/spit that has stopped, they can come to us (see [Tonsil Bleed consult](consults.html#tonsil-bleed) for the in-person workup). Risk is highest POD#5-10 (eschar separation).
+* **White/yellow film in the tonsil fossa:** This is expected eschar/fibrin, not pus or infection — reassure. It's normal for it to look worse before it sloughs off (often POD#5-10), which is also when bleeding risk peaks.
 * **Fever:** Fever is expected for up to 2 weeks. If fever continues, can consider course of azithromycin (sometimes adenoid bed can become infected)
-* **Neck Pain:** A small amount of neck pain is expected (typically from suspension or the adenoidectomy). If the patient cannot move their neck, send patient to ED for CT to r/o Grisel’s syndrome (especially if patient has down syndrome)
-* **Pain:** check if patient has been able to receive pain meds (often parents can’t get kids to drink the meds). Offer PR Tylenol to help catch up pain
+* **Neck Pain:** A small amount of neck pain is expected (typically from suspension or the adenoidectomy). If the patient cannot move their neck, send patient to ED for CT to r/o Grisel's syndrome (especially if patient has down syndrome)
+* **Pain:** check if patient has been able to receive pain meds (often parents can't get kids to drink the meds). Offer PR Tylenol to help catch up pain. Worsening pain after several days of improvement, or pain isolated to one side, can herald an impending bleed — have a lower threshold to bring them in.
+* **Poor PO intake/dehydration:** Ask about wet diapers/urination frequency, lethargy, dry mouth/lips, and how much they've had to drink in the last 24 hours. Encourage cold, non-acidic, non-scratchy liquids/soft foods and ensure standing pain meds are being given (pain is the usual driver of poor intake). Signs of dehydration (no urination in >8-12 hours, lethargy, sunken eyes, inability to keep any fluids down) warrant ED evaluation for IV fluids.
+* **Snoring/breathing changes:** Loud snoring and mouth breathing are expected for the first 1-2 weeks as tissues heal/swell — reassure. Witnessed apnea, blue lips, retractions, or persistent low sats are not expected and need ED evaluation.
+* **When to send to ED vs. clinic vs. reassure:**
+  * Reassure + routine follow-up: white/yellow eschar in fossa, mild pain controlled with meds, snoring/mouth breathing, fever <2 weeks
+  * Clinic follow-up: persistent fever beyond 2 weeks, ongoing poor PO intake without dehydration signs
+  * ED: any active/frank bleeding or history of a bleed (however small), signs of dehydration, inability to move the neck, or breathing concerns (apnea, cyanosis, retractions)
 
 ## Post Septorhinoplasty Q&A
 
