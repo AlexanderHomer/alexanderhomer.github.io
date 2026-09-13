@@ -100,21 +100,21 @@ When you get there:
 
 * Occurs in laryngectomy patients with a voice prosthesis (Provox, Blom-Singer). The puncture tract connects the trachea and esophagus; the prosthesis is a one-way valve that keeps it open while preventing aspiration.
 * **First question: is the prosthesis out completely, or just dislodged/leaking?**
-  * Ask when it was placed/last changed, what size/length it is (check patient's supply card or call SLP/ENT clinic if unknown), and if they brought a spare.
-  * Ask about **coughing with PO intake or drinking** – this suggests the prosthesis has fallen into the trach or the tract is leaking around/through the device.
-* **Time is critical.** A tracheoesophageal puncture tract can start to close within a few hours, especially if it's a mature but narrow tract. Don't delay reinsertion trying to track down old records.
+  * Ask when it was placed/last changed, what size/length it is (check patient's supply card or call SLP/ENT clinic if unknown).
+  * Ask about leakage with drinking, persistent coughing, and if they know where the TEP is. may need to rule out aspiration with tracheoscopy or XR/CT.
+* **Time is critical.** A tracheoesophageal puncture tract can start to close within a few hours, especially if it's a mature but narrow tract. Don't delay reinsertion.
 * **Exam:**
   * Look at the tracheostoma with a headlight – is the prosthesis visible, partially extruded, or gone?
-  * If gone, check the trach/stoma for the device (it can migrate distally and be aspirated) and consider a **CXR** to rule out an aspirated prosthesis if it isn't found.
+  * If gone, check the trach/stoma for the device (it can migrate distally and be aspirated) and consider a **CXR/CT** to rule out an aspirated prosthesis if it isn't found.
 * **Management – if the tract is still open:**
-  * Attempt to **place a same-size (or one size smaller) replacement prosthesis or a red rubber catheter/dilator** into the tract to keep it patent while you arrange definitive replacement. Lubricate generously.
+  * Attempt to **place a red rubber catheter/dilator** into the tract to keep it patent while you arrange definitive replacement. Lubricate generously. Usually target a 14-18Fr catheter.
   * If you don't have the correct prosthesis available, a **14-16F red rubber catheter** gently placed into the tract is a reasonable temporizing measure – tape it to keep it from falling out or migrating.
   * Confirm placement is in the tract (not a false passage) – you should not meet significant resistance, and the patient shouldn't have increased work of breathing.
 * **If you can't easily pass anything into the tract (concern for false passage/closing tract):**
   * Don't force it – you can create a false tract or lose the puncture entirely.
-  * Consider a **smaller dilator or guidewire technique**, or call the attending – they may want to do this themselves or take the patient to the OR for tract dilation/re-puncture.
-* **Aspiration risk:** keep the patient **NPO** until a prosthesis or catheter is confirmed in place and functioning, given risk of aspirating oral intake through the open tract.
-* **Call the attending** for any TEP that can't be quickly restented – prolonged loss of the tract may require a formal re-puncture in the OR.
+  * Consider a **smaller dilator***.
+* **Aspiration risk:** keep the patient **NPO** until a prosthesis or catheter is confirmed in place and functioning, given risk of aspirating oral intake through the open tract. Confirm with leak test, then should be ok for baseline diet.
+* **Notify the attending** for any TEP that can't be quickly restented – prolonged loss of the tract may require a formal re-puncture in the OR.
 * Once a prosthesis/catheter is in place, arrange for **outpatient ENT/SLP follow-up** for definitive sizing and replacement if a temporary device was used.
 
 
