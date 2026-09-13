@@ -147,6 +147,8 @@
 
 [Facial Trauma Guide](on-call/facial-trauma-guide.html)
 
+[Stridor, Hypophonia & Vocal Fold Guide](on-call/stridor-hypophonia-vocal-fold-guide.html)
+
 ## OR Notes
 
 [Kajal's OR Pearls](resources/kajals-or-pearls.html)

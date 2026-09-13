@@ -179,6 +179,8 @@ When you get there:
 
 ## Airway patients with stridor
 
+*For a deeper dive on stridor, acute hypophonia, and vocal fold immobility workups, see the [Stridor, Hypophonia & Vocal Fold Guide](stridor-hypophonia-vocal-fold-guide.html).*
+
 * Ask: onset of stridor + speed of progression. Eval for infectious vs inflammatory vs foreign body vs neoplastic
 * Evaluate: O2 sat, respiratory rate, retractions, ability to lay supine. Stridor: insp: supraglottic/glottic. Biphasic: glottic/subglottic. Expiratory: trachea/bronchi. Perform fiberoptic exam and check airway
 * Management:
