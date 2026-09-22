@@ -3793,5 +3793,44 @@
       "vecchiotti",
       "baha"
     ]
+  },
+  {
+    "label": "Post-Mohs Bharathi (in office)",
+    "fields": {
+      "procedure-line-1": "Post-Mohs reconstruction of right ear, local flaps and grafts as needed",
+      "procedure-line-2": "",
+      "procedure-line-3": "",
+      "site": "",
+      "side": "Right",
+      "primary-doctor": "",
+      "secondary-doctor": "",
+      "conditions-line-1": "Basal cell carcinoma of the right ear",
+      "conditions-line-2": "",
+      "conditions-line-3": "",
+      "risks-line-1": "Bleeding, hematoma, pain, scarring, infection, numbness, damage to surrounding areas, dehiscence,",
+      "risks-line-2": "poor wound healing, flap/graft breakdown, recurrence of skin cancer, need for further procedures",
+      "risks-line-3": "",
+      "additional-risks": "",
+      "alternatives": "No Procedure",
+      "physician-extenders": "Drs. Spagnuolo, Dalal, Heiser, Chen,",
+      "physician-extenders-2": "Fan, Smith, Gorton, Doyel, Homer, Homer, McIntosh, and Kayleigh Buffington, PA-C"
+    },
+    "specialties": [
+      "Head & Neck",
+      "Facial Plastics"
+    ],
+    "tags": [
+      "post-mohs",
+      "bharathi",
+      "in",
+      "office",
+      "ear",
+      "reconstruction",
+      "basal",
+      "cell",
+      "carcinoma",
+      "flap",
+      "graft"
+    ]
   }
 ]
