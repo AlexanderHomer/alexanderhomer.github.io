@@ -73,6 +73,9 @@ title: "Rhode Island Hospital - OR Guide"
 
 ## Koenigs 
 * Will want to run the ***UO patients*** with you
+### T+A
+* Places a ***wet towel on the right oral commissure***
+
 ### DLB
 * If with Dr. Satterthwaite (or some other attendings), will have you mask ventilate
 * Does use mouthguard if dentulous
