@@ -37,7 +37,7 @@ const context = {
     if (url.includes('antimicrobials')) {
       return {
         ok: true,
-        json: async () => ({ antibiotics: ['ceftriaxone', 'metronidazole'], antifungals: [], antivirals: [] }),
+        json: async () => ({ antibiotics: ['ceftriaxone', 'metronidazole', 'amoxicillin-pot clavulanate'], antifungals: [], antivirals: [] }),
       };
     }
     if (url.includes('ignored')) {
@@ -151,6 +151,16 @@ assert.ok(
   andOptionsCleaned.PRN.includes('ondansetron') && !andOptionsCleaned.PRN.includes('prochlorperazine'),
   'PRN parser should still pick the first med in "or" option strings'
 );
+
+const anticoagInput = `Scheduled Meds: apixaban, 5 mg, oral, BID
+amoxicillin-pot clavulanate, 875-125 mg, oral, q12h
+Continuous Infusions: heparin (porcine), 0-40 Units/kg/hr, Last Rate: 18 Units/kg/hr (02/11/26 1300)`;
+const anticoagCleaned = context.cleanMedList(anticoagInput);
+
+assert.ok(anticoagCleaned.Anticoagulation.includes('eliquis'), 'apixaban should be listed under Anticoagulation');
+assert.ok(anticoagCleaned.Anticoagulation.includes('heparin gtt'), 'continuous heparin should be listed under Anticoagulation');
+assert.strictEqual(anticoagCleaned.Continuous.length, 0, 'continuous heparin should not stay in Continuous');
+assert.ok(anticoagCleaned.ID.includes('amoxicillin-pot clavulanate'), 'amoxicillin-pot clavulanate should be listed under ID');
 
 console.log('All medication handoff cleaner tests passed.');
 })();

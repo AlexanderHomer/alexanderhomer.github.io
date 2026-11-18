@@ -71,6 +71,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
     LVX: 'LVX',
     HEPARIN_GTT: 'heparin gtt',
     BIVAL: 'bival',
+    APIXABAN: 'eliquis',
   };
 
   async function loadConversions() {
@@ -178,10 +179,16 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
       .trim();
   }
 
-  function extractAnticoagEntry(line, held) {
+  function extractAnticoagEntry(line, held, sectionHint) {
     const lowered = line.toLowerCase();
     if (lowered.includes('heparin') && lowered.includes('flush')) {
       return null;
+    }
+    if (sectionHint !== 'PRN' && /(apixaban|eliquis)/i.test(lowered)) {
+      return {
+        section: 'Anticoagulation',
+        displayName: held ? `${ANTICOAG_LABELS.APIXABAN} (held)` : ANTICOAG_LABELS.APIXABAN,
+      };
     }
     if (/(bivalirudin|\bbival\b)/i.test(lowered)) {
       return {
@@ -189,7 +196,8 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
         displayName: held ? `${ANTICOAG_LABELS.BIVAL} (held)` : ANTICOAG_LABELS.BIVAL,
       };
     }
-    if (/heparin/i.test(lowered) && /(gtt|drip|infusion|continuous)/i.test(lowered)) {
+    if (/heparin/i.test(lowered)
+      && (sectionHint === 'Continuous' || /(gtt|drip|infusion|continuous)/i.test(lowered))) {
       return {
         section: 'Anticoagulation',
         displayName: held ? `${ANTICOAG_LABELS.HEPARIN_GTT} (held)` : ANTICOAG_LABELS.HEPARIN_GTT,
@@ -392,7 +400,7 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
         return;
       }
 
-      const anticoagEntry = extractAnticoagEntry(lineToParse, held);
+      const anticoagEntry = extractAnticoagEntry(lineToParse, held, currentSection);
       if (anticoagEntry) {
         const uniqueKey = anticoagEntry.displayName;
         if (!seen[anticoagEntry.section].has(uniqueKey)) {
@@ -446,12 +454,18 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
 
     sections.forEach((section) => {
       const meds = listBySection[section];
-      if (!meds || meds.length === 0) return;
+      if (!meds || meds.length === 0) {
+        if (section === 'Anticoagulation') {
+          lines.push(`${section}: none`);
+        }
+        return;
+      }
 
       lines.push(`${section}: ${meds.join(', ')}`);
     });
 
-    if (lines.length === 0) {
+    const hasAnyMeds = sections.some((section) => (listBySection[section] || []).length > 0);
+    if (!hasAnyMeds) {
       outputEl.textContent = 'No medications found.';
       return;
     }
