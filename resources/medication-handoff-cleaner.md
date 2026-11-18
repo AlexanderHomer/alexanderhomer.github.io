@@ -454,12 +454,18 @@ Paste a medication list below to create a clean handoff-ready list that keeps on
 
     sections.forEach((section) => {
       const meds = listBySection[section];
-      if (!meds || meds.length === 0) return;
+      if (!meds || meds.length === 0) {
+        if (section === 'Anticoagulation') {
+          lines.push(`${section}: none`);
+        }
+        return;
+      }
 
       lines.push(`${section}: ${meds.join(', ')}`);
     });
 
-    if (lines.length === 0) {
+    const hasAnyMeds = sections.some((section) => (listBySection[section] || []).length > 0);
+    if (!hasAnyMeds) {
       outputEl.textContent = 'No medications found.';
       return;
     }
